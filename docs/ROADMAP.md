@@ -112,3 +112,5 @@
 <!-- Roadmap item 4: planned feature and milestone -->
 
 <!-- Roadmap item 5: planned feature and milestone -->
+
+<!-- Roadmap item 6: planned feature and milestone -->
