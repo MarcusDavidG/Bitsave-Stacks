@@ -108,3 +108,5 @@ User → Deposit → Lock STX → Wait → Withdraw → Earn Reputation → Auto
 <!-- Architecture note 38: contract interaction diagram and data flow -->
 
 <!-- Architecture note 39: contract interaction diagram and data flow -->
+
+<!-- Architecture note 40: contract interaction diagram and data flow -->
