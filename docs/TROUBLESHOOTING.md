@@ -43,3 +43,5 @@
 <!-- Troubleshooting 6: known issue and resolution steps -->
 
 <!-- Troubleshooting 7: known issue and resolution steps -->
+
+<!-- Troubleshooting 8: known issue and resolution steps -->
