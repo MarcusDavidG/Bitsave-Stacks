@@ -162,3 +162,5 @@ const handleContractError = (error: any) => {
 <!-- Frontend integration 24: component usage and contract call pattern -->
 
 <!-- Frontend integration 25: component usage and contract call pattern -->
+
+<!-- Frontend integration 26: component usage and contract call pattern -->
