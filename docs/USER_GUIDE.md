@@ -30,3 +30,5 @@ Earn NFT badges for reaching milestones:
 
 ### Referral System
 Invite friends and earn bonus rewards.
+
+<!-- User guide 1: step-by-step walkthrough for feature -->
