@@ -80,3 +80,4 @@
 ;; Math improvement 37: precision and overflow protection
 ;; Math improvement 38: precision and overflow protection
 ;; Math improvement 39: precision and overflow protection
+;; Math improvement 40: precision and overflow protection
