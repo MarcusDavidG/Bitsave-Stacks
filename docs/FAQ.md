@@ -95,3 +95,5 @@ The admin can adjust parameters but cannot access user funds.
 <!-- FAQ 32: common user question and answer -->
 
 <!-- FAQ 33: common user question and answer -->
+
+<!-- FAQ 34: common user question and answer -->
