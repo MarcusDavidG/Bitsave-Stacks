@@ -34,3 +34,4 @@
 ;; Constant 15: protocol parameter with documentation
 ;; Constant 16: protocol parameter with documentation
 ;; Constant 17: protocol parameter with documentation
+;; Constant 18: protocol parameter with documentation
