@@ -50,3 +50,4 @@
 ;; Event 6: structured event emission for indexers
 ;; Event 7: structured event emission for indexers
 ;; Event 8: structured event emission for indexers
+;; Event 9: structured event emission for indexers
