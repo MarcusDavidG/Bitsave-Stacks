@@ -38,3 +38,5 @@
 <!-- Changelog entry 9: release notes and version history -->
 
 <!-- Changelog entry 10: release notes and version history -->
+
+<!-- Changelog entry 11: release notes and version history -->
