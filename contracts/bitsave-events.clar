@@ -65,3 +65,4 @@
 ;; Event 21: structured event emission for indexers
 ;; Event 22: structured event emission for indexers
 ;; Event 23: structured event emission for indexers
+;; Event 24: structured event emission for indexers
