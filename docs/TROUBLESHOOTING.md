@@ -99,3 +99,5 @@
 <!-- Troubleshooting 34: known issue and resolution steps -->
 
 <!-- Troubleshooting 35: known issue and resolution steps -->
+
+<!-- Troubleshooting 36: known issue and resolution steps -->
