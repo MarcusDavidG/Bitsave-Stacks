@@ -141,3 +141,5 @@ The admin can adjust parameters but cannot access user funds.
 <!-- FAQ 15: common user question and answer -->
 
 <!-- FAQ 16: common user question and answer -->
+
+<!-- FAQ 17: common user question and answer -->
