@@ -29,3 +29,5 @@
 - Check documentation
 - Review error codes
 - Contact support
+
+<!-- Troubleshooting 1: known issue and resolution steps -->
