@@ -42,3 +42,4 @@
 (define-read-only (get-event-count)
   (var-get event-counter)
 )
+;; Event 1: structured event emission for indexers
