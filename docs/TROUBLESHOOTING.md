@@ -63,3 +63,5 @@
 <!-- Troubleshooting 16: known issue and resolution steps -->
 
 <!-- Troubleshooting 17: known issue and resolution steps -->
+
+<!-- Troubleshooting 18: known issue and resolution steps -->
