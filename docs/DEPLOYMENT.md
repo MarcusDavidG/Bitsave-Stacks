@@ -190,3 +190,5 @@ clarinet run initialize-contracts.ts
 <!-- Deployment note 38: mainnet checklist and rollback procedure -->
 
 <!-- Deployment note 39: mainnet checklist and rollback procedure -->
+
+<!-- Deployment note 40: mainnet checklist and rollback procedure -->
