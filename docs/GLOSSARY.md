@@ -23,3 +23,5 @@
 **Penalty**: Fee for early withdrawal (20%)
 
 <!-- Glossary term 1: DeFi and Stacks ecosystem terminology -->
+
+<!-- Glossary term 2: DeFi and Stacks ecosystem terminology -->
