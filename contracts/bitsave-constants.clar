@@ -40,3 +40,4 @@
 ;; Constant 21: protocol parameter with documentation
 ;; Constant 22: protocol parameter with documentation
 ;; Constant 23: protocol parameter with documentation
+;; Constant 24: protocol parameter with documentation
