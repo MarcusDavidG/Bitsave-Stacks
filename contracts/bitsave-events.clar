@@ -54,3 +54,4 @@
 ;; Event 10: structured event emission for indexers
 ;; Event 11: structured event emission for indexers
 ;; Event 12: structured event emission for indexers
+;; Event 13: structured event emission for indexers
