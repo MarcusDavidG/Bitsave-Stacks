@@ -22,3 +22,5 @@
 - Repo hygiene: removed leftover temp files
 
 <!-- Changelog entry 2: release notes and version history -->
+
+<!-- Changelog entry 3: release notes and version history -->
