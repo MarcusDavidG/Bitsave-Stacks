@@ -183,3 +183,5 @@
 <!-- Troubleshooting 36: known issue and resolution steps -->
 
 <!-- Troubleshooting 37: known issue and resolution steps -->
+
+<!-- Troubleshooting 38: known issue and resolution steps -->
