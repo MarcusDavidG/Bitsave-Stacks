@@ -544,3 +544,5 @@ Regular review and updates of monitoring procedures ensure continued effectivene
 - [System Monitoring Best Practices](https://sre.google/sre-book/monitoring-distributed-systems/)
 
 <!-- Monitoring note 1: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 2: alert thresholds and dashboard setup -->
