@@ -26,3 +26,4 @@
 ;; Constant 7: protocol parameter with documentation
 ;; Constant 8: protocol parameter with documentation
 ;; Constant 9: protocol parameter with documentation
+;; Constant 10: protocol parameter with documentation
