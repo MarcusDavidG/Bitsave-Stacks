@@ -133,3 +133,5 @@
 <!-- Troubleshooting 11: known issue and resolution steps -->
 
 <!-- Troubleshooting 12: known issue and resolution steps -->
+
+<!-- Troubleshooting 13: known issue and resolution steps -->
