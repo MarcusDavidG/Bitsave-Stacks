@@ -171,3 +171,5 @@
 <!-- Troubleshooting 30: known issue and resolution steps -->
 
 <!-- Troubleshooting 31: known issue and resolution steps -->
+
+<!-- Troubleshooting 32: known issue and resolution steps -->
