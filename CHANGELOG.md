@@ -94,3 +94,5 @@
 <!-- Changelog entry 37: release notes and version history -->
 
 <!-- Changelog entry 38: release notes and version history -->
+
+<!-- Changelog entry 39: release notes and version history -->
