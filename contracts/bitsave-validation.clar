@@ -42,3 +42,4 @@
 (define-read-only (is-valid-percentage (percentage uint))
   (and (>= percentage u0) (<= percentage u100))
 )
+;; Validation 1: input bounds and error handling
