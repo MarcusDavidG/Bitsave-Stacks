@@ -30,3 +30,5 @@
 <!-- Changelog entry 5: release notes and version history -->
 
 <!-- Changelog entry 6: release notes and version history -->
+
+<!-- Changelog entry 7: release notes and version history -->
