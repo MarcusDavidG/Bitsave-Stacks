@@ -32,3 +32,5 @@ User → Deposit → Lock STX → Wait → Withdraw → Earn Reputation → Auto
 - Emergency pause functionality
 
 <!-- Architecture note 1: contract interaction diagram and data flow -->
+
+<!-- Architecture note 2: contract interaction diagram and data flow -->
