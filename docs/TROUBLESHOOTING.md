@@ -155,3 +155,5 @@
 <!-- Troubleshooting 22: known issue and resolution steps -->
 
 <!-- Troubleshooting 23: known issue and resolution steps -->
+
+<!-- Troubleshooting 24: known issue and resolution steps -->
