@@ -622,3 +622,5 @@ Regular review and updates of monitoring procedures ensure continued effectivene
 <!-- Monitoring note 39: alert thresholds and dashboard setup -->
 
 <!-- Monitoring note 40: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 1: alert thresholds and dashboard setup -->
