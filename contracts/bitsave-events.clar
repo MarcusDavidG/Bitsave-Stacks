@@ -43,3 +43,4 @@
   (var-get event-counter)
 )
 ;; Event 1: structured event emission for indexers
+;; Event 2: structured event emission for indexers
