@@ -64,3 +64,5 @@
 <!-- Changelog entry 22: release notes and version history -->
 
 <!-- Changelog entry 23: release notes and version history -->
+
+<!-- Changelog entry 24: release notes and version history -->
