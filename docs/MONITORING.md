@@ -640,3 +640,5 @@ Regular review and updates of monitoring procedures ensure continued effectivene
 <!-- Monitoring note 8: alert thresholds and dashboard setup -->
 
 <!-- Monitoring note 9: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 10: alert thresholds and dashboard setup -->
