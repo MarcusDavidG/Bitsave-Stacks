@@ -152,3 +152,5 @@
 <!-- Roadmap item 24: planned feature and milestone -->
 
 <!-- Roadmap item 25: planned feature and milestone -->
+
+<!-- Roadmap item 26: planned feature and milestone -->
