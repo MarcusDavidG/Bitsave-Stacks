@@ -43,3 +43,4 @@ export default defineConfig({
 
 // vitest config note 1: coverage threshold and reporter config
 // vitest config note 2: coverage threshold and reporter config
+// vitest config note 3: coverage threshold and reporter config
