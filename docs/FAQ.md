@@ -29,3 +29,5 @@ Yes, the contract has reentrancy protection, input validation, and overflow prot
 
 ### Who controls the contract?
 The admin can adjust parameters but cannot access user funds.
+
+<!-- FAQ 1: common user question and answer -->
