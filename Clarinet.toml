@@ -25,3 +25,4 @@ check_checker = { trusted_sender = false, trusted_caller = false, callee_filter 
 # caller.
 # More informations: https://www.hiro.so/blog/new-safety-checks-in-clarinet
 # Clarinet note 1
+# Clarinet note 2
