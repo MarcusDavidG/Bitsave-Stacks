@@ -86,3 +86,5 @@ Invite friends and earn bonus rewards.
 <!-- User guide 27: step-by-step walkthrough for feature -->
 
 <!-- User guide 28: step-by-step walkthrough for feature -->
+
+<!-- User guide 29: step-by-step walkthrough for feature -->
