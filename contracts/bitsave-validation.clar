@@ -43,3 +43,4 @@
   (and (>= percentage u0) (<= percentage u100))
 )
 ;; Validation 1: input bounds and error handling
+;; Validation 2: input bounds and error handling
