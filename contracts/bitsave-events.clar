@@ -67,3 +67,4 @@
 ;; Event 23: structured event emission for indexers
 ;; Event 24: structured event emission for indexers
 ;; Event 25: structured event emission for indexers
+;; Event 26: structured event emission for indexers
