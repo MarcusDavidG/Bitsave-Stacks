@@ -77,3 +77,4 @@
 ;; Event 33: structured event emission for indexers
 ;; Event 34: structured event emission for indexers
 ;; Event 35: structured event emission for indexers
+;; Event 36: structured event emission for indexers
