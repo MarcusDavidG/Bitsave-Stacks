@@ -21,3 +21,5 @@
 **Early Withdrawal**: Withdrawing before maturity
 
 **Penalty**: Fee for early withdrawal (20%)
+
+<!-- Glossary term 1: DeFi and Stacks ecosystem terminology -->
