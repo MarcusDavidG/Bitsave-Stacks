@@ -185,3 +185,5 @@
 <!-- Troubleshooting 37: known issue and resolution steps -->
 
 <!-- Troubleshooting 38: known issue and resolution steps -->
+
+<!-- Troubleshooting 39: known issue and resolution steps -->
