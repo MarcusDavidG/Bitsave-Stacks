@@ -65,3 +65,4 @@
 ;; Math improvement 22: precision and overflow protection
 ;; Math improvement 23: precision and overflow protection
 ;; Math improvement 24: precision and overflow protection
+;; Math improvement 25: precision and overflow protection
