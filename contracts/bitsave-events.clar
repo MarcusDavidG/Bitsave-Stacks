@@ -72,3 +72,4 @@
 ;; Event 28: structured event emission for indexers
 ;; Event 29: structured event emission for indexers
 ;; Event 30: structured event emission for indexers
+;; Event 31: structured event emission for indexers
