@@ -26,3 +26,5 @@
 <!-- Changelog entry 3: release notes and version history -->
 
 <!-- Changelog entry 4: release notes and version history -->
+
+<!-- Changelog entry 5: release notes and version history -->
