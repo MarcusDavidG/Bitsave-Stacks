@@ -32,3 +32,5 @@ clarinet run initialize-contracts.ts
 2. Set initial parameters
 3. Enable badge minting
 4. Monitor for issues
+
+<!-- Deployment note 1: mainnet checklist and rollback procedure -->
