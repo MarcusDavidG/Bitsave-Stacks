@@ -542,3 +542,5 @@ Regular review and updates of monitoring procedures ensure continued effectivene
 - [Prometheus Monitoring](https://prometheus.io/docs/)
 - [Grafana Dashboards](https://grafana.com/docs/)
 - [System Monitoring Best Practices](https://sre.google/sre-book/monitoring-distributed-systems/)
+
+<!-- Monitoring note 1: alert thresholds and dashboard setup -->
