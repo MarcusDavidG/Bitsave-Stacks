@@ -34,3 +34,5 @@ clarinet run initialize-contracts.ts
 4. Monitor for issues
 
 <!-- Deployment note 1: mainnet checklist and rollback procedure -->
+
+<!-- Deployment note 2: mainnet checklist and rollback procedure -->
