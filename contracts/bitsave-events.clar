@@ -60,3 +60,4 @@
 ;; Event 16: structured event emission for indexers
 ;; Event 17: structured event emission for indexers
 ;; Event 18: structured event emission for indexers
+;; Event 19: structured event emission for indexers
