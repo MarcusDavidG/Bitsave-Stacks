@@ -18,3 +18,4 @@
 ;; Default values
 (define-constant DEFAULT-REWARD-RATE u10) ;; 10% annual rate
 ;; Constant 1: protocol parameter with documentation
+;; Constant 2: protocol parameter with documentation
