@@ -122,3 +122,5 @@ Invite friends and earn bonus rewards.
 <!-- User guide 5: step-by-step walkthrough for feature -->
 
 <!-- User guide 6: step-by-step walkthrough for feature -->
+
+<!-- User guide 7: step-by-step walkthrough for feature -->
