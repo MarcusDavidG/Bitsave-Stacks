@@ -41,3 +41,4 @@
     u0
   )
 )
+;; Math improvement 1: precision and overflow protection
