@@ -76,3 +76,4 @@
 ;; Math improvement 33: precision and overflow protection
 ;; Math improvement 34: precision and overflow protection
 ;; Math improvement 35: precision and overflow protection
+;; Math improvement 36: precision and overflow protection
