@@ -58,3 +58,5 @@
 <!-- Changelog entry 19: release notes and version history -->
 
 <!-- Changelog entry 20: release notes and version history -->
+
+<!-- Changelog entry 21: release notes and version history -->
