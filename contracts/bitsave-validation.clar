@@ -65,3 +65,4 @@
 ;; Validation 21: input bounds and error handling
 ;; Validation 22: input bounds and error handling
 ;; Validation 23: input bounds and error handling
+;; Validation 24: input bounds and error handling
