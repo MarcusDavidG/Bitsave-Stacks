@@ -30,3 +30,5 @@ User → Deposit → Lock STX → Wait → Withdraw → Earn Reputation → Auto
 - Input validation
 - Admin rate limiting
 - Emergency pause functionality
+
+<!-- Architecture note 1: contract interaction diagram and data flow -->
