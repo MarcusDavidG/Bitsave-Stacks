@@ -43,3 +43,5 @@
 <!-- Glossary term 10: DeFi and Stacks ecosystem terminology -->
 
 <!-- Glossary term 11: DeFi and Stacks ecosystem terminology -->
+
+<!-- Glossary term 12: DeFi and Stacks ecosystem terminology -->
