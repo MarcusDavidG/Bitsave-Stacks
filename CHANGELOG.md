@@ -20,3 +20,5 @@
 
 ### Fixed
 - Repo hygiene: removed leftover temp files
+
+<!-- Changelog entry 2: release notes and version history -->
