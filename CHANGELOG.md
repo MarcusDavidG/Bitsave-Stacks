@@ -70,3 +70,5 @@
 <!-- Changelog entry 25: release notes and version history -->
 
 <!-- Changelog entry 26: release notes and version history -->
+
+<!-- Changelog entry 27: release notes and version history -->
