@@ -42,3 +42,5 @@
 <!-- Changelog entry 11: release notes and version history -->
 
 <!-- Changelog entry 12: release notes and version history -->
+
+<!-- Changelog entry 13: release notes and version history -->
