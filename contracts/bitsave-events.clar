@@ -44,3 +44,4 @@
 )
 ;; Event 1: structured event emission for indexers
 ;; Event 2: structured event emission for indexers
+;; Event 3: structured event emission for indexers
