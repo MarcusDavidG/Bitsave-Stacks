@@ -1,11 +1,11 @@
-# 🏦 BitSave – Bitcoin-Powered STX Savings Vault
+#  BitSave – Bitcoin-Powered STX Savings Vault
 
 **Author:** Marcus David  
 **Purpose:** A decentralized savings vault on Stacks where users lock STX for a period and earn on-chain reputation points and achievement NFT badges.
 
 ---
 
-## ⚙️ Features
+##  Features
 -  Deposit STX and lock for a chosen duration
 -  Withdraw only after lock expiry
 -  Earn on-chain reputation points upon withdrawal
@@ -15,7 +15,7 @@
 
 ---
 
-## 🧱 Smart Contract Functions
+##  Smart Contract Functions
 
 ### BitSave Contract (`bitsave.clar`)
 
@@ -92,9 +92,9 @@ Users automatically receive NFT badges when they reach reputation milestones:
 - Deposit 10,000 STX
 - Reward rate: 10%
 - Reputation earned: 1,000 points
-- Result: Badge minted on withdrawal ✅
+- Result: Badge minted on withdrawal 
 
-## 🚀 Future Roadmap
+##  Future Roadmap
 
 - ✅ ~~NFT badges for loyal savers~~ (COMPLETED)
 - Multiple badge tiers (Bronze, Silver, Gold, Platinum)
@@ -105,7 +105,7 @@ Users automatically receive NFT badges when they reach reputation milestones:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Bitsave-Stacks/
