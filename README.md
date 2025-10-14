@@ -9,8 +9,8 @@
 -  Deposit STX and lock for a chosen duration
 -  Withdraw only after lock expiry
 -  Earn on-chain reputation points upon withdrawal
--  **NEW:** Auto-mint NFT badges when reaching reputation milestones (1000+ points)
--  **NEW:** SIP-009 compliant achievement badges with metadata
+-  Auto-mint NFT badges when reaching reputation milestones (1000+ points)
+-  SIP-009 compliant achievement badges with metadata
 -  Admin can adjust reward rate
 
 ---
