@@ -90,10 +90,30 @@
             (reward (/ (* (to-int amount) (to-int rate)) 100))
             (current-points (default-to 0 (get points (map-get? reputation { user: tx-sender }))))
           )
+          ;; Update reputation points
           (map-set reputation
             { user: tx-sender }
             { points: (+ reward current-points) }
           )
+          
+          ;; Auto-mint badge if user reaches reputation threshold (1000 points)
+          ;; This rewards loyal savers with an on-chain achievement NFT
+          (if (>= (get-user-rep tx-sender) u1000)
+            (let
+              (
+                ;; Create badge metadata with user's achievement tier
+                (badge-metadata u"{\"name\":\"Loyal Saver\",\"tier\":\"gold\",\"threshold\":1000}")
+              )
+              ;; Attempt to mint badge (ignore errors if badge contract not set up)
+              (match (contract-call? .bitsave-badges mint tx-sender badge-metadata)
+                success true
+                error true
+              )
+            )
+            true
+          )
+          
+          ;; Mark savings as claimed and transfer STX back to user
           (map-set savings { user: tx-sender } { amount: u0, unlock-height: unlock, claimed: true })
           (try! (as-contract (stx-transfer? amount tx-sender tx-sender)))
           (ok (tuple (withdrawn amount) (earned-points reward)))
@@ -120,6 +140,15 @@
   (match (map-get? reputation { user: user })
     rep-data (ok (get points rep-data))
     (ok 0)
+  )
+)
+
+;; Helper function to get user reputation points as uint
+;; Used for badge threshold checks
+(define-private (get-user-rep (user principal))
+  (match (map-get? reputation { user: user })
+    rep-data (to-uint (get points rep-data))
+    u0
   )
 )
 
