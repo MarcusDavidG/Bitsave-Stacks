@@ -6,12 +6,12 @@
 ---
 
 ## ⚙️ Features
-- 💰 Deposit STX and lock for a chosen duration
-- 🔓 Withdraw only after lock expiry
-- ⭐ Earn on-chain reputation points upon withdrawal
-- 🏆 **NEW:** Auto-mint NFT badges when reaching reputation milestones (1000+ points)
-- 🎖️ **NEW:** SIP-009 compliant achievement badges with metadata
-- 👑 Admin can adjust reward rate
+-  Deposit STX and lock for a chosen duration
+-  Withdraw only after lock expiry
+-  Earn on-chain reputation points upon withdrawal
+-  **NEW:** Auto-mint NFT badges when reaching reputation milestones (1000+ points)
+-  **NEW:** SIP-009 compliant achievement badges with metadata
+-  Admin can adjust reward rate
 
 ---
 
@@ -44,7 +44,7 @@
 
 ---
 
-## 🧪 Development Setup
+##  Development Setup
 
 ```bash
 # Install Clarinet
@@ -72,7 +72,7 @@ After deploying contracts, authorize BitSave to mint badges:
 
 ---
 
-## 🏆 Badge System
+##  Badge System
 
 Users automatically receive NFT badges when they reach reputation milestones:
 
