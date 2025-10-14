@@ -5,6 +5,22 @@
 
 ---
 
+##  Overview
+
+**BitSave** is a decentralized, Bitcoin-powered savings protocol built on the **Stacks blockchain**.  
+It enables users to **lock STX tokens** for a chosen duration, **earn yield and reputation**, and receive **achievement NFT badges** when reaching certain milestones.
+
+The system combines **DeFi savings mechanics** with **on-chain reputation tracking**, introducing gamification and user trust into a non-custodial savings experience.  
+Reputation points reflect a user’s long-term saving habits, while NFT badges serve as collectible proofs of commitment—paving the way for **DAO participation, boosted rewards, and social credit systems** in future versions.
+
+BitSave’s design follows a **modular smart contract architecture**:
+- The main contract, `bitsave.clar`, manages deposits, withdrawals, and reward calculations.
+- The secondary contract, `bitsave-badges.clar`, handles NFT badge minting and metadata via SIP-009 compliance.
+
+Together, they form a foundation for **trustless savings**, **on-chain identity**, and **reputation-based finance** within the Stacks ecosystem.
+
+---
+
 ##  Features
 -  Deposit STX and lock for a chosen duration
 -  Withdraw only after lock expiry
