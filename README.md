@@ -112,7 +112,7 @@ Users automatically receive NFT badges when they reach reputation milestones:
 
 ##  Future Roadmap
 
-- ✅ ~~NFT badges for loyal savers~~ (COMPLETED)
+-  ~~NFT badges for loyal savers~~ (COMPLETED)
 - Multiple badge tiers (Bronze, Silver, Gold, Platinum)
 - Time-based and streak badges
 - Badge marketplace and trading
@@ -139,6 +139,6 @@ Bitsave-Stacks/
 
 ---
 
-## 📜 License
+##  License
 
 This project is open source and available for educational purposes.
