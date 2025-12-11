@@ -46,20 +46,11 @@ export function WalletConnectV2({ onConnect, onDisconnect }: WalletConnectProps)
       console.log('Connect result:', result);
       console.log('Addresses array:', result?.addresses);
       console.log('First address:', result?.addresses?.[0]);
-      console.log('Network object:', result?.network);
       
       let userAddress = null;
       
-      // Try multiple ways to get the Stacks address
-      
-      // Method 1: Look for stacks in network object (BEST METHOD)
-      if (result?.network?.stacks?.address) {
-        userAddress = result.network.stacks.address;
-        console.log('✅ Got Stacks address from network.stacks:', userAddress);
-      }
-      
-      // Method 2: Find in addresses array by checking for ST prefix
-      if (!userAddress && Array.isArray(result?.addresses)) {
+      // Find Stacks address in the addresses array by checking for ST prefix
+      if (Array.isArray(result?.addresses)) {
         for (const addr of result.addresses) {
           if (addr.address && addr.address.startsWith('ST')) {
             userAddress = addr.address;
@@ -69,10 +60,13 @@ export function WalletConnectV2({ onConnect, onDisconnect }: WalletConnectProps)
         }
       }
       
-      // Method 3: Last resort - first address (might be Bitcoin)
+      // Fallback: Use first address if it's a Stacks address
       if (!userAddress && result?.addresses?.[0]?.address) {
-        userAddress = result.addresses[0].address;
-        console.log('⚠️ Using addresses[0] as fallback:', userAddress);
+        const firstAddr = result.addresses[0].address;
+        if (firstAddr.startsWith('ST') || firstAddr.startsWith('SP')) {
+          userAddress = firstAddr;
+          console.log('✅ Using first address:', userAddress);
+        }
       }
       
       if (userAddress) {
