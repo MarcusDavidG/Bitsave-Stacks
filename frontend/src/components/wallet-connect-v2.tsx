@@ -40,14 +40,7 @@ export function WalletConnectV2({ onConnect, onDisconnect }: WalletConnectProps)
       const { connect } = await import('@stacks/connect');
       
       const result = await connect({
-        onFinish: () => {
-          console.log('Connection finished');
-          setIsLoading(false);
-        },
-        onCancel: () => {
-          console.log('Connection cancelled');
-          setIsLoading(false);
-        },
+        // Note: connect() returns a promise, no callbacks needed
       });
       
       console.log('Connect result:', result);
