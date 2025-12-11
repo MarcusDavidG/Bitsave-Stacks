@@ -1,25 +1,29 @@
 "use client";
 
 import { useState } from "react";
-import { WalletConnect } from "@/components/wallet-connect";
-import { DepositForm } from "@/components/deposit-form";
-import { WithdrawForm } from "@/components/withdraw-form";
-import { ReputationDashboard } from "@/components/reputation-dashboard";
+import { WalletConnectV2 } from "@/components/wallet-connect-v2";
+import { DepositFormV2 } from "@/components/deposit-form-v2";
+import { WithdrawFormV2 } from "@/components/withdraw-form-v2";
+import { ReputationDashboardV2 } from "@/components/reputation-dashboard-v2";
 import { BadgeDisplay } from "@/components/badge-display";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { motion } from "framer-motion";
-import { PiggyBank, Sparkles } from "lucide-react";
+import { PiggyBank, Sparkles, ExternalLink } from "lucide-react";
+import { EXPLORER_URLS } from "@/lib/contracts";
+
+// Force dynamic rendering (disable static generation)
+export const dynamic = 'force-dynamic';
 
 export default function Home() {
   const [isConnected, setIsConnected] = useState(false);
   const [userAddress, setUserAddress] = useState<string>("");
   const [balance, setBalance] = useState(0);
+  const [refreshKey, setRefreshKey] = useState(0);
 
-  const handleConnect = (address: string) => {
+  const handleConnect = (address: string, bal: number) => {
     setUserAddress(address);
     setIsConnected(true);
-    // In a real app, fetch balance from blockchain
-    setBalance(25.5); // Mock balance
+    setBalance(bal);
   };
 
   const handleDisconnect = () => {
@@ -28,16 +32,13 @@ export default function Home() {
     setBalance(0);
   };
 
-  const handleDeposit = async (amount: number) => {
-    // In a real app, this would interact with the smart contract
-    console.log(`Depositing ${amount} STX`);
-    setBalance(prev => prev + amount);
-  };
-
-  const handleWithdraw = async (amount: number) => {
-    // In a real app, this would interact with the smart contract
-    console.log(`Withdrawing ${amount} STX`);
-    setBalance(prev => prev - amount);
+  const handleTransactionSuccess = () => {
+    // Trigger refresh of reputation dashboard after a short delay
+    // to allow blockchain to process the transaction
+    setTimeout(() => {
+      setRefreshKey(prev => prev + 1);
+      console.log('🔄 Refreshing dashboard data...');
+    }, 2000); // 2 second delay for blockchain confirmation
   };
 
   return (
@@ -56,10 +57,23 @@ export default function Home() {
           >
             <PiggyBank className="h-8 w-8 text-primary animate-pulse-neon" />
             <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Bitsave
+              BitSave
             </h1>
           </motion.div>
-          <ThemeToggle />
+          <div className="flex items-center gap-4">
+            {userAddress && (
+              <a
+                href={EXPLORER_URLS.address(userAddress)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-muted-foreground hover:text-primary flex items-center gap-1"
+              >
+                <ExternalLink className="h-3 w-3" />
+                View on Explorer
+              </a>
+            )}
+            <ThemeToggle />
+          </div>
         </div>
       </motion.header>
 
@@ -84,10 +98,13 @@ export default function Home() {
           <h2 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
             Secure Your Future
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-4">
             Decentralized savings on Stacks blockchain. Earn reputation, unlock achievements,
             and grow your wealth with confidence.
           </p>
+          <div className="inline-flex items-center gap-2 px-3 py-1 bg-yellow-100 dark:bg-yellow-900 rounded-full text-sm">
+            <span className="text-yellow-800 dark:text-yellow-200">🎯 Live on Stacks Testnet</span>
+          </div>
         </motion.section>
 
         {/* Wallet Connection */}
@@ -97,30 +114,30 @@ export default function Home() {
           transition={{ delay: 0.4 }}
           className="flex justify-center mb-12"
         >
-          <WalletConnect onConnect={handleConnect} onDisconnect={handleDisconnect} />
+          <WalletConnectV2 onConnect={handleConnect} onDisconnect={handleDisconnect} />
         </motion.div>
 
         {/* Main Features Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12 px-4">
           {/* Deposit/Withdraw Forms */}
           <div className="space-y-6">
-            <DepositForm onDeposit={handleDeposit} isConnected={isConnected} />
-            <WithdrawForm
-              onWithdraw={handleWithdraw}
+            <DepositFormV2 
+              userAddress={userAddress}
               isConnected={isConnected}
-              balance={balance}
+              onSuccess={handleTransactionSuccess}
+            />
+            <WithdrawFormV2
+              userAddress={userAddress}
+              isConnected={isConnected}
+              onSuccess={handleTransactionSuccess}
             />
           </div>
 
           {/* Reputation Dashboard */}
-          <div>
-            <ReputationDashboard
-              reputation={85}
-              level={3}
-              nextLevelProgress={65}
-              badges={["First Steps", "Consistent Saver"]}
-              totalSavings={balance}
-              savingsGoal={100}
+          <div key={refreshKey}>
+            <ReputationDashboardV2
+              userAddress={userAddress}
+              isConnected={isConnected}
             />
           </div>
         </div>
@@ -142,9 +159,30 @@ export default function Home() {
           transition={{ delay: 0.8 }}
           className="text-center py-8 border-t"
         >
-          <p className="text-muted-foreground">
-            Built on Stacks • Secure • Decentralized • Transparent
-          </p>
+          <div className="space-y-2">
+            <p className="text-muted-foreground">
+              Built on Stacks • Secure • Decentralized • Transparent
+            </p>
+            <div className="text-xs text-muted-foreground">
+              <a 
+                href="https://explorer.hiro.so/?chain=testnet" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-primary"
+              >
+                Testnet Explorer
+              </a>
+              {" • "}
+              <a 
+                href={EXPLORER_URLS.contract("ST2QR5BT57BTVQM69ZFQBMW3BH7KDN3FX56H02TEW.bitsave")}
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-primary"
+              >
+                View Contract
+              </a>
+            </div>
+          </div>
         </motion.footer>
       </main>
     </div>

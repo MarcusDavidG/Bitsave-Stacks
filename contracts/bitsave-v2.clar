@@ -54,7 +54,11 @@
     )
     (begin
       (asserts! (> amount u0) ERR_NO_AMOUNT)
-      (asserts! (is-none existing) ERR_ALREADY_DEPOSITED)
+      ;; Allow deposit if no existing deposit OR if previous deposit was already claimed
+      (match existing
+        prev-deposit (asserts! (get claimed prev-deposit) ERR_ALREADY_DEPOSITED)
+        true  ;; No existing deposit, allow
+      )
       (let ((unlock (+ stacks-block-height lock-period)))
         (try! (stx-transfer? amount tx-sender (as-contract tx-sender)))
         (map-set savings

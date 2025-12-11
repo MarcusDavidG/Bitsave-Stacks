@@ -27,6 +27,7 @@ export default defineConfig({
       threads: { singleThread: true },
       forks: { singleFork: true },
     },
+    include: ['tests/**/*_test.ts'],
     setupFiles: [
       vitestSetupFilePath,
       // custom setup files can be added here
