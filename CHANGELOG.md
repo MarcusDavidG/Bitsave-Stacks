@@ -98,3 +98,4 @@
 <!-- Changelog entry 39: release notes and version history -->
 
 <!-- Changelog entry 40: release notes and version history -->
+# Cleanup note 1: removed stale artifacts, improved repo hygiene
