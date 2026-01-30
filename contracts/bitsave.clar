@@ -332,3 +332,16 @@
     (ok none)
   )
 )
+
+;; Batch operations for efficiency
+(define-public (batch-get-savings (users (list 10 principal)))
+  (ok (map get-single-savings users))
+)
+
+(define-private (get-single-savings (user principal))
+  (tuple 
+    (user user)
+    (savings (map-get? savings { user: user }))
+    (reputation (get points (default-to { points: 0 } (map-get? reputation { user: user }))))
+  )
+)
