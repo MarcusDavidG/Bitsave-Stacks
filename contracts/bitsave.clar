@@ -75,6 +75,20 @@
 
 (define-data-var rate-history-count uint u0)
 
+;; Contract events for logging
+(define-map contract-events
+  { event-id: uint }
+  {
+    event-type: (string-ascii 20),
+    user: principal,
+    amount: uint,
+    timestamp: uint,
+    data: (string-utf8 200)
+  }
+)
+
+(define-data-var event-counter uint u0)
+
 ;; Error codes
 (define-constant ERR_NO_AMOUNT (err u100))
 (define-constant ERR_ALREADY_DEPOSITED (err u101))
@@ -97,6 +111,48 @@
 
 (define-private (is-contract-active)
   (not (var-get contract-paused))
+)
+
+;; Log contract events for audit trail
+(define-private (log-event (event-type (string-ascii 20)) (user principal) (amount uint) (data (string-utf8 200)))
+  (let
+    (
+      (current-counter (var-get event-counter))
+      (new-counter (+ current-counter u1))
+    )
+    (map-set contract-events
+      { event-id: new-counter }
+      {
+        event-type: event-type,
+        user: user,
+        amount: amount,
+        timestamp: stacks-block-height,
+        data: data
+      }
+    )
+    (var-set event-counter new-counter)
+    true
+  )
+)
+
+;; Helper function to convert int to utf8 string
+(define-private (int-to-utf8 (value int))
+  (if (< value 0)
+    u"-"
+    (if (< value 10)
+      (if (is-eq value 0) u"0"
+      (if (is-eq value 1) u"1"
+      (if (is-eq value 2) u"2"
+      (if (is-eq value 3) u"3"
+      (if (is-eq value 4) u"4"
+      (if (is-eq value 5) u"5"
+      (if (is-eq value 6) u"6"
+      (if (is-eq value 7) u"7"
+      (if (is-eq value 8) u"8"
+      u"9")))))))))
+      u"10+"
+    )
+  )
 )
 
 ;; Calculate compound interest: A = P(1 + r/n)^(nt)
@@ -209,6 +265,10 @@
             goal-description: goal-description
           }
         )
+        
+        ;; Log deposit event
+        (log-event "deposit" tx-sender amount (concat u"Lock period: " (int-to-utf8 (to-int lock-period))))
+        
         (ok (tuple (amount amount) (unlock-block unlock) (goal goal-amount)))
       )
     )
@@ -314,6 +374,14 @@
           ;; Update last withdrawal timestamp
           (map-set last-withdrawal { user: tx-sender } { block-height: stacks-block-height })
           
+          ;; Log withdrawal event
+          (log-event 
+            (if is-early "early-withdrawal" "withdrawal")
+            tx-sender 
+            final-amount 
+            (concat u"Penalty: " (int-to-utf8 (to-int penalty-amount)))
+          )
+          
           (ok (tuple (withdrawn final-amount) (earned-points final-reward) (penalty penalty-amount) (early-withdrawal is-early)))
         )
       )
@@ -340,6 +408,10 @@
     )
     
     (var-set reward-rate new-rate)
+    
+    ;; Log rate change event
+    (log-event "rate-change" tx-sender new-rate u"Admin rate adjustment")
+    
     (ok new-rate)
   )
 )
@@ -558,6 +630,37 @@
           (list current-rate)
         ) 
         u20
+      ))
+    )
+    (list)
+  )
+)
+
+(define-read-only (get-contract-events (limit uint))
+  (let
+    (
+      (total-events (var-get event-counter))
+      (start-id (if (> total-events limit) (- total-events limit) u1))
+    )
+    (ok (tuple
+      (total-events total-events)
+      (events (get-event-range start-id total-events))
+    ))
+  )
+)
+
+(define-private (get-event-range (start uint) (end uint))
+  (if (<= start end)
+    (let
+      (
+        (current-event (map-get? contract-events { event-id: start }))
+      )
+      (unwrap-panic (as-max-len? 
+        (append 
+          (get-event-range (+ start u1) end)
+          (list current-event)
+        ) 
+        u50
       ))
     )
     (list)
