@@ -13,7 +13,9 @@
   {
     amount: uint,
     unlock-height: uint,
-    claimed: bool
+    claimed: bool,
+    goal-amount: uint,
+    goal-description: (string-utf8 100)
   }
 )
 
@@ -106,6 +108,10 @@
 ;; -----------------------------------------------------------
 
 (define-public (deposit (amount uint) (lock-period uint))
+  (deposit-with-goal amount lock-period u0 u"")
+)
+
+(define-public (deposit-with-goal (amount uint) (lock-period uint) (goal-amount uint) (goal-description (string-utf8 100)))
   (let
     (
       (existing (map-get? savings { user: tx-sender }))
@@ -123,10 +129,12 @@
           {
             amount: amount,
             unlock-height: unlock,
-            claimed: false
+            claimed: false,
+            goal-amount: goal-amount,
+            goal-description: goal-description
           }
         )
-        (ok (tuple (amount amount) (unlock-block unlock)))
+        (ok (tuple (amount amount) (unlock-block unlock) (goal goal-amount)))
       )
     )
   )
@@ -182,7 +190,13 @@
           )
           
           ;; Mark savings as claimed and transfer STX back to user
-          (map-set savings { user: tx-sender } { amount: u0, unlock-height: unlock, claimed: true })
+          (map-set savings { user: tx-sender } { 
+            amount: u0, 
+            unlock-height: unlock, 
+            claimed: true,
+            goal-amount: (get goal-amount user-data),
+            goal-description: (get goal-description user-data)
+          })
           (try! (as-contract (stx-transfer? final-amount tx-sender tx-sender)))
           (ok (tuple (withdrawn final-amount) (earned-points final-reward) (penalty penalty-amount) (early-withdrawal is-early)))
         )
@@ -303,4 +317,18 @@
 
 (define-read-only (get-max-deposit-per-user)
   (ok (var-get max-deposit-per-user))
+)
+
+(define-read-only (get-savings-goal (user principal))
+  (match (map-get? savings { user: user })
+    savings-data (ok (tuple 
+      (goal-amount (get goal-amount savings-data))
+      (goal-description (get goal-description savings-data))
+      (current-amount (get amount savings-data))
+      (progress-percent (if (> (get goal-amount savings-data) u0)
+        (/ (* (get amount savings-data) u100) (get goal-amount savings-data))
+        u0))
+    ))
+    (ok none)
+  )
 )
