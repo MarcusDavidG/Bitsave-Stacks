@@ -30,6 +30,7 @@
 (define-data-var compound-frequency uint u12) ;; Monthly compounding by default
 (define-data-var minimum-deposit uint u1000000) ;; 1 STX minimum (in microSTX)
 (define-data-var early-withdrawal-penalty uint u20) ;; 20% penalty for early withdrawal
+(define-data-var max-deposit-per-user uint u100000000000) ;; 100,000 STX max per user
 
 ;; Error codes
 (define-constant ERR_NO_AMOUNT (err u100))
@@ -40,6 +41,7 @@
 (define-constant ERR_NOT_AUTHORIZED (err u105))
 (define-constant ERR_CONTRACT_PAUSED (err u106))
 (define-constant ERR_BELOW_MINIMUM (err u107))
+(define-constant ERR_EXCEEDS_MAXIMUM (err u108))
 
 ;; -----------------------------------------------------------
 ;; Utility Functions
@@ -83,6 +85,7 @@
       (asserts! (is-contract-active) ERR_CONTRACT_PAUSED)
       (asserts! (> amount u0) ERR_NO_AMOUNT)
       (asserts! (>= amount (var-get minimum-deposit)) ERR_BELOW_MINIMUM)
+      (asserts! (<= amount (var-get max-deposit-per-user)) ERR_EXCEEDS_MAXIMUM)
       (asserts! (is-none existing) ERR_ALREADY_DEPOSITED)
       (let ((unlock (+ stacks-block-height lock-period)))
         (try! (stx-transfer? amount tx-sender (as-contract tx-sender)))
@@ -209,6 +212,15 @@
   )
 )
 
+(define-public (set-max-deposit-per-user (new-max uint))
+  (begin
+    (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
+    (asserts! (> new-max u0) ERR_NO_AMOUNT)
+    (var-set max-deposit-per-user new-max)
+    (ok new-max)
+  )
+)
+
 (define-read-only (get-savings (user principal))
   (ok (map-get? savings { user: user }))
 )
@@ -247,4 +259,8 @@
 
 (define-read-only (get-early-withdrawal-penalty)
   (ok (var-get early-withdrawal-penalty))
+)
+
+(define-read-only (get-max-deposit-per-user)
+  (ok (var-get max-deposit-per-user))
 )
