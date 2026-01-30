@@ -23,7 +23,10 @@
 (define-map reputation
   { user: principal }
   {
-    points: int
+    points: int,
+    current-streak: uint,
+    longest-streak: uint,
+    last-deposit-block: uint
   }
 )
 
@@ -163,6 +166,14 @@
           (
             (current-count (get count (default-to { count: u0 } (map-get? user-deposit-count { user: tx-sender }))))
             (new-count (+ current-count u1))
+            (current-rep (default-to 
+              { points: 0, current-streak: u0, longest-streak: u0, last-deposit-block: u0 }
+              (map-get? reputation { user: tx-sender })
+            ))
+            (blocks-since-last (- stacks-block-height (get last-deposit-block current-rep)))
+            (streak-broken (> blocks-since-last u4320)) ;; 30 days
+            (new-streak (if (or (is-eq (get current-streak current-rep) u0) streak-broken) u1 (+ (get current-streak current-rep) u1)))
+            (new-longest (if (> new-streak (get longest-streak current-rep)) new-streak (get longest-streak current-rep)))
           )
           (map-set user-deposit-count { user: tx-sender } { count: new-count })
           (map-set deposit-history
@@ -173,6 +184,17 @@
               lock-period: lock-period,
               goal-amount: goal-amount,
               status: "active"
+            }
+          )
+          
+          ;; Update streak information
+          (map-set reputation
+            { user: tx-sender }
+            {
+              points: (get points current-rep),
+              current-streak: new-streak,
+              longest-streak: new-longest,
+              last-deposit-block: stacks-block-height
             }
           )
         )
@@ -223,11 +245,23 @@
             (final-amount (if is-early (- amount penalty-amount) amount))
             (final-reward (if is-early 0 (to-int multiplied-reward)))
             (current-points (default-to 0 (get points (map-get? reputation { user: tx-sender }))))
+            (current-rep (default-to 
+              { points: 0, current-streak: u0, longest-streak: u0, last-deposit-block: u0 }
+              (map-get? reputation { user: tx-sender })
+            ))
+            ;; Streak bonus: 10% extra points per streak level (max 100% bonus)
+            (streak-bonus (min (* (get current-streak current-rep) 10) 100))
+            (streak-multiplied-reward (+ final-reward (/ (* final-reward (to-int streak-bonus)) 100)))
           )
           ;; Update reputation points (no points for early withdrawal)
           (map-set reputation
             { user: tx-sender }
-            { points: (+ final-reward current-points) }
+            { 
+              points: (+ streak-multiplied-reward current-points),
+              current-streak: (get current-streak current-rep),
+              longest-streak: (get longest-streak current-rep),
+              last-deposit-block: (get last-deposit-block current-rep)
+            }
           )
           
           ;; Auto-mint badge if user reaches reputation threshold (1000 points)
@@ -385,8 +419,13 @@
 
 (define-read-only (get-reputation (user principal))
   (match (map-get? reputation { user: user })
-    rep-data (ok (get points rep-data))
-    (ok 0)
+    rep-data (ok (tuple
+      (points (get points rep-data))
+      (current-streak (get current-streak rep-data))
+      (longest-streak (get longest-streak rep-data))
+      (last-deposit-block (get last-deposit-block rep-data))
+    ))
+    (ok (tuple (points 0) (current-streak u0) (longest-streak u0) (last-deposit-block u0)))
   )
 )
 
