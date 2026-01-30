@@ -28,6 +28,7 @@
 ;; Annual reward rate (e.g. 10 = 10%)
 (define-data-var reward-rate uint u10)
 (define-data-var compound-frequency uint u12) ;; Monthly compounding by default
+(define-data-var minimum-deposit uint u1000000) ;; 1 STX minimum (in microSTX)
 
 ;; Error codes
 (define-constant ERR_NO_AMOUNT (err u100))
@@ -37,6 +38,7 @@
 (define-constant ERR_NO_DEPOSIT (err u104))
 (define-constant ERR_NOT_AUTHORIZED (err u105))
 (define-constant ERR_CONTRACT_PAUSED (err u106))
+(define-constant ERR_BELOW_MINIMUM (err u107))
 
 ;; -----------------------------------------------------------
 ;; Utility Functions
@@ -79,6 +81,7 @@
     (begin
       (asserts! (is-contract-active) ERR_CONTRACT_PAUSED)
       (asserts! (> amount u0) ERR_NO_AMOUNT)
+      (asserts! (>= amount (var-get minimum-deposit)) ERR_BELOW_MINIMUM)
       (asserts! (is-none existing) ERR_ALREADY_DEPOSITED)
       (let ((unlock (+ stacks-block-height lock-period)))
         (try! (stx-transfer? amount tx-sender (as-contract tx-sender)))
@@ -183,6 +186,15 @@
   )
 )
 
+(define-public (set-minimum-deposit (new-minimum uint))
+  (begin
+    (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
+    (asserts! (> new-minimum u0) ERR_NO_AMOUNT)
+    (var-set minimum-deposit new-minimum)
+    (ok new-minimum)
+  )
+)
+
 (define-read-only (get-savings (user principal))
   (ok (map-get? savings { user: user }))
 )
@@ -213,4 +225,8 @@
 
 (define-read-only (get-compound-frequency)
   (ok (var-get compound-frequency))
+)
+
+(define-read-only (get-minimum-deposit)
+  (ok (var-get minimum-deposit))
 )
