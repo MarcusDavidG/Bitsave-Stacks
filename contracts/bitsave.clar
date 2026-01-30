@@ -29,6 +29,7 @@
 (define-data-var reward-rate uint u10)
 (define-data-var compound-frequency uint u12) ;; Monthly compounding by default
 (define-data-var minimum-deposit uint u1000000) ;; 1 STX minimum (in microSTX)
+(define-data-var early-withdrawal-penalty uint u20) ;; 20% penalty for early withdrawal
 
 ;; Error codes
 (define-constant ERR_NO_AMOUNT (err u100))
@@ -107,27 +108,31 @@
         (unlock (get unlock-height user-data))
         (amount (get amount user-data))
         (claimed (get claimed user-data))
+        (is-early (< stacks-block-height unlock))
       )
       (begin
         (asserts! (not claimed) ERR_ALREADY_WITHDRAWN)
-        (asserts! (>= stacks-block-height unlock) ERR_LOCK_ACTIVE)
         (let
           (
             (rate (var-get reward-rate))
             (lock-duration (- unlock stacks-block-height))
             (compound-periods (/ lock-duration (/ u144 (var-get compound-frequency)))) ;; Approximate periods
-            (reward (to-int (calculate-compound-reward amount compound-periods)))
+            (base-reward (to-int (calculate-compound-reward amount compound-periods)))
+            (penalty-rate (var-get early-withdrawal-penalty))
+            (penalty-amount (if is-early (/ (* amount penalty-rate) u100) u0))
+            (final-amount (if is-early (- amount penalty-amount) amount))
+            (final-reward (if is-early 0 base-reward))
             (current-points (default-to 0 (get points (map-get? reputation { user: tx-sender }))))
           )
-          ;; Update reputation points
+          ;; Update reputation points (no points for early withdrawal)
           (map-set reputation
             { user: tx-sender }
-            { points: (+ reward current-points) }
+            { points: (+ final-reward current-points) }
           )
           
           ;; Auto-mint badge if user reaches reputation threshold (1000 points)
           ;; This rewards loyal savers with an on-chain achievement NFT
-          (if (>= (get-user-rep tx-sender) u1000)
+          (if (and (not is-early) (>= (get-user-rep tx-sender) u1000))
             (let
               (
                 ;; Create badge metadata with user's achievement tier
@@ -144,8 +149,8 @@
           
           ;; Mark savings as claimed and transfer STX back to user
           (map-set savings { user: tx-sender } { amount: u0, unlock-height: unlock, claimed: true })
-          (try! (as-contract (stx-transfer? amount tx-sender tx-sender)))
-          (ok (tuple (withdrawn amount) (earned-points reward)))
+          (try! (as-contract (stx-transfer? final-amount tx-sender tx-sender)))
+          (ok (tuple (withdrawn final-amount) (earned-points final-reward) (penalty penalty-amount) (early-withdrawal is-early)))
         )
       )
     )
@@ -195,6 +200,15 @@
   )
 )
 
+(define-public (set-early-withdrawal-penalty (new-penalty uint))
+  (begin
+    (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
+    (asserts! (<= new-penalty u100) ERR_NO_AMOUNT) ;; Max 100% penalty
+    (var-set early-withdrawal-penalty new-penalty)
+    (ok new-penalty)
+  )
+)
+
 (define-read-only (get-savings (user principal))
   (ok (map-get? savings { user: user }))
 )
@@ -229,4 +243,8 @@
 
 (define-read-only (get-minimum-deposit)
   (ok (var-get minimum-deposit))
+)
+
+(define-read-only (get-early-withdrawal-penalty)
+  (ok (var-get early-withdrawal-penalty))
 )
