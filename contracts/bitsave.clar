@@ -32,6 +32,12 @@
 (define-data-var early-withdrawal-penalty uint u20) ;; 20% penalty for early withdrawal
 (define-data-var max-deposit-per-user uint u100000000000) ;; 100,000 STX max per user
 
+;; Time-based reward multipliers (basis points: 10000 = 1x)
+(define-map time-multipliers
+  { min-blocks: uint }
+  { multiplier: uint }
+)
+
 ;; Error codes
 (define-constant ERR_NO_AMOUNT (err u100))
 (define-constant ERR_ALREADY_DEPOSITED (err u101))
@@ -68,6 +74,29 @@
       u0
       ;; Simple approximation: principal * rate * periods / (100 * frequency)
       (/ (* (* principal period-rate) periods) (* u100 frequency))
+    )
+  )
+)
+
+;; Get time-based multiplier for lock duration
+(define-private (get-time-multiplier (lock-blocks uint))
+  (let
+    (
+      ;; Default multipliers: 1 month=1x, 6 months=1.2x, 1 year=1.5x, 2 years=2x
+      (multiplier-1m u10000)   ;; 4320 blocks (~1 month)
+      (multiplier-6m u12000)   ;; 25920 blocks (~6 months) 
+      (multiplier-1y u15000)   ;; 52560 blocks (~1 year)
+      (multiplier-2y u20000)   ;; 105120 blocks (~2 years)
+    )
+    (if (>= lock-blocks u105120)
+      multiplier-2y
+      (if (>= lock-blocks u52560)
+        multiplier-1y
+        (if (>= lock-blocks u25920)
+          multiplier-6m
+          multiplier-1m
+        )
+      )
     )
   )
 )
@@ -120,11 +149,13 @@
             (rate (var-get reward-rate))
             (lock-duration (- unlock stacks-block-height))
             (compound-periods (/ lock-duration (/ u144 (var-get compound-frequency)))) ;; Approximate periods
-            (base-reward (to-int (calculate-compound-reward amount compound-periods)))
+            (base-reward (calculate-compound-reward amount compound-periods))
+            (time-multiplier (get-time-multiplier lock-duration))
+            (multiplied-reward (/ (* base-reward time-multiplier) u10000))
             (penalty-rate (var-get early-withdrawal-penalty))
             (penalty-amount (if is-early (/ (* amount penalty-rate) u100) u0))
             (final-amount (if is-early (- amount penalty-amount) amount))
-            (final-reward (if is-early 0 base-reward))
+            (final-reward (if is-early 0 (to-int multiplied-reward)))
             (current-points (default-to 0 (get points (map-get? reputation { user: tx-sender }))))
           )
           ;; Update reputation points (no points for early withdrawal)
@@ -218,6 +249,15 @@
     (asserts! (> new-max u0) ERR_NO_AMOUNT)
     (var-set max-deposit-per-user new-max)
     (ok new-max)
+  )
+)
+
+(define-public (set-time-multiplier (min-blocks uint) (multiplier uint))
+  (begin
+    (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
+    (asserts! (> multiplier u0) ERR_NO_AMOUNT)
+    (map-set time-multipliers { min-blocks: min-blocks } { multiplier: multiplier })
+    (ok true)
   )
 )
 
