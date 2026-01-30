@@ -5,6 +5,7 @@
 ;; -----------------------------------------------------------
 
 (define-data-var admin principal tx-sender)
+(define-data-var contract-paused bool false)
 
 ;; Each user's savings info
 (define-map savings
@@ -34,6 +35,7 @@
 (define-constant ERR_LOCK_ACTIVE (err u103))
 (define-constant ERR_NO_DEPOSIT (err u104))
 (define-constant ERR_NOT_AUTHORIZED (err u105))
+(define-constant ERR_CONTRACT_PAUSED (err u106))
 
 ;; -----------------------------------------------------------
 ;; Utility Functions
@@ -41,6 +43,10 @@
 
 (define-private (is-admin (sender principal))
   (is-eq sender (var-get admin))
+)
+
+(define-private (is-contract-active)
+  (not (var-get contract-paused))
 )
 
 ;; -----------------------------------------------------------
@@ -53,6 +59,7 @@
       (existing (map-get? savings { user: tx-sender }))
     )
     (begin
+      (asserts! (is-contract-active) ERR_CONTRACT_PAUSED)
       (asserts! (> amount u0) ERR_NO_AMOUNT)
       (asserts! (is-none existing) ERR_ALREADY_DEPOSITED)
       (let ((unlock (+ stacks-block-height lock-period)))
@@ -131,6 +138,22 @@
   )
 )
 
+(define-public (pause-contract)
+  (begin
+    (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
+    (var-set contract-paused true)
+    (ok true)
+  )
+)
+
+(define-public (unpause-contract)
+  (begin
+    (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
+    (var-set contract-paused false)
+    (ok true)
+  )
+)
+
 (define-read-only (get-savings (user principal))
   (ok (map-get? savings { user: user }))
 )
@@ -153,4 +176,8 @@
 
 (define-read-only (get-reward-rate)
   (ok (var-get reward-rate))
+)
+
+(define-read-only (is-paused)
+  (ok (var-get contract-paused))
 )
