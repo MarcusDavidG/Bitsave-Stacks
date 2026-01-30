@@ -33,6 +33,7 @@
 (define-data-var minimum-deposit uint u1000000) ;; 1 STX minimum (in microSTX)
 (define-data-var early-withdrawal-penalty uint u20) ;; 20% penalty for early withdrawal
 (define-data-var max-deposit-per-user uint u100000000000) ;; 100,000 STX max per user
+(define-data-var withdrawal-cooldown uint u144) ;; 1 day cooldown between withdrawals
 
 ;; Time-based reward multipliers (basis points: 10000 = 1x)
 (define-map time-multipliers
@@ -57,6 +58,12 @@
   { count: uint }
 )
 
+;; Track last withdrawal timestamp for cooldown
+(define-map last-withdrawal
+  { user: principal }
+  { block-height: uint }
+)
+
 ;; Error codes
 (define-constant ERR_NO_AMOUNT (err u100))
 (define-constant ERR_ALREADY_DEPOSITED (err u101))
@@ -67,6 +74,7 @@
 (define-constant ERR_CONTRACT_PAUSED (err u106))
 (define-constant ERR_BELOW_MINIMUM (err u107))
 (define-constant ERR_EXCEEDS_MAXIMUM (err u108))
+(define-constant ERR_WITHDRAWAL_COOLDOWN (err u109))
 
 ;; -----------------------------------------------------------
 ;; Utility Functions
@@ -186,9 +194,14 @@
         (amount (get amount user-data))
         (claimed (get claimed user-data))
         (is-early (< stacks-block-height unlock))
+        (last-withdrawal-block (get block-height (default-to { block-height: u0 } (map-get? last-withdrawal { user: tx-sender }))))
+        (cooldown-remaining (if (> (+ last-withdrawal-block (var-get withdrawal-cooldown)) stacks-block-height)
+          (- (+ last-withdrawal-block (var-get withdrawal-cooldown)) stacks-block-height)
+          u0))
       )
       (begin
         (asserts! (not claimed) ERR_ALREADY_WITHDRAWN)
+        (asserts! (is-eq cooldown-remaining u0) ERR_WITHDRAWAL_COOLDOWN)
         (let
           (
             (rate (var-get reward-rate))
@@ -255,6 +268,10 @@
             goal-description: (get goal-description user-data)
           })
           (try! (as-contract (stx-transfer? final-amount tx-sender tx-sender)))
+          
+          ;; Update last withdrawal timestamp
+          (map-set last-withdrawal { user: tx-sender } { block-height: stacks-block-height })
+          
           (ok (tuple (withdrawn final-amount) (earned-points final-reward) (penalty penalty-amount) (early-withdrawal is-early)))
         )
       )
@@ -329,6 +346,14 @@
     (asserts! (> multiplier u0) ERR_NO_AMOUNT)
     (map-set time-multipliers { min-blocks: min-blocks } { multiplier: multiplier })
     (ok true)
+  )
+)
+
+(define-public (set-withdrawal-cooldown (new-cooldown uint))
+  (begin
+    (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
+    (var-set withdrawal-cooldown new-cooldown)
+    (ok new-cooldown)
   )
 )
 
@@ -431,5 +456,17 @@
       ))
     )
     (list)
+  )
+)
+
+(define-read-only (get-withdrawal-cooldown-remaining (user principal))
+  (let
+    (
+      (last-withdrawal-block (get block-height (default-to { block-height: u0 } (map-get? last-withdrawal { user: user }))))
+      (cooldown-end (+ last-withdrawal-block (var-get withdrawal-cooldown)))
+    )
+    (ok (if (> cooldown-end stacks-block-height)
+      (- cooldown-end stacks-block-height)
+      u0))
   )
 )
