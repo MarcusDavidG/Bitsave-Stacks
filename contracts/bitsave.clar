@@ -27,6 +27,7 @@
 
 ;; Annual reward rate (e.g. 10 = 10%)
 (define-data-var reward-rate uint u10)
+(define-data-var compound-frequency uint u12) ;; Monthly compounding by default
 
 ;; Error codes
 (define-constant ERR_NO_AMOUNT (err u100))
@@ -47,6 +48,23 @@
 
 (define-private (is-contract-active)
   (not (var-get contract-paused))
+)
+
+;; Calculate compound interest: A = P(1 + r/n)^(nt)
+;; Simplified for blockchain: approximate compound interest
+(define-private (calculate-compound-reward (principal uint) (periods uint))
+  (let
+    (
+      (rate (var-get reward-rate))
+      (frequency (var-get compound-frequency))
+      (period-rate (/ rate frequency))
+    )
+    (if (is-eq periods u0)
+      u0
+      ;; Simple approximation: principal * rate * periods / (100 * frequency)
+      (/ (* (* principal period-rate) periods) (* u100 frequency))
+    )
+  )
 )
 
 ;; -----------------------------------------------------------
@@ -93,7 +111,9 @@
         (let
           (
             (rate (var-get reward-rate))
-            (reward (/ (* (to-int amount) (to-int rate)) 100))
+            (lock-duration (- unlock stacks-block-height))
+            (compound-periods (/ lock-duration (/ u144 (var-get compound-frequency)))) ;; Approximate periods
+            (reward (to-int (calculate-compound-reward amount compound-periods)))
             (current-points (default-to 0 (get points (map-get? reputation { user: tx-sender }))))
           )
           ;; Update reputation points
@@ -154,6 +174,15 @@
   )
 )
 
+(define-public (set-compound-frequency (new-frequency uint))
+  (begin
+    (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
+    (asserts! (> new-frequency u0) ERR_NO_AMOUNT)
+    (var-set compound-frequency new-frequency)
+    (ok new-frequency)
+  )
+)
+
 (define-read-only (get-savings (user principal))
   (ok (map-get? savings { user: user }))
 )
@@ -180,4 +209,8 @@
 
 (define-read-only (is-paused)
   (ok (var-get contract-paused))
+)
+
+(define-read-only (get-compound-frequency)
+  (ok (var-get compound-frequency))
 )
