@@ -64,6 +64,14 @@
   { block-height: uint }
 )
 
+;; Interest rate history
+(define-map rate-history
+  { timestamp: uint }
+  { rate: uint, admin: principal }
+)
+
+(define-data-var rate-history-count uint u0)
+
 ;; Error codes
 (define-constant ERR_NO_AMOUNT (err u100))
 (define-constant ERR_ALREADY_DEPOSITED (err u101))
@@ -283,6 +291,20 @@
 (define-public (set-reward-rate (new-rate uint))
   (begin
     (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
+    
+    ;; Record rate change in history
+    (let
+      (
+        (current-count (var-get rate-history-count))
+        (new-count (+ current-count u1))
+      )
+      (map-set rate-history
+        { timestamp: stacks-block-height }
+        { rate: new-rate, admin: tx-sender }
+      )
+      (var-set rate-history-count new-count)
+    )
+    
     (var-set reward-rate new-rate)
     (ok new-rate)
   )
@@ -468,5 +490,37 @@
     (ok (if (> cooldown-end stacks-block-height)
       (- cooldown-end stacks-block-height)
       u0))
+  )
+)
+
+(define-read-only (get-rate-history (limit uint))
+  (let
+    (
+      (total-count (var-get rate-history-count))
+      (start-timestamp (if (> total-count limit) (- total-count limit) u1))
+    )
+    (ok (tuple
+      (total-changes total-count)
+      (current-rate (var-get reward-rate))
+      (history (get-rate-range start-timestamp total-count))
+    ))
+  )
+)
+
+(define-private (get-rate-range (start uint) (end uint))
+  (if (<= start end)
+    (let
+      (
+        (current-rate (map-get? rate-history { timestamp: start }))
+      )
+      (unwrap-panic (as-max-len? 
+        (append 
+          (get-rate-range (+ start u1) end)
+          (list current-rate)
+        ) 
+        u20
+      ))
+    )
+    (list)
   )
 )
