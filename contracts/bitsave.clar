@@ -40,6 +40,23 @@
   { multiplier: uint }
 )
 
+;; Deposit history tracking
+(define-map deposit-history
+  { user: principal, deposit-id: uint }
+  {
+    amount: uint,
+    timestamp: uint,
+    lock-period: uint,
+    goal-amount: uint,
+    status: (string-ascii 20)
+  }
+)
+
+(define-map user-deposit-count
+  { user: principal }
+  { count: uint }
+)
+
 ;; Error codes
 (define-constant ERR_NO_AMOUNT (err u100))
 (define-constant ERR_ALREADY_DEPOSITED (err u101))
@@ -124,6 +141,26 @@
       (asserts! (is-none existing) ERR_ALREADY_DEPOSITED)
       (let ((unlock (+ stacks-block-height lock-period)))
         (try! (stx-transfer? amount tx-sender (as-contract tx-sender)))
+        
+        ;; Record deposit history
+        (let
+          (
+            (current-count (get count (default-to { count: u0 } (map-get? user-deposit-count { user: tx-sender }))))
+            (new-count (+ current-count u1))
+          )
+          (map-set user-deposit-count { user: tx-sender } { count: new-count })
+          (map-set deposit-history
+            { user: tx-sender, deposit-id: new-count }
+            {
+              amount: amount,
+              timestamp: stacks-block-height,
+              lock-period: lock-period,
+              goal-amount: goal-amount,
+              status: "active"
+            }
+          )
+        )
+        
         (map-set savings
           { user: tx-sender }
           {
@@ -190,6 +227,26 @@
           )
           
           ;; Mark savings as claimed and transfer STX back to user
+          (let
+            (
+              (current-count (get count (default-to { count: u0 } (map-get? user-deposit-count { user: tx-sender }))))
+            )
+            ;; Update deposit history status
+            (map-set deposit-history
+              { user: tx-sender, deposit-id: current-count }
+              {
+                amount: amount,
+                timestamp: (get timestamp (default-to 
+                  { amount: u0, timestamp: u0, lock-period: u0, goal-amount: u0, status: "unknown" }
+                  (map-get? deposit-history { user: tx-sender, deposit-id: current-count })
+                )),
+                lock-period: (- unlock stacks-block-height),
+                goal-amount: (get goal-amount user-data),
+                status: (if is-early "withdrawn-early" "withdrawn-mature")
+              }
+            )
+          )
+          
           (map-set savings { user: tx-sender } { 
             amount: u0, 
             unlock-height: unlock, 
@@ -343,5 +400,36 @@
     (user user)
     (savings (map-get? savings { user: user }))
     (reputation (get points (default-to { points: 0 } (map-get? reputation { user: user }))))
+  )
+)
+
+(define-read-only (get-deposit-history (user principal) (limit uint))
+  (let
+    (
+      (total-count (get count (default-to { count: u0 } (map-get? user-deposit-count { user: user }))))
+      (start-id (if (> total-count limit) (- total-count limit) u1))
+    )
+    (ok (tuple
+      (total-deposits total-count)
+      (history (get-deposit-range user start-id total-count))
+    ))
+  )
+)
+
+(define-private (get-deposit-range (user principal) (start-id uint) (end-id uint))
+  (if (<= start-id end-id)
+    (let
+      (
+        (current-deposit (map-get? deposit-history { user: user, deposit-id: start-id }))
+      )
+      (unwrap-panic (as-max-len? 
+        (append 
+          (get-deposit-range user (+ start-id u1) end-id)
+          (list current-deposit)
+        ) 
+        u50
+      ))
+    )
+    (list)
   )
 )
