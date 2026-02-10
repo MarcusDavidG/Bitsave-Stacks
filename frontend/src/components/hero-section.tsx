@@ -35,7 +35,7 @@ export function HeroSection({ onGetStarted, isConnected }: HeroSectionProps) {
   ];
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50 dark:from-slate-950 dark:via-blue-950 dark:to-purple-950">
+    <section className="relative overflow-hidden bg-gradient-to-br from-background via-muted/20 to-accent/10">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-grid-slate-100 dark:bg-grid-slate-800 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))] dark:[mask-image:linear-gradient(0deg,rgba(255,255,255,0.1),rgba(255,255,255,0.5))]" />
       
@@ -53,10 +53,10 @@ export function HeroSection({ onGetStarted, isConnected }: HeroSectionProps) {
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
-              className="inline-flex items-center gap-2 px-4 py-2 bg-blue-100 dark:bg-blue-900/30 rounded-full"
+              className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full"
             >
-              <Sparkles className="h-4 w-4 text-blue-600 dark:text-blue-400" />
-              <span className="text-sm font-medium text-blue-700 dark:text-blue-300">
+              <Sparkles className="h-4 w-4 text-primary" />
+              <span className="text-sm font-medium text-primary">
                 Powered by Bitcoin Security
               </span>
             </motion.div>
@@ -64,16 +64,16 @@ export function HeroSection({ onGetStarted, isConnected }: HeroSectionProps) {
             {/* Headline */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-                <span className="bg-gradient-to-r from-slate-900 via-blue-900 to-purple-900 dark:from-white dark:via-blue-100 dark:to-purple-100 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-foreground via-foreground/80 to-foreground/60 bg-clip-text text-transparent">
                   Your Bitcoin-Secured
                 </span>
                 <br />
-                <span className="text-blue-600 dark:text-blue-400">
+                <span className="text-primary">
                   Savings Vault
                 </span>
               </h1>
               
-              <p className="text-xl text-slate-600 dark:text-slate-300 leading-relaxed max-w-lg">
+              <p className="text-xl text-muted-foreground leading-relaxed max-w-lg">
                 Lock STX tokens, earn guaranteed returns, and build your on-chain reputation. 
                 Experience the future of decentralized savings.
               </p>
@@ -146,16 +146,16 @@ export function HeroSection({ onGetStarted, isConnected }: HeroSectionProps) {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.6 + index * 0.1 }}
                 >
-                  <Card className="p-6 glass-card hover:shadow-lg transition-all duration-300 group">
+                  <Card className="p-6 hover:shadow-lg transition-all duration-300 group">
                     <div className="flex items-center gap-3 mb-2">
-                      <div className="p-2 bg-blue-100 dark:bg-blue-900/30 rounded-lg group-hover:scale-110 transition-transform">
-                        <stat.icon className="h-5 w-5 text-blue-600 dark:text-blue-400" />
+                      <div className="p-2 bg-primary/10 rounded-lg group-hover:scale-110 transition-transform">
+                        <stat.icon className="h-5 w-5 text-primary" />
                       </div>
                     </div>
-                    <div className="text-2xl font-bold text-slate-900 dark:text-white mb-1">
+                    <div className="text-2xl font-bold text-foreground mb-1">
                       {stat.value}
                     </div>
-                    <div className="text-sm text-slate-600 dark:text-slate-400">
+                    <div className="text-sm text-muted-foreground">
                       {stat.label}
                     </div>
                   </Card>

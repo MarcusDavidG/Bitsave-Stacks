@@ -53,13 +53,13 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50 dark:from-slate-950 dark:via-slate-900 dark:to-blue-950">
+    <div className="min-h-screen bg-gradient-to-br from-background via-background to-muted/20">
       {/* Navigation */}
       <motion.nav
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6 }}
-        className="border-b border-slate-200/50 dark:border-slate-800/50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl sticky top-0 z-50"
+        className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50"
       >
         <div className="container mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
@@ -68,14 +68,14 @@ export default function Home() {
               whileHover={{ scale: 1.02 }}
             >
               <div className="relative">
-                <PiggyBank className="h-8 w-8 text-blue-600 dark:text-blue-400" />
+                <PiggyBank className="h-8 w-8 text-primary" />
                 <Bitcoin className="h-4 w-4 text-orange-500 absolute -top-1 -right-1" />
               </div>
               <div>
-                <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
                   BitSave
                 </h1>
-                <p className="text-xs text-slate-500 dark:text-slate-400">Bitcoin-Powered Savings</p>
+                <p className="text-xs text-muted-foreground">Bitcoin-Powered Savings</p>
               </div>
             </motion.div>
             
@@ -85,7 +85,7 @@ export default function Home() {
                   href={EXPLORER_URLS.address(userAddress)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 flex items-center gap-1 transition-colors"
+                  className="text-sm text-muted-foreground hover:text-primary flex items-center gap-1 transition-colors"
                 >
                   <ExternalLink className="h-3 w-3" />
                   Explorer
