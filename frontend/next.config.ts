@@ -3,11 +3,6 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   
-  // DISABLE TURBOPACK - it has issues with @stacks/connect ESM modules
-  // Use Webpack instead for proper module loading
-  // Set empty turbopack config to silence warning
-  turbopack: {},
-  
   experimental: {
     serverActions: {
       bodySizeLimit: '2mb',
