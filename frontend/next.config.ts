@@ -12,6 +12,9 @@ const nextConfig: NextConfig = {
   // Client-side configuration
   output: 'standalone',
   
+  // Fix workspace root warning
+  outputFileTracingRoot: process.cwd(),
+  
   // Webpack config for better module handling
   webpack: (config) => {
     config.resolve.fallback = {
