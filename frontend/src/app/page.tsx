@@ -1,44 +1,28 @@
 "use client";
 
 import { useState } from "react";
-import { WalletConnectV2 } from "@/components/wallet-connect-v2";
-import { DepositFormV2 } from "@/components/deposit-form-v2";
-import { WithdrawFormV2 } from "@/components/withdraw-form-v2";
-import { ReputationDashboardV2 } from "@/components/reputation-dashboard-v2";
-import { BadgeDisplay } from "@/components/badge-display";
-import { ThemeToggle } from "@/components/theme-toggle";
-import { HeroSection } from "@/components/hero-section";
-import { FeaturesShowcase } from "@/components/features-showcase";
-import { StatsSection } from "@/components/stats-section";
-import { motion } from "framer-motion";
-import { 
-  PiggyBank, 
-  ExternalLink,
-  Bitcoin,
-  Github,
-  Twitter,
-  MessageCircle
-} from "lucide-react";
-import { EXPLORER_URLS } from "@/lib/contracts";
-
-export const dynamic = 'force-dynamic';
+import { WalletConnect } from "@/components/wallet-connect";
+import { DepositForm } from "@/components/deposit-form";
+import { WithdrawForm } from "@/components/withdraw-form";
+import { ReputationDashboard } from "@/components/reputation-dashboard";
+import { BadgeShowcase } from "@/components/badge-showcase";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { PiggyBank, Shield, TrendingUp, Award, Bitcoin, Sparkles } from "lucide-react";
 
 export default function Home() {
   const [isConnected, setIsConnected] = useState(false);
   const [userAddress, setUserAddress] = useState<string>("");
-  const [balance, setBalance] = useState(0);
   const [refreshKey, setRefreshKey] = useState(0);
 
-  const handleConnect = (address: string, bal: number) => {
+  const handleConnect = (address: string) => {
     setUserAddress(address);
     setIsConnected(true);
-    setBalance(bal);
   };
 
   const handleDisconnect = () => {
     setIsConnected(false);
     setUserAddress("");
-    setBalance(0);
   };
 
   const handleTransactionSuccess = () => {
@@ -47,26 +31,43 @@ export default function Home() {
     }, 2000);
   };
 
-  const scrollToWallet = () => {
-    const walletSection = document.getElementById('wallet-section');
-    walletSection?.scrollIntoView({ behavior: 'smooth' });
-  };
+  const features = [
+    {
+      icon: Shield,
+      title: "Bitcoin Security",
+      description: "Built on Stacks, inheriting Bitcoin's unmatched security model"
+    },
+    {
+      icon: TrendingUp,
+      title: "Guaranteed Returns",
+      description: "Earn predictable yields on your locked STX tokens"
+    },
+    {
+      icon: Award,
+      title: "NFT Achievements",
+      description: "Collect unique badges as proof of your saving milestones"
+    },
+    {
+      icon: PiggyBank,
+      title: "Smart Contracts",
+      description: "Transparent, auditable, and non-custodial savings protocol"
+    }
+  ];
+
+  const stats = [
+    { label: "Total Value Locked", value: "1.2M STX" },
+    { label: "Active Savers", value: "2,847" },
+    { label: "Badges Earned", value: "1,234" },
+    { label: "Average APY", value: "12.5%" }
+  ];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-background to-muted/20">
-      {/* Navigation */}
-      <motion.nav
-        initial={{ y: -100, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.6 }}
-        className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50"
-      >
+      {/* Header */}
+      <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
         <div className="container mx-auto px-6 py-4">
-          <div className="flex justify-between items-center">
-            <motion.div
-              className="flex items-center gap-3"
-              whileHover={{ scale: 1.02 }}
-            >
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
               <div className="relative">
                 <PiggyBank className="h-8 w-8 text-primary" />
                 <Bitcoin className="h-4 w-4 text-orange-500 absolute -top-1 -right-1" />
@@ -77,208 +78,145 @@ export default function Home() {
                 </h1>
                 <p className="text-xs text-muted-foreground">Bitcoin-Powered Savings</p>
               </div>
-            </motion.div>
-            
-            <div className="flex items-center gap-4">
-              {userAddress && (
-                <a
-                  href={EXPLORER_URLS.address(userAddress)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-muted-foreground hover:text-primary flex items-center gap-1 transition-colors"
-                >
-                  <ExternalLink className="h-3 w-3" />
-                  Explorer
-                </a>
-              )}
-              <ThemeToggle />
             </div>
+            
+            <Badge variant="secondary" className="hidden sm:flex">
+              🟢 Live on Testnet
+            </Badge>
           </div>
         </div>
-      </motion.nav>
+      </header>
 
       {/* Hero Section */}
-      <HeroSection onGetStarted={scrollToWallet} isConnected={isConnected} />
+      <section className="py-20 px-6">
+        <div className="container mx-auto text-center max-w-4xl">
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full mb-8">
+            <Sparkles className="h-4 w-4 text-primary" />
+            <span className="text-sm font-medium text-primary">
+              Decentralized Savings Protocol
+            </span>
+          </div>
+          
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
+            Your Bitcoin-Secured
+            <br />
+            <span className="text-primary">Savings Vault</span>
+          </h1>
+          
+          <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
+            Lock STX tokens, earn guaranteed returns, and build your on-chain reputation. 
+            Experience the future of decentralized savings.
+          </p>
 
-      {/* Stats Section */}
-      <StatsSection />
+          {/* Stats */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+            {stats.map((stat, index) => (
+              <Card key={index} className="p-4 text-center">
+                <CardContent className="p-0">
+                  <div className="text-2xl font-bold text-primary mb-1">{stat.value}</div>
+                  <div className="text-sm text-muted-foreground">{stat.label}</div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
 
-      {/* Features Showcase */}
-      <FeaturesShowcase />
+      {/* Features */}
+      <section className="py-16 px-6 bg-muted/30">
+        <div className="container mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4">Why Choose BitSave?</h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Experience the future of decentralized savings with our innovative features
+            </p>
+          </div>
 
-      {/* Wallet Connection Section */}
-      <section id="wallet-section" className="py-20 bg-white dark:bg-slate-900">
-        <div className="container mx-auto px-6">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900 dark:text-white">
-              {isConnected ? "Your Savings Dashboard" : "Connect Your Wallet"}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {features.map((feature, index) => (
+              <Card key={index} className="p-6 text-center hover:shadow-lg transition-shadow">
+                <CardContent className="p-0">
+                  <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mx-auto mb-4">
+                    <feature.icon className="h-6 w-6 text-primary" />
+                  </div>
+                  <h3 className="text-lg font-semibold mb-2">{feature.title}</h3>
+                  <p className="text-sm text-muted-foreground">{feature.description}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Main App */}
+      <section className="py-20 px-6">
+        <div className="container mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4">
+              {isConnected ? "Your Savings Dashboard" : "Get Started"}
             </h2>
-            <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
+            <p className="text-lg text-muted-foreground">
               {isConnected 
                 ? "Manage your deposits, track rewards, and monitor your reputation" 
-                : "Connect your Stacks wallet to start saving and earning rewards"
+                : "Connect your wallet to start saving and earning rewards"
               }
             </p>
-          </motion.div>
+          </div>
 
           {/* Wallet Connection */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
-            className="flex justify-center mb-12"
-          >
-            <WalletConnectV2 onConnect={handleConnect} onDisconnect={handleDisconnect} />
-          </motion.div>
+          <div className="flex justify-center mb-12">
+            <WalletConnect onConnect={handleConnect} onDisconnect={handleDisconnect} />
+          </div>
 
-          {/* Dashboard - Only show when connected */}
+          {/* Dashboard */}
           {isConnected && (
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.4 }}
-              className="grid grid-cols-1 xl:grid-cols-3 gap-8"
-            >
-              {/* Forms Column */}
+            <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
+              {/* Forms */}
               <div className="xl:col-span-2 space-y-8">
-                <DepositFormV2 
+                <DepositForm 
                   userAddress={userAddress}
                   isConnected={isConnected}
                   onSuccess={handleTransactionSuccess}
                 />
-                <WithdrawFormV2
+                <WithdrawForm
                   userAddress={userAddress}
                   isConnected={isConnected}
                   onSuccess={handleTransactionSuccess}
                 />
               </div>
 
-              {/* Reputation Column */}
+              {/* Reputation */}
               <div key={refreshKey} className="xl:col-span-1">
-                <ReputationDashboardV2
+                <ReputationDashboard
                   userAddress={userAddress}
                   isConnected={isConnected}
                 />
               </div>
-            </motion.div>
+            </div>
           )}
         </div>
       </section>
 
       {/* Badge Showcase */}
-      <section className="py-20 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-950/30 dark:to-purple-950/30">
-        <div className="container mx-auto px-6">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-          >
-            <BadgeDisplay />
-          </motion.div>
+      <section className="py-16 px-6 bg-muted/30">
+        <div className="container mx-auto">
+          <BadgeShowcase />
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900">
-        <div className="container mx-auto px-6 py-16">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            {/* Brand */}
-            <div className="space-y-4">
-              <div className="flex items-center gap-2">
-                <PiggyBank className="h-6 w-6 text-blue-600 dark:text-blue-400" />
-                <span className="text-lg font-semibold text-slate-900 dark:text-white">BitSave</span>
-              </div>
-              <p className="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
-                Secure, decentralized savings powered by Bitcoin's security through the Stacks blockchain.
-              </p>
-              <div className="flex gap-4">
-                <a href="#" className="text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-                  <Twitter className="h-5 w-5" />
-                </a>
-                <a href="#" className="text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-                  <Github className="h-5 w-5" />
-                </a>
-                <a href="#" className="text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-                  <MessageCircle className="h-5 w-5" />
-                </a>
-              </div>
-            </div>
-
-            {/* Product */}
-            <div className="space-y-4">
-              <h3 className="font-semibold text-slate-900 dark:text-white">Product</h3>
-              <ul className="space-y-2 text-sm">
-                <li><a href="#" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Features</a></li>
-                <li><a href="#" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Security</a></li>
-                <li><a href="#" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Roadmap</a></li>
-                <li><a href="#" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Pricing</a></li>
-              </ul>
-            </div>
-
-            {/* Resources */}
-            <div className="space-y-4">
-              <h3 className="font-semibold text-slate-900 dark:text-white">Resources</h3>
-              <ul className="space-y-2 text-sm">
-                <li><a href="#" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Documentation</a></li>
-                <li><a href="#" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">API Reference</a></li>
-                <li><a href="#" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Tutorials</a></li>
-                <li><a href="#" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Support</a></li>
-              </ul>
-            </div>
-
-            {/* Links */}
-            <div className="space-y-4">
-              <h3 className="font-semibold text-slate-900 dark:text-white">Blockchain</h3>
-              <ul className="space-y-2 text-sm">
-                <li>
-                  <a 
-                    href="https://explorer.hiro.so/?chain=testnet" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                  >
-                    Testnet Explorer
-                  </a>
-                </li>
-                <li>
-                  <a 
-                    href={EXPLORER_URLS.contract("ST2QR5BT57BTVQM69ZFQBMW3BH7KDN3FX56H02TEW.bitsave")}
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                  >
-                    Smart Contract
-                  </a>
-                </li>
-                <li><a href="#" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Audit Report</a></li>
-                <li><a href="#" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Bug Bounty</a></li>
-              </ul>
-            </div>
+      <footer className="border-t bg-background py-12 px-6">
+        <div className="container mx-auto text-center">
+          <div className="flex justify-center items-center gap-2 mb-4">
+            <PiggyBank className="h-6 w-6 text-primary" />
+            <span className="text-lg font-semibold">BitSave</span>
           </div>
-
-          <div className="pt-8 mt-8 border-t border-slate-200 dark:border-slate-800">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-              <p className="text-sm text-slate-500 dark:text-slate-400">
-                © 2024 BitSave. Built with ❤️ on Stacks • Secured by Bitcoin
-              </p>
-              <div className="flex gap-6 text-sm">
-                <a href="#" className="text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-300 transition-colors">
-                  Privacy Policy
-                </a>
-                <a href="#" className="text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-300 transition-colors">
-                  Terms of Service
-                </a>
-              </div>
-            </div>
-          </div>
+          <p className="text-muted-foreground mb-4">
+            Secure, decentralized savings powered by Bitcoin's security
+          </p>
+          <p className="text-xs text-muted-foreground">
+            Built with ❤️ on Stacks • Secured by Bitcoin
+          </p>
         </div>
       </footer>
     </div>
