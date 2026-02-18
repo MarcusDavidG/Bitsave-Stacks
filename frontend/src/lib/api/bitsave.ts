@@ -1,13 +1,13 @@
 import { callReadOnlyFunction, cvToValue } from '@stacks/transactions';
 import { StacksTestnet } from '@stacks/network';
-import { CONTRACTS } from './contracts';
+import { BITSAVE_CONTRACT } from '../constants';
 import type { SavingsInfo, ReputationInfo } from '@/types/contracts';
 
 const network = new StacksTestnet();
 
 export async function getSavings(userAddress: string): Promise<SavingsInfo | null> {
   try {
-    const [contractAddress, contractName] = CONTRACTS.BITSAVE.split('.');
+    const [contractAddress, contractName] = BITSAVE_CONTRACT.split('.');
     const result = await callReadOnlyFunction({
       network,
       contractAddress,
@@ -25,7 +25,7 @@ export async function getSavings(userAddress: string): Promise<SavingsInfo | nul
 
 export async function getReputation(userAddress: string): Promise<ReputationInfo | null> {
   try {
-    const [contractAddress, contractName] = CONTRACTS.BITSAVE.split('.');
+    const [contractAddress, contractName] = BITSAVE_CONTRACT.split('.');
     const result = await callReadOnlyFunction({
       network,
       contractAddress,
