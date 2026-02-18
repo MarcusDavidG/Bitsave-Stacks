@@ -1,12 +1,25 @@
 'use client';
 
-import { Card } from '@/components/ui/card';
+import { ReactNode } from 'react';
+import { cn } from '@/lib/utils';
 
-export function MobileLayout() {
+interface MobileLayoutProps {
+  children: ReactNode;
+  className?: string;
+}
+
+export function MobileLayout({ children, className }: MobileLayoutProps) {
   return (
-    <Card className="p-4">
-      <h3 className="font-semibold">Mobile Layout</h3>
-      <p className="text-sm text-muted-foreground mt-2">Ready for integration</p>
-    </Card>
+    <div className={cn(
+      "min-h-screen bg-gray-50",
+      "px-4 py-6 md:px-6 md:py-8",
+      "max-w-md mx-auto md:max-w-none",
+      className
+    )}>
+      {/* Mobile-optimized spacing and layout */}
+      <div className="space-y-6">
+        {children}
+      </div>
+    </div>
   );
 }
