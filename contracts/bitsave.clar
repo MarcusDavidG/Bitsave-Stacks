@@ -7,6 +7,19 @@
 (define-data-var admin principal tx-sender)
 (define-data-var contract-paused bool false)
 
+;; Security features
+(define-data-var reentrancy-guard bool false)
+(define-data-var max-lock-period uint u525600) ;; ~10 years max lock
+(define-data-var min-lock-period uint u144) ;; 1 day minimum lock
+
+;; Rate limiting for admin functions
+(define-map admin-action-timestamps
+  { admin: principal, action: (string-ascii 20) }
+  { last-timestamp: uint }
+)
+
+(define-data-var admin-rate-limit uint u144) ;; 1 day between admin actions
+
 ;; Each user's savings info
 (define-map savings
   { user: principal }
@@ -100,6 +113,83 @@
 (define-constant ERR_BELOW_MINIMUM (err u107))
 (define-constant ERR_EXCEEDS_MAXIMUM (err u108))
 (define-constant ERR_WITHDRAWAL_COOLDOWN (err u109))
+(define-constant ERR_INVALID_LOCK_PERIOD (err u110))
+(define-constant ERR_REENTRANCY_GUARD (err u111))
+(define-constant ERR_OVERFLOW_PROTECTION (err u112))
+(define-constant ERR_INVALID_PRINCIPAL (err u113))
+(define-constant ERR_RATE_LIMIT_EXCEEDED (err u114))
+
+;; -----------------------------------------------------------
+;; Security Functions
+;; -----------------------------------------------------------
+
+;; Reentrancy protection
+(define-private (check-reentrancy)
+  (begin
+    (asserts! (not (var-get reentrancy-guard)) ERR_REENTRANCY_GUARD)
+    (var-set reentrancy-guard true)
+    true
+  )
+)
+
+(define-private (clear-reentrancy)
+  (var-set reentrancy-guard false)
+)
+
+;; Input validation
+(define-private (validate-principal (user principal))
+  (not (is-eq user 'SP000000000000000000002Q6VF78))
+)
+
+(define-private (validate-amount (amount uint))
+  (and 
+    (> amount u0)
+    (< amount u340282366920938463463374607431768211455) ;; Max uint128
+  )
+)
+
+(define-private (validate-lock-period (lock-period uint))
+  (and
+    (>= lock-period (var-get min-lock-period))
+    (<= lock-period (var-get max-lock-period))
+  )
+)
+
+;; Admin rate limiting
+(define-private (check-admin-rate-limit (action (string-ascii 20)))
+  (let
+    (
+      (last-action (map-get? admin-action-timestamps { admin: tx-sender, action: action }))
+      (current-time stacks-block-height)
+      (rate-limit (var-get admin-rate-limit))
+    )
+    (match last-action
+      timestamp-data
+      (let
+        (
+          (time-diff (- current-time (get last-timestamp timestamp-data)))
+        )
+        (if (>= time-diff rate-limit)
+          (begin
+            (map-set admin-action-timestamps 
+              { admin: tx-sender, action: action }
+              { last-timestamp: current-time }
+            )
+            true
+          )
+          false
+        )
+      )
+      (begin
+        (map-set admin-action-timestamps 
+          { admin: tx-sender, action: action }
+          { last-timestamp: current-time }
+        )
+        true
+      )
+    )
+  )
+)
 
 ;; -----------------------------------------------------------
 ;; Utility Functions
@@ -209,11 +299,16 @@
       (existing (map-get? savings { user: tx-sender }))
     )
     (begin
+      ;; Security checks
+      (check-reentrancy)
       (asserts! (is-contract-active) ERR_CONTRACT_PAUSED)
-      (asserts! (> amount u0) ERR_NO_AMOUNT)
+      (asserts! (validate-principal tx-sender) ERR_INVALID_PRINCIPAL)
+      (asserts! (validate-amount amount) ERR_NO_AMOUNT)
+      (asserts! (validate-lock-period lock-period) ERR_INVALID_LOCK_PERIOD)
       (asserts! (>= amount (var-get minimum-deposit)) ERR_BELOW_MINIMUM)
       (asserts! (<= amount (var-get max-deposit-per-user)) ERR_EXCEEDS_MAXIMUM)
       (asserts! (is-none existing) ERR_ALREADY_DEPOSITED)
+      
       (let ((unlock (+ stacks-block-height lock-period)))
         (try! (stx-transfer? amount tx-sender (as-contract tx-sender)))
         
@@ -268,6 +363,9 @@
         
         ;; Log deposit event
         (log-event "deposit" tx-sender amount (concat u"Lock period: " (int-to-utf8 (to-int lock-period))))
+        
+        ;; Clear reentrancy guard
+        (clear-reentrancy)
         
         (ok (tuple (amount amount) (unlock-block unlock) (goal goal-amount)))
       )
