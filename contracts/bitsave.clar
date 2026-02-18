@@ -206,8 +206,148 @@
 )
 
 ;; -----------------------------------------------------------
-;; Security Functions
+;; CONTRACT UPGRADE MECHANISM
 ;; -----------------------------------------------------------
+
+;; Contract versioning
+(define-data-var contract-version uint u200) ;; Version 2.0.0
+(define-data-var upgrade-authorized bool false)
+(define-data-var migration-in-progress bool false)
+
+;; Future contract address for upgrades
+(define-data-var next-contract-version (optional principal) none)
+
+;; Migration data for contract upgrades
+(define-map migration-data
+  { user: principal }
+  {
+    migrated: bool,
+    migration-block: uint,
+    old-amount: uint,
+    new-contract: principal
+  }
+)
+
+;; Upgrade authorization (only admin can authorize)
+(define-public (authorize-upgrade (new-contract principal))
+  (begin
+    (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
+    (asserts! (check-admin-rate-limit "upgrade") ERR_RATE_LIMIT_EXCEEDED)
+    (var-set next-contract-version (some new-contract))
+    (var-set upgrade-authorized true)
+    (log-event "upgrade-authorized" tx-sender u0 u"New contract authorized")
+    (ok new-contract)
+  )
+)
+
+;; Start migration process
+(define-public (start-migration)
+  (begin
+    (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
+    (asserts! (var-get upgrade-authorized) ERR_NOT_AUTHORIZED)
+    (asserts! (not (var-get migration-in-progress)) ERR_NOT_AUTHORIZED)
+    (var-set migration-in-progress true)
+    (log-event "migration-started" tx-sender u0 u"Contract migration initiated")
+    (ok true)
+  )
+)
+
+;; User migration function (allows users to migrate their data)
+(define-public (migrate-user-data)
+  (let
+    (
+      (user-savings (map-get? savings { user: tx-sender }))
+      (next-contract (var-get next-contract-version))
+    )
+    (begin
+      (asserts! (var-get migration-in-progress) ERR_NOT_AUTHORIZED)
+      (asserts! (is-some next-contract) ERR_NOT_AUTHORIZED)
+      (asserts! (is-some user-savings) ERR_NO_DEPOSIT)
+      
+      (let
+        (
+          (savings-data (unwrap-panic user-savings))
+          (amount (get amount savings-data))
+        )
+        ;; Mark user as migrated
+        (map-set migration-data
+          { user: tx-sender }
+          {
+            migrated: true,
+            migration-block: stacks-block-height,
+            old-amount: amount,
+            new-contract: (unwrap-panic next-contract)
+          }
+        )
+        
+        ;; Transfer funds to new contract (simplified - in practice would need more complex logic)
+        (try! (as-contract (stx-transfer? amount tx-sender (unwrap-panic next-contract))))
+        
+        ;; Clear old savings data
+        (map-delete savings { user: tx-sender })
+        
+        (log-event "user-migrated" tx-sender amount u"User data migrated to new contract")
+        (ok true)
+      )
+    )
+  )
+)
+
+;; Get contract version and upgrade status
+(define-read-only (get-contract-info)
+  (ok (tuple
+    (version (var-get contract-version))
+    (upgrade-authorized (var-get upgrade-authorized))
+    (migration-in-progress (var-get migration-in-progress))
+    (next-contract (var-get next-contract-version))
+  ))
+)
+
+;; Check if user has migrated
+(define-read-only (get-migration-status (user principal))
+  (match (map-get? migration-data { user: user })
+    migration-info (ok (some migration-info))
+    (ok none)
+  )
+)
+
+;; -----------------------------------------------------------
+;; EMERGENCY FUNCTIONS
+;; -----------------------------------------------------------
+
+;; Emergency pause with reason
+(define-public (emergency-pause (reason (string-utf8 200)))
+  (begin
+    (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
+    (var-set contract-paused true)
+    (log-event "emergency-pause" tx-sender u0 reason)
+    (ok true)
+  )
+)
+
+;; Emergency fund recovery (only when paused and authorized)
+(define-public (emergency-recover-funds (recipient principal) (amount uint))
+  (begin
+    (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
+    (asserts! (var-get contract-paused) ERR_NOT_AUTHORIZED)
+    (asserts! (check-admin-rate-limit "emergency") ERR_RATE_LIMIT_EXCEEDED)
+    (try! (as-contract (stx-transfer? amount tx-sender recipient)))
+    (log-event "emergency-recovery" recipient amount u"Emergency fund recovery")
+    (ok amount)
+  )
+)
+
+;; Transfer admin role (with confirmation)
+(define-public (transfer-admin (new-admin principal))
+  (begin
+    (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
+    (asserts! (validate-principal new-admin) ERR_INVALID_PRINCIPAL)
+    (asserts! (check-admin-rate-limit "admin-transfer") ERR_RATE_LIMIT_EXCEEDED)
+    (var-set admin new-admin)
+    (log-event "admin-transferred" new-admin u0 u"Admin role transferred")
+    (ok new-admin)
+  )
+)
 
 ;; Reentrancy protection
 (define-private (check-reentrancy)
