@@ -1,18 +1,45 @@
 ;; -----------------------------------------------------------
 ;; BitSave: Bitcoin-powered STX savings vault
 ;; Author: Marcus David
+;; Version: 2.0.0
 ;; Description: Users can lock STX for a chosen duration and earn reputation points.
+;; 
+;; Features:
+;; - Time-locked STX deposits with configurable periods
+;; - Compound interest calculations with time-based multipliers
+;; - Reputation system with streak tracking
+;; - Automatic NFT badge minting for loyal savers
+;; - Admin controls with rate limiting
+;; - Comprehensive security features and error handling
+;; - Gas-optimized functions for cost efficiency
+;; 
+;; Security Features:
+;; - Reentrancy protection
+;; - Input validation and overflow protection
+;; - Admin rate limiting
+;; - Emergency pause functionality
+;; - Principal validation
+;; 
+;; Integration:
+;; - Works with bitsave-badges.clar for NFT rewards
+;; - Compatible with Stacks wallets
+;; - Supports batch operations for efficiency
 ;; -----------------------------------------------------------
 
-(define-data-var admin principal tx-sender)
-(define-data-var contract-paused bool false)
+;; -----------------------------------------------------------
+;; DATA VARIABLES AND MAPS
+;; -----------------------------------------------------------
+
+;; Contract administration
+(define-data-var admin principal tx-sender) ;; Contract administrator
+(define-data-var contract-paused bool false) ;; Emergency pause state
 
 ;; Security features
-(define-data-var reentrancy-guard bool false)
-(define-data-var max-lock-period uint u525600) ;; ~10 years max lock
-(define-data-var min-lock-period uint u144) ;; 1 day minimum lock
+(define-data-var reentrancy-guard bool false) ;; Prevents recursive calls
+(define-data-var max-lock-period uint u525600) ;; Maximum lock: ~10 years
+(define-data-var min-lock-period uint u144) ;; Minimum lock: 1 day
 
-;; Rate limiting for admin functions
+;; Rate limiting for admin functions (prevents spam/abuse)
 (define-map admin-action-timestamps
   { admin: principal, action: (string-ascii 20) }
   { last-timestamp: uint }
@@ -20,67 +47,76 @@
 
 (define-data-var admin-rate-limit uint u144) ;; 1 day between admin actions
 
-;; Each user's savings info
+;; Core savings data - tracks each user's locked STX
+;; Only one active deposit per user to simplify logic
 (define-map savings
   { user: principal }
   {
-    amount: uint,
-    unlock-height: uint,
-    claimed: bool,
-    goal-amount: uint,
-    goal-description: (string-utf8 100)
+    amount: uint,                    ;; STX amount in microSTX
+    unlock-height: uint,             ;; Block height when funds unlock
+    claimed: bool,                   ;; Whether funds have been withdrawn
+    goal-amount: uint,               ;; Optional savings goal
+    goal-description: (string-utf8 100) ;; Goal description for motivation
   }
 )
 
-;; Reputation points for loyal savers
+;; Reputation system - tracks user loyalty and streaks
+;; Points earned on successful withdrawals, used for badge eligibility
 (define-map reputation
   { user: principal }
   {
-    points: int,
-    current-streak: uint,
-    longest-streak: uint,
-    last-deposit-block: uint
+    points: int,                     ;; Total reputation points earned
+    current-streak: uint,            ;; Current consecutive deposit streak
+    longest-streak: uint,            ;; Longest streak achieved
+    last-deposit-block: uint         ;; Last deposit block for streak calculation
   }
 )
 
-;; Annual reward rate (e.g. 10 = 10%)
-(define-data-var reward-rate uint u10)
-(define-data-var compound-frequency uint u12) ;; Monthly compounding by default
-(define-data-var minimum-deposit uint u1000000) ;; 1 STX minimum (in microSTX)
+;; -----------------------------------------------------------
+;; CONFIGURATION VARIABLES
+;; -----------------------------------------------------------
+
+;; Reward system configuration
+(define-data-var reward-rate uint u10)           ;; Annual reward rate (10 = 10%)
+(define-data-var compound-frequency uint u12)    ;; Compounding frequency (12 = monthly)
+(define-data-var minimum-deposit uint u1000000)  ;; 1 STX minimum (in microSTX)
 (define-data-var early-withdrawal-penalty uint u20) ;; 20% penalty for early withdrawal
 (define-data-var max-deposit-per-user uint u100000000000) ;; 100,000 STX max per user
-(define-data-var withdrawal-cooldown uint u144) ;; 1 day cooldown between withdrawals
+(define-data-var withdrawal-cooldown uint u144)  ;; 1 day cooldown between withdrawals
 
 ;; Time-based reward multipliers (basis points: 10000 = 1x)
+;; Longer lock periods earn higher multipliers
 (define-map time-multipliers
   { min-blocks: uint }
   { multiplier: uint }
 )
 
-;; Deposit history tracking
+;; Deposit history tracking - maintains audit trail
+;; Supports multiple deposits per user over time
 (define-map deposit-history
   { user: principal, deposit-id: uint }
   {
-    amount: uint,
-    timestamp: uint,
-    lock-period: uint,
-    goal-amount: uint,
-    status: (string-ascii 20)
+    amount: uint,                    ;; Deposit amount in microSTX
+    timestamp: uint,                 ;; Block height of deposit
+    lock-period: uint,               ;; Lock duration in blocks
+    goal-amount: uint,               ;; Associated savings goal
+    status: (string-ascii 20)        ;; Status: active, withdrawn-early, withdrawn-mature
   }
 )
 
+;; Counter for user deposits
 (define-map user-deposit-count
   { user: principal }
   { count: uint }
 )
 
-;; Track last withdrawal timestamp for cooldown
+;; Track last withdrawal timestamp for cooldown enforcement
 (define-map last-withdrawal
   { user: principal }
   { block-height: uint }
 )
 
-;; Interest rate history
+;; Interest rate change history for transparency
 (define-map rate-history
   { timestamp: uint }
   { rate: uint, admin: principal }
@@ -88,15 +124,15 @@
 
 (define-data-var rate-history-count uint u0)
 
-;; Contract events for logging
+;; Contract events for comprehensive logging and audit trail
 (define-map contract-events
   { event-id: uint }
   {
-    event-type: (string-ascii 20),
-    user: principal,
-    amount: uint,
-    timestamp: uint,
-    data: (string-utf8 200)
+    event-type: (string-ascii 20),   ;; Event type: deposit, withdrawal, rate-change, etc.
+    user: principal,                 ;; User involved in event
+    amount: uint,                    ;; Amount involved (if applicable)
+    timestamp: uint,                 ;; Block height of event
+    data: (string-utf8 200)          ;; Additional event data
   }
 )
 
