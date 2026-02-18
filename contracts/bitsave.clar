@@ -102,6 +102,37 @@
 
 (define-data-var event-counter uint u0)
 
+;; Enhanced error handling with detailed error messages
+(define-map error-messages
+  { error-code: uint }
+  { message: (string-utf8 100) }
+)
+
+;; Initialize error messages
+(map-set error-messages { error-code: u100 } { message: u"Amount must be greater than zero" })
+(map-set error-messages { error-code: u101 } { message: u"User already has an active deposit" })
+(map-set error-messages { error-code: u102 } { message: u"Funds have already been withdrawn" })
+(map-set error-messages { error-code: u103 } { message: u"Lock period is still active" })
+(map-set error-messages { error-code: u104 } { message: u"No deposit found for this user" })
+(map-set error-messages { error-code: u105 } { message: u"Unauthorized: admin access required" })
+(map-set error-messages { error-code: u106 } { message: u"Contract is currently paused" })
+(map-set error-messages { error-code: u107 } { message: u"Amount below minimum deposit requirement" })
+(map-set error-messages { error-code: u108 } { message: u"Amount exceeds maximum deposit limit" })
+(map-set error-messages { error-code: u109 } { message: u"Withdrawal cooldown period active" })
+(map-set error-messages { error-code: u110 } { message: u"Invalid lock period: outside allowed range" })
+(map-set error-messages { error-code: u111 } { message: u"Reentrancy detected: operation blocked" })
+(map-set error-messages { error-code: u112 } { message: u"Overflow protection: value too large" })
+(map-set error-messages { error-code: u113 } { message: u"Invalid principal address" })
+(map-set error-messages { error-code: u114 } { message: u"Rate limit exceeded for admin action" })
+
+;; Function to get error message
+(define-read-only (get-error-message (error-code uint))
+  (match (map-get? error-messages { error-code: error-code })
+    message-data (ok (get message message-data))
+    (ok u"Unknown error")
+  )
+)
+
 ;; Error codes
 (define-constant ERR_NO_AMOUNT (err u100))
 (define-constant ERR_ALREADY_DEPOSITED (err u101))
@@ -118,6 +149,25 @@
 (define-constant ERR_OVERFLOW_PROTECTION (err u112))
 (define-constant ERR_INVALID_PRINCIPAL (err u113))
 (define-constant ERR_RATE_LIMIT_EXCEEDED (err u114))
+
+;; Edge case handling functions
+(define-private (handle-edge-case-deposit (amount uint) (lock-period uint))
+  (let
+    (
+      (total-supply (stx-get-balance (as-contract tx-sender)))
+      (user-balance (stx-get-balance tx-sender))
+    )
+    (begin
+      ;; Check for potential overflow in calculations
+      (asserts! (< amount u340282366920938463463374607431768211455) ERR_OVERFLOW_PROTECTION)
+      ;; Ensure user has sufficient balance
+      (asserts! (>= user-balance amount) ERR_NO_AMOUNT)
+      ;; Check for reasonable lock period (not too far in future)
+      (asserts! (< (+ stacks-block-height lock-period) u4294967295) ERR_OVERFLOW_PROTECTION)
+      true
+    )
+  )
+)
 
 ;; -----------------------------------------------------------
 ;; Security Functions
@@ -297,6 +347,9 @@
       (asserts! (>= amount (var-get minimum-deposit)) ERR_BELOW_MINIMUM)
       (asserts! (<= amount (var-get max-deposit-per-user)) ERR_EXCEEDS_MAXIMUM)
       (asserts! (is-none existing) ERR_ALREADY_DEPOSITED)
+      
+      ;; Edge case handling
+      (handle-edge-case-deposit amount lock-period)
       
       (let ((unlock (+ stacks-block-height lock-period)))
         (try! (stx-transfer? amount tx-sender (as-contract tx-sender)))
