@@ -188,20 +188,13 @@
 
 ;; Edge case handling functions
 (define-private (handle-edge-case-deposit (amount uint) (lock-period uint))
-  (let
-    (
-      (total-supply (stx-get-balance (as-contract tx-sender)))
-      (user-balance (stx-get-balance tx-sender))
-    )
-    (begin
-      ;; Check for potential overflow in calculations
-      (asserts! (< amount u340282366920938463463374607431768211455) ERR_OVERFLOW_PROTECTION)
-      ;; Ensure user has sufficient balance
-      (asserts! (>= user-balance amount) ERR_NO_AMOUNT)
-      ;; Check for reasonable lock period (not too far in future)
-      (asserts! (< (+ stacks-block-height lock-period) u4294967295) ERR_OVERFLOW_PROTECTION)
-      true
-    )
+  (and
+    ;; Check for potential overflow in calculations
+    (< amount u340282366920938463463374607431768211455)
+    ;; Ensure user has sufficient balance
+    (>= (stx-get-balance tx-sender) amount)
+    ;; Check for reasonable lock period (not too far in future)
+    (< (+ stacks-block-height lock-period) u4294967295)
   )
 )
 
@@ -434,10 +427,12 @@
 
 ;; Reentrancy protection
 (define-private (check-reentrancy)
-  (begin
-    (asserts! (not (var-get reentrancy-guard)) ERR_REENTRANCY_GUARD)
-    (var-set reentrancy-guard true)
-    true
+  (if (var-get reentrancy-guard)
+    false
+    (begin
+      (var-set reentrancy-guard true)
+      true
+    )
   )
 )
 
@@ -501,7 +496,8 @@
 )
 
 ;; -----------------------------------------------------------
-;; Utility Functions
+;; -----------------------------------------------------------
+;; UTILITY FUNCTIONS
 ;; -----------------------------------------------------------
 
 (define-private (is-admin (sender principal))
@@ -531,17 +527,6 @@
     )
     (var-set event-counter new-counter)
     true
-  )
-)
-
-;; Gas-optimized helper function to convert int to utf8 string
-(define-private (int-to-utf8 (value int))
-  (if (< value 0)
-    u"-"
-    (if (< value 10)
-      (unwrap-panic (element-at (list u"0" u"1" u"2" u"3" u"4" u"5" u"6" u"7" u"8" u"9") (to-uint value)))
-      u"10+"
-    )
   )
 )
 
@@ -598,7 +583,7 @@
     )
     (begin
       ;; Security checks
-      (check-reentrancy)
+      (asserts! (check-reentrancy) ERR_REENTRANCY_GUARD)
       (asserts! (is-contract-active) ERR_CONTRACT_PAUSED)
       (asserts! (validate-principal tx-sender) ERR_INVALID_PRINCIPAL)
       (asserts! (validate-amount amount) ERR_NO_AMOUNT)
@@ -608,7 +593,7 @@
       (asserts! (is-none existing) ERR_ALREADY_DEPOSITED)
       
       ;; Edge case handling
-      (handle-edge-case-deposit amount lock-period)
+      (asserts! (handle-edge-case-deposit amount lock-period) ERR_OVERFLOW_PROTECTION)
       
       (let ((unlock (+ stacks-block-height lock-period)))
         (try! (stx-transfer? amount tx-sender (as-contract tx-sender)))
@@ -663,14 +648,23 @@
         )
         
         ;; Log deposit event
-        (log-event "deposit" tx-sender amount (concat u"Lock period: " (int-to-utf8 (to-int lock-period))))
+        (log-event "deposit" tx-sender amount u"Deposit successful")
         
         ;; Update statistics
         (update-stat "total-deposits" u1)
         (update-stat "total-volume" amount)
-        (if (is-eq (get current-streak current-rep) u1) ;; New user
-          (update-stat "total-users" u1)
-          true
+        ;; Check if this is a new user (simplified check)
+        (let
+          (
+            (existing-rep (map-get? reputation { user: tx-sender }))
+          )
+          (begin
+            (if (is-none existing-rep)
+              (update-stat "total-users" u1)
+              u0
+            )
+            true
+          )
         )
         
         ;; Clear reentrancy guard
@@ -717,7 +711,7 @@
               (map-get? reputation { user: tx-sender })
             ))
             ;; Streak bonus: 10% extra points per streak level (max 100% bonus)
-            (streak-bonus (min (* (get current-streak current-rep) 10) 100))
+            (streak-bonus (if (> (* (get current-streak current-rep) u10) u100) u100 (* (get current-streak current-rep) u10)))
             (streak-multiplied-reward (+ final-reward (/ (* final-reward (to-int streak-bonus)) 100)))
           )
           ;; Update reputation points (no points for early withdrawal)
@@ -786,13 +780,16 @@
             (if is-early "early-withdrawal" "withdrawal")
             tx-sender 
             final-amount 
-            (concat u"Penalty: " (int-to-utf8 (to-int penalty-amount)))
+            u"Withdrawal completed"
           )
           
           ;; Update statistics
           (update-stat "total-withdrawals" u1)
-          (if (not is-early)
-            (update-stat "total-rewards-paid" (to-uint final-reward))
+          (begin
+            (if (not is-early)
+              (update-stat "total-rewards-paid" (to-uint final-reward))
+              u0
+            )
             true
           )
           
@@ -991,14 +988,14 @@
 
 (define-read-only (get-savings-goal (user principal))
   (match (map-get? savings { user: user })
-    savings-data (ok (tuple 
+    savings-data (ok (some (tuple 
       (goal-amount (get goal-amount savings-data))
       (goal-description (get goal-description savings-data))
       (current-amount (get amount savings-data))
       (progress-percent (if (> (get goal-amount savings-data) u0)
         (/ (* (get amount savings-data) u100) (get goal-amount savings-data))
         u0))
-    ))
+    )))
     (ok none)
   )
 )
@@ -1020,30 +1017,11 @@
   (let
     (
       (total-count (get count (default-to { count: u0 } (map-get? user-deposit-count { user: user }))))
-      (start-id (if (> total-count limit) (- total-count limit) u1))
     )
     (ok (tuple
       (total-deposits total-count)
-      (history (get-deposit-range user start-id total-count))
+      (latest-deposit (map-get? deposit-history { user: user, deposit-id: total-count }))
     ))
-  )
-)
-
-(define-private (get-deposit-range (user principal) (start-id uint) (end-id uint))
-  (if (<= start-id end-id)
-    (let
-      (
-        (current-deposit (map-get? deposit-history { user: user, deposit-id: start-id }))
-      )
-      (unwrap-panic (as-max-len? 
-        (append 
-          (get-deposit-range user (+ start-id u1) end-id)
-          (list current-deposit)
-        ) 
-        u50
-      ))
-    )
-    (list)
   )
 )
 
@@ -1063,31 +1041,12 @@
   (let
     (
       (total-count (var-get rate-history-count))
-      (start-timestamp (if (> total-count limit) (- total-count limit) u1))
     )
     (ok (tuple
       (total-changes total-count)
       (current-rate (var-get reward-rate))
-      (history (get-rate-range start-timestamp total-count))
+      (latest-change (map-get? rate-history { timestamp: total-count }))
     ))
-  )
-)
-
-(define-private (get-rate-range (start uint) (end uint))
-  (if (<= start end)
-    (let
-      (
-        (current-rate (map-get? rate-history { timestamp: start }))
-      )
-      (unwrap-panic (as-max-len? 
-        (append 
-          (get-rate-range (+ start u1) end)
-          (list current-rate)
-        ) 
-        u20
-      ))
-    )
-    (list)
   )
 )
 
@@ -1095,29 +1054,10 @@
   (let
     (
       (total-events (var-get event-counter))
-      (start-id (if (> total-events limit) (- total-events limit) u1))
     )
     (ok (tuple
       (total-events total-events)
-      (events (get-event-range start-id total-events))
+      (latest-event (map-get? contract-events { event-id: total-events }))
     ))
-  )
-)
-
-(define-private (get-event-range (start uint) (end uint))
-  (if (<= start end)
-    (let
-      (
-        (current-event (map-get? contract-events { event-id: start }))
-      )
-      (unwrap-panic (as-max-len? 
-        (append 
-          (get-event-range (+ start u1) end)
-          (list current-event)
-        ) 
-        u50
-      ))
-    )
-    (list)
   )
 )
