@@ -709,6 +709,9 @@
 (define-public (set-reward-rate (new-rate uint))
   (begin
     (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
+    (asserts! (check-admin-rate-limit "rate-change") ERR_RATE_LIMIT_EXCEEDED)
+    (asserts! (<= new-rate u100) ERR_OVERFLOW_PROTECTION) ;; Max 100% rate
+    (asserts! (not (var-get migration-in-progress)) ERR_NOT_AUTHORIZED)
     
     ;; Record rate change in history
     (let
@@ -735,7 +738,9 @@
 (define-public (pause-contract)
   (begin
     (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
+    (asserts! (check-admin-rate-limit "pause") ERR_RATE_LIMIT_EXCEEDED)
     (var-set contract-paused true)
+    (log-event "contract-paused" tx-sender u0 u"Contract paused by admin")
     (ok true)
   )
 )
@@ -743,7 +748,9 @@
 (define-public (unpause-contract)
   (begin
     (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
+    (asserts! (check-admin-rate-limit "unpause") ERR_RATE_LIMIT_EXCEEDED)
     (var-set contract-paused false)
+    (log-event "contract-unpaused" tx-sender u0 u"Contract unpaused by admin")
     (ok true)
   )
 )
@@ -751,8 +758,12 @@
 (define-public (set-compound-frequency (new-frequency uint))
   (begin
     (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
+    (asserts! (check-admin-rate-limit "frequency-change") ERR_RATE_LIMIT_EXCEEDED)
     (asserts! (> new-frequency u0) ERR_NO_AMOUNT)
+    (asserts! (<= new-frequency u365) ERR_OVERFLOW_PROTECTION) ;; Max daily compounding
+    (asserts! (not (var-get migration-in-progress)) ERR_NOT_AUTHORIZED)
     (var-set compound-frequency new-frequency)
+    (log-event "frequency-changed" tx-sender new-frequency u"Compound frequency updated")
     (ok new-frequency)
   )
 )
@@ -760,8 +771,12 @@
 (define-public (set-minimum-deposit (new-minimum uint))
   (begin
     (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
+    (asserts! (check-admin-rate-limit "minimum-change") ERR_RATE_LIMIT_EXCEEDED)
     (asserts! (> new-minimum u0) ERR_NO_AMOUNT)
+    (asserts! (< new-minimum u1000000000000) ERR_OVERFLOW_PROTECTION) ;; Max 1M STX
+    (asserts! (not (var-get migration-in-progress)) ERR_NOT_AUTHORIZED)
     (var-set minimum-deposit new-minimum)
+    (log-event "minimum-changed" tx-sender new-minimum u"Minimum deposit updated")
     (ok new-minimum)
   )
 )
@@ -769,8 +784,11 @@
 (define-public (set-early-withdrawal-penalty (new-penalty uint))
   (begin
     (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
-    (asserts! (<= new-penalty u100) ERR_NO_AMOUNT) ;; Max 100% penalty
+    (asserts! (check-admin-rate-limit "penalty-change") ERR_RATE_LIMIT_EXCEEDED)
+    (asserts! (<= new-penalty u100) ERR_OVERFLOW_PROTECTION) ;; Max 100% penalty
+    (asserts! (not (var-get migration-in-progress)) ERR_NOT_AUTHORIZED)
     (var-set early-withdrawal-penalty new-penalty)
+    (log-event "penalty-changed" tx-sender new-penalty u"Early withdrawal penalty updated")
     (ok new-penalty)
   )
 )
@@ -778,8 +796,11 @@
 (define-public (set-max-deposit-per-user (new-max uint))
   (begin
     (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
+    (asserts! (check-admin-rate-limit "max-change") ERR_RATE_LIMIT_EXCEEDED)
     (asserts! (> new-max u0) ERR_NO_AMOUNT)
+    (asserts! (not (var-get migration-in-progress)) ERR_NOT_AUTHORIZED)
     (var-set max-deposit-per-user new-max)
+    (log-event "max-deposit-changed" tx-sender new-max u"Max deposit per user updated")
     (ok new-max)
   )
 )
@@ -787,8 +808,12 @@
 (define-public (set-time-multiplier (min-blocks uint) (multiplier uint))
   (begin
     (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
+    (asserts! (check-admin-rate-limit "multiplier-change") ERR_RATE_LIMIT_EXCEEDED)
     (asserts! (> multiplier u0) ERR_NO_AMOUNT)
+    (asserts! (<= multiplier u50000) ERR_OVERFLOW_PROTECTION) ;; Max 5x multiplier
+    (asserts! (not (var-get migration-in-progress)) ERR_NOT_AUTHORIZED)
     (map-set time-multipliers { min-blocks: min-blocks } { multiplier: multiplier })
+    (log-event "multiplier-changed" tx-sender multiplier u"Time multiplier updated")
     (ok true)
   )
 )
@@ -796,8 +821,24 @@
 (define-public (set-withdrawal-cooldown (new-cooldown uint))
   (begin
     (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
+    (asserts! (check-admin-rate-limit "cooldown-change") ERR_RATE_LIMIT_EXCEEDED)
+    (asserts! (<= new-cooldown u4320) ERR_OVERFLOW_PROTECTION) ;; Max 30 days
+    (asserts! (not (var-get migration-in-progress)) ERR_NOT_AUTHORIZED)
     (var-set withdrawal-cooldown new-cooldown)
+    (log-event "cooldown-changed" tx-sender new-cooldown u"Withdrawal cooldown updated")
     (ok new-cooldown)
+  )
+)
+
+;; Set admin rate limit (admin can adjust their own rate limiting)
+(define-public (set-admin-rate-limit (new-limit uint))
+  (begin
+    (asserts! (is-admin tx-sender) ERR_NOT_AUTHORIZED)
+    (asserts! (>= new-limit u144) ERR_NO_AMOUNT) ;; Minimum 1 day
+    (asserts! (<= new-limit u4320) ERR_OVERFLOW_PROTECTION) ;; Maximum 30 days
+    (var-set admin-rate-limit new-limit)
+    (log-event "rate-limit-changed" tx-sender new-limit u"Admin rate limit updated")
+    (ok new-limit)
   )
 )
 
