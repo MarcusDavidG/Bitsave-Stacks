@@ -293,6 +293,89 @@
   )
 )
 
+;; -----------------------------------------------------------
+;; ANALYTICS AND MONITORING
+;; -----------------------------------------------------------
+
+;; Contract statistics
+(define-map contract-stats
+  { stat-type: (string-ascii 20) }
+  { value: uint, last-updated: uint }
+)
+
+;; Initialize contract statistics
+(map-set contract-stats { stat-type: "total-deposits" } { value: u0, last-updated: u0 })
+(map-set contract-stats { stat-type: "total-withdrawals" } { value: u0, last-updated: u0 })
+(map-set contract-stats { stat-type: "total-users" } { value: u0, last-updated: u0 })
+(map-set contract-stats { stat-type: "total-volume" } { value: u0, last-updated: u0 })
+(map-set contract-stats { stat-type: "total-rewards-paid" } { value: u0, last-updated: u0 })
+
+;; Update statistics helper
+(define-private (update-stat (stat-type (string-ascii 20)) (increment uint))
+  (let
+    (
+      (current-stat (default-to { value: u0, last-updated: u0 } (map-get? contract-stats { stat-type: stat-type })))
+      (new-value (+ (get value current-stat) increment))
+    )
+    (map-set contract-stats 
+      { stat-type: stat-type }
+      { value: new-value, last-updated: stacks-block-height }
+    )
+    new-value
+  )
+)
+
+;; Get contract statistics
+(define-read-only (get-contract-stats)
+  (ok (tuple
+    (total-deposits (get value (default-to { value: u0, last-updated: u0 } (map-get? contract-stats { stat-type: "total-deposits" }))))
+    (total-withdrawals (get value (default-to { value: u0, last-updated: u0 } (map-get? contract-stats { stat-type: "total-withdrawals" }))))
+    (total-users (get value (default-to { value: u0, last-updated: u0 } (map-get? contract-stats { stat-type: "total-users" }))))
+    (total-volume (get value (default-to { value: u0, last-updated: u0 } (map-get? contract-stats { stat-type: "total-volume" }))))
+    (total-rewards-paid (get value (default-to { value: u0, last-updated: u0 } (map-get? contract-stats { stat-type: "total-rewards-paid" }))))
+    (contract-balance (stx-get-balance (as-contract tx-sender)))
+    (current-block stacks-block-height)
+  ))
+)
+
+;; Performance metrics
+(define-read-only (get-performance-metrics)
+  (let
+    (
+      (total-deposits (get value (default-to { value: u0, last-updated: u0 } (map-get? contract-stats { stat-type: "total-deposits" }))))
+      (total-withdrawals (get value (default-to { value: u0, last-updated: u0 } (map-get? contract-stats { stat-type: "total-withdrawals" }))))
+      (total-volume (get value (default-to { value: u0, last-updated: u0 } (map-get? contract-stats { stat-type: "total-volume" }))))
+      (contract-balance (stx-get-balance (as-contract tx-sender)))
+    )
+    (ok (tuple
+      (utilization-rate (if (> total-volume u0) (/ (* contract-balance u100) total-volume) u0))
+      (withdrawal-rate (if (> total-deposits u0) (/ (* total-withdrawals u100) total-deposits) u0))
+      (average-deposit (if (> total-deposits u0) (/ total-volume total-deposits) u0))
+      (current-tvl contract-balance)
+      (reward-rate (var-get reward-rate))
+    ))
+  )
+)
+
+;; Health check function
+(define-read-only (health-check)
+  (let
+    (
+      (contract-balance (stx-get-balance (as-contract tx-sender)))
+      (is-paused (var-get contract-paused))
+      (migration-active (var-get migration-in-progress))
+      (current-rate (var-get reward-rate))
+    )
+    (ok (tuple
+      (status (if is-paused "paused" (if migration-active "migrating" "active")))
+      (balance-healthy (> contract-balance u1000000)) ;; At least 1 STX
+      (rate-reasonable (<= current-rate u50)) ;; Max 50% rate
+      (version (var-get contract-version))
+      (last-event-id (var-get event-counter))
+    ))
+  )
+)
+
 ;; Get contract version and upgrade status
 (define-read-only (get-contract-info)
   (ok (tuple
@@ -582,6 +665,14 @@
         ;; Log deposit event
         (log-event "deposit" tx-sender amount (concat u"Lock period: " (int-to-utf8 (to-int lock-period))))
         
+        ;; Update statistics
+        (update-stat "total-deposits" u1)
+        (update-stat "total-volume" amount)
+        (if (is-eq (get current-streak current-rep) u1) ;; New user
+          (update-stat "total-users" u1)
+          true
+        )
+        
         ;; Clear reentrancy guard
         (clear-reentrancy)
         
@@ -696,6 +787,13 @@
             tx-sender 
             final-amount 
             (concat u"Penalty: " (int-to-utf8 (to-int penalty-amount)))
+          )
+          
+          ;; Update statistics
+          (update-stat "total-withdrawals" u1)
+          (if (not is-early)
+            (update-stat "total-rewards-paid" (to-uint final-reward))
+            true
           )
           
           (ok (tuple (withdrawn final-amount) (earned-points final-reward) (penalty penalty-amount) (early-withdrawal is-early)))
