@@ -35,6 +35,9 @@
 ;; Data Variables
 ;; -----------------------------------------------------------
 
+;; Contract version
+(define-data-var contract-version uint u101) ;; Version 1.0.1
+
 ;; Admin principal (deployer by default)
 (define-data-var admin principal tx-sender)
 
