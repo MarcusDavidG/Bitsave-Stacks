@@ -203,7 +203,7 @@
 ;; -----------------------------------------------------------
 
 ;; Contract versioning
-(define-data-var contract-version uint u200) ;; Version 2.0.0
+(define-data-var contract-version uint u201) ;; Version 2.0.1
 (define-data-var upgrade-authorized bool false)
 (define-data-var migration-in-progress bool false)
 
