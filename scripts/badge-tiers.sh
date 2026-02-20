@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Badge tier constants
+BRONZE_THRESHOLD=500
+SILVER_THRESHOLD=1000
+GOLD_THRESHOLD=5000
+PLATINUM_THRESHOLD=10000
+
+echo "Badge Tier Thresholds:"
+echo "Bronze: $BRONZE_THRESHOLD"
+echo "Silver: $SILVER_THRESHOLD"
+echo "Gold: $GOLD_THRESHOLD"
+echo "Platinum: $PLATINUM_THRESHOLD"
