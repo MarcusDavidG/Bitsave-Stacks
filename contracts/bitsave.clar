@@ -1,7 +1,7 @@
 ;; -----------------------------------------------------------
 ;; BitSave: Bitcoin-powered STX savings vault
 ;; Author: Marcus David
-;; Version: 2.0.0
+;; Version: 2.0.1
 ;; Description: Users can lock STX for a chosen duration and earn reputation points.
 ;; 
 ;; Features:
