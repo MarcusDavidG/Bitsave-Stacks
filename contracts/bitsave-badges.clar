@@ -199,3 +199,8 @@
 (define-read-only (get-admin)
   (ok (var-get admin))
 )
+
+;; Get contract version
+(define-read-only (get-version)
+  (ok (var-get contract-version))
+)

@@ -1,62 +1,30 @@
-# BitSave API Reference
+# BitSave API Documentation
 
 ## Contract Functions
 
-### bitsave.clar
+### Public Functions
 
-#### Public Functions
-
-##### `deposit(lock-period: uint)`
-Deposits STX tokens and locks them for the specified period.
+#### deposit(amount, lock-period)
+Locks STX for a specified period.
 
 **Parameters:**
-- `lock-period`: Number of blocks to lock funds (144-1051200)
+- `amount` (uint): Amount in microSTX
+- `lock-period` (uint): Lock duration in blocks
 
-**Returns:** `(response bool uint)`
+**Returns:** `(ok {amount: uint, unlock-block: uint, goal: uint})`
 
-**Example:**
-```clarity
-(contract-call? .bitsave deposit u1440) ;; Lock for ~10 days
-```
+#### withdraw()
+Withdraws matured funds and reputation points.
 
-##### `withdraw()`
-Withdraws matured savings plus earned rewards.
+**Returns:** `(ok {withdrawn: uint, earned-points: int, penalty: uint, early-withdrawal: bool})`
 
-**Returns:** `(response {principal: uint, rewards: uint, reputation: uint} uint)`
+### Read-Only Functions
 
-**Example:**
-```clarity
-(contract-call? .bitsave withdraw)
-```
+#### get-savings(user)
+Returns user's savings information.
 
-#### Read-Only Functions
+#### get-reputation(user)
+Returns user's reputation data.
 
-##### `get-savings(user: principal)`
-Returns user's current savings information.
-
-**Parameters:**
-- `user`: Principal address to query
-
-**Returns:** `(optional {amount: uint, lock-until: uint, deposited-at: uint})`
-
-##### `get-reputation(user: principal)`
-Returns user's reputation score.
-
-**Parameters:**
-- `user`: Principal address to query
-
-**Returns:** `uint`
-
-### bitsave-badges.clar
-
-#### Public Functions
-
-##### `transfer(token-id: uint, sender: principal, recipient: principal)`
-Transfers badge ownership between users.
-
-**Parameters:**
-- `token-id`: Badge ID to transfer
-- `sender`: Current owner
-- `recipient`: New owner
-
-**Returns:** `(response bool uint)`
+#### get-reward-rate()
+Returns current reward rate.
