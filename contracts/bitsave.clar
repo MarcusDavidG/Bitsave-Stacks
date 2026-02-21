@@ -1077,3 +1077,4 @@
 (define-data-var referral-bonus uint u2)
 (define-data-var grace-period uint u144)
 (define-map user-grace-expiry principal uint)
+(define-data-var interest-tier-1 uint u5)
