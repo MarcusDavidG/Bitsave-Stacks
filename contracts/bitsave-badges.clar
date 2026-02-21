@@ -224,3 +224,4 @@
 (define-constant EARLY_ADOPTER_BLOCK u1000)
 ;; Referral badge thresholds
 (define-constant REFERRAL_1 u1)
+(define-constant REFERRAL_5 u5)
