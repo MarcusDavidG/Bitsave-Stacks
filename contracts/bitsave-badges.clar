@@ -212,3 +212,4 @@
 (define-constant PLATINUM_THRESHOLD u5000)
 (define-constant DIAMOND_THRESHOLD u10000)
 ;; Time-based badge thresholds
+(define-constant STREAK_30_DAYS u30)
