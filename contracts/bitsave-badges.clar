@@ -243,3 +243,4 @@
 (define-data-var total-badges-minted uint u0)
 (define-data-var badges-burned uint u0)
 ;; Badge name registry
+(define-map badge-names uint (string-ascii 50))
