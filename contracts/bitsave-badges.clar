@@ -225,3 +225,4 @@
 ;; Referral badge thresholds
 (define-constant REFERRAL_1 u1)
 (define-constant REFERRAL_5 u5)
+(define-constant REFERRAL_10 u10)
