@@ -1062,3 +1062,4 @@
   )
 )
 ;; Emergency withdrawal feature
+(define-data-var emergency-fee uint u5)
