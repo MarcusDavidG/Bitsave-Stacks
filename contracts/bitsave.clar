@@ -1074,3 +1074,4 @@
 (define-data-var total-fees-collected uint u0)
 (define-map user-referrer principal principal)
 (define-map referral-count principal uint)
+(define-data-var referral-bonus uint u2)
