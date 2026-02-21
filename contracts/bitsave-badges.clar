@@ -227,3 +227,4 @@
 (define-constant REFERRAL_5 u5)
 (define-constant REFERRAL_10 u10)
 (define-constant REFERRAL_25 u25)
+(define-constant REFERRAL_50 u50)
