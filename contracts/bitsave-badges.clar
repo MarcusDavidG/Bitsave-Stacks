@@ -214,3 +214,4 @@
 ;; Time-based badge thresholds
 (define-constant STREAK_30_DAYS u30)
 (define-constant STREAK_90_DAYS u90)
+(define-constant STREAK_180_DAYS u180)
