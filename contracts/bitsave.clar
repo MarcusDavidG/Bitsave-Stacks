@@ -1079,3 +1079,4 @@
 (define-map user-grace-expiry principal uint)
 (define-data-var interest-tier-1 uint u5)
 (define-data-var interest-tier-2 uint u10)
+(define-data-var interest-tier-3 uint u15)
