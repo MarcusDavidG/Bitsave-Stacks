@@ -236,3 +236,4 @@
 (define-constant RARITY_LEGENDARY u5)
 ;; Badge type identifiers
 (define-map badge-rarity uint uint)
+(define-map badge-tier uint uint)
