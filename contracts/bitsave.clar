@@ -1095,3 +1095,4 @@
 (define-map user-total-earned principal uint)
 (define-data-var batch-operations-enabled bool false)
 (define-data-var max-batch-size uint u10)
+(define-map scheduled-withdrawals uint {user: principal, amount: uint, block: uint})
