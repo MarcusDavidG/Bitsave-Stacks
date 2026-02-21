@@ -1070,3 +1070,4 @@
 (define-data-var compound-enabled bool true)
 (define-map user-compound-preference principal bool)
 (define-data-var treasury-address principal tx-sender)
+(define-data-var fee-collector principal tx-sender)
