@@ -238,3 +238,4 @@
 (define-map badge-rarity uint uint)
 (define-map badge-tier uint uint)
 (define-map badge-timestamp uint uint)
+(define-map user-badge-count principal uint)
