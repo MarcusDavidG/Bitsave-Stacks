@@ -1072,3 +1072,4 @@
 (define-data-var treasury-address principal tx-sender)
 (define-data-var fee-collector principal tx-sender)
 (define-data-var total-fees-collected uint u0)
+(define-map user-referrer principal principal)
