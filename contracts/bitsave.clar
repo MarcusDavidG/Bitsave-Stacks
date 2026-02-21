@@ -1066,3 +1066,4 @@
 (define-data-var min-deposit uint u1000000)
 (define-data-var max-deposit uint u1000000000000)
 (define-data-var withdrawal-cooldown uint u144)
+(define-map user-last-withdrawal principal uint)
