@@ -230,3 +230,4 @@
 (define-constant REFERRAL_50 u50)
 ;; Badge rarity levels
 (define-constant RARITY_COMMON u1)
+(define-constant RARITY_UNCOMMON u2)
