@@ -1100,3 +1100,4 @@
 (define-map user-loyalty-points principal uint)
 (define-data-var loyalty-points-rate uint u1)
 (define-map migration-approved principal bool)
+(define-data-var migration-target (optional principal) none)
