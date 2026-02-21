@@ -218,3 +218,4 @@
 (define-constant STREAK_365_DAYS u365)
 ;; Deposit milestone thresholds
 (define-constant DEPOSIT_1K u1000000000)
+(define-constant DEPOSIT_10K u10000000000)
