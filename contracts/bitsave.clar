@@ -1087,3 +1087,4 @@
 (define-map penalty-collected uint uint)
 (define-data-var total-staked uint u0)
 (define-data-var total-withdrawn uint u0)
+(define-data-var total-rewards-paid uint u0)
