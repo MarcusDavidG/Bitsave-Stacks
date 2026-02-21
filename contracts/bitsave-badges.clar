@@ -210,3 +210,4 @@
 )
 (define-constant GOLD_THRESHOLD u1000)
 (define-constant PLATINUM_THRESHOLD u5000)
+(define-constant DIAMOND_THRESHOLD u10000)
