@@ -1075,3 +1075,4 @@
 (define-map user-referrer principal principal)
 (define-map referral-count principal uint)
 (define-data-var referral-bonus uint u2)
+(define-data-var grace-period uint u144)
