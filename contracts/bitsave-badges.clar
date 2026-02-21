@@ -235,3 +235,4 @@
 (define-constant RARITY_EPIC u4)
 (define-constant RARITY_LEGENDARY u5)
 ;; Badge type identifiers
+(define-map badge-rarity uint uint)
