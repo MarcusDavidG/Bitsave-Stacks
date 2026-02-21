@@ -31,6 +31,9 @@
 (define-constant ERR_NOT_OWNER (err u106))
 (define-constant ERR_NOT_FOUND (err u107))
 
+;; Badge tier thresholds
+(define-constant BRONZE_THRESHOLD u100)
+
 ;; -----------------------------------------------------------
 ;; Data Variables
 ;; -----------------------------------------------------------
