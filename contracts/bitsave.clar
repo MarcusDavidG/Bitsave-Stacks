@@ -1093,3 +1093,4 @@
 (define-data-var contract-inception-block uint block-height)
 (define-map user-first-deposit principal uint)
 (define-map user-total-earned principal uint)
+(define-data-var batch-operations-enabled bool false)
