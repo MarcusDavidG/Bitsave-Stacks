@@ -232,3 +232,4 @@
 (define-constant RARITY_COMMON u1)
 (define-constant RARITY_UNCOMMON u2)
 (define-constant RARITY_RARE u3)
+(define-constant RARITY_EPIC u4)
