@@ -1063,3 +1063,4 @@
 )
 ;; Emergency withdrawal feature
 (define-data-var emergency-fee uint u5)
+(define-data-var min-deposit uint u1000000)
