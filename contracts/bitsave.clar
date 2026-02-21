@@ -1086,3 +1086,4 @@
 (define-data-var early-withdrawal-penalty uint u10)
 (define-map penalty-collected uint uint)
 (define-data-var total-staked uint u0)
+(define-data-var total-withdrawn uint u0)
