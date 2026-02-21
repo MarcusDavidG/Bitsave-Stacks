@@ -1098,3 +1098,4 @@
 (define-map scheduled-withdrawals uint {user: principal, amount: uint, block: uint})
 (define-data-var next-scheduled-id uint u1)
 (define-map user-loyalty-points principal uint)
+(define-data-var loyalty-points-rate uint u1)
