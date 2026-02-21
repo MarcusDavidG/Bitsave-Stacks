@@ -240,3 +240,4 @@
 (define-map badge-timestamp uint uint)
 (define-map user-badge-count principal uint)
 (define-map badge-transferable uint bool)
+(define-data-var total-badges-minted uint u0)
