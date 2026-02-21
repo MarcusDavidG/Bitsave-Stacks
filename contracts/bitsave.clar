@@ -1097,3 +1097,4 @@
 (define-data-var max-batch-size uint u10)
 (define-map scheduled-withdrawals uint {user: principal, amount: uint, block: uint})
 (define-data-var next-scheduled-id uint u1)
+(define-map user-loyalty-points principal uint)
