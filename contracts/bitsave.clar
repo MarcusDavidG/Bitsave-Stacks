@@ -1094,3 +1094,4 @@
 (define-map user-first-deposit principal uint)
 (define-map user-total-earned principal uint)
 (define-data-var batch-operations-enabled bool false)
+(define-data-var max-batch-size uint u10)
