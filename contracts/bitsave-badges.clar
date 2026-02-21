@@ -242,3 +242,4 @@
 (define-map badge-transferable uint bool)
 (define-data-var total-badges-minted uint u0)
 (define-data-var badges-burned uint u0)
+;; Badge name registry
