@@ -222,3 +222,4 @@
 (define-constant DEPOSIT_100K u100000000000)
 (define-constant DEPOSIT_1M u1000000000000)
 (define-constant EARLY_ADOPTER_BLOCK u1000)
+;; Referral badge thresholds
