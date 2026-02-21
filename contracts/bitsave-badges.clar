@@ -234,3 +234,4 @@
 (define-constant RARITY_RARE u3)
 (define-constant RARITY_EPIC u4)
 (define-constant RARITY_LEGENDARY u5)
+;; Badge type identifiers
