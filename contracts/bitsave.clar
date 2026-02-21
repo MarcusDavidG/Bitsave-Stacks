@@ -1084,3 +1084,4 @@
 (define-data-var bonus-multiplier uint u100)
 (define-map user-bonus principal uint)
 (define-data-var early-withdrawal-penalty uint u10)
+(define-map penalty-collected uint uint)
