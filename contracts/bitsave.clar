@@ -1081,3 +1081,4 @@
 (define-data-var interest-tier-2 uint u10)
 (define-data-var interest-tier-3 uint u15)
 (define-map user-tier principal uint)
+(define-data-var bonus-multiplier uint u100)
