@@ -33,6 +33,7 @@
 
 ;; Badge tier thresholds
 (define-constant BRONZE_THRESHOLD u100)
+(define-constant SILVER_THRESHOLD u500)
 
 ;; -----------------------------------------------------------
 ;; Data Variables
