@@ -1091,3 +1091,4 @@
 (define-map user-deposit-count principal uint)
 (define-map user-withdrawal-count principal uint)
 (define-data-var contract-inception-block uint block-height)
+(define-map user-first-deposit principal uint)
