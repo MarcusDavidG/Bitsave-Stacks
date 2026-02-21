@@ -209,3 +209,4 @@
   (ok (var-get contract-version))
 )
 (define-constant GOLD_THRESHOLD u1000)
+(define-constant PLATINUM_THRESHOLD u5000)
