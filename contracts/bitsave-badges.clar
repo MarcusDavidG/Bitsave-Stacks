@@ -208,3 +208,4 @@
 (define-read-only (get-version)
   (ok (var-get contract-version))
 )
+(define-constant GOLD_THRESHOLD u1000)
