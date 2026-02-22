@@ -8,3 +8,4 @@
 (define-data-var performance-fee uint u10)
 (define-map fee-distribution (string-ascii 30) uint)
 (define-data-var treasury-reserve-ratio uint u20)
+(define-map treasury-allocations (string-ascii 30) uint)
