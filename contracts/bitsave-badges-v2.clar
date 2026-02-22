@@ -9,3 +9,4 @@
 (define-map limited-edition-badges uint uint)
 (define-data-var max-limited-supply uint u100)
 (define-map badge-expiry uint uint)
+(define-map renewable-badges uint bool)
