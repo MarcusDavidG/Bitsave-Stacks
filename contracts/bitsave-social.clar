@@ -22,3 +22,4 @@
 (define-map verified-users principal bool)
 (define-map user-badges-displayed principal (list 5 uint))
 (define-map social-links principal {twitter: (optional (string-ascii 50)), discord: (optional (string-ascii 50))})
+(define-map user-join-date principal uint)
