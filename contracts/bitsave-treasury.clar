@@ -18,3 +18,4 @@
 (define-data-var daily-withdrawal-limit uint u10000000000)
 (define-map daily-withdrawn uint uint)
 (define-map treasury-investments (string-ascii 30) uint)
+(define-data-var investment-return-rate uint u5)
