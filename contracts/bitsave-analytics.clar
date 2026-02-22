@@ -17,3 +17,4 @@
 (define-map gas-usage-stats uint uint)
 (define-map user-journey-events {user: principal, event: uint} (string-ascii 50))
 (define-map conversion-funnels (string-ascii 30) uint)
+(define-map ab-test-groups principal (string-ascii 20))
