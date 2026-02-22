@@ -14,3 +14,4 @@
 (define-map proposal-execution-time uint uint)
 (define-data-var timelock-period uint u144)
 (define-map proposal-category uint (string-ascii 30))
+(define-map emergency-proposals uint bool)
