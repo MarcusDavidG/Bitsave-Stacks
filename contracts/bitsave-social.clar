@@ -6,3 +6,4 @@
 (define-map user-achievements principal (list 20 uint))
 (define-map achievement-definitions uint {name: (string-ascii 50), points: uint})
 (define-map leaderboard-scores principal uint)
+(define-data-var leaderboard-season uint u1)
