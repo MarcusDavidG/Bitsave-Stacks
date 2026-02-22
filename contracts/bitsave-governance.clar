@@ -12,3 +12,4 @@
 (define-map voting-power principal uint)
 (define-map delegated-votes principal principal)
 (define-map proposal-execution-time uint uint)
+(define-data-var timelock-period uint u144)
