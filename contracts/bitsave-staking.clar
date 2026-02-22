@@ -14,3 +14,4 @@
 (define-data-var restake-bonus uint u5)
 (define-map staking-rewards-claimed principal uint)
 (define-map pending-rewards principal uint)
+(define-data-var total-staking-rewards uint u0)
