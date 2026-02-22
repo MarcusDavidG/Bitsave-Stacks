@@ -16,3 +16,4 @@
 (define-map pending-rewards principal uint)
 (define-data-var total-staking-rewards uint u0)
 (define-map compound-frequency principal uint)
+(define-data-var min-compound-amount uint u1000000)
