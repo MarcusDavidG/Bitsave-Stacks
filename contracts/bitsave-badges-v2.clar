@@ -4,3 +4,4 @@
 (define-map badge-power-level uint uint)
 (define-map badge-evolution uint uint)
 (define-data-var evolution-enabled bool true)
+(define-map badge-fusion (tuple (badge1 uint) (badge2 uint)) uint)
