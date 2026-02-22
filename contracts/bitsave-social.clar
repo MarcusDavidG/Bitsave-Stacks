@@ -27,3 +27,4 @@
 (define-map code-to-user (string-ascii 20) principal)
 (define-map team-memberships principal uint)
 (define-map teams uint {name: (string-ascii 50), leader: principal})
+(define-map team-scores uint uint)
