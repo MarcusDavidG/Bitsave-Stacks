@@ -12,3 +12,4 @@
 (define-map tier-multipliers uint uint)
 (define-map auto-restake-preference principal bool)
 (define-data-var restake-bonus uint u5)
+(define-map staking-rewards-claimed principal uint)
