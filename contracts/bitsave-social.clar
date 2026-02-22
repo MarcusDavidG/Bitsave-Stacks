@@ -10,3 +10,4 @@
 (define-map seasonal-rankings {season: uint, user: principal} uint)
 (define-map user-level principal uint)
 (define-map level-requirements uint uint)
+(define-map experience-points principal uint)
