@@ -6,3 +6,4 @@
 (define-data-var flexible-staking-apy uint u5)
 (define-data-var locked-30-apy uint u8)
 (define-data-var locked-90-apy uint u12)
+(define-data-var locked-180-apy uint u18)
