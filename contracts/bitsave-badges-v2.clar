@@ -10,3 +10,4 @@
 (define-data-var max-limited-supply uint u100)
 (define-map badge-expiry uint uint)
 (define-map renewable-badges uint bool)
+(define-map badge-achievements uint (list 5 (string-ascii 50)))
