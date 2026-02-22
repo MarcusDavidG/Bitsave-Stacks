@@ -3,3 +3,4 @@
 (define-data-var staking-enabled bool true)
 (define-map staking-pools uint {name: (string-ascii 50), apy: uint})
 (define-map user-staking-pool principal uint)
+(define-data-var flexible-staking-apy uint u5)
