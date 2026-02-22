@@ -9,3 +9,4 @@
 (define-data-var leaderboard-season uint u1)
 (define-map seasonal-rankings {season: uint, user: principal} uint)
 (define-map user-level principal uint)
+(define-map level-requirements uint uint)
