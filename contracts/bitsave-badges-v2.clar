@@ -8,3 +8,4 @@
 (define-map seasonal-badges uint {season: (string-ascii 20), year: uint})
 (define-map limited-edition-badges uint uint)
 (define-data-var max-limited-supply uint u100)
+(define-map badge-expiry uint uint)
