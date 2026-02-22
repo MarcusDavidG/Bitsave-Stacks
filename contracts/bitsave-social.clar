@@ -12,3 +12,4 @@
 (define-map level-requirements uint uint)
 (define-map experience-points principal uint)
 (define-map daily-quests principal (list 5 uint))
+(define-map quest-completion {user: principal, quest: uint} bool)
