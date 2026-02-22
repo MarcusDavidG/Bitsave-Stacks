@@ -20,3 +20,4 @@
 (define-map user-banner principal (string-utf8 256))
 (define-map user-status principal (string-utf8 140))
 (define-map verified-users principal bool)
+(define-map user-badges-displayed principal (list 5 uint))
