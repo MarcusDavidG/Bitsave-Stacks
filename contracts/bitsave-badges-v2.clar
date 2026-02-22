@@ -16,3 +16,4 @@
 (define-data-var default-badge-slots uint u5)
 (define-map badge-display-order principal (list 10 uint))
 (define-map badge-showcase principal (list 3 uint))
+(define-map badge-collection-bonus principal uint)
