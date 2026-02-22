@@ -16,3 +16,4 @@
 (define-map pending-transactions uint {amount: uint, to: principal})
 (define-map transaction-approvals {tx: uint, signer: principal} bool)
 (define-data-var daily-withdrawal-limit uint u10000000000)
+(define-map daily-withdrawn uint uint)
