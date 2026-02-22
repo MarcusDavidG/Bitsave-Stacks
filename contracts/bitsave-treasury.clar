@@ -13,3 +13,4 @@
 (define-data-var max-grant-amount uint u100000000000)
 (define-map treasury-multisig (list 5 principal) bool)
 (define-data-var required-signatures uint u3)
+(define-map pending-transactions uint {amount: uint, to: principal})
