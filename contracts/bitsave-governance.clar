@@ -11,3 +11,4 @@
 (define-data-var next-proposal-id uint u1)
 (define-map voting-power principal uint)
 (define-map delegated-votes principal principal)
+(define-map proposal-execution-time uint uint)
