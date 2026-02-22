@@ -10,3 +10,4 @@
 (define-map proposal-status uint (string-ascii 20))
 (define-data-var next-proposal-id uint u1)
 (define-map voting-power principal uint)
+(define-map delegated-votes principal principal)
