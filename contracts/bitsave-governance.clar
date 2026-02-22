@@ -16,3 +16,4 @@
 (define-map proposal-category uint (string-ascii 30))
 (define-map emergency-proposals uint bool)
 (define-data-var emergency-quorum uint u10)
+(define-map proposal-discussion-url uint (string-utf8 256))
