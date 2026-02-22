@@ -25,3 +25,4 @@
 (define-map user-join-date principal uint)
 (define-map referral-codes principal (string-ascii 20))
 (define-map code-to-user (string-ascii 20) principal)
+(define-map team-memberships principal uint)
