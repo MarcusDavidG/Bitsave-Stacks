@@ -2,3 +2,4 @@
 ;; Treasury management
 (define-data-var treasury-balance uint u0)
 (define-map revenue-streams (string-ascii 30) uint)
+(define-map expense-categories (string-ascii 30) uint)
