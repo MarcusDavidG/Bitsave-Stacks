@@ -7,3 +7,4 @@
 (define-map badge-fusion (tuple (badge1 uint) (badge2 uint)) uint)
 (define-map seasonal-badges uint {season: (string-ascii 20), year: uint})
 (define-map limited-edition-badges uint uint)
+(define-data-var max-limited-supply uint u100)
