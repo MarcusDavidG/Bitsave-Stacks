@@ -10,3 +10,4 @@
 (define-map badges-minted-daily uint uint)
 (define-map referral-conversions uint uint)
 (define-map protocol-revenue uint uint)
+(define-map user-cohorts uint (list 100 principal))
