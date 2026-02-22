@@ -4,3 +4,4 @@
 (define-map total-value-locked uint uint)
 (define-map daily-deposits uint uint)
 (define-map daily-withdrawals uint uint)
+(define-map user-retention-rate uint uint)
