@@ -14,3 +14,4 @@
 (define-map badge-perks uint (string-utf8 256))
 (define-map user-badge-slots principal uint)
 (define-data-var default-badge-slots uint u5)
+(define-map badge-display-order principal (list 10 uint))
