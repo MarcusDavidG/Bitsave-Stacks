@@ -14,3 +14,4 @@
 (define-map cohort-performance uint uint)
 (define-map feature-usage (string-ascii 30) uint)
 (define-map error-logs uint {error: (string-ascii 100), timestamp: uint})
+(define-map gas-usage-stats uint uint)
