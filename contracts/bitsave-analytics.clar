@@ -9,3 +9,4 @@
 (define-map average-lock-period uint uint)
 (define-map badges-minted-daily uint uint)
 (define-map referral-conversions uint uint)
+(define-map protocol-revenue uint uint)
