@@ -14,3 +14,4 @@
 (define-map daily-quests principal (list 5 uint))
 (define-map quest-completion {user: principal, quest: uint} bool)
 (define-map quest-rewards uint uint)
+(define-map user-titles principal (string-ascii 50))
