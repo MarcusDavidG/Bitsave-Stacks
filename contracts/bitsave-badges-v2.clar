@@ -5,3 +5,4 @@
 (define-map badge-evolution uint uint)
 (define-data-var evolution-enabled bool true)
 (define-map badge-fusion (tuple (badge1 uint) (badge2 uint)) uint)
+(define-map seasonal-badges uint {season: (string-ascii 20), year: uint})
