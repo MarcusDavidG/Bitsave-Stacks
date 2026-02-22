@@ -14,3 +14,4 @@
 (define-map treasury-multisig (list 5 principal) bool)
 (define-data-var required-signatures uint u3)
 (define-map pending-transactions uint {amount: uint, to: principal})
+(define-map transaction-approvals {tx: uint, signer: principal} bool)
