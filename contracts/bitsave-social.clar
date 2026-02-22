@@ -19,3 +19,4 @@
 (define-map user-avatar principal (string-utf8 256))
 (define-map user-banner principal (string-utf8 256))
 (define-map user-status principal (string-utf8 140))
+(define-map verified-users principal bool)
