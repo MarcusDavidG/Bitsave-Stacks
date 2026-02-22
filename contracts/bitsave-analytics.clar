@@ -5,3 +5,4 @@
 (define-map daily-deposits uint uint)
 (define-map daily-withdrawals uint uint)
 (define-map user-retention-rate uint uint)
+(define-map average-deposit-size uint uint)
