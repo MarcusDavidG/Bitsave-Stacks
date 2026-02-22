@@ -17,3 +17,4 @@
 (define-map transaction-approvals {tx: uint, signer: principal} bool)
 (define-data-var daily-withdrawal-limit uint u10000000000)
 (define-map daily-withdrawn uint uint)
+(define-map treasury-investments (string-ascii 30) uint)
