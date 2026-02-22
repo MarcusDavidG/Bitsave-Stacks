@@ -11,3 +11,4 @@
 (define-map badge-expiry uint uint)
 (define-map renewable-badges uint bool)
 (define-map badge-achievements uint (list 5 (string-ascii 50)))
+(define-map badge-perks uint (string-utf8 256))
