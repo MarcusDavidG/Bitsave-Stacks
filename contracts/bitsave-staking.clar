@@ -10,3 +10,4 @@
 (define-data-var locked-365-apy uint u25)
 (define-map user-staking-tier principal uint)
 (define-map tier-multipliers uint uint)
+(define-map auto-restake-preference principal bool)
