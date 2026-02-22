@@ -12,3 +12,4 @@
 (define-map protocol-revenue uint uint)
 (define-map user-cohorts uint (list 100 principal))
 (define-map cohort-performance uint uint)
+(define-map feature-usage (string-ascii 30) uint)
