@@ -7,3 +7,4 @@
 (define-data-var locked-30-apy uint u8)
 (define-data-var locked-90-apy uint u12)
 (define-data-var locked-180-apy uint u18)
+(define-data-var locked-365-apy uint u25)
