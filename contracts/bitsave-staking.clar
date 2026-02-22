@@ -17,3 +17,4 @@
 (define-data-var total-staking-rewards uint u0)
 (define-map compound-frequency principal uint)
 (define-data-var min-compound-amount uint u1000000)
+(define-map last-compound-time principal uint)
