@@ -4,3 +4,4 @@
 (define-map revenue-streams (string-ascii 30) uint)
 (define-map expense-categories (string-ascii 30) uint)
 (define-data-var protocol-fee uint u1)
+(define-data-var withdrawal-fee uint u0)
