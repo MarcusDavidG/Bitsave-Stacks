@@ -11,3 +11,4 @@
 (define-map treasury-allocations (string-ascii 30) uint)
 (define-map grant-proposals uint {amount: uint, recipient: principal})
 (define-data-var max-grant-amount uint u100000000000)
+(define-map treasury-multisig (list 5 principal) bool)
