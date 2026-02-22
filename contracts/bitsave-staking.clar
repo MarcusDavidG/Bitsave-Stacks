@@ -9,3 +9,4 @@
 (define-data-var locked-180-apy uint u18)
 (define-data-var locked-365-apy uint u25)
 (define-map user-staking-tier principal uint)
+(define-map tier-multipliers uint uint)
