@@ -17,3 +17,4 @@
 (define-map user-titles principal (string-ascii 50))
 (define-map unlocked-titles principal (list 10 (string-ascii 50)))
 (define-map user-avatar principal (string-utf8 256))
+(define-map user-banner principal (string-utf8 256))
