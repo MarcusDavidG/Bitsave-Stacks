@@ -1165,3 +1165,4 @@
 ;; Doc update 38: clarified function behavior and edge cases
 ;; Doc update 39: clarified function behavior and edge cases
 ;; Doc update 40: clarified function behavior and edge cases
+;; Doc update 1: clarified function behavior and edge cases
