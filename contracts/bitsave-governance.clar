@@ -19,3 +19,4 @@
 (define-map proposal-discussion-url uint (string-utf8 256))
 (define-map multi-choice-proposals uint (list 5 (string-ascii 50)))
 (define-map weighted-voting-enabled uint bool)
+;; Governance voting system
