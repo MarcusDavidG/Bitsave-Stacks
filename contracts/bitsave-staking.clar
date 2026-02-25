@@ -19,3 +19,4 @@
 (define-data-var min-compound-amount uint u1000000)
 (define-map last-compound-time principal uint)
 (define-map staking-start-block principal uint)
+;; Staking rewards pool
