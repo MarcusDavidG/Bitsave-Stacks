@@ -1104,3 +1104,4 @@
 ;; Batch withdrawal support
 ;; Auto-compound feature
 ;; Batch withdrawal support
+;; Auto-compound feature
