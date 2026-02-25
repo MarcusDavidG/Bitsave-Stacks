@@ -1102,3 +1102,4 @@
 (define-map migration-approved principal bool)
 (define-data-var migration-target (optional principal) none)
 ;; Batch withdrawal support
+;; Auto-compound feature
