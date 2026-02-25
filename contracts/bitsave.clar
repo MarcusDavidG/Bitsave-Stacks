@@ -1107,3 +1107,4 @@
 ;; Auto-compound feature
 // Optimization 21
 // Optimization 22
+// Optimization 23
