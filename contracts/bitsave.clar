@@ -1103,3 +1103,4 @@
 (define-data-var migration-target (optional principal) none)
 ;; Batch withdrawal support
 ;; Auto-compound feature
+;; Batch withdrawal support
