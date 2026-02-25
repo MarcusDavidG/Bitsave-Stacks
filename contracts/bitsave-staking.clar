@@ -1,0 +1,23 @@
+;; Staking contract
+;; Advanced staking features
+(define-data-var staking-enabled bool true)
+(define-map staking-pools uint {name: (string-ascii 50), apy: uint})
+(define-map user-staking-pool principal uint)
+(define-data-var flexible-staking-apy uint u5)
+(define-data-var locked-30-apy uint u8)
+(define-data-var locked-90-apy uint u12)
+(define-data-var locked-180-apy uint u18)
+(define-data-var locked-365-apy uint u25)
+(define-map user-staking-tier principal uint)
+(define-map tier-multipliers uint uint)
+(define-map auto-restake-preference principal bool)
+(define-data-var restake-bonus uint u5)
+(define-map staking-rewards-claimed principal uint)
+(define-map pending-rewards principal uint)
+(define-data-var total-staking-rewards uint u0)
+(define-map compound-frequency principal uint)
+(define-data-var min-compound-amount uint u1000000)
+(define-map last-compound-time principal uint)
+(define-map staking-start-block principal uint)
+;; Staking rewards pool
+;; Staking rewards pool

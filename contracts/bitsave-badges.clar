@@ -31,9 +31,16 @@
 (define-constant ERR_NOT_OWNER (err u106))
 (define-constant ERR_NOT_FOUND (err u107))
 
+;; Badge tier thresholds
+(define-constant BRONZE_THRESHOLD u100)
+(define-constant SILVER_THRESHOLD u500)
+
 ;; -----------------------------------------------------------
 ;; Data Variables
 ;; -----------------------------------------------------------
+
+;; Contract version
+(define-data-var contract-version uint u101) ;; Version 1.0.1
 
 ;; Admin principal (deployer by default)
 (define-data-var admin principal tx-sender)
@@ -196,3 +203,45 @@
 (define-read-only (get-admin)
   (ok (var-get admin))
 )
+
+;; Get contract version
+(define-read-only (get-version)
+  (ok (var-get contract-version))
+)
+(define-constant GOLD_THRESHOLD u1000)
+(define-constant PLATINUM_THRESHOLD u5000)
+(define-constant DIAMOND_THRESHOLD u10000)
+;; Time-based badge thresholds
+(define-constant STREAK_30_DAYS u30)
+(define-constant STREAK_90_DAYS u90)
+(define-constant STREAK_180_DAYS u180)
+(define-constant STREAK_365_DAYS u365)
+;; Deposit milestone thresholds
+(define-constant DEPOSIT_1K u1000000000)
+(define-constant DEPOSIT_10K u10000000000)
+(define-constant DEPOSIT_100K u100000000000)
+(define-constant DEPOSIT_1M u1000000000000)
+(define-constant EARLY_ADOPTER_BLOCK u1000)
+;; Referral badge thresholds
+(define-constant REFERRAL_1 u1)
+(define-constant REFERRAL_5 u5)
+(define-constant REFERRAL_10 u10)
+(define-constant REFERRAL_25 u25)
+(define-constant REFERRAL_50 u50)
+;; Badge rarity levels
+(define-constant RARITY_COMMON u1)
+(define-constant RARITY_UNCOMMON u2)
+(define-constant RARITY_RARE u3)
+(define-constant RARITY_EPIC u4)
+(define-constant RARITY_LEGENDARY u5)
+;; Badge type identifiers
+(define-map badge-rarity uint uint)
+(define-map badge-tier uint uint)
+(define-map badge-timestamp uint uint)
+(define-map user-badge-count principal uint)
+(define-map badge-transferable uint bool)
+(define-data-var total-badges-minted uint u0)
+(define-data-var badges-burned uint u0)
+;; Badge name registry
+(define-map badge-names uint (string-ascii 50))
+(define-map badge-descriptions uint (string-utf8 256))

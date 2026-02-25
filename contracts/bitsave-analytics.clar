@@ -1,0 +1,22 @@
+;; Analytics tracking
+(define-map daily-active-users uint uint)
+(define-map monthly-active-users uint uint)
+(define-map total-value-locked uint uint)
+(define-map daily-deposits uint uint)
+(define-map daily-withdrawals uint uint)
+(define-map user-retention-rate uint uint)
+(define-map average-deposit-size uint uint)
+(define-map average-lock-period uint uint)
+(define-map badges-minted-daily uint uint)
+(define-map referral-conversions uint uint)
+(define-map protocol-revenue uint uint)
+(define-map user-cohorts uint (list 100 principal))
+(define-map cohort-performance uint uint)
+(define-map feature-usage (string-ascii 30) uint)
+(define-map error-logs uint {error: (string-ascii 100), timestamp: uint})
+(define-map gas-usage-stats uint uint)
+(define-map user-journey-events {user: principal, event: uint} (string-ascii 50))
+(define-map conversion-funnels (string-ascii 30) uint)
+(define-map ab-test-groups principal (string-ascii 20))
+;; Analytics tracking
+;; Analytics tracking
