@@ -19,3 +19,4 @@
 (define-map conversion-funnels (string-ascii 30) uint)
 (define-map ab-test-groups principal (string-ascii 20))
 ;; Analytics tracking
+;; Analytics tracking
