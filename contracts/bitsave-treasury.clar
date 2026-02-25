@@ -19,3 +19,4 @@
 (define-map daily-withdrawn uint uint)
 (define-map treasury-investments (string-ascii 30) uint)
 (define-data-var investment-return-rate uint u5)
+;; Treasury management
