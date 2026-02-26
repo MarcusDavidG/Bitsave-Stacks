@@ -1,0 +1,9 @@
+{
+  "name": "BitSave",
+  "short_name": "BitSave",
+  "description": "Bitcoin-powered STX savings vault",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#2563eb",
+  "background_color": "#ffffff"
+}
