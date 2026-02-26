@@ -1,37 +1,34 @@
-# Deployment Guide
+# BitSave Deployment Guide
 
 ## Prerequisites
 
 - Clarinet CLI installed
-- Stacks wallet with STX
-- Node.js and npm
+- STX tokens for deployment
+- Configured wallet
 
 ## Testnet Deployment
 
 ```bash
-# 1. Check contracts
-clarinet check
+# Deploy to testnet
+clarinet deploy --testnet
 
-# 2. Run tests
-npm test
-
-# 3. Deploy to testnet
-./scripts/deploy-testnet.sh
-
-# 4. Authorize badge minter
-clarinet console
-(contract-call? .bitsave-badges set-authorized-minter .bitsave)
+# Verify deployment
+clarinet console --testnet
 ```
 
 ## Mainnet Deployment
 
 ```bash
-./scripts/deploy-mainnet.sh
+# Deploy to mainnet
+clarinet deploy --mainnet
+
+# Initialize contracts
+clarinet run initialize-contracts.ts
 ```
 
 ## Post-Deployment
 
-1. Verify contracts
-2. Set reward rate
-3. Configure parameters
-4. Test deposit/withdrawal
+1. Verify contract functionality
+2. Set initial parameters
+3. Enable badge minting
+4. Monitor for issues
