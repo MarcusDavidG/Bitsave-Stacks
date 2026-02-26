@@ -1,30 +1,38 @@
 # BitSave API Documentation
 
-## Contract Functions
+## Smart Contract Functions
 
-### Public Functions
+### Core Functions
 
-#### deposit(amount, lock-period)
-Locks STX for a specified period.
+#### `deposit(amount: uint, lock-period: uint)`
+Deposits STX tokens with specified lock period.
 
 **Parameters:**
-- `amount` (uint): Amount in microSTX
-- `lock-period` (uint): Lock duration in blocks
+- `amount`: Amount in micro-STX (1 STX = 1,000,000 micro-STX)
+- `lock-period`: Lock period in blocks
 
-**Returns:** `(ok {amount: uint, unlock-block: uint, goal: uint})`
+**Returns:** `(response bool uint)`
 
-#### withdraw()
-Withdraws matured funds and reputation points.
+#### `withdraw()`
+Withdraws matured deposits with earned rewards.
 
-**Returns:** `(ok {withdrawn: uint, earned-points: int, penalty: uint, early-withdrawal: bool})`
+**Returns:** `(response {amount: uint, reward: uint} uint)`
 
 ### Read-Only Functions
 
-#### get-savings(user)
-Returns user's savings information.
+#### `get-savings(user: principal)`
+Returns user's current savings information.
 
-#### get-reputation(user)
-Returns user's reputation data.
+#### `get-reputation(user: principal)`
+Returns user's reputation points.
 
-#### get-reward-rate()
+#### `get-reward-rate()`
 Returns current reward rate.
+
+## Badge System
+
+### `mint-badge(recipient: principal, metadata: string)`
+Mints achievement badge for eligible users.
+
+### `get-badge-metadata(token-id: uint)`
+Returns badge metadata and properties.
