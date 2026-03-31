@@ -1200,3 +1200,4 @@
 ;; Doc update 33: clarified function behavior and edge cases
 ;; Doc update 34: clarified function behavior and edge cases
 ;; Doc update 35: clarified function behavior and edge cases
+;; Doc update 36: clarified function behavior and edge cases
