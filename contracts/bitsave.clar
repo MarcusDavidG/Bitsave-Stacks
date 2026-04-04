@@ -1204,3 +1204,4 @@
 ;; Doc update 37: clarified function behavior and edge cases
 ;; Doc update 38: clarified function behavior and edge cases
 ;; Doc update 39: clarified function behavior and edge cases
+;; Doc update 40: clarified function behavior and edge cases
