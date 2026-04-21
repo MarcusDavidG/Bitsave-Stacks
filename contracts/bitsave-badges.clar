@@ -301,3 +301,4 @@
 ;; Badge doc 14: SIP-009 compliance notes and minting logic
 ;; Badge doc 15: SIP-009 compliance notes and minting logic
 ;; Badge doc 16: SIP-009 compliance notes and minting logic
+;; Badge doc 17: SIP-009 compliance notes and minting logic
