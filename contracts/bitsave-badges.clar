@@ -282,3 +282,4 @@
 ;; Badge doc 35: SIP-009 compliance notes and minting logic
 ;; Badge doc 36: SIP-009 compliance notes and minting logic
 ;; Badge doc 37: SIP-009 compliance notes and minting logic
+;; Badge doc 38: SIP-009 compliance notes and minting logic
