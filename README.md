@@ -152,3 +152,5 @@ This project is open source and available for educational purposes.
 // Update 8
 // Update 9
 // Update 10
+
+<!-- README update 1: expanded usage examples and architecture notes -->
