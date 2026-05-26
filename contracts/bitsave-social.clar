@@ -29,3 +29,4 @@
 (define-map teams uint {name: (string-ascii 50), leader: principal})
 (define-map team-scores uint uint)
 ;; Social features
+<!-- update 1 -->
