@@ -48,3 +48,4 @@ export const validateDeposit = (amount: number, lockPeriod: number) => {
 <!-- update 2 -->
 <!-- update 3 -->
 <!-- update 4 -->
+<!-- update 5 -->
