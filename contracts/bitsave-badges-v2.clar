@@ -18,3 +18,4 @@
 (define-map badge-showcase principal (list 3 uint))
 (define-map badge-collection-bonus principal uint)
 (define-data-var collection-milestone-1 uint u5)
+<!-- update 1 -->
