@@ -114,3 +114,4 @@
   (ok (var-get referral-bonus-rate))
 )
 <!-- update 1 -->
+<!-- update 2 -->
