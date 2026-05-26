@@ -22,3 +22,4 @@
 (define-private (compound-step (period uint) (amount uint))
   (unwrap-panic (multiply-with-precision amount (+ PRECISION u100)))) ;; 1% per period
 <!-- update 1 -->
+<!-- update 2 -->
