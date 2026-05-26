@@ -8,3 +8,4 @@
       (ok (- (+ last-time COOLDOWN_PERIOD) block-height))
       (ok u0))))
 <!-- update 1 -->
+<!-- update 2 -->
