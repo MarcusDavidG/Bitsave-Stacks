@@ -8,3 +8,4 @@
           (net-amount (- amount penalty)))
       (try! (as-contract (stx-transfer? net-amount tx-sender tx-sender)))
       (ok net-amount))))
+<!-- update 1 -->
