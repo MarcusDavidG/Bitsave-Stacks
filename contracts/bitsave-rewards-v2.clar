@@ -3,3 +3,4 @@
   (/ (* amount duration u100) u10000))
 <!-- update 1 -->
 <!-- update 2 -->
+<!-- update 3 -->
