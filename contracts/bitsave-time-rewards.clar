@@ -22,3 +22,4 @@
   (let ((bonus-rate (get-time-bonus-rate lock-period)))
     (/ (* base-reward bonus-rate) u10000)))
 <!-- update 1 -->
+<!-- update 2 -->
