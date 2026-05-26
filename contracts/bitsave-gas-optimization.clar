@@ -13,3 +13,4 @@
 (define-private (calculate-single-reward (data {amount: uint, rate: uint}))
   (/ (* (get amount data) (get rate data)) u10000))
 <!-- update 1 -->
+<!-- update 2 -->
