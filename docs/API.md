@@ -233,3 +233,4 @@ Returns badge metadata and properties.
 <!-- update 35 -->
 <!-- update 36 -->
 <!-- update 37 -->
+<!-- update 38 -->
