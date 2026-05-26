@@ -52,3 +52,4 @@
 
 (define-read-only (get-event-count)
   (var-get event-counter))
+<!-- update 1 -->
