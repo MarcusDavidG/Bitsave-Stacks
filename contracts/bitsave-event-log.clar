@@ -17,3 +17,4 @@
       timestamp: block-height
     })
     (var-set event-counter (+ counter u1))))
+<!-- update 1 -->
