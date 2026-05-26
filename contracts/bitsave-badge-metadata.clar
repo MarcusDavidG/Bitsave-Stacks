@@ -18,3 +18,4 @@
     (map-set badge-metadata token-id metadata)
     (ok true)))
 <!-- update 1 -->
+<!-- update 2 -->
