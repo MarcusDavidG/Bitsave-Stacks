@@ -10,3 +10,4 @@
 
 (define-private (compound-step (period uint) (amount uint))
   (/ (* amount (+ u10000 u100)) u10000))
+<!-- update 1 -->
