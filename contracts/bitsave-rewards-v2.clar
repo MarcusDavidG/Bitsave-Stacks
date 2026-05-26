@@ -2,3 +2,4 @@
 (define-read-only (calculate-rewards-v2 (amount uint) (duration uint))
   (/ (* amount duration u100) u10000))
 <!-- update 1 -->
+<!-- update 2 -->
