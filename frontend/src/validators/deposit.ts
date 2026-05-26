@@ -5,3 +5,4 @@ export const validateDeposit = (amount: number, lockPeriod: number) => {
   return { valid: true };
 };
 <!-- update 1 -->
+<!-- update 2 -->
