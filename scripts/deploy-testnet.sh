@@ -48,3 +48,4 @@ echo ""
 echo "🔗 Testnet Explorer: https://explorer.hiro.so/?chain=testnet"
 <!-- update 1 -->
 <!-- update 2 -->
+<!-- update 3 -->
