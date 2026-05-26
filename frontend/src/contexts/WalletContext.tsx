@@ -61,3 +61,4 @@ export function useWallet() {
   if (!context) throw new Error('useWallet must be used within WalletProvider');
   return context;
 }
+<!-- update 1 -->
