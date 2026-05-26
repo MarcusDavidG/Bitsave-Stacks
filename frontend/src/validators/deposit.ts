@@ -4,3 +4,4 @@ export const validateDeposit = (amount: number, lockPeriod: number) => {
   if (lockPeriod < 144) return { valid: false, error: 'Minimum 1 day lock' };
   return { valid: true };
 };
+<!-- update 1 -->
