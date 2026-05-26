@@ -3,3 +3,4 @@
 (define-map automation-triggers principal (list 5 uint))
 ;; Automation triggers
 <!-- update 1 -->
+<!-- update 2 -->
