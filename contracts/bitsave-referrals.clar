@@ -113,3 +113,4 @@
 (define-read-only (get-referral-bonus-rate)
   (ok (var-get referral-bonus-rate))
 )
+<!-- update 1 -->
