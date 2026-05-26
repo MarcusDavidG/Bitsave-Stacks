@@ -3,3 +3,4 @@
 (define-read-only (is-whitelisted (user principal))
   (default-to false (map-get? whitelist user)))
 <!-- update 1 -->
+<!-- update 2 -->
