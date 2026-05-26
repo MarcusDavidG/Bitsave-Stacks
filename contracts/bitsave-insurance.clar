@@ -4,3 +4,4 @@
 (define-data-var insurance-premium uint u1)
 ;; Vault insurance mechanism
 ;; Vault insurance mechanism
+<!-- update 1 -->
