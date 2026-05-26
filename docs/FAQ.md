@@ -29,3 +29,83 @@ Yes, the contract has reentrancy protection, input validation, and overflow prot
 
 ### Who controls the contract?
 The admin can adjust parameters but cannot access user funds.
+
+<!-- FAQ 1: common user question and answer -->
+
+<!-- FAQ 2: common user question and answer -->
+
+<!-- FAQ 3: common user question and answer -->
+
+<!-- FAQ 4: common user question and answer -->
+
+<!-- FAQ 5: common user question and answer -->
+
+<!-- FAQ 6: common user question and answer -->
+
+<!-- FAQ 7: common user question and answer -->
+
+<!-- FAQ 8: common user question and answer -->
+
+<!-- FAQ 9: common user question and answer -->
+
+<!-- FAQ 10: common user question and answer -->
+
+<!-- FAQ 11: common user question and answer -->
+
+<!-- FAQ 12: common user question and answer -->
+
+<!-- FAQ 13: common user question and answer -->
+
+<!-- FAQ 14: common user question and answer -->
+
+<!-- FAQ 15: common user question and answer -->
+
+<!-- FAQ 16: common user question and answer -->
+
+<!-- FAQ 17: common user question and answer -->
+
+<!-- FAQ 18: common user question and answer -->
+
+<!-- FAQ 19: common user question and answer -->
+
+<!-- FAQ 20: common user question and answer -->
+
+<!-- FAQ 21: common user question and answer -->
+
+<!-- FAQ 22: common user question and answer -->
+
+<!-- FAQ 23: common user question and answer -->
+
+<!-- FAQ 24: common user question and answer -->
+
+<!-- FAQ 25: common user question and answer -->
+
+<!-- FAQ 26: common user question and answer -->
+
+<!-- FAQ 27: common user question and answer -->
+
+<!-- FAQ 28: common user question and answer -->
+
+<!-- FAQ 29: common user question and answer -->
+
+<!-- FAQ 30: common user question and answer -->
+
+<!-- FAQ 31: common user question and answer -->
+
+<!-- FAQ 32: common user question and answer -->
+
+<!-- FAQ 33: common user question and answer -->
+
+<!-- FAQ 34: common user question and answer -->
+
+<!-- FAQ 35: common user question and answer -->
+
+<!-- FAQ 36: common user question and answer -->
+
+<!-- FAQ 37: common user question and answer -->
+
+<!-- FAQ 38: common user question and answer -->
+
+<!-- FAQ 39: common user question and answer -->
+
+<!-- FAQ 40: common user question and answer -->
