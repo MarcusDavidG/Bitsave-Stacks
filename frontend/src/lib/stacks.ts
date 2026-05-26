@@ -77,3 +77,4 @@ export const getUserReputation = async (userAddress: string) => {
     value: 750 // Mock reputation points
   };
 };
+<!-- update 1 -->
