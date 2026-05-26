@@ -21,3 +21,4 @@
 (define-read-only (calculate-time-bonus (base-reward uint) (lock-period uint))
   (let ((bonus-rate (get-time-bonus-rate lock-period)))
     (/ (* base-reward bonus-rate) u10000)))
+<!-- update 1 -->
