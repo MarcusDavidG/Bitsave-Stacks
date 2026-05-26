@@ -18,3 +18,4 @@
     })
     (var-set event-counter (+ counter u1))))
 <!-- update 1 -->
+<!-- update 2 -->
