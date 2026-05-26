@@ -159,3 +159,4 @@
 (define-read-only (get-reward-rate)
   (ok (var-get reward-rate))
 )
+<!-- update 1 -->
