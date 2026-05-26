@@ -10,3 +10,4 @@
     (map-get? user-streaks user)))
 <!-- update 1 -->
 <!-- update 2 -->
+<!-- update 3 -->
