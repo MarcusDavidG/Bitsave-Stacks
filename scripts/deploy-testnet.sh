@@ -73,3 +73,4 @@ echo "🔗 Testnet Explorer: https://explorer.hiro.so/?chain=testnet"
 <!-- update 25 -->
 <!-- update 26 -->
 <!-- update 27 -->
+<!-- update 28 -->
