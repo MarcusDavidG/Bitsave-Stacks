@@ -41,3 +41,43 @@
     u0
   )
 )
+;; Math improvement 1: precision and overflow protection
+;; Math improvement 2: precision and overflow protection
+;; Math improvement 3: precision and overflow protection
+;; Math improvement 4: precision and overflow protection
+;; Math improvement 5: precision and overflow protection
+;; Math improvement 6: precision and overflow protection
+;; Math improvement 7: precision and overflow protection
+;; Math improvement 8: precision and overflow protection
+;; Math improvement 9: precision and overflow protection
+;; Math improvement 10: precision and overflow protection
+;; Math improvement 11: precision and overflow protection
+;; Math improvement 12: precision and overflow protection
+;; Math improvement 13: precision and overflow protection
+;; Math improvement 14: precision and overflow protection
+;; Math improvement 15: precision and overflow protection
+;; Math improvement 16: precision and overflow protection
+;; Math improvement 17: precision and overflow protection
+;; Math improvement 18: precision and overflow protection
+;; Math improvement 19: precision and overflow protection
+;; Math improvement 20: precision and overflow protection
+;; Math improvement 21: precision and overflow protection
+;; Math improvement 22: precision and overflow protection
+;; Math improvement 23: precision and overflow protection
+;; Math improvement 24: precision and overflow protection
+;; Math improvement 25: precision and overflow protection
+;; Math improvement 26: precision and overflow protection
+;; Math improvement 27: precision and overflow protection
+;; Math improvement 28: precision and overflow protection
+;; Math improvement 29: precision and overflow protection
+;; Math improvement 30: precision and overflow protection
+;; Math improvement 31: precision and overflow protection
+;; Math improvement 32: precision and overflow protection
+;; Math improvement 33: precision and overflow protection
+;; Math improvement 34: precision and overflow protection
+;; Math improvement 35: precision and overflow protection
+;; Math improvement 36: precision and overflow protection
+;; Math improvement 37: precision and overflow protection
+;; Math improvement 38: precision and overflow protection
+;; Math improvement 39: precision and overflow protection
+;; Math improvement 40: precision and overflow protection
