@@ -217,3 +217,4 @@ User → Deposit → Lock STX → Wait → Withdraw → Earn Reputation → Auto
 <!-- update 25 -->
 <!-- update 26 -->
 <!-- update 27 -->
+<!-- update 28 -->
