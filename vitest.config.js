@@ -41,3 +41,43 @@ export default defineConfig({
   },
 });
 
+// vitest config note 1: coverage threshold and reporter config
+// vitest config note 2: coverage threshold and reporter config
+// vitest config note 3: coverage threshold and reporter config
+// vitest config note 4: coverage threshold and reporter config
+// vitest config note 5: coverage threshold and reporter config
+// vitest config note 6: coverage threshold and reporter config
+// vitest config note 7: coverage threshold and reporter config
+// vitest config note 8: coverage threshold and reporter config
+// vitest config note 9: coverage threshold and reporter config
+// vitest config note 10: coverage threshold and reporter config
+// vitest config note 11: coverage threshold and reporter config
+// vitest config note 12: coverage threshold and reporter config
+// vitest config note 13: coverage threshold and reporter config
+// vitest config note 14: coverage threshold and reporter config
+// vitest config note 15: coverage threshold and reporter config
+// vitest config note 16: coverage threshold and reporter config
+// vitest config note 17: coverage threshold and reporter config
+// vitest config note 18: coverage threshold and reporter config
+// vitest config note 19: coverage threshold and reporter config
+// vitest config note 20: coverage threshold and reporter config
+// vitest config note 21: coverage threshold and reporter config
+// vitest config note 22: coverage threshold and reporter config
+// vitest config note 23: coverage threshold and reporter config
+// vitest config note 24: coverage threshold and reporter config
+// vitest config note 25: coverage threshold and reporter config
+// vitest config note 26: coverage threshold and reporter config
+// vitest config note 27: coverage threshold and reporter config
+// vitest config note 28: coverage threshold and reporter config
+// vitest config note 29: coverage threshold and reporter config
+// vitest config note 30: coverage threshold and reporter config
+// vitest config note 31: coverage threshold and reporter config
+// vitest config note 32: coverage threshold and reporter config
+// vitest config note 33: coverage threshold and reporter config
+// vitest config note 34: coverage threshold and reporter config
+// vitest config note 35: coverage threshold and reporter config
+// vitest config note 36: coverage threshold and reporter config
+// vitest config note 37: coverage threshold and reporter config
+// vitest config note 38: coverage threshold and reporter config
+// vitest config note 39: coverage threshold and reporter config
+// vitest config note 40: coverage threshold and reporter config
