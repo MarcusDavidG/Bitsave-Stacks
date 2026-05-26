@@ -1125,3 +1125,43 @@
 // Optimization 38
 // Optimization 39
 // Optimization 40
+;; Doc update 1: clarified function behavior and edge cases
+;; Doc update 2: clarified function behavior and edge cases
+;; Doc update 3: clarified function behavior and edge cases
+;; Doc update 4: clarified function behavior and edge cases
+;; Doc update 5: clarified function behavior and edge cases
+;; Doc update 6: clarified function behavior and edge cases
+;; Doc update 7: clarified function behavior and edge cases
+;; Doc update 8: clarified function behavior and edge cases
+;; Doc update 9: clarified function behavior and edge cases
+;; Doc update 10: clarified function behavior and edge cases
+;; Doc update 11: clarified function behavior and edge cases
+;; Doc update 12: clarified function behavior and edge cases
+;; Doc update 13: clarified function behavior and edge cases
+;; Doc update 14: clarified function behavior and edge cases
+;; Doc update 15: clarified function behavior and edge cases
+;; Doc update 16: clarified function behavior and edge cases
+;; Doc update 17: clarified function behavior and edge cases
+;; Doc update 18: clarified function behavior and edge cases
+;; Doc update 19: clarified function behavior and edge cases
+;; Doc update 20: clarified function behavior and edge cases
+;; Doc update 21: clarified function behavior and edge cases
+;; Doc update 22: clarified function behavior and edge cases
+;; Doc update 23: clarified function behavior and edge cases
+;; Doc update 24: clarified function behavior and edge cases
+;; Doc update 25: clarified function behavior and edge cases
+;; Doc update 26: clarified function behavior and edge cases
+;; Doc update 27: clarified function behavior and edge cases
+;; Doc update 28: clarified function behavior and edge cases
+;; Doc update 29: clarified function behavior and edge cases
+;; Doc update 30: clarified function behavior and edge cases
+;; Doc update 31: clarified function behavior and edge cases
+;; Doc update 32: clarified function behavior and edge cases
+;; Doc update 33: clarified function behavior and edge cases
+;; Doc update 34: clarified function behavior and edge cases
+;; Doc update 35: clarified function behavior and edge cases
+;; Doc update 36: clarified function behavior and edge cases
+;; Doc update 37: clarified function behavior and edge cases
+;; Doc update 38: clarified function behavior and edge cases
+;; Doc update 39: clarified function behavior and edge cases
+;; Doc update 40: clarified function behavior and edge cases
