@@ -7,3 +7,4 @@
     (if (> (+ last-time COOLDOWN_PERIOD) block-height)
       (ok (- (+ last-time COOLDOWN_PERIOD) block-height))
       (ok u0))))
+<!-- update 1 -->
