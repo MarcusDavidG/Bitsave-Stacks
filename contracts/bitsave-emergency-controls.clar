@@ -34,3 +34,4 @@
     (print {event: "admin-transfer", old-admin: tx-sender, new-admin: new-admin})
     (ok true)))
 <!-- update 1 -->
+<!-- update 2 -->
