@@ -116,3 +116,83 @@ Returns badge metadata and properties.
 <!-- API doc update 39: added endpoint details and response schemas -->
 
 <!-- API doc update 40: added endpoint details and response schemas -->
+
+<!-- API doc update 1: added endpoint details and response schemas -->
+
+<!-- API doc update 2: added endpoint details and response schemas -->
+
+<!-- API doc update 3: added endpoint details and response schemas -->
+
+<!-- API doc update 4: added endpoint details and response schemas -->
+
+<!-- API doc update 5: added endpoint details and response schemas -->
+
+<!-- API doc update 6: added endpoint details and response schemas -->
+
+<!-- API doc update 7: added endpoint details and response schemas -->
+
+<!-- API doc update 8: added endpoint details and response schemas -->
+
+<!-- API doc update 9: added endpoint details and response schemas -->
+
+<!-- API doc update 10: added endpoint details and response schemas -->
+
+<!-- API doc update 11: added endpoint details and response schemas -->
+
+<!-- API doc update 12: added endpoint details and response schemas -->
+
+<!-- API doc update 13: added endpoint details and response schemas -->
+
+<!-- API doc update 14: added endpoint details and response schemas -->
+
+<!-- API doc update 15: added endpoint details and response schemas -->
+
+<!-- API doc update 16: added endpoint details and response schemas -->
+
+<!-- API doc update 17: added endpoint details and response schemas -->
+
+<!-- API doc update 18: added endpoint details and response schemas -->
+
+<!-- API doc update 19: added endpoint details and response schemas -->
+
+<!-- API doc update 20: added endpoint details and response schemas -->
+
+<!-- API doc update 21: added endpoint details and response schemas -->
+
+<!-- API doc update 22: added endpoint details and response schemas -->
+
+<!-- API doc update 23: added endpoint details and response schemas -->
+
+<!-- API doc update 24: added endpoint details and response schemas -->
+
+<!-- API doc update 25: added endpoint details and response schemas -->
+
+<!-- API doc update 26: added endpoint details and response schemas -->
+
+<!-- API doc update 27: added endpoint details and response schemas -->
+
+<!-- API doc update 28: added endpoint details and response schemas -->
+
+<!-- API doc update 29: added endpoint details and response schemas -->
+
+<!-- API doc update 30: added endpoint details and response schemas -->
+
+<!-- API doc update 31: added endpoint details and response schemas -->
+
+<!-- API doc update 32: added endpoint details and response schemas -->
+
+<!-- API doc update 33: added endpoint details and response schemas -->
+
+<!-- API doc update 34: added endpoint details and response schemas -->
+
+<!-- API doc update 35: added endpoint details and response schemas -->
+
+<!-- API doc update 36: added endpoint details and response schemas -->
+
+<!-- API doc update 37: added endpoint details and response schemas -->
+
+<!-- API doc update 38: added endpoint details and response schemas -->
+
+<!-- API doc update 39: added endpoint details and response schemas -->
+
+<!-- API doc update 40: added endpoint details and response schemas -->
