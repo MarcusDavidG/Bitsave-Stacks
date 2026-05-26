@@ -33,3 +33,4 @@
     (var-set emergency-admin new-admin)
     (print {event: "admin-transfer", old-admin: tx-sender, new-admin: new-admin})
     (ok true)))
+<!-- update 1 -->
