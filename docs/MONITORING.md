@@ -622,3 +622,83 @@ Regular review and updates of monitoring procedures ensure continued effectivene
 <!-- Monitoring note 39: alert thresholds and dashboard setup -->
 
 <!-- Monitoring note 40: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 1: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 2: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 3: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 4: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 5: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 6: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 7: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 8: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 9: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 10: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 11: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 12: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 13: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 14: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 15: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 16: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 17: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 18: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 19: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 20: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 21: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 22: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 23: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 24: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 25: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 26: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 27: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 28: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 29: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 30: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 31: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 32: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 33: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 34: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 35: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 36: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 37: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 38: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 39: alert thresholds and dashboard setup -->
+
+<!-- Monitoring note 40: alert thresholds and dashboard setup -->
