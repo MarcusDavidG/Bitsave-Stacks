@@ -225,3 +225,4 @@ See `/components/dashboard-example.tsx` for a complete working example.
 - [Clarity Language Reference](https://docs.stacks.co/clarity)
 - [Hiro Explorer](https://explorer.hiro.so)
 <!-- update 1 -->
+<!-- update 2 -->
