@@ -251,3 +251,4 @@ clarinet run initialize-contracts.ts
 <!-- update 17 -->
 <!-- update 18 -->
 <!-- update 19 -->
+<!-- update 20 -->
