@@ -93,3 +93,4 @@ After updating configurations:
 # Verify deployment
 ./scripts/verify-contracts.sh --network testnet --address ST2QR5BT57BTVQM69ZFQBMW3BH7KDN3FX56H02TEW
 ```
+<!-- update 1 -->
