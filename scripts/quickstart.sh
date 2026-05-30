@@ -26,3 +26,4 @@ npm test
 
 echo ""
 echo "✅ Setup complete!"
+<!-- update 1 -->
