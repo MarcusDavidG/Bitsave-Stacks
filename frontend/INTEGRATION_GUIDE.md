@@ -224,3 +224,4 @@ See `/components/dashboard-example.tsx` for a complete working example.
 - [Stacks.js Documentation](https://docs.stacks.co/stacks.js)
 - [Clarity Language Reference](https://docs.stacks.co/clarity)
 - [Hiro Explorer](https://explorer.hiro.so)
+<!-- update 1 -->
