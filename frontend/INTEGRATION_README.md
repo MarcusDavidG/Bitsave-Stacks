@@ -279,3 +279,4 @@ For issues or questions:
 
 **Ready to integrate!** 🚀 Start with the example component and customize from there.
 <!-- update 1 -->
+<!-- update 2 -->
