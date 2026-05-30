@@ -65,3 +65,4 @@ echo "3. Monitor contract performance"
 echo "4. Announce launch to community"
 echo ""
 echo "🔗 Mainnet Explorer: https://explorer.hiro.so/?chain=mainnet"
+<!-- update 1 -->
