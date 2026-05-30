@@ -70,3 +70,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 <!-- update 34 -->
 <!-- update 35 -->
 <!-- update 36 -->
+<!-- update 37 -->
