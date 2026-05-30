@@ -6,3 +6,4 @@ const nextConfig: NextConfig = {
 
 export default nextConfig;
 <!-- update 1 -->
+<!-- update 2 -->
