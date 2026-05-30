@@ -28,3 +28,4 @@ echo ""
 echo "✅ Setup complete!"
 <!-- update 1 -->
 <!-- update 2 -->
+<!-- update 3 -->
