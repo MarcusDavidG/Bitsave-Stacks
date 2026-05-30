@@ -87,3 +87,4 @@ echo "🔗 Mainnet Explorer: https://explorer.hiro.so/?chain=mainnet"
 <!-- update 20 -->
 <!-- update 21 -->
 <!-- update 22 -->
+<!-- update 23 -->
