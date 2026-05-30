@@ -719,3 +719,4 @@ describe('BitSave Badges - SIP-009 Compliance', () => {
     expect(lastTokenId.result).toBeOk(Cl.uint(5));
   });
 });
+<!-- update 1 -->
