@@ -40,3 +40,4 @@ npm test
 3. Add tests for new features
 4. Submit pull request
 <!-- update 1 -->
+<!-- update 2 -->
