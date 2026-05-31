@@ -592,3 +592,16 @@ This project is open source and available for educational purposes.
 <!-- refactor/savings-vault commit 34: test: note withdrawal test cases -->
 <!-- refactor/savings-vault commit 37: perf: document caching strategy -->
 <!-- refactor/savings-vault commit 40: style: normalize doc style -->
+<!-- refactor/contract-cleanup commit 3: docs: add usage examples -->
+<!-- refactor/contract-cleanup commit 6: docs: refine README section -->
+<!-- refactor/contract-cleanup commit 9: chore: normalize whitespace -->
+<!-- refactor/contract-cleanup commit 12: chore: update project metadata -->
+<!-- refactor/contract-cleanup commit 15: chore: minor formatting fix -->
+<!-- refactor/contract-cleanup commit 18: fix: update broken reference -->
+<!-- refactor/contract-cleanup commit 21: refactor: simplify roadmap notes -->
+<!-- refactor/contract-cleanup commit 24: refactor: improve changelog structure -->
+<!-- refactor/contract-cleanup commit 27: feat: add DAO integration note -->
+<!-- refactor/contract-cleanup commit 30: feat: note marketplace roadmap item -->
+<!-- refactor/contract-cleanup commit 33: test: update test scenario notes -->
+<!-- refactor/contract-cleanup commit 36: perf: note optimization opportunity -->
+<!-- refactor/contract-cleanup commit 39: style: fix formatting in notes -->

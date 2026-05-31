@@ -239,3 +239,16 @@
 <!-- refactor/savings-vault note 33: test: update test scenario notes -->
 <!-- refactor/savings-vault note 36: perf: note optimization opportunity -->
 <!-- refactor/savings-vault note 39: style: fix formatting in notes -->
+<!-- refactor/contract-cleanup note 2: docs: improve function descriptions -->
+<!-- refactor/contract-cleanup note 5: docs: expand architecture notes -->
+<!-- refactor/contract-cleanup note 8: docs: update roadmap item -->
+<!-- refactor/contract-cleanup note 11: chore: tidy config formatting -->
+<!-- refactor/contract-cleanup note 14: chore: update .editorconfig -->
+<!-- refactor/contract-cleanup note 17: fix: fix stale comment -->
+<!-- refactor/contract-cleanup note 20: fix: fix markdown formatting -->
+<!-- refactor/contract-cleanup note 23: refactor: clean up redundant entries -->
+<!-- refactor/contract-cleanup note 26: feat: document badge tier concept -->
+<!-- refactor/contract-cleanup note 29: feat: add streak badge description -->
+<!-- refactor/contract-cleanup note 32: test: add edge case descriptions -->
+<!-- refactor/contract-cleanup note 35: test: document badge minting tests -->
+<!-- refactor/contract-cleanup note 38: perf: add performance note -->
