@@ -788,3 +788,4 @@
 <!-- feat/sbtc-vault-v2 note 2: docs: improve function descriptions -->
 <!-- feat/sbtc-vault-v2 note 5: docs: expand architecture notes -->
 <!-- feat/sbtc-vault-v2 note 8: docs: update roadmap item -->
+<!-- feat/sbtc-vault-v2 note 11: chore: tidy config formatting -->
