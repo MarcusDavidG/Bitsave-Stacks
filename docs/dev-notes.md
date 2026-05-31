@@ -371,3 +371,4 @@
 <!-- feat/badge-marketplace note 30: feat: note marketplace roadmap item -->
 <!-- feat/badge-marketplace note 33: test: update test scenario notes -->
 <!-- feat/badge-marketplace note 36: perf: note optimization opportunity -->
+<!-- feat/badge-marketplace note 39: style: fix formatting in notes -->
