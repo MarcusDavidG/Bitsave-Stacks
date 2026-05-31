@@ -424,3 +424,4 @@
 <!-- feat/reward-boost note 29: feat: add streak badge description -->
 <!-- feat/reward-boost note 32: test: add edge case descriptions -->
 <!-- feat/reward-boost note 35: test: document badge minting tests -->
+<!-- feat/reward-boost note 38: perf: add performance note -->
