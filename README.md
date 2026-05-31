@@ -818,3 +818,4 @@ This project is open source and available for educational purposes.
 <!-- feat/savings-goals commit 33: test: update test scenario notes -->
 <!-- feat/savings-goals commit 36: perf: note optimization opportunity -->
 <!-- feat/savings-goals commit 39: style: fix formatting in notes -->
+<!-- docs/contract-guide commit 2: docs: improve function descriptions -->
