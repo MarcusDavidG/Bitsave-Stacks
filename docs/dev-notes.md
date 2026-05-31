@@ -43,3 +43,4 @@
 <!-- feat/dao-governance note 5: docs: expand architecture notes -->
 <!-- feat/dao-governance note 8: docs: update roadmap item -->
 <!-- feat/dao-governance note 11: chore: tidy config formatting -->
+<!-- feat/dao-governance note 14: chore: update .editorconfig -->
