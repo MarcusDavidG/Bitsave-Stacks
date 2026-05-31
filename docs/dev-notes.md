@@ -365,3 +365,4 @@
 <!-- feat/badge-marketplace note 12: chore: update project metadata -->
 <!-- feat/badge-marketplace note 15: chore: minor formatting fix -->
 <!-- feat/badge-marketplace note 18: fix: update broken reference -->
+<!-- feat/badge-marketplace note 21: refactor: simplify roadmap notes -->
