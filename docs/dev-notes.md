@@ -610,3 +610,4 @@
 <!-- chore/ci-improvements note 27: feat: add DAO integration note -->
 <!-- chore/ci-improvements note 30: feat: note marketplace roadmap item -->
 <!-- chore/ci-improvements note 33: test: update test scenario notes -->
+<!-- chore/ci-improvements note 36: perf: note optimization opportunity -->
