@@ -694,3 +694,4 @@ This project is open source and available for educational purposes.
 <!-- feat/badge-tiers commit 21: refactor: simplify roadmap notes -->
 <!-- feat/badge-tiers commit 24: refactor: improve changelog structure -->
 <!-- feat/badge-tiers commit 27: feat: add DAO integration note -->
+<!-- feat/badge-tiers commit 30: feat: note marketplace roadmap item -->
