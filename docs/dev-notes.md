@@ -558,3 +558,4 @@
 <!-- refactor/badge-minting note 31: test: document test coverage notes -->
 <!-- refactor/badge-minting note 34: test: note withdrawal test cases -->
 <!-- refactor/badge-minting note 37: perf: document caching strategy -->
+<!-- refactor/badge-minting note 40: style: normalize doc style -->
