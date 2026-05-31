@@ -845,3 +845,16 @@
 <!-- refactor/reward-logic commit 34 -->
 <!-- refactor/reward-logic commit 37 -->
 <!-- refactor/reward-logic commit 40 -->
+<!-- refactor/badge-minting commit 3 -->
+<!-- refactor/badge-minting commit 6 -->
+<!-- refactor/badge-minting commit 9 -->
+<!-- refactor/badge-minting commit 12 -->
+<!-- refactor/badge-minting commit 15 -->
+<!-- refactor/badge-minting commit 18 -->
+<!-- refactor/badge-minting commit 21 -->
+<!-- refactor/badge-minting commit 24 -->
+<!-- refactor/badge-minting commit 27 -->
+<!-- refactor/badge-minting commit 30 -->
+<!-- refactor/badge-minting commit 33 -->
+<!-- refactor/badge-minting commit 36 -->
+<!-- refactor/badge-minting commit 39 -->

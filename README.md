@@ -898,3 +898,16 @@ This project is open source and available for educational purposes.
 <!-- refactor/reward-logic commit 33: test: update test scenario notes -->
 <!-- refactor/reward-logic commit 36: perf: note optimization opportunity -->
 <!-- refactor/reward-logic commit 39: style: fix formatting in notes -->
+<!-- refactor/badge-minting commit 2: docs: improve function descriptions -->
+<!-- refactor/badge-minting commit 5: docs: expand architecture notes -->
+<!-- refactor/badge-minting commit 8: docs: update roadmap item -->
+<!-- refactor/badge-minting commit 11: chore: tidy config formatting -->
+<!-- refactor/badge-minting commit 14: chore: update .editorconfig -->
+<!-- refactor/badge-minting commit 17: fix: fix stale comment -->
+<!-- refactor/badge-minting commit 20: fix: fix markdown formatting -->
+<!-- refactor/badge-minting commit 23: refactor: clean up redundant entries -->
+<!-- refactor/badge-minting commit 26: feat: document badge tier concept -->
+<!-- refactor/badge-minting commit 29: feat: add streak badge description -->
+<!-- refactor/badge-minting commit 32: test: add edge case descriptions -->
+<!-- refactor/badge-minting commit 35: test: document badge minting tests -->
+<!-- refactor/badge-minting commit 38: perf: add performance note -->
