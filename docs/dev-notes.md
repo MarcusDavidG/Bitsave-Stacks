@@ -811,3 +811,4 @@
 <!-- feat/reward-boost-v2 note 31: test: update test scenario notes -->
 <!-- feat/reward-boost-v2 note 34: perf: note optimization opportunity -->
 <!-- feat/reward-boost-v2 note 37: style: fix formatting in notes -->
+<!-- feat/reward-boost-v2 note 40: refactor: restructure dev notes -->
