@@ -158,3 +158,4 @@
 <!-- docs/badge-system note 30: feat: note marketplace roadmap item -->
 <!-- docs/badge-system note 33: test: update test scenario notes -->
 <!-- docs/badge-system note 36: perf: note optimization opportunity -->
+<!-- docs/badge-system note 39: style: fix formatting in notes -->
