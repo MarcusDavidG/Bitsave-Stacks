@@ -232,3 +232,4 @@
 <!-- refactor/savings-vault note 12: chore: update project metadata -->
 <!-- refactor/savings-vault note 15: chore: minor formatting fix -->
 <!-- refactor/savings-vault note 18: fix: update broken reference -->
+<!-- refactor/savings-vault note 21: refactor: simplify roadmap notes -->
