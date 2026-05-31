@@ -793,3 +793,4 @@
 <!-- feat/sbtc-vault-v2 note 17: fix: update broken reference -->
 <!-- feat/sbtc-vault-v2 note 20: refactor: simplify roadmap notes -->
 <!-- feat/sbtc-vault-v2 note 23: refactor: improve changelog structure -->
+<!-- feat/sbtc-vault-v2 note 26: feat: document sBTC vault idea -->
