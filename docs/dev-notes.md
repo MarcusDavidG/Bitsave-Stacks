@@ -222,3 +222,4 @@
 <!-- refactor/badge-minting note 22: refactor: reorganize docs section -->
 <!-- refactor/badge-minting note 25: refactor: restructure dev notes -->
 <!-- refactor/badge-minting note 28: feat: document sBTC vault idea -->
+<!-- refactor/badge-minting note 31: test: document test coverage notes -->
