@@ -1086,3 +1086,4 @@
 <!-- feat/dao-governance-v2 commit 35 -->
 <!-- feat/dao-governance-v2 commit 38 -->
 <!-- feat/sbtc-vault-v2 commit 1 -->
+<!-- feat/sbtc-vault-v2 commit 4 -->
