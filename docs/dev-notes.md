@@ -447,3 +447,4 @@
 <!-- feat/leaderboard note 18: fix: update broken reference -->
 <!-- feat/leaderboard note 21: refactor: simplify roadmap notes -->
 <!-- feat/leaderboard note 24: refactor: improve changelog structure -->
+<!-- feat/leaderboard note 27: feat: add DAO integration note -->
