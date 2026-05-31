@@ -440,3 +440,4 @@ This project is open source and available for educational purposes.
 <!-- feat/reward-boost commit 18: fix: update broken reference -->
 <!-- feat/reward-boost commit 21: refactor: simplify roadmap notes -->
 <!-- feat/reward-boost commit 24: refactor: improve changelog structure -->
+<!-- feat/reward-boost commit 27: feat: add DAO integration note -->
