@@ -953,3 +953,4 @@ This project is open source and available for educational purposes.
 <!-- refactor/test-structure commit 38: perf: add performance note -->
 <!-- chore/ci-improvements commit 1: docs: update inline comments -->
 <!-- chore/ci-improvements commit 4: docs: clarify error handling notes -->
+<!-- chore/ci-improvements commit 7: docs: add dev notes entry -->
