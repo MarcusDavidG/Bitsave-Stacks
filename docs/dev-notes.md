@@ -762,3 +762,4 @@
 <!-- feat/streak-badges-v2 note 4: docs: clarify error handling notes -->
 <!-- feat/streak-badges-v2 note 7: docs: add dev notes entry -->
 <!-- feat/streak-badges-v2 note 10: chore: update changelog entry -->
+<!-- feat/streak-badges-v2 note 13: chore: clean up stale comments -->
