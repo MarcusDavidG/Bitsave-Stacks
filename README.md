@@ -871,3 +871,17 @@ This project is open source and available for educational purposes.
 <!-- docs/deployment-guide commit 32: test: add edge case descriptions -->
 <!-- docs/deployment-guide commit 35: test: document badge minting tests -->
 <!-- docs/deployment-guide commit 38: perf: add performance note -->
+<!-- docs/architecture-overview commit 1: docs: update inline comments -->
+<!-- docs/architecture-overview commit 4: docs: clarify error handling notes -->
+<!-- docs/architecture-overview commit 7: docs: add dev notes entry -->
+<!-- docs/architecture-overview commit 10: chore: update changelog entry -->
+<!-- docs/architecture-overview commit 13: chore: clean up stale comments -->
+<!-- docs/architecture-overview commit 16: fix: correct typo in docs -->
+<!-- docs/architecture-overview commit 19: fix: correct badge description -->
+<!-- docs/architecture-overview commit 22: refactor: reorganize docs section -->
+<!-- docs/architecture-overview commit 25: refactor: restructure dev notes -->
+<!-- docs/architecture-overview commit 28: feat: document sBTC vault idea -->
+<!-- docs/architecture-overview commit 31: test: document test coverage notes -->
+<!-- docs/architecture-overview commit 34: test: note withdrawal test cases -->
+<!-- docs/architecture-overview commit 37: perf: document caching strategy -->
+<!-- docs/architecture-overview commit 40: style: normalize doc style -->
