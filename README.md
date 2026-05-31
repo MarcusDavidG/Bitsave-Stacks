@@ -714,3 +714,4 @@ This project is open source and available for educational purposes.
 <!-- feat/badge-marketplace commit 1: docs: update inline comments -->
 <!-- feat/badge-marketplace commit 4: docs: clarify error handling notes -->
 <!-- feat/badge-marketplace commit 7: docs: add dev notes entry -->
+<!-- feat/badge-marketplace commit 10: chore: update changelog entry -->
