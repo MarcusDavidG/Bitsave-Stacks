@@ -535,3 +535,4 @@
 <!-- refactor/reward-logic note 2: docs: improve function descriptions -->
 <!-- refactor/reward-logic note 5: docs: expand architecture notes -->
 <!-- refactor/reward-logic note 8: docs: update roadmap item -->
+<!-- refactor/reward-logic note 11: chore: tidy config formatting -->
