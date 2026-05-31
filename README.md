@@ -379,3 +379,4 @@ This project is open source and available for educational purposes.
 <!-- feat/streak-badges commit 35: test: document badge minting tests -->
 <!-- feat/streak-badges commit 38: perf: add performance note -->
 <!-- feat/badge-marketplace commit 1: docs: update inline comments -->
+<!-- feat/badge-marketplace commit 4: docs: clarify error handling notes -->
