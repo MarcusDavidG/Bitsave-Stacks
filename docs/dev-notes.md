@@ -654,3 +654,4 @@
 <!-- chore/config-cleanup note 39: style: fix formatting in notes -->
 <!-- chore/changelog-updates note 2: docs: improve function descriptions -->
 <!-- chore/changelog-updates note 5: docs: expand architecture notes -->
+<!-- chore/changelog-updates note 8: docs: update roadmap item -->
