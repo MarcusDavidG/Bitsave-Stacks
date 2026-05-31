@@ -534,3 +534,4 @@ This project is open source and available for educational purposes.
 <!-- docs/deployment-guide commit 20: fix: fix markdown formatting -->
 <!-- docs/deployment-guide commit 23: refactor: clean up redundant entries -->
 <!-- docs/deployment-guide commit 26: feat: document badge tier concept -->
+<!-- docs/deployment-guide commit 29: feat: add streak badge description -->
