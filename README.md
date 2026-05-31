@@ -376,3 +376,4 @@ This project is open source and available for educational purposes.
 <!-- feat/streak-badges commit 26: feat: document badge tier concept -->
 <!-- feat/streak-badges commit 29: feat: add streak badge description -->
 <!-- feat/streak-badges commit 32: test: add edge case descriptions -->
+<!-- feat/streak-badges commit 35: test: document badge minting tests -->
