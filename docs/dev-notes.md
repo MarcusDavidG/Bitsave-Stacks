@@ -185,3 +185,4 @@
 <!-- docs/deployment-guide note 31: test: document test coverage notes -->
 <!-- docs/deployment-guide note 34: test: note withdrawal test cases -->
 <!-- docs/deployment-guide note 37: perf: document caching strategy -->
+<!-- docs/deployment-guide note 40: style: normalize doc style -->
