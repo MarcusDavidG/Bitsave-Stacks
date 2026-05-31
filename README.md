@@ -803,3 +803,4 @@ This project is open source and available for educational purposes.
 <!-- feat/leaderboard commit 28: feat: document sBTC vault idea -->
 <!-- feat/leaderboard commit 31: test: document test coverage notes -->
 <!-- feat/leaderboard commit 34: test: note withdrawal test cases -->
+<!-- feat/leaderboard commit 37: perf: document caching strategy -->
