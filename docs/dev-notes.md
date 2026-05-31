@@ -666,3 +666,4 @@
 <!-- chore/changelog-updates note 35: test: document badge minting tests -->
 <!-- chore/changelog-updates note 38: perf: add performance note -->
 <!-- feat/badge-tiers note 2: docs: improve function descriptions -->
+<!-- feat/badge-tiers note 5: docs: expand architecture notes -->
