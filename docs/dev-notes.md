@@ -26,3 +26,4 @@
 <!-- feat/streak-badges note 34: test: note withdrawal test cases -->
 <!-- feat/streak-badges note 37: perf: document caching strategy -->
 <!-- feat/streak-badges note 40: style: normalize doc style -->
+<!-- feat/badge-marketplace note 3: docs: add usage examples -->
