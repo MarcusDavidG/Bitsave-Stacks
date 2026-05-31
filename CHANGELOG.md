@@ -1052,3 +1052,4 @@
 <!-- feat/badge-tiers-v2 commit 13 -->
 <!-- feat/badge-tiers-v2 commit 16 -->
 <!-- feat/badge-tiers-v2 commit 19 -->
+<!-- feat/badge-tiers-v2 commit 22 -->
