@@ -496,3 +496,4 @@
 <!-- docs/api-reference note 5: docs: expand architecture notes -->
 <!-- docs/api-reference note 8: docs: update roadmap item -->
 <!-- docs/api-reference note 11: chore: tidy config formatting -->
+<!-- docs/api-reference note 14: chore: update .editorconfig -->
