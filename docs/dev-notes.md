@@ -815,3 +815,4 @@
 <!-- feat/leaderboard-v2 note 3: docs: add usage examples -->
 <!-- feat/leaderboard-v2 note 6: docs: refine README section -->
 <!-- feat/leaderboard-v2 note 9: chore: normalize whitespace -->
+<!-- feat/leaderboard-v2 note 12: chore: update project metadata -->
