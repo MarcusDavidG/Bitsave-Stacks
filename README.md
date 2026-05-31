@@ -688,3 +688,4 @@ This project is open source and available for educational purposes.
 <!-- feat/badge-tiers commit 3: docs: add usage examples -->
 <!-- feat/badge-tiers commit 6: docs: refine README section -->
 <!-- feat/badge-tiers commit 9: chore: normalize whitespace -->
+<!-- feat/badge-tiers commit 12: chore: update project metadata -->
