@@ -718,3 +718,17 @@
 <!-- feat/dao-governance note 32: test: add edge case descriptions -->
 <!-- feat/dao-governance note 35: test: document badge minting tests -->
 <!-- feat/dao-governance note 38: perf: add performance note -->
+<!-- feat/sbtc-vault note 1: docs: update inline comments -->
+<!-- feat/sbtc-vault note 4: docs: clarify error handling notes -->
+<!-- feat/sbtc-vault note 7: docs: add dev notes entry -->
+<!-- feat/sbtc-vault note 10: chore: update changelog entry -->
+<!-- feat/sbtc-vault note 13: chore: clean up stale comments -->
+<!-- feat/sbtc-vault note 16: fix: correct typo in docs -->
+<!-- feat/sbtc-vault note 19: fix: correct badge description -->
+<!-- feat/sbtc-vault note 22: refactor: reorganize docs section -->
+<!-- feat/sbtc-vault note 25: refactor: restructure dev notes -->
+<!-- feat/sbtc-vault note 28: feat: document sBTC vault idea -->
+<!-- feat/sbtc-vault note 31: test: document test coverage notes -->
+<!-- feat/sbtc-vault note 34: test: note withdrawal test cases -->
+<!-- feat/sbtc-vault note 37: perf: document caching strategy -->
+<!-- feat/sbtc-vault note 40: style: normalize doc style -->

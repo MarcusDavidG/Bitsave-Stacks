@@ -1019,3 +1019,16 @@
 <!-- feat/dao-governance commit 34 -->
 <!-- feat/dao-governance commit 37 -->
 <!-- feat/dao-governance commit 40 -->
+<!-- feat/sbtc-vault commit 3 -->
+<!-- feat/sbtc-vault commit 6 -->
+<!-- feat/sbtc-vault commit 9 -->
+<!-- feat/sbtc-vault commit 12 -->
+<!-- feat/sbtc-vault commit 15 -->
+<!-- feat/sbtc-vault commit 18 -->
+<!-- feat/sbtc-vault commit 21 -->
+<!-- feat/sbtc-vault commit 24 -->
+<!-- feat/sbtc-vault commit 27 -->
+<!-- feat/sbtc-vault commit 30 -->
+<!-- feat/sbtc-vault commit 33 -->
+<!-- feat/sbtc-vault commit 36 -->
+<!-- feat/sbtc-vault commit 39 -->
