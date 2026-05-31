@@ -1117,3 +1117,4 @@ This project is open source and available for educational purposes.
 <!-- feat/streak-badges-v2 commit 11: chore: tidy config formatting -->
 <!-- feat/streak-badges-v2 commit 14: chore: minor formatting fix -->
 <!-- feat/streak-badges-v2 commit 17: fix: update broken reference -->
+<!-- feat/streak-badges-v2 commit 20: refactor: simplify roadmap notes -->
