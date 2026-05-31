@@ -350,3 +350,4 @@
 <!-- feat/streak-badges note 7: docs: add dev notes entry -->
 <!-- feat/streak-badges note 10: chore: update changelog entry -->
 <!-- feat/streak-badges note 13: chore: clean up stale comments -->
+<!-- feat/streak-badges note 16: fix: correct typo in docs -->
