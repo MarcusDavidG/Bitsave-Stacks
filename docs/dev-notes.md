@@ -604,3 +604,4 @@
 <!-- chore/ci-improvements note 9: chore: normalize whitespace -->
 <!-- chore/ci-improvements note 12: chore: update project metadata -->
 <!-- chore/ci-improvements note 15: chore: minor formatting fix -->
+<!-- chore/ci-improvements note 18: fix: update broken reference -->
