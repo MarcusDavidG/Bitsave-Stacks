@@ -688,3 +688,4 @@
 <!-- feat/streak-badges note 22: refactor: reorganize docs section -->
 <!-- feat/streak-badges note 25: refactor: restructure dev notes -->
 <!-- feat/streak-badges note 28: feat: document sBTC vault idea -->
+<!-- feat/streak-badges note 31: test: document test coverage notes -->
