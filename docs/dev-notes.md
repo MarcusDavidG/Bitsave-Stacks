@@ -295,3 +295,4 @@
 <!-- chore/linting-rules note 1: docs: update inline comments -->
 <!-- chore/linting-rules note 4: docs: clarify error handling notes -->
 <!-- chore/linting-rules note 7: docs: add dev notes entry -->
+<!-- chore/linting-rules note 10: chore: update changelog entry -->
