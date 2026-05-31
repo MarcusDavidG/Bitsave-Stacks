@@ -1175,3 +1175,4 @@ This project is open source and available for educational purposes.
 <!-- feat/leaderboard-v2 commit 25: feat: add DAO integration note -->
 <!-- feat/leaderboard-v2 commit 28: feat: note marketplace roadmap item -->
 <!-- feat/leaderboard-v2 commit 31: test: update test scenario notes -->
+<!-- feat/leaderboard-v2 commit 34: perf: note optimization opportunity -->
