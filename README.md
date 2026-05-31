@@ -732,3 +732,4 @@ This project is open source and available for educational purposes.
 <!-- feat/dao-governance commit 15: chore: minor formatting fix -->
 <!-- feat/dao-governance commit 18: fix: update broken reference -->
 <!-- feat/dao-governance commit 21: refactor: simplify roadmap notes -->
+<!-- feat/dao-governance commit 24: refactor: improve changelog structure -->
