@@ -1128,3 +1128,4 @@ This project is open source and available for educational purposes.
 <!-- feat/dao-governance-v2 commit 4: docs: clarify error handling notes -->
 <!-- feat/dao-governance-v2 commit 7: docs: add dev notes entry -->
 <!-- feat/dao-governance-v2 commit 10: chore: update changelog entry -->
+<!-- feat/dao-governance-v2 commit 13: chore: clean up stale comments -->
