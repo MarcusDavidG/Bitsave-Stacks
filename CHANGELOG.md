@@ -512,3 +512,4 @@
 <!-- refactor/reward-logic commit 37 -->
 <!-- refactor/reward-logic commit 40 -->
 <!-- refactor/badge-minting commit 3 -->
+<!-- refactor/badge-minting commit 6 -->
