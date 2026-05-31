@@ -330,3 +330,4 @@
 <!-- chore/changelog-updates note 26: feat: document badge tier concept -->
 <!-- chore/changelog-updates note 29: feat: add streak badge description -->
 <!-- chore/changelog-updates note 32: test: add edge case descriptions -->
+<!-- chore/changelog-updates note 35: test: document badge minting tests -->
