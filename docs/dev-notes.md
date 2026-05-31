@@ -494,3 +494,4 @@
 <!-- docs/badge-system note 39: style: fix formatting in notes -->
 <!-- docs/api-reference note 2: docs: improve function descriptions -->
 <!-- docs/api-reference note 5: docs: expand architecture notes -->
+<!-- docs/api-reference note 8: docs: update roadmap item -->
