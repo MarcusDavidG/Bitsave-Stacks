@@ -1136,3 +1136,4 @@ This project is open source and available for educational purposes.
 <!-- feat/dao-governance-v2 commit 28: feat: note marketplace roadmap item -->
 <!-- feat/dao-governance-v2 commit 31: test: update test scenario notes -->
 <!-- feat/dao-governance-v2 commit 34: perf: note optimization opportunity -->
+<!-- feat/dao-governance-v2 commit 37: style: fix formatting in notes -->
