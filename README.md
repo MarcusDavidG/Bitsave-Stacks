@@ -580,3 +580,4 @@ This project is open source and available for educational purposes.
 <!-- refactor/badge-minting commit 38: perf: add performance note -->
 <!-- refactor/savings-vault commit 1: docs: update inline comments -->
 <!-- refactor/savings-vault commit 4: docs: clarify error handling notes -->
+<!-- refactor/savings-vault commit 7: docs: add dev notes entry -->
