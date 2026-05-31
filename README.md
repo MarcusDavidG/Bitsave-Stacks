@@ -571,3 +571,4 @@ This project is open source and available for educational purposes.
 <!-- refactor/badge-minting commit 11: chore: tidy config formatting -->
 <!-- refactor/badge-minting commit 14: chore: update .editorconfig -->
 <!-- refactor/badge-minting commit 17: fix: fix stale comment -->
+<!-- refactor/badge-minting commit 20: fix: fix markdown formatting -->
