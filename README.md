@@ -463,3 +463,4 @@ This project is open source and available for educational purposes.
 <!-- feat/leaderboard commit 7: docs: add dev notes entry -->
 <!-- feat/leaderboard commit 10: chore: update changelog entry -->
 <!-- feat/leaderboard commit 13: chore: clean up stale comments -->
+<!-- feat/leaderboard commit 16: fix: correct typo in docs -->
