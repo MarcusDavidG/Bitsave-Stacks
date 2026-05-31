@@ -446,3 +446,4 @@
 <!-- feat/leaderboard note 15: chore: minor formatting fix -->
 <!-- feat/leaderboard note 18: fix: update broken reference -->
 <!-- feat/leaderboard note 21: refactor: simplify roadmap notes -->
+<!-- feat/leaderboard note 24: refactor: improve changelog structure -->
