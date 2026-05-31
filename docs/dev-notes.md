@@ -352,3 +352,4 @@
 <!-- feat/streak-badges note 13: chore: clean up stale comments -->
 <!-- feat/streak-badges note 16: fix: correct typo in docs -->
 <!-- feat/streak-badges note 19: fix: correct badge description -->
+<!-- feat/streak-badges note 22: refactor: reorganize docs section -->
