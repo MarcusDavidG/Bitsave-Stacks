@@ -62,3 +62,4 @@
 <!-- feat/sbtc-vault note 22: refactor: reorganize docs section -->
 <!-- feat/sbtc-vault note 25: refactor: restructure dev notes -->
 <!-- feat/sbtc-vault note 28: feat: document sBTC vault idea -->
+<!-- feat/sbtc-vault note 31: test: document test coverage notes -->
