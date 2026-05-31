@@ -801,3 +801,4 @@
 <!-- feat/reward-boost-v2 note 1: docs: update inline comments -->
 <!-- feat/reward-boost-v2 note 4: docs: clarify error handling notes -->
 <!-- feat/reward-boost-v2 note 7: docs: add dev notes entry -->
+<!-- feat/reward-boost-v2 note 10: chore: update changelog entry -->
