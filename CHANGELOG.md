@@ -311,3 +311,16 @@
 <!-- feat/badge-tiers commit 34 -->
 <!-- feat/badge-tiers commit 37 -->
 <!-- feat/badge-tiers commit 40 -->
+<!-- feat/streak-badges commit 3 -->
+<!-- feat/streak-badges commit 6 -->
+<!-- feat/streak-badges commit 9 -->
+<!-- feat/streak-badges commit 12 -->
+<!-- feat/streak-badges commit 15 -->
+<!-- feat/streak-badges commit 18 -->
+<!-- feat/streak-badges commit 21 -->
+<!-- feat/streak-badges commit 24 -->
+<!-- feat/streak-badges commit 27 -->
+<!-- feat/streak-badges commit 30 -->
+<!-- feat/streak-badges commit 33 -->
+<!-- feat/streak-badges commit 36 -->
+<!-- feat/streak-badges commit 39 -->

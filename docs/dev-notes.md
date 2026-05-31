@@ -12,3 +12,17 @@
 <!-- feat/badge-tiers note 32: test: add edge case descriptions -->
 <!-- feat/badge-tiers note 35: test: document badge minting tests -->
 <!-- feat/badge-tiers note 38: perf: add performance note -->
+<!-- feat/streak-badges note 1: docs: update inline comments -->
+<!-- feat/streak-badges note 4: docs: clarify error handling notes -->
+<!-- feat/streak-badges note 7: docs: add dev notes entry -->
+<!-- feat/streak-badges note 10: chore: update changelog entry -->
+<!-- feat/streak-badges note 13: chore: clean up stale comments -->
+<!-- feat/streak-badges note 16: fix: correct typo in docs -->
+<!-- feat/streak-badges note 19: fix: correct badge description -->
+<!-- feat/streak-badges note 22: refactor: reorganize docs section -->
+<!-- feat/streak-badges note 25: refactor: restructure dev notes -->
+<!-- feat/streak-badges note 28: feat: document sBTC vault idea -->
+<!-- feat/streak-badges note 31: test: document test coverage notes -->
+<!-- feat/streak-badges note 34: test: note withdrawal test cases -->
+<!-- feat/streak-badges note 37: perf: document caching strategy -->
+<!-- feat/streak-badges note 40: style: normalize doc style -->

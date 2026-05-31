@@ -365,3 +365,16 @@ This project is open source and available for educational purposes.
 <!-- feat/badge-tiers commit 33: test: update test scenario notes -->
 <!-- feat/badge-tiers commit 36: perf: note optimization opportunity -->
 <!-- feat/badge-tiers commit 39: style: fix formatting in notes -->
+<!-- feat/streak-badges commit 2: docs: improve function descriptions -->
+<!-- feat/streak-badges commit 5: docs: expand architecture notes -->
+<!-- feat/streak-badges commit 8: docs: update roadmap item -->
+<!-- feat/streak-badges commit 11: chore: tidy config formatting -->
+<!-- feat/streak-badges commit 14: chore: update .editorconfig -->
+<!-- feat/streak-badges commit 17: fix: fix stale comment -->
+<!-- feat/streak-badges commit 20: fix: fix markdown formatting -->
+<!-- feat/streak-badges commit 23: refactor: clean up redundant entries -->
+<!-- feat/streak-badges commit 26: feat: document badge tier concept -->
+<!-- feat/streak-badges commit 29: feat: add streak badge description -->
+<!-- feat/streak-badges commit 32: test: add edge case descriptions -->
+<!-- feat/streak-badges commit 35: test: document badge minting tests -->
+<!-- feat/streak-badges commit 38: perf: add performance note -->
