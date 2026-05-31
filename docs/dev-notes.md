@@ -146,3 +146,4 @@
 <!-- docs/contract-guide note 34: test: note withdrawal test cases -->
 <!-- docs/contract-guide note 37: perf: document caching strategy -->
 <!-- docs/contract-guide note 40: style: normalize doc style -->
+<!-- docs/badge-system note 3: docs: add usage examples -->
