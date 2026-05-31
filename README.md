@@ -1139,3 +1139,4 @@ This project is open source and available for educational purposes.
 <!-- feat/dao-governance-v2 commit 37: style: fix formatting in notes -->
 <!-- feat/dao-governance-v2 commit 40: refactor: restructure dev notes -->
 <!-- feat/sbtc-vault-v2 commit 3: docs: add usage examples -->
+<!-- feat/sbtc-vault-v2 commit 6: docs: refine README section -->
