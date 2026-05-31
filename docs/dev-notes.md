@@ -249,3 +249,4 @@
 <!-- refactor/contract-cleanup note 23: refactor: clean up redundant entries -->
 <!-- refactor/contract-cleanup note 26: feat: document badge tier concept -->
 <!-- refactor/contract-cleanup note 29: feat: add streak badge description -->
+<!-- refactor/contract-cleanup note 32: test: add edge case descriptions -->
