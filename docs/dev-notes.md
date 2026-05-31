@@ -83,3 +83,4 @@
 <!-- feat/reward-boost note 5: docs: expand architecture notes -->
 <!-- feat/reward-boost note 8: docs: update roadmap item -->
 <!-- feat/reward-boost note 11: chore: tidy config formatting -->
+<!-- feat/reward-boost note 14: chore: update .editorconfig -->
