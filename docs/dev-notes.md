@@ -171,3 +171,4 @@
 <!-- docs/api-reference note 29: feat: add streak badge description -->
 <!-- docs/api-reference note 32: test: add edge case descriptions -->
 <!-- docs/api-reference note 35: test: document badge minting tests -->
+<!-- docs/api-reference note 38: perf: add performance note -->
