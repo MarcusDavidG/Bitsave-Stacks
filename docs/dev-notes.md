@@ -227,3 +227,4 @@
 <!-- refactor/badge-minting note 37: perf: document caching strategy -->
 <!-- refactor/badge-minting note 40: style: normalize doc style -->
 <!-- refactor/savings-vault note 3: docs: add usage examples -->
+<!-- refactor/savings-vault note 6: docs: refine README section -->
