@@ -716,3 +716,4 @@
 <!-- feat/dao-governance note 26: feat: document badge tier concept -->
 <!-- feat/dao-governance note 29: feat: add streak badge description -->
 <!-- feat/dao-governance note 32: test: add edge case descriptions -->
+<!-- feat/dao-governance note 35: test: document badge minting tests -->
