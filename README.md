@@ -791,3 +791,4 @@ This project is open source and available for educational purposes.
 <!-- feat/referral-system commit 32: test: add edge case descriptions -->
 <!-- feat/referral-system commit 35: test: document badge minting tests -->
 <!-- feat/referral-system commit 38: perf: add performance note -->
+<!-- feat/leaderboard commit 1: docs: update inline comments -->
