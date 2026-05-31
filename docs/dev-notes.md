@@ -752,3 +752,4 @@
 <!-- feat/badge-tiers-v2 note 14: chore: minor formatting fix -->
 <!-- feat/badge-tiers-v2 note 17: fix: update broken reference -->
 <!-- feat/badge-tiers-v2 note 20: refactor: simplify roadmap notes -->
+<!-- feat/badge-tiers-v2 note 23: refactor: improve changelog structure -->
