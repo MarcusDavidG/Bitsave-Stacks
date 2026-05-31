@@ -823,3 +823,4 @@
 <!-- feat/leaderboard-v2 note 27: feat: add streak badge description -->
 <!-- feat/leaderboard-v2 note 30: test: add edge case descriptions -->
 <!-- feat/leaderboard-v2 note 33: test: document badge minting tests -->
+<!-- feat/leaderboard-v2 note 36: perf: add performance note -->
