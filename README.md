@@ -1001,3 +1001,4 @@ This project is open source and available for educational purposes.
 <!-- chore/config-cleanup commit 22: refactor: reorganize docs section -->
 <!-- chore/config-cleanup commit 25: refactor: restructure dev notes -->
 <!-- chore/config-cleanup commit 28: feat: document sBTC vault idea -->
+<!-- chore/config-cleanup commit 31: test: document test coverage notes -->
