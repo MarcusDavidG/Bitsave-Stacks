@@ -511,3 +511,4 @@
 <!-- docs/deployment-guide note 10: chore: update changelog entry -->
 <!-- docs/deployment-guide note 13: chore: clean up stale comments -->
 <!-- docs/deployment-guide note 16: fix: correct typo in docs -->
+<!-- docs/deployment-guide note 19: fix: correct badge description -->
