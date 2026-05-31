@@ -625,3 +625,4 @@
 <!-- chore/dependency-updates note 32: test: add edge case descriptions -->
 <!-- chore/dependency-updates note 35: test: document badge minting tests -->
 <!-- chore/dependency-updates note 38: perf: add performance note -->
+<!-- chore/linting-rules note 1: docs: update inline comments -->
