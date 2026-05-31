@@ -1072,3 +1072,4 @@
 <!-- feat/streak-badges-v2 commit 33 -->
 <!-- feat/streak-badges-v2 commit 36 -->
 <!-- feat/streak-badges-v2 commit 39 -->
+<!-- feat/dao-governance-v2 commit 2 -->
