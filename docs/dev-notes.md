@@ -174,3 +174,4 @@
 <!-- docs/api-reference note 38: perf: add performance note -->
 <!-- docs/deployment-guide note 1: docs: update inline comments -->
 <!-- docs/deployment-guide note 4: docs: clarify error handling notes -->
+<!-- docs/deployment-guide note 7: docs: add dev notes entry -->
