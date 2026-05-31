@@ -236,3 +236,4 @@
 <!-- refactor/savings-vault note 24: refactor: improve changelog structure -->
 <!-- refactor/savings-vault note 27: feat: add DAO integration note -->
 <!-- refactor/savings-vault note 30: feat: note marketplace roadmap item -->
+<!-- refactor/savings-vault note 33: test: update test scenario notes -->
