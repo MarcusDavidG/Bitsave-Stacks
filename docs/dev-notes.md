@@ -135,3 +135,4 @@
 <!-- docs/contract-guide note 1: docs: update inline comments -->
 <!-- docs/contract-guide note 4: docs: clarify error handling notes -->
 <!-- docs/contract-guide note 7: docs: add dev notes entry -->
+<!-- docs/contract-guide note 10: chore: update changelog entry -->
