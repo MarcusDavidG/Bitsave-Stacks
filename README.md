@@ -779,3 +779,4 @@ This project is open source and available for educational purposes.
 <!-- feat/reward-boost commit 36: perf: note optimization opportunity -->
 <!-- feat/reward-boost commit 39: style: fix formatting in notes -->
 <!-- feat/referral-system commit 2: docs: improve function descriptions -->
+<!-- feat/referral-system commit 5: docs: expand architecture notes -->
