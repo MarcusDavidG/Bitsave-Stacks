@@ -515,3 +515,4 @@
 <!-- docs/deployment-guide note 22: refactor: reorganize docs section -->
 <!-- docs/deployment-guide note 25: refactor: restructure dev notes -->
 <!-- docs/deployment-guide note 28: feat: document sBTC vault idea -->
+<!-- docs/deployment-guide note 31: test: document test coverage notes -->
