@@ -566,3 +566,4 @@
 <!-- refactor/savings-vault note 15: chore: minor formatting fix -->
 <!-- refactor/savings-vault note 18: fix: update broken reference -->
 <!-- refactor/savings-vault note 21: refactor: simplify roadmap notes -->
+<!-- refactor/savings-vault note 24: refactor: improve changelog structure -->
