@@ -512,3 +512,4 @@ This project is open source and available for educational purposes.
 <!-- docs/badge-system commit 34: test: note withdrawal test cases -->
 <!-- docs/badge-system commit 37: perf: document caching strategy -->
 <!-- docs/badge-system commit 40: style: normalize doc style -->
+<!-- docs/api-reference commit 3: docs: add usage examples -->
