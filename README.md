@@ -940,3 +940,4 @@ This project is open source and available for educational purposes.
 <!-- refactor/contract-cleanup commit 39: style: fix formatting in notes -->
 <!-- refactor/test-structure commit 2: docs: improve function descriptions -->
 <!-- refactor/test-structure commit 5: docs: expand architecture notes -->
+<!-- refactor/test-structure commit 8: docs: update roadmap item -->
