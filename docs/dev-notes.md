@@ -749,3 +749,4 @@
 <!-- feat/badge-tiers-v2 note 5: docs: expand architecture notes -->
 <!-- feat/badge-tiers-v2 note 8: docs: update roadmap item -->
 <!-- feat/badge-tiers-v2 note 11: chore: tidy config formatting -->
+<!-- feat/badge-tiers-v2 note 14: chore: minor formatting fix -->
