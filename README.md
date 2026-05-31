@@ -466,3 +466,4 @@ This project is open source and available for educational purposes.
 <!-- feat/leaderboard commit 16: fix: correct typo in docs -->
 <!-- feat/leaderboard commit 19: fix: correct badge description -->
 <!-- feat/leaderboard commit 22: refactor: reorganize docs section -->
+<!-- feat/leaderboard commit 25: refactor: restructure dev notes -->
