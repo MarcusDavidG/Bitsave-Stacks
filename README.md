@@ -1085,3 +1085,4 @@ This project is open source and available for educational purposes.
 <!-- feat/sbtc-vault commit 35: test: document badge minting tests -->
 <!-- feat/sbtc-vault commit 38: perf: add performance note -->
 <!-- feat/multi-token-support commit 1: docs: update inline comments -->
+<!-- feat/multi-token-support commit 4: docs: clarify error handling notes -->
