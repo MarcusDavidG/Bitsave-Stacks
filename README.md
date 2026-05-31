@@ -915,3 +915,4 @@ This project is open source and available for educational purposes.
 <!-- refactor/savings-vault commit 4: docs: clarify error handling notes -->
 <!-- refactor/savings-vault commit 7: docs: add dev notes entry -->
 <!-- refactor/savings-vault commit 10: chore: update changelog entry -->
+<!-- refactor/savings-vault commit 13: chore: clean up stale comments -->
