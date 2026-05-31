@@ -835,3 +835,4 @@ This project is open source and available for educational purposes.
 <!-- docs/badge-system commit 4: docs: clarify error handling notes -->
 <!-- docs/badge-system commit 7: docs: add dev notes entry -->
 <!-- docs/badge-system commit 10: chore: update changelog entry -->
+<!-- docs/badge-system commit 13: chore: clean up stale comments -->
