@@ -503,3 +503,4 @@
 <!-- docs/api-reference note 26: feat: document badge tier concept -->
 <!-- docs/api-reference note 29: feat: add streak badge description -->
 <!-- docs/api-reference note 32: test: add edge case descriptions -->
+<!-- docs/api-reference note 35: test: document badge minting tests -->
