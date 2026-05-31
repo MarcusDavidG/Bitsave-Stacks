@@ -481,3 +481,4 @@ This project is open source and available for educational purposes.
 <!-- feat/savings-goals commit 21: refactor: simplify roadmap notes -->
 <!-- feat/savings-goals commit 24: refactor: improve changelog structure -->
 <!-- feat/savings-goals commit 27: feat: add DAO integration note -->
+<!-- feat/savings-goals commit 30: feat: note marketplace roadmap item -->
