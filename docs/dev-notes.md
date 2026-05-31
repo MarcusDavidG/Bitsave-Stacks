@@ -712,3 +712,4 @@
 <!-- feat/dao-governance note 14: chore: update .editorconfig -->
 <!-- feat/dao-governance note 17: fix: fix stale comment -->
 <!-- feat/dao-governance note 20: fix: fix markdown formatting -->
+<!-- feat/dao-governance note 23: refactor: clean up redundant entries -->
