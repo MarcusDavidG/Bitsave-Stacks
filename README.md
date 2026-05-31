@@ -722,3 +722,4 @@ This project is open source and available for educational purposes.
 <!-- feat/badge-marketplace commit 25: refactor: restructure dev notes -->
 <!-- feat/badge-marketplace commit 28: feat: document sBTC vault idea -->
 <!-- feat/badge-marketplace commit 31: test: document test coverage notes -->
+<!-- feat/badge-marketplace commit 34: test: note withdrawal test cases -->
