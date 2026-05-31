@@ -816,3 +816,4 @@
 <!-- feat/leaderboard-v2 note 6: docs: refine README section -->
 <!-- feat/leaderboard-v2 note 9: chore: normalize whitespace -->
 <!-- feat/leaderboard-v2 note 12: chore: update project metadata -->
+<!-- feat/leaderboard-v2 note 15: fix: correct typo in docs -->
