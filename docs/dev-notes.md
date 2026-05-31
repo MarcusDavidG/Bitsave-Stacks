@@ -758,3 +758,17 @@
 <!-- feat/badge-tiers-v2 note 32: test: note withdrawal test cases -->
 <!-- feat/badge-tiers-v2 note 35: perf: document caching strategy -->
 <!-- feat/badge-tiers-v2 note 38: style: normalize doc style -->
+<!-- feat/streak-badges-v2 note 1: docs: update inline comments -->
+<!-- feat/streak-badges-v2 note 4: docs: clarify error handling notes -->
+<!-- feat/streak-badges-v2 note 7: docs: add dev notes entry -->
+<!-- feat/streak-badges-v2 note 10: chore: update changelog entry -->
+<!-- feat/streak-badges-v2 note 13: chore: clean up stale comments -->
+<!-- feat/streak-badges-v2 note 16: fix: fix stale comment -->
+<!-- feat/streak-badges-v2 note 19: fix: fix markdown formatting -->
+<!-- feat/streak-badges-v2 note 22: refactor: clean up redundant entries -->
+<!-- feat/streak-badges-v2 note 25: feat: add DAO integration note -->
+<!-- feat/streak-badges-v2 note 28: feat: note marketplace roadmap item -->
+<!-- feat/streak-badges-v2 note 31: test: update test scenario notes -->
+<!-- feat/streak-badges-v2 note 34: perf: note optimization opportunity -->
+<!-- feat/streak-badges-v2 note 37: style: fix formatting in notes -->
+<!-- feat/streak-badges-v2 note 40: refactor: restructure dev notes -->

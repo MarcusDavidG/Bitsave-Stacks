@@ -1111,3 +1111,16 @@ This project is open source and available for educational purposes.
 <!-- feat/badge-tiers-v2 commit 33: test: document badge minting tests -->
 <!-- feat/badge-tiers-v2 commit 36: perf: add performance note -->
 <!-- feat/badge-tiers-v2 commit 39: chore: update .editorconfig -->
+<!-- feat/streak-badges-v2 commit 2: docs: improve function descriptions -->
+<!-- feat/streak-badges-v2 commit 5: docs: expand architecture notes -->
+<!-- feat/streak-badges-v2 commit 8: docs: update roadmap item -->
+<!-- feat/streak-badges-v2 commit 11: chore: tidy config formatting -->
+<!-- feat/streak-badges-v2 commit 14: chore: minor formatting fix -->
+<!-- feat/streak-badges-v2 commit 17: fix: update broken reference -->
+<!-- feat/streak-badges-v2 commit 20: refactor: simplify roadmap notes -->
+<!-- feat/streak-badges-v2 commit 23: refactor: improve changelog structure -->
+<!-- feat/streak-badges-v2 commit 26: feat: document sBTC vault idea -->
+<!-- feat/streak-badges-v2 commit 29: test: document test coverage notes -->
+<!-- feat/streak-badges-v2 commit 32: test: note withdrawal test cases -->
+<!-- feat/streak-badges-v2 commit 35: perf: document caching strategy -->
+<!-- feat/streak-badges-v2 commit 38: style: normalize doc style -->

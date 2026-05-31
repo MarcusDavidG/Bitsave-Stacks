@@ -1059,3 +1059,16 @@
 <!-- feat/badge-tiers-v2 commit 34 -->
 <!-- feat/badge-tiers-v2 commit 37 -->
 <!-- feat/badge-tiers-v2 commit 40 -->
+<!-- feat/streak-badges-v2 commit 3 -->
+<!-- feat/streak-badges-v2 commit 6 -->
+<!-- feat/streak-badges-v2 commit 9 -->
+<!-- feat/streak-badges-v2 commit 12 -->
+<!-- feat/streak-badges-v2 commit 15 -->
+<!-- feat/streak-badges-v2 commit 18 -->
+<!-- feat/streak-badges-v2 commit 21 -->
+<!-- feat/streak-badges-v2 commit 24 -->
+<!-- feat/streak-badges-v2 commit 27 -->
+<!-- feat/streak-badges-v2 commit 30 -->
+<!-- feat/streak-badges-v2 commit 33 -->
+<!-- feat/streak-badges-v2 commit 36 -->
+<!-- feat/streak-badges-v2 commit 39 -->
