@@ -120,3 +120,4 @@
 <!-- feat/leaderboard note 36: perf: note optimization opportunity -->
 <!-- feat/leaderboard note 39: style: fix formatting in notes -->
 <!-- feat/savings-goals note 2: docs: improve function descriptions -->
+<!-- feat/savings-goals note 5: docs: expand architecture notes -->
