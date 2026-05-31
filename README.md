@@ -782,3 +782,4 @@ This project is open source and available for educational purposes.
 <!-- feat/referral-system commit 5: docs: expand architecture notes -->
 <!-- feat/referral-system commit 8: docs: update roadmap item -->
 <!-- feat/referral-system commit 11: chore: tidy config formatting -->
+<!-- feat/referral-system commit 14: chore: update .editorconfig -->
