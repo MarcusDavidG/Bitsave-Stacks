@@ -490,3 +490,4 @@
 <!-- docs/badge-system note 27: feat: add DAO integration note -->
 <!-- docs/badge-system note 30: feat: note marketplace roadmap item -->
 <!-- docs/badge-system note 33: test: update test scenario notes -->
+<!-- docs/badge-system note 36: perf: note optimization opportunity -->
