@@ -34,3 +34,4 @@
 <!-- feat/badge-marketplace note 18: fix: update broken reference -->
 <!-- feat/badge-marketplace note 21: refactor: simplify roadmap notes -->
 <!-- feat/badge-marketplace note 24: refactor: improve changelog structure -->
+<!-- feat/badge-marketplace note 27: feat: add DAO integration note -->
