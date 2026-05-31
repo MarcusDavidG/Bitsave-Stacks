@@ -821,3 +821,4 @@
 <!-- feat/leaderboard-v2 note 21: refactor: reorganize docs section -->
 <!-- feat/leaderboard-v2 note 24: feat: document badge tier concept -->
 <!-- feat/leaderboard-v2 note 27: feat: add streak badge description -->
+<!-- feat/leaderboard-v2 note 30: test: add edge case descriptions -->
