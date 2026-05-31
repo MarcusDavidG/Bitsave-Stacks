@@ -757,3 +757,4 @@
 <!-- feat/badge-tiers-v2 note 29: test: document test coverage notes -->
 <!-- feat/badge-tiers-v2 note 32: test: note withdrawal test cases -->
 <!-- feat/badge-tiers-v2 note 35: perf: document caching strategy -->
+<!-- feat/badge-tiers-v2 note 38: style: normalize doc style -->
