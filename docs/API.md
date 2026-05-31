@@ -318,3 +318,4 @@ Returns badge metadata and properties.
 <!-- update 40 -->
 <!-- update 1 -->
 <!-- update 2 -->
+<!-- update 3 -->
