@@ -526,3 +526,4 @@
 <!-- docs/architecture-overview note 15: chore: minor formatting fix -->
 <!-- docs/architecture-overview note 18: fix: update broken reference -->
 <!-- docs/architecture-overview note 21: refactor: simplify roadmap notes -->
+<!-- docs/architecture-overview note 24: refactor: improve changelog structure -->
