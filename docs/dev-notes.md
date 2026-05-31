@@ -803,3 +803,4 @@
 <!-- feat/reward-boost-v2 note 7: docs: add dev notes entry -->
 <!-- feat/reward-boost-v2 note 10: chore: update changelog entry -->
 <!-- feat/reward-boost-v2 note 13: chore: clean up stale comments -->
+<!-- feat/reward-boost-v2 note 16: fix: fix stale comment -->
