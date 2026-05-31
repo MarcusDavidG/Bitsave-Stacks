@@ -428,3 +428,4 @@
 <!-- feat/referral-system note 1: docs: update inline comments -->
 <!-- feat/referral-system note 4: docs: clarify error handling notes -->
 <!-- feat/referral-system note 7: docs: add dev notes entry -->
+<!-- feat/referral-system note 10: chore: update changelog entry -->
