@@ -791,3 +791,4 @@
 <!-- feat/sbtc-vault-v2 note 11: chore: tidy config formatting -->
 <!-- feat/sbtc-vault-v2 note 14: chore: minor formatting fix -->
 <!-- feat/sbtc-vault-v2 note 17: fix: update broken reference -->
+<!-- feat/sbtc-vault-v2 note 20: refactor: simplify roadmap notes -->
