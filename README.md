@@ -352,3 +352,4 @@ This project is open source and available for educational purposes.
 <!-- update 38 -->
 <!-- update 39 -->
 <!-- update 40 -->
+<!-- feat/badge-tiers commit 3: docs: add usage examples -->
