@@ -493,3 +493,4 @@
 <!-- docs/badge-system note 36: perf: note optimization opportunity -->
 <!-- docs/badge-system note 39: style: fix formatting in notes -->
 <!-- docs/api-reference note 2: docs: improve function descriptions -->
+<!-- docs/api-reference note 5: docs: expand architecture notes -->
