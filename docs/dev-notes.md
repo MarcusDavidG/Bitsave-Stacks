@@ -488,3 +488,4 @@
 <!-- docs/badge-system note 21: refactor: simplify roadmap notes -->
 <!-- docs/badge-system note 24: refactor: improve changelog structure -->
 <!-- docs/badge-system note 27: feat: add DAO integration note -->
+<!-- docs/badge-system note 30: feat: note marketplace roadmap item -->
