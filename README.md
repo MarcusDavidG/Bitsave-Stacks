@@ -690,3 +690,4 @@ This project is open source and available for educational purposes.
 <!-- feat/badge-tiers commit 9: chore: normalize whitespace -->
 <!-- feat/badge-tiers commit 12: chore: update project metadata -->
 <!-- feat/badge-tiers commit 15: chore: minor formatting fix -->
+<!-- feat/badge-tiers commit 18: fix: update broken reference -->
