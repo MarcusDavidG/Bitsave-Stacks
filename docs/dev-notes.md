@@ -594,3 +594,4 @@
 <!-- refactor/test-structure note 19: fix: correct badge description -->
 <!-- refactor/test-structure note 22: refactor: reorganize docs section -->
 <!-- refactor/test-structure note 25: refactor: restructure dev notes -->
+<!-- refactor/test-structure note 28: feat: document sBTC vault idea -->
