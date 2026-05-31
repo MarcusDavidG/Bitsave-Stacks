@@ -490,3 +490,4 @@ This project is open source and available for educational purposes.
 <!-- docs/contract-guide commit 8: docs: update roadmap item -->
 <!-- docs/contract-guide commit 11: chore: tidy config formatting -->
 <!-- docs/contract-guide commit 14: chore: update .editorconfig -->
+<!-- docs/contract-guide commit 17: fix: fix stale comment -->
