@@ -585,3 +585,17 @@
 <!-- refactor/contract-cleanup note 32: test: add edge case descriptions -->
 <!-- refactor/contract-cleanup note 35: test: document badge minting tests -->
 <!-- refactor/contract-cleanup note 38: perf: add performance note -->
+<!-- refactor/test-structure note 1: docs: update inline comments -->
+<!-- refactor/test-structure note 4: docs: clarify error handling notes -->
+<!-- refactor/test-structure note 7: docs: add dev notes entry -->
+<!-- refactor/test-structure note 10: chore: update changelog entry -->
+<!-- refactor/test-structure note 13: chore: clean up stale comments -->
+<!-- refactor/test-structure note 16: fix: correct typo in docs -->
+<!-- refactor/test-structure note 19: fix: correct badge description -->
+<!-- refactor/test-structure note 22: refactor: reorganize docs section -->
+<!-- refactor/test-structure note 25: refactor: restructure dev notes -->
+<!-- refactor/test-structure note 28: feat: document sBTC vault idea -->
+<!-- refactor/test-structure note 31: test: document test coverage notes -->
+<!-- refactor/test-structure note 34: test: note withdrawal test cases -->
+<!-- refactor/test-structure note 37: perf: document caching strategy -->
+<!-- refactor/test-structure note 40: style: normalize doc style -->

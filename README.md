@@ -938,3 +938,16 @@ This project is open source and available for educational purposes.
 <!-- refactor/contract-cleanup commit 33: test: update test scenario notes -->
 <!-- refactor/contract-cleanup commit 36: perf: note optimization opportunity -->
 <!-- refactor/contract-cleanup commit 39: style: fix formatting in notes -->
+<!-- refactor/test-structure commit 2: docs: improve function descriptions -->
+<!-- refactor/test-structure commit 5: docs: expand architecture notes -->
+<!-- refactor/test-structure commit 8: docs: update roadmap item -->
+<!-- refactor/test-structure commit 11: chore: tidy config formatting -->
+<!-- refactor/test-structure commit 14: chore: update .editorconfig -->
+<!-- refactor/test-structure commit 17: fix: fix stale comment -->
+<!-- refactor/test-structure commit 20: fix: fix markdown formatting -->
+<!-- refactor/test-structure commit 23: refactor: clean up redundant entries -->
+<!-- refactor/test-structure commit 26: feat: document badge tier concept -->
+<!-- refactor/test-structure commit 29: feat: add streak badge description -->
+<!-- refactor/test-structure commit 32: test: add edge case descriptions -->
+<!-- refactor/test-structure commit 35: test: document badge minting tests -->
+<!-- refactor/test-structure commit 38: perf: add performance note -->
