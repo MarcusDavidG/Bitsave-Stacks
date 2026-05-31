@@ -722,3 +722,4 @@
 <!-- feat/sbtc-vault note 4: docs: clarify error handling notes -->
 <!-- feat/sbtc-vault note 7: docs: add dev notes entry -->
 <!-- feat/sbtc-vault note 10: chore: update changelog entry -->
+<!-- feat/sbtc-vault note 13: chore: clean up stale comments -->
