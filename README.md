@@ -982,3 +982,4 @@ This project is open source and available for educational purposes.
 <!-- chore/linting-rules commit 5: docs: expand architecture notes -->
 <!-- chore/linting-rules commit 8: docs: update roadmap item -->
 <!-- chore/linting-rules commit 11: chore: tidy config formatting -->
+<!-- chore/linting-rules commit 14: chore: update .editorconfig -->
