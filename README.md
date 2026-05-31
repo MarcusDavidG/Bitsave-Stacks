@@ -1125,3 +1125,4 @@ This project is open source and available for educational purposes.
 <!-- feat/streak-badges-v2 commit 35: perf: document caching strategy -->
 <!-- feat/streak-badges-v2 commit 38: style: normalize doc style -->
 <!-- feat/dao-governance-v2 commit 1: docs: update inline comments -->
+<!-- feat/dao-governance-v2 commit 4: docs: clarify error handling notes -->
