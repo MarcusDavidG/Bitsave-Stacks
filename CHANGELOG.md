@@ -1072,3 +1072,16 @@
 <!-- feat/streak-badges-v2 commit 33 -->
 <!-- feat/streak-badges-v2 commit 36 -->
 <!-- feat/streak-badges-v2 commit 39 -->
+<!-- feat/dao-governance-v2 commit 2 -->
+<!-- feat/dao-governance-v2 commit 5 -->
+<!-- feat/dao-governance-v2 commit 8 -->
+<!-- feat/dao-governance-v2 commit 11 -->
+<!-- feat/dao-governance-v2 commit 14 -->
+<!-- feat/dao-governance-v2 commit 17 -->
+<!-- feat/dao-governance-v2 commit 20 -->
+<!-- feat/dao-governance-v2 commit 23 -->
+<!-- feat/dao-governance-v2 commit 26 -->
+<!-- feat/dao-governance-v2 commit 29 -->
+<!-- feat/dao-governance-v2 commit 32 -->
+<!-- feat/dao-governance-v2 commit 35 -->
+<!-- feat/dao-governance-v2 commit 38 -->
