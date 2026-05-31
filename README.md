@@ -584,3 +584,4 @@ This project is open source and available for educational purposes.
 <!-- refactor/savings-vault commit 10: chore: update changelog entry -->
 <!-- refactor/savings-vault commit 13: chore: clean up stale comments -->
 <!-- refactor/savings-vault commit 16: fix: correct typo in docs -->
+<!-- refactor/savings-vault commit 19: fix: correct badge description -->
