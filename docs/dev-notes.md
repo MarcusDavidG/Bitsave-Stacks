@@ -452,3 +452,16 @@
 <!-- feat/leaderboard note 33: test: update test scenario notes -->
 <!-- feat/leaderboard note 36: perf: note optimization opportunity -->
 <!-- feat/leaderboard note 39: style: fix formatting in notes -->
+<!-- feat/savings-goals note 2: docs: improve function descriptions -->
+<!-- feat/savings-goals note 5: docs: expand architecture notes -->
+<!-- feat/savings-goals note 8: docs: update roadmap item -->
+<!-- feat/savings-goals note 11: chore: tidy config formatting -->
+<!-- feat/savings-goals note 14: chore: update .editorconfig -->
+<!-- feat/savings-goals note 17: fix: fix stale comment -->
+<!-- feat/savings-goals note 20: fix: fix markdown formatting -->
+<!-- feat/savings-goals note 23: refactor: clean up redundant entries -->
+<!-- feat/savings-goals note 26: feat: document badge tier concept -->
+<!-- feat/savings-goals note 29: feat: add streak badge description -->
+<!-- feat/savings-goals note 32: test: add edge case descriptions -->
+<!-- feat/savings-goals note 35: test: document badge minting tests -->
+<!-- feat/savings-goals note 38: perf: add performance note -->
