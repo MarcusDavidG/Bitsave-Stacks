@@ -367,3 +367,4 @@ This project is open source and available for educational purposes.
 <!-- feat/badge-tiers commit 39: style: fix formatting in notes -->
 <!-- feat/streak-badges commit 2: docs: improve function descriptions -->
 <!-- feat/streak-badges commit 5: docs: expand architecture notes -->
+<!-- feat/streak-badges commit 8: docs: update roadmap item -->
