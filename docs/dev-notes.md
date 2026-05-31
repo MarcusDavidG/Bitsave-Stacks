@@ -230,3 +230,4 @@
 <!-- refactor/savings-vault note 6: docs: refine README section -->
 <!-- refactor/savings-vault note 9: chore: normalize whitespace -->
 <!-- refactor/savings-vault note 12: chore: update project metadata -->
+<!-- refactor/savings-vault note 15: chore: minor formatting fix -->
