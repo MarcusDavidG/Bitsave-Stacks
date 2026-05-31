@@ -542,3 +542,4 @@
 <!-- refactor/reward-logic note 23: refactor: clean up redundant entries -->
 <!-- refactor/reward-logic note 26: feat: document badge tier concept -->
 <!-- refactor/reward-logic note 29: feat: add streak badge description -->
+<!-- refactor/reward-logic note 32: test: add edge case descriptions -->
