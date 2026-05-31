@@ -460,3 +460,4 @@ This project is open source and available for educational purposes.
 <!-- feat/referral-system commit 38: perf: add performance note -->
 <!-- feat/leaderboard commit 1: docs: update inline comments -->
 <!-- feat/leaderboard commit 4: docs: clarify error handling notes -->
+<!-- feat/leaderboard commit 7: docs: add dev notes entry -->
