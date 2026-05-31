@@ -590,3 +590,4 @@
 <!-- refactor/test-structure note 7: docs: add dev notes entry -->
 <!-- refactor/test-structure note 10: chore: update changelog entry -->
 <!-- refactor/test-structure note 13: chore: clean up stale comments -->
+<!-- refactor/test-structure note 16: fix: correct typo in docs -->
