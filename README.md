@@ -750,3 +750,4 @@ This project is open source and available for educational purposes.
 <!-- feat/sbtc-vault commit 29: feat: add streak badge description -->
 <!-- feat/sbtc-vault commit 32: test: add edge case descriptions -->
 <!-- feat/sbtc-vault commit 35: test: document badge minting tests -->
+<!-- feat/sbtc-vault commit 38: perf: add performance note -->
