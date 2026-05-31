@@ -546,3 +546,4 @@ This project is open source and available for educational purposes.
 <!-- docs/architecture-overview commit 16: fix: correct typo in docs -->
 <!-- docs/architecture-overview commit 19: fix: correct badge description -->
 <!-- docs/architecture-overview commit 22: refactor: reorganize docs section -->
+<!-- docs/architecture-overview commit 25: refactor: restructure dev notes -->
