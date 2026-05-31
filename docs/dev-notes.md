@@ -650,3 +650,4 @@
 <!-- chore/config-cleanup note 27: feat: add DAO integration note -->
 <!-- chore/config-cleanup note 30: feat: note marketplace roadmap item -->
 <!-- chore/config-cleanup note 33: test: update test scenario notes -->
+<!-- chore/config-cleanup note 36: perf: note optimization opportunity -->
