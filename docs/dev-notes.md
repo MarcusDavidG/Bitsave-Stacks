@@ -134,3 +134,4 @@
 <!-- feat/savings-goals note 38: perf: add performance note -->
 <!-- docs/contract-guide note 1: docs: update inline comments -->
 <!-- docs/contract-guide note 4: docs: clarify error handling notes -->
+<!-- docs/contract-guide note 7: docs: add dev notes entry -->
