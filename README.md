@@ -401,3 +401,4 @@ This project is open source and available for educational purposes.
 <!-- feat/dao-governance commit 21: refactor: simplify roadmap notes -->
 <!-- feat/dao-governance commit 24: refactor: improve changelog structure -->
 <!-- feat/dao-governance commit 27: feat: add DAO integration note -->
+<!-- feat/dao-governance commit 30: feat: note marketplace roadmap item -->
