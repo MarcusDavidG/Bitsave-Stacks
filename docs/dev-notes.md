@@ -273,3 +273,4 @@
 <!-- chore/ci-improvements note 15: chore: minor formatting fix -->
 <!-- chore/ci-improvements note 18: fix: update broken reference -->
 <!-- chore/ci-improvements note 21: refactor: simplify roadmap notes -->
+<!-- chore/ci-improvements note 24: refactor: improve changelog structure -->
