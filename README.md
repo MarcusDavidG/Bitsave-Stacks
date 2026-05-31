@@ -894,3 +894,4 @@ This project is open source and available for educational purposes.
 <!-- refactor/reward-logic commit 21: refactor: simplify roadmap notes -->
 <!-- refactor/reward-logic commit 24: refactor: improve changelog structure -->
 <!-- refactor/reward-logic commit 27: feat: add DAO integration note -->
+<!-- refactor/reward-logic commit 30: feat: note marketplace roadmap item -->
