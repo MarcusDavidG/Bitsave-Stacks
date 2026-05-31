@@ -646,3 +646,4 @@ This project is open source and available for educational purposes.
 <!-- chore/dependency-updates commit 36: perf: note optimization opportunity -->
 <!-- chore/dependency-updates commit 39: style: fix formatting in notes -->
 <!-- chore/linting-rules commit 2: docs: improve function descriptions -->
+<!-- chore/linting-rules commit 5: docs: expand architecture notes -->
