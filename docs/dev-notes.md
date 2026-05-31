@@ -77,3 +77,4 @@
 <!-- feat/multi-token-support note 27: feat: add DAO integration note -->
 <!-- feat/multi-token-support note 30: feat: note marketplace roadmap item -->
 <!-- feat/multi-token-support note 33: test: update test scenario notes -->
+<!-- feat/multi-token-support note 36: perf: note optimization opportunity -->
