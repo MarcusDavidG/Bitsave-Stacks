@@ -498,3 +498,4 @@
 <!-- docs/api-reference note 11: chore: tidy config formatting -->
 <!-- docs/api-reference note 14: chore: update .editorconfig -->
 <!-- docs/api-reference note 17: fix: fix stale comment -->
+<!-- docs/api-reference note 20: fix: fix markdown formatting -->
