@@ -477,3 +477,4 @@
 <!-- docs/contract-guide note 28: feat: document sBTC vault idea -->
 <!-- docs/contract-guide note 31: test: document test coverage notes -->
 <!-- docs/contract-guide note 34: test: note withdrawal test cases -->
+<!-- docs/contract-guide note 37: perf: document caching strategy -->
