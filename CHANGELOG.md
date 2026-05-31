@@ -1099,3 +1099,16 @@
 <!-- feat/sbtc-vault-v2 commit 34 -->
 <!-- feat/sbtc-vault-v2 commit 37 -->
 <!-- feat/sbtc-vault-v2 commit 40 -->
+<!-- feat/reward-boost-v2 commit 3 -->
+<!-- feat/reward-boost-v2 commit 6 -->
+<!-- feat/reward-boost-v2 commit 9 -->
+<!-- feat/reward-boost-v2 commit 12 -->
+<!-- feat/reward-boost-v2 commit 15 -->
+<!-- feat/reward-boost-v2 commit 18 -->
+<!-- feat/reward-boost-v2 commit 21 -->
+<!-- feat/reward-boost-v2 commit 24 -->
+<!-- feat/reward-boost-v2 commit 27 -->
+<!-- feat/reward-boost-v2 commit 30 -->
+<!-- feat/reward-boost-v2 commit 33 -->
+<!-- feat/reward-boost-v2 commit 36 -->
+<!-- feat/reward-boost-v2 commit 39 -->

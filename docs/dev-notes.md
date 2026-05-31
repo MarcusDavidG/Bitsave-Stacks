@@ -798,3 +798,17 @@
 <!-- feat/sbtc-vault-v2 note 32: test: note withdrawal test cases -->
 <!-- feat/sbtc-vault-v2 note 35: perf: document caching strategy -->
 <!-- feat/sbtc-vault-v2 note 38: style: normalize doc style -->
+<!-- feat/reward-boost-v2 note 1: docs: update inline comments -->
+<!-- feat/reward-boost-v2 note 4: docs: clarify error handling notes -->
+<!-- feat/reward-boost-v2 note 7: docs: add dev notes entry -->
+<!-- feat/reward-boost-v2 note 10: chore: update changelog entry -->
+<!-- feat/reward-boost-v2 note 13: chore: clean up stale comments -->
+<!-- feat/reward-boost-v2 note 16: fix: fix stale comment -->
+<!-- feat/reward-boost-v2 note 19: fix: fix markdown formatting -->
+<!-- feat/reward-boost-v2 note 22: refactor: clean up redundant entries -->
+<!-- feat/reward-boost-v2 note 25: feat: add DAO integration note -->
+<!-- feat/reward-boost-v2 note 28: feat: note marketplace roadmap item -->
+<!-- feat/reward-boost-v2 note 31: test: update test scenario notes -->
+<!-- feat/reward-boost-v2 note 34: perf: note optimization opportunity -->
+<!-- feat/reward-boost-v2 note 37: style: fix formatting in notes -->
+<!-- feat/reward-boost-v2 note 40: refactor: restructure dev notes -->
