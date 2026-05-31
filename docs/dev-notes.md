@@ -254,3 +254,4 @@
 <!-- refactor/contract-cleanup note 38: perf: add performance note -->
 <!-- refactor/test-structure note 1: docs: update inline comments -->
 <!-- refactor/test-structure note 4: docs: clarify error handling notes -->
+<!-- refactor/test-structure note 7: docs: add dev notes entry -->
