@@ -403,3 +403,4 @@
 <!-- feat/multi-token-support note 6: docs: refine README section -->
 <!-- feat/multi-token-support note 9: chore: normalize whitespace -->
 <!-- feat/multi-token-support note 12: chore: update project metadata -->
+<!-- feat/multi-token-support note 15: chore: minor formatting fix -->
