@@ -1160,3 +1160,4 @@ This project is open source and available for educational purposes.
 <!-- feat/reward-boost-v2 commit 20: refactor: simplify roadmap notes -->
 <!-- feat/reward-boost-v2 commit 23: refactor: improve changelog structure -->
 <!-- feat/reward-boost-v2 commit 26: feat: document sBTC vault idea -->
+<!-- feat/reward-boost-v2 commit 29: test: document test coverage notes -->
