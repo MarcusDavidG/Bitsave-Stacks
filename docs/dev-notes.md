@@ -644,3 +644,4 @@
 <!-- chore/config-cleanup note 9: chore: normalize whitespace -->
 <!-- chore/config-cleanup note 12: chore: update project metadata -->
 <!-- chore/config-cleanup note 15: chore: minor formatting fix -->
+<!-- chore/config-cleanup note 18: fix: update broken reference -->
