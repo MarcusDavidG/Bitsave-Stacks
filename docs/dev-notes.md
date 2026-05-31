@@ -519,3 +519,4 @@
 <!-- docs/deployment-guide note 34: test: note withdrawal test cases -->
 <!-- docs/deployment-guide note 37: perf: document caching strategy -->
 <!-- docs/deployment-guide note 40: style: normalize doc style -->
+<!-- docs/architecture-overview note 3: docs: add usage examples -->
