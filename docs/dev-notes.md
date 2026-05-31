@@ -205,3 +205,4 @@
 <!-- refactor/reward-logic note 11: chore: tidy config formatting -->
 <!-- refactor/reward-logic note 14: chore: update .editorconfig -->
 <!-- refactor/reward-logic note 17: fix: fix stale comment -->
+<!-- refactor/reward-logic note 20: fix: fix markdown formatting -->
