@@ -31,3 +31,4 @@
 <!-- feat/badge-marketplace note 9: chore: normalize whitespace -->
 <!-- feat/badge-marketplace note 12: chore: update project metadata -->
 <!-- feat/badge-marketplace note 15: chore: minor formatting fix -->
+<!-- feat/badge-marketplace note 18: fix: update broken reference -->
