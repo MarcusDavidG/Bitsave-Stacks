@@ -338,3 +338,4 @@
 <!-- feat/badge-marketplace commit 35 -->
 <!-- feat/badge-marketplace commit 38 -->
 <!-- feat/dao-governance commit 1 -->
+<!-- feat/dao-governance commit 4 -->
