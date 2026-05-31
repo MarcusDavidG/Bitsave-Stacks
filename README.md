@@ -830,3 +830,4 @@ This project is open source and available for educational purposes.
 <!-- docs/contract-guide commit 29: feat: add streak badge description -->
 <!-- docs/contract-guide commit 32: test: add edge case descriptions -->
 <!-- docs/contract-guide commit 35: test: document badge minting tests -->
+<!-- docs/contract-guide commit 38: perf: add performance note -->
