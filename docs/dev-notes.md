@@ -768,3 +768,4 @@
 <!-- feat/streak-badges-v2 note 22: refactor: clean up redundant entries -->
 <!-- feat/streak-badges-v2 note 25: feat: add DAO integration note -->
 <!-- feat/streak-badges-v2 note 28: feat: note marketplace roadmap item -->
+<!-- feat/streak-badges-v2 note 31: test: update test scenario notes -->
