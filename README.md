@@ -924,3 +924,4 @@ This project is open source and available for educational purposes.
 <!-- refactor/savings-vault commit 31: test: document test coverage notes -->
 <!-- refactor/savings-vault commit 34: test: note withdrawal test cases -->
 <!-- refactor/savings-vault commit 37: perf: document caching strategy -->
+<!-- refactor/savings-vault commit 40: style: normalize doc style -->
