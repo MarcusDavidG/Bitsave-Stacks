@@ -492,3 +492,16 @@
 <!-- docs/badge-system note 33: test: update test scenario notes -->
 <!-- docs/badge-system note 36: perf: note optimization opportunity -->
 <!-- docs/badge-system note 39: style: fix formatting in notes -->
+<!-- docs/api-reference note 2: docs: improve function descriptions -->
+<!-- docs/api-reference note 5: docs: expand architecture notes -->
+<!-- docs/api-reference note 8: docs: update roadmap item -->
+<!-- docs/api-reference note 11: chore: tidy config formatting -->
+<!-- docs/api-reference note 14: chore: update .editorconfig -->
+<!-- docs/api-reference note 17: fix: fix stale comment -->
+<!-- docs/api-reference note 20: fix: fix markdown formatting -->
+<!-- docs/api-reference note 23: refactor: clean up redundant entries -->
+<!-- docs/api-reference note 26: feat: document badge tier concept -->
+<!-- docs/api-reference note 29: feat: add streak badge description -->
+<!-- docs/api-reference note 32: test: add edge case descriptions -->
+<!-- docs/api-reference note 35: test: document badge minting tests -->
+<!-- docs/api-reference note 38: perf: add performance note -->

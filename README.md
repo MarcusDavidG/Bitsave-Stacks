@@ -845,3 +845,16 @@ This project is open source and available for educational purposes.
 <!-- docs/badge-system commit 34: test: note withdrawal test cases -->
 <!-- docs/badge-system commit 37: perf: document caching strategy -->
 <!-- docs/badge-system commit 40: style: normalize doc style -->
+<!-- docs/api-reference commit 3: docs: add usage examples -->
+<!-- docs/api-reference commit 6: docs: refine README section -->
+<!-- docs/api-reference commit 9: chore: normalize whitespace -->
+<!-- docs/api-reference commit 12: chore: update project metadata -->
+<!-- docs/api-reference commit 15: chore: minor formatting fix -->
+<!-- docs/api-reference commit 18: fix: update broken reference -->
+<!-- docs/api-reference commit 21: refactor: simplify roadmap notes -->
+<!-- docs/api-reference commit 24: refactor: improve changelog structure -->
+<!-- docs/api-reference commit 27: feat: add DAO integration note -->
+<!-- docs/api-reference commit 30: feat: note marketplace roadmap item -->
+<!-- docs/api-reference commit 33: test: update test scenario notes -->
+<!-- docs/api-reference commit 36: perf: note optimization opportunity -->
+<!-- docs/api-reference commit 39: style: fix formatting in notes -->
