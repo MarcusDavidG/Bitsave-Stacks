@@ -300,3 +300,4 @@
 <!-- chore/linting-rules note 16: fix: correct typo in docs -->
 <!-- chore/linting-rules note 19: fix: correct badge description -->
 <!-- chore/linting-rules note 22: refactor: reorganize docs section -->
+<!-- chore/linting-rules note 25: refactor: restructure dev notes -->
