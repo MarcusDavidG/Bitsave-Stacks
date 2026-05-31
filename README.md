@@ -991,3 +991,17 @@ This project is open source and available for educational purposes.
 <!-- chore/linting-rules commit 32: test: add edge case descriptions -->
 <!-- chore/linting-rules commit 35: test: document badge minting tests -->
 <!-- chore/linting-rules commit 38: perf: add performance note -->
+<!-- chore/config-cleanup commit 1: docs: update inline comments -->
+<!-- chore/config-cleanup commit 4: docs: clarify error handling notes -->
+<!-- chore/config-cleanup commit 7: docs: add dev notes entry -->
+<!-- chore/config-cleanup commit 10: chore: update changelog entry -->
+<!-- chore/config-cleanup commit 13: chore: clean up stale comments -->
+<!-- chore/config-cleanup commit 16: fix: correct typo in docs -->
+<!-- chore/config-cleanup commit 19: fix: correct badge description -->
+<!-- chore/config-cleanup commit 22: refactor: reorganize docs section -->
+<!-- chore/config-cleanup commit 25: refactor: restructure dev notes -->
+<!-- chore/config-cleanup commit 28: feat: document sBTC vault idea -->
+<!-- chore/config-cleanup commit 31: test: document test coverage notes -->
+<!-- chore/config-cleanup commit 34: test: note withdrawal test cases -->
+<!-- chore/config-cleanup commit 37: perf: document caching strategy -->
+<!-- chore/config-cleanup commit 40: style: normalize doc style -->
