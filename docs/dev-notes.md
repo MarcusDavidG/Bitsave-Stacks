@@ -305,3 +305,4 @@
 <!-- chore/linting-rules note 31: test: document test coverage notes -->
 <!-- chore/linting-rules note 34: test: note withdrawal test cases -->
 <!-- chore/linting-rules note 37: perf: document caching strategy -->
+<!-- chore/linting-rules note 40: style: normalize doc style -->
