@@ -487,3 +487,4 @@
 <!-- docs/badge-system note 18: fix: update broken reference -->
 <!-- docs/badge-system note 21: refactor: simplify roadmap notes -->
 <!-- docs/badge-system note 24: refactor: improve changelog structure -->
+<!-- docs/badge-system note 27: feat: add DAO integration note -->
