@@ -529,3 +529,4 @@ This project is open source and available for educational purposes.
 <!-- docs/deployment-guide commit 5: docs: expand architecture notes -->
 <!-- docs/deployment-guide commit 8: docs: update roadmap item -->
 <!-- docs/deployment-guide commit 11: chore: tidy config formatting -->
+<!-- docs/deployment-guide commit 14: chore: update .editorconfig -->
