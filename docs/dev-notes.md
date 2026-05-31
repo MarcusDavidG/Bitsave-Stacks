@@ -7,3 +7,4 @@
 <!-- feat/badge-tiers note 17: fix: fix stale comment -->
 <!-- feat/badge-tiers note 20: fix: fix markdown formatting -->
 <!-- feat/badge-tiers note 23: refactor: clean up redundant entries -->
+<!-- feat/badge-tiers note 26: feat: document badge tier concept -->
