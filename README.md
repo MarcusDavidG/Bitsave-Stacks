@@ -564,3 +564,4 @@ This project is open source and available for educational purposes.
 <!-- refactor/reward-logic commit 30: feat: note marketplace roadmap item -->
 <!-- refactor/reward-logic commit 33: test: update test scenario notes -->
 <!-- refactor/reward-logic commit 36: perf: note optimization opportunity -->
+<!-- refactor/reward-logic commit 39: style: fix formatting in notes -->
