@@ -645,3 +645,4 @@
 <!-- feat/badge-tiers commit 34 -->
 <!-- feat/badge-tiers commit 37 -->
 <!-- feat/badge-tiers commit 40 -->
+<!-- feat/streak-badges commit 3 -->
