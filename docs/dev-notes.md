@@ -612,3 +612,16 @@
 <!-- chore/ci-improvements note 33: test: update test scenario notes -->
 <!-- chore/ci-improvements note 36: perf: note optimization opportunity -->
 <!-- chore/ci-improvements note 39: style: fix formatting in notes -->
+<!-- chore/dependency-updates note 2: docs: improve function descriptions -->
+<!-- chore/dependency-updates note 5: docs: expand architecture notes -->
+<!-- chore/dependency-updates note 8: docs: update roadmap item -->
+<!-- chore/dependency-updates note 11: chore: tidy config formatting -->
+<!-- chore/dependency-updates note 14: chore: update .editorconfig -->
+<!-- chore/dependency-updates note 17: fix: fix stale comment -->
+<!-- chore/dependency-updates note 20: fix: fix markdown formatting -->
+<!-- chore/dependency-updates note 23: refactor: clean up redundant entries -->
+<!-- chore/dependency-updates note 26: feat: document badge tier concept -->
+<!-- chore/dependency-updates note 29: feat: add streak badge description -->
+<!-- chore/dependency-updates note 32: test: add edge case descriptions -->
+<!-- chore/dependency-updates note 35: test: document badge minting tests -->
+<!-- chore/dependency-updates note 38: perf: add performance note -->

@@ -965,3 +965,16 @@ This project is open source and available for educational purposes.
 <!-- chore/ci-improvements commit 34: test: note withdrawal test cases -->
 <!-- chore/ci-improvements commit 37: perf: document caching strategy -->
 <!-- chore/ci-improvements commit 40: style: normalize doc style -->
+<!-- chore/dependency-updates commit 3: docs: add usage examples -->
+<!-- chore/dependency-updates commit 6: docs: refine README section -->
+<!-- chore/dependency-updates commit 9: chore: normalize whitespace -->
+<!-- chore/dependency-updates commit 12: chore: update project metadata -->
+<!-- chore/dependency-updates commit 15: chore: minor formatting fix -->
+<!-- chore/dependency-updates commit 18: fix: update broken reference -->
+<!-- chore/dependency-updates commit 21: refactor: simplify roadmap notes -->
+<!-- chore/dependency-updates commit 24: refactor: improve changelog structure -->
+<!-- chore/dependency-updates commit 27: feat: add DAO integration note -->
+<!-- chore/dependency-updates commit 30: feat: note marketplace roadmap item -->
+<!-- chore/dependency-updates commit 33: test: update test scenario notes -->
+<!-- chore/dependency-updates commit 36: perf: note optimization opportunity -->
+<!-- chore/dependency-updates commit 39: style: fix formatting in notes -->
