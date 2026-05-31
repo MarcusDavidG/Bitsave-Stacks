@@ -1145,3 +1145,4 @@ This project is open source and available for educational purposes.
 <!-- feat/sbtc-vault-v2 commit 15: fix: correct typo in docs -->
 <!-- feat/sbtc-vault-v2 commit 18: fix: correct badge description -->
 <!-- feat/sbtc-vault-v2 commit 21: refactor: reorganize docs section -->
+<!-- feat/sbtc-vault-v2 commit 24: feat: document badge tier concept -->
