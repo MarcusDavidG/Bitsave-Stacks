@@ -856,3 +856,4 @@ This project is open source and available for educational purposes.
 <!-- docs/api-reference commit 27: feat: add DAO integration note -->
 <!-- docs/api-reference commit 30: feat: note marketplace roadmap item -->
 <!-- docs/api-reference commit 33: test: update test scenario notes -->
+<!-- docs/api-reference commit 36: perf: note optimization opportunity -->
