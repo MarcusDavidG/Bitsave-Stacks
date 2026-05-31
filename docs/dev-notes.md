@@ -298,3 +298,4 @@
 <!-- chore/linting-rules note 10: chore: update changelog entry -->
 <!-- chore/linting-rules note 13: chore: clean up stale comments -->
 <!-- chore/linting-rules note 16: fix: correct typo in docs -->
+<!-- chore/linting-rules note 19: fix: correct badge description -->
