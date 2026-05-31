@@ -283,3 +283,4 @@
 <!-- chore/dependency-updates note 5: docs: expand architecture notes -->
 <!-- chore/dependency-updates note 8: docs: update roadmap item -->
 <!-- chore/dependency-updates note 11: chore: tidy config formatting -->
+<!-- chore/dependency-updates note 14: chore: update .editorconfig -->
