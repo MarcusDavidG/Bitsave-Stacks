@@ -1106,3 +1106,4 @@ This project is open source and available for educational purposes.
 <!-- feat/badge-tiers-v2 commit 18: fix: correct badge description -->
 <!-- feat/badge-tiers-v2 commit 21: refactor: reorganize docs section -->
 <!-- feat/badge-tiers-v2 commit 24: feat: document badge tier concept -->
+<!-- feat/badge-tiers-v2 commit 27: feat: add streak badge description -->
