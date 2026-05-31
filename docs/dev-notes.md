@@ -729,3 +729,4 @@
 <!-- feat/sbtc-vault note 25: refactor: restructure dev notes -->
 <!-- feat/sbtc-vault note 28: feat: document sBTC vault idea -->
 <!-- feat/sbtc-vault note 31: test: document test coverage notes -->
+<!-- feat/sbtc-vault note 34: test: note withdrawal test cases -->
