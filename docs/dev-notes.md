@@ -307,3 +307,4 @@
 <!-- chore/linting-rules note 37: perf: document caching strategy -->
 <!-- chore/linting-rules note 40: style: normalize doc style -->
 <!-- chore/config-cleanup note 3: docs: add usage examples -->
+<!-- chore/config-cleanup note 6: docs: refine README section -->
