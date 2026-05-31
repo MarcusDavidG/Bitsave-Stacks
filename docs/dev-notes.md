@@ -60,3 +60,4 @@
 <!-- feat/sbtc-vault note 16: fix: correct typo in docs -->
 <!-- feat/sbtc-vault note 19: fix: correct badge description -->
 <!-- feat/sbtc-vault note 22: refactor: reorganize docs section -->
+<!-- feat/sbtc-vault note 25: refactor: restructure dev notes -->
