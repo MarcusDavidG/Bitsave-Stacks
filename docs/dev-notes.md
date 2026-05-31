@@ -738,3 +738,4 @@
 <!-- feat/multi-token-support note 12: chore: update project metadata -->
 <!-- feat/multi-token-support note 15: chore: minor formatting fix -->
 <!-- feat/multi-token-support note 18: fix: update broken reference -->
+<!-- feat/multi-token-support note 21: refactor: simplify roadmap notes -->
