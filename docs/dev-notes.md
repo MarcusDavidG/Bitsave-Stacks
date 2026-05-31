@@ -164,3 +164,4 @@
 <!-- docs/api-reference note 8: docs: update roadmap item -->
 <!-- docs/api-reference note 11: chore: tidy config formatting -->
 <!-- docs/api-reference note 14: chore: update .editorconfig -->
+<!-- docs/api-reference note 17: fix: fix stale comment -->
