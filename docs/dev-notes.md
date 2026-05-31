@@ -212,3 +212,17 @@
 <!-- refactor/reward-logic note 32: test: add edge case descriptions -->
 <!-- refactor/reward-logic note 35: test: document badge minting tests -->
 <!-- refactor/reward-logic note 38: perf: add performance note -->
+<!-- refactor/badge-minting note 1: docs: update inline comments -->
+<!-- refactor/badge-minting note 4: docs: clarify error handling notes -->
+<!-- refactor/badge-minting note 7: docs: add dev notes entry -->
+<!-- refactor/badge-minting note 10: chore: update changelog entry -->
+<!-- refactor/badge-minting note 13: chore: clean up stale comments -->
+<!-- refactor/badge-minting note 16: fix: correct typo in docs -->
+<!-- refactor/badge-minting note 19: fix: correct badge description -->
+<!-- refactor/badge-minting note 22: refactor: reorganize docs section -->
+<!-- refactor/badge-minting note 25: refactor: restructure dev notes -->
+<!-- refactor/badge-minting note 28: feat: document sBTC vault idea -->
+<!-- refactor/badge-minting note 31: test: document test coverage notes -->
+<!-- refactor/badge-minting note 34: test: note withdrawal test cases -->
+<!-- refactor/badge-minting note 37: perf: document caching strategy -->
+<!-- refactor/badge-minting note 40: style: normalize doc style -->
