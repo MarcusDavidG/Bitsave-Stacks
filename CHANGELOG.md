@@ -845,3 +845,4 @@
 <!-- refactor/reward-logic commit 34 -->
 <!-- refactor/reward-logic commit 37 -->
 <!-- refactor/reward-logic commit 40 -->
+<!-- refactor/badge-minting commit 3 -->
