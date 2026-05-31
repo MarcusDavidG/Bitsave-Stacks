@@ -760,3 +760,4 @@
 <!-- feat/badge-tiers-v2 note 38: style: normalize doc style -->
 <!-- feat/streak-badges-v2 note 1: docs: update inline comments -->
 <!-- feat/streak-badges-v2 note 4: docs: clarify error handling notes -->
+<!-- feat/streak-badges-v2 note 7: docs: add dev notes entry -->
