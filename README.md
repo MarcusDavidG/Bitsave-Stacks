@@ -1148,3 +1148,4 @@ This project is open source and available for educational purposes.
 <!-- feat/sbtc-vault-v2 commit 24: feat: document badge tier concept -->
 <!-- feat/sbtc-vault-v2 commit 27: feat: add streak badge description -->
 <!-- feat/sbtc-vault-v2 commit 30: test: add edge case descriptions -->
+<!-- feat/sbtc-vault-v2 commit 33: test: document badge minting tests -->
