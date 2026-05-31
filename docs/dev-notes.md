@@ -676,3 +676,4 @@
 <!-- feat/badge-tiers note 26: feat: document badge tier concept -->
 <!-- feat/badge-tiers note 29: feat: add streak badge description -->
 <!-- feat/badge-tiers note 32: test: add edge case descriptions -->
+<!-- feat/badge-tiers note 35: test: document badge minting tests -->
