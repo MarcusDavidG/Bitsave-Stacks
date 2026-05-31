@@ -552,3 +552,4 @@ This project is open source and available for educational purposes.
 <!-- docs/architecture-overview commit 34: test: note withdrawal test cases -->
 <!-- docs/architecture-overview commit 37: perf: document caching strategy -->
 <!-- docs/architecture-overview commit 40: style: normalize doc style -->
+<!-- refactor/reward-logic commit 3: docs: add usage examples -->
