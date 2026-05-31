@@ -809,3 +809,4 @@
 <!-- feat/reward-boost-v2 note 25: feat: add DAO integration note -->
 <!-- feat/reward-boost-v2 note 28: feat: note marketplace roadmap item -->
 <!-- feat/reward-boost-v2 note 31: test: update test scenario notes -->
+<!-- feat/reward-boost-v2 note 34: perf: note optimization opportunity -->
