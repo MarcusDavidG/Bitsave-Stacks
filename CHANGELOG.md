@@ -1112,3 +1112,16 @@
 <!-- feat/reward-boost-v2 commit 33 -->
 <!-- feat/reward-boost-v2 commit 36 -->
 <!-- feat/reward-boost-v2 commit 39 -->
+<!-- feat/leaderboard-v2 commit 2 -->
+<!-- feat/leaderboard-v2 commit 5 -->
+<!-- feat/leaderboard-v2 commit 8 -->
+<!-- feat/leaderboard-v2 commit 11 -->
+<!-- feat/leaderboard-v2 commit 14 -->
+<!-- feat/leaderboard-v2 commit 17 -->
+<!-- feat/leaderboard-v2 commit 20 -->
+<!-- feat/leaderboard-v2 commit 23 -->
+<!-- feat/leaderboard-v2 commit 26 -->
+<!-- feat/leaderboard-v2 commit 29 -->
+<!-- feat/leaderboard-v2 commit 32 -->
+<!-- feat/leaderboard-v2 commit 35 -->
+<!-- feat/leaderboard-v2 commit 38 -->

@@ -1164,3 +1164,17 @@ This project is open source and available for educational purposes.
 <!-- feat/reward-boost-v2 commit 32: test: note withdrawal test cases -->
 <!-- feat/reward-boost-v2 commit 35: perf: document caching strategy -->
 <!-- feat/reward-boost-v2 commit 38: style: normalize doc style -->
+<!-- feat/leaderboard-v2 commit 1: docs: update inline comments -->
+<!-- feat/leaderboard-v2 commit 4: docs: clarify error handling notes -->
+<!-- feat/leaderboard-v2 commit 7: docs: add dev notes entry -->
+<!-- feat/leaderboard-v2 commit 10: chore: update changelog entry -->
+<!-- feat/leaderboard-v2 commit 13: chore: clean up stale comments -->
+<!-- feat/leaderboard-v2 commit 16: fix: fix stale comment -->
+<!-- feat/leaderboard-v2 commit 19: fix: fix markdown formatting -->
+<!-- feat/leaderboard-v2 commit 22: refactor: clean up redundant entries -->
+<!-- feat/leaderboard-v2 commit 25: feat: add DAO integration note -->
+<!-- feat/leaderboard-v2 commit 28: feat: note marketplace roadmap item -->
+<!-- feat/leaderboard-v2 commit 31: test: update test scenario notes -->
+<!-- feat/leaderboard-v2 commit 34: perf: note optimization opportunity -->
+<!-- feat/leaderboard-v2 commit 37: style: fix formatting in notes -->
+<!-- feat/leaderboard-v2 commit 40: refactor: restructure dev notes -->

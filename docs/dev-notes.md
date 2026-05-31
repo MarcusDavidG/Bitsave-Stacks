@@ -812,3 +812,16 @@
 <!-- feat/reward-boost-v2 note 34: perf: note optimization opportunity -->
 <!-- feat/reward-boost-v2 note 37: style: fix formatting in notes -->
 <!-- feat/reward-boost-v2 note 40: refactor: restructure dev notes -->
+<!-- feat/leaderboard-v2 note 3: docs: add usage examples -->
+<!-- feat/leaderboard-v2 note 6: docs: refine README section -->
+<!-- feat/leaderboard-v2 note 9: chore: normalize whitespace -->
+<!-- feat/leaderboard-v2 note 12: chore: update project metadata -->
+<!-- feat/leaderboard-v2 note 15: fix: correct typo in docs -->
+<!-- feat/leaderboard-v2 note 18: fix: correct badge description -->
+<!-- feat/leaderboard-v2 note 21: refactor: reorganize docs section -->
+<!-- feat/leaderboard-v2 note 24: feat: document badge tier concept -->
+<!-- feat/leaderboard-v2 note 27: feat: add streak badge description -->
+<!-- feat/leaderboard-v2 note 30: test: add edge case descriptions -->
+<!-- feat/leaderboard-v2 note 33: test: document badge minting tests -->
+<!-- feat/leaderboard-v2 note 36: perf: add performance note -->
+<!-- feat/leaderboard-v2 note 39: chore: update .editorconfig -->
