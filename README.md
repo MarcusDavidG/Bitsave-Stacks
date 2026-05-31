@@ -371,3 +371,4 @@ This project is open source and available for educational purposes.
 <!-- feat/streak-badges commit 11: chore: tidy config formatting -->
 <!-- feat/streak-badges commit 14: chore: update .editorconfig -->
 <!-- feat/streak-badges commit 17: fix: fix stale comment -->
+<!-- feat/streak-badges commit 20: fix: fix markdown formatting -->
