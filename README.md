@@ -885,3 +885,16 @@ This project is open source and available for educational purposes.
 <!-- docs/architecture-overview commit 34: test: note withdrawal test cases -->
 <!-- docs/architecture-overview commit 37: perf: document caching strategy -->
 <!-- docs/architecture-overview commit 40: style: normalize doc style -->
+<!-- refactor/reward-logic commit 3: docs: add usage examples -->
+<!-- refactor/reward-logic commit 6: docs: refine README section -->
+<!-- refactor/reward-logic commit 9: chore: normalize whitespace -->
+<!-- refactor/reward-logic commit 12: chore: update project metadata -->
+<!-- refactor/reward-logic commit 15: chore: minor formatting fix -->
+<!-- refactor/reward-logic commit 18: fix: update broken reference -->
+<!-- refactor/reward-logic commit 21: refactor: simplify roadmap notes -->
+<!-- refactor/reward-logic commit 24: refactor: improve changelog structure -->
+<!-- refactor/reward-logic commit 27: feat: add DAO integration note -->
+<!-- refactor/reward-logic commit 30: feat: note marketplace roadmap item -->
+<!-- refactor/reward-logic commit 33: test: update test scenario notes -->
+<!-- refactor/reward-logic commit 36: perf: note optimization opportunity -->
+<!-- refactor/reward-logic commit 39: style: fix formatting in notes -->

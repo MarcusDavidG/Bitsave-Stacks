@@ -532,3 +532,16 @@
 <!-- docs/architecture-overview note 33: test: update test scenario notes -->
 <!-- docs/architecture-overview note 36: perf: note optimization opportunity -->
 <!-- docs/architecture-overview note 39: style: fix formatting in notes -->
+<!-- refactor/reward-logic note 2: docs: improve function descriptions -->
+<!-- refactor/reward-logic note 5: docs: expand architecture notes -->
+<!-- refactor/reward-logic note 8: docs: update roadmap item -->
+<!-- refactor/reward-logic note 11: chore: tidy config formatting -->
+<!-- refactor/reward-logic note 14: chore: update .editorconfig -->
+<!-- refactor/reward-logic note 17: fix: fix stale comment -->
+<!-- refactor/reward-logic note 20: fix: fix markdown formatting -->
+<!-- refactor/reward-logic note 23: refactor: clean up redundant entries -->
+<!-- refactor/reward-logic note 26: feat: document badge tier concept -->
+<!-- refactor/reward-logic note 29: feat: add streak badge description -->
+<!-- refactor/reward-logic note 32: test: add edge case descriptions -->
+<!-- refactor/reward-logic note 35: test: document badge minting tests -->
+<!-- refactor/reward-logic note 38: perf: add performance note -->
