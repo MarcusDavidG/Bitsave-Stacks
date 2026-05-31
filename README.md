@@ -738,3 +738,4 @@ This project is open source and available for educational purposes.
 <!-- feat/dao-governance commit 33: test: update test scenario notes -->
 <!-- feat/dao-governance commit 36: perf: note optimization opportunity -->
 <!-- feat/dao-governance commit 39: style: fix formatting in notes -->
+<!-- feat/sbtc-vault commit 2: docs: improve function descriptions -->
