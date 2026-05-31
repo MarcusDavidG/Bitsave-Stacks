@@ -949,3 +949,4 @@ This project is open source and available for educational purposes.
 <!-- refactor/test-structure commit 26: feat: document badge tier concept -->
 <!-- refactor/test-structure commit 29: feat: add streak badge description -->
 <!-- refactor/test-structure commit 32: test: add edge case descriptions -->
+<!-- refactor/test-structure commit 35: test: document badge minting tests -->
