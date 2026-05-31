@@ -66,3 +66,4 @@
 <!-- feat/sbtc-vault note 34: test: note withdrawal test cases -->
 <!-- feat/sbtc-vault note 37: perf: document caching strategy -->
 <!-- feat/sbtc-vault note 40: style: normalize doc style -->
+<!-- feat/multi-token-support note 3: docs: add usage examples -->
