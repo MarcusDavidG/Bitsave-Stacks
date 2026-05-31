@@ -138,3 +138,4 @@
 <!-- docs/contract-guide note 10: chore: update changelog entry -->
 <!-- docs/contract-guide note 13: chore: clean up stale comments -->
 <!-- docs/contract-guide note 16: fix: correct typo in docs -->
+<!-- docs/contract-guide note 19: fix: correct badge description -->
