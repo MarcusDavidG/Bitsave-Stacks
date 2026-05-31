@@ -654,3 +654,4 @@ This project is open source and available for educational purposes.
 <!-- chore/linting-rules commit 20: fix: fix markdown formatting -->
 <!-- chore/linting-rules commit 23: refactor: clean up redundant entries -->
 <!-- chore/linting-rules commit 26: feat: document badge tier concept -->
+<!-- chore/linting-rules commit 29: feat: add streak badge description -->
