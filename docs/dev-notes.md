@@ -237,3 +237,4 @@
 <!-- refactor/savings-vault note 27: feat: add DAO integration note -->
 <!-- refactor/savings-vault note 30: feat: note marketplace roadmap item -->
 <!-- refactor/savings-vault note 33: test: update test scenario notes -->
+<!-- refactor/savings-vault note 36: perf: note optimization opportunity -->
