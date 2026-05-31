@@ -169,3 +169,4 @@
 <!-- docs/api-reference note 23: refactor: clean up redundant entries -->
 <!-- docs/api-reference note 26: feat: document badge tier concept -->
 <!-- docs/api-reference note 29: feat: add streak badge description -->
+<!-- docs/api-reference note 32: test: add edge case descriptions -->
