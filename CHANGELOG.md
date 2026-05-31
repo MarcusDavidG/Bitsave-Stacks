@@ -518,3 +518,4 @@
 <!-- refactor/badge-minting commit 15 -->
 <!-- refactor/badge-minting commit 18 -->
 <!-- refactor/badge-minting commit 21 -->
+<!-- refactor/badge-minting commit 24 -->
