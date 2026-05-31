@@ -310,3 +310,4 @@ clarinet run initialize-contracts.ts
 <!-- update 36 -->
 <!-- update 37 -->
 <!-- update 38 -->
+<!-- update 39 -->
