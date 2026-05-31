@@ -68,3 +68,4 @@
 <!-- feat/sbtc-vault note 40: style: normalize doc style -->
 <!-- feat/multi-token-support note 3: docs: add usage examples -->
 <!-- feat/multi-token-support note 6: docs: refine README section -->
+<!-- feat/multi-token-support note 9: chore: normalize whitespace -->
