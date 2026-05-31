@@ -431,3 +431,16 @@
 <!-- feat/savings-goals commit 34 -->
 <!-- feat/savings-goals commit 37 -->
 <!-- feat/savings-goals commit 40 -->
+<!-- docs/contract-guide commit 3 -->
+<!-- docs/contract-guide commit 6 -->
+<!-- docs/contract-guide commit 9 -->
+<!-- docs/contract-guide commit 12 -->
+<!-- docs/contract-guide commit 15 -->
+<!-- docs/contract-guide commit 18 -->
+<!-- docs/contract-guide commit 21 -->
+<!-- docs/contract-guide commit 24 -->
+<!-- docs/contract-guide commit 27 -->
+<!-- docs/contract-guide commit 30 -->
+<!-- docs/contract-guide commit 33 -->
+<!-- docs/contract-guide commit 36 -->
+<!-- docs/contract-guide commit 39 -->

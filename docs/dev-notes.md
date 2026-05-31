@@ -132,3 +132,17 @@
 <!-- feat/savings-goals note 32: test: add edge case descriptions -->
 <!-- feat/savings-goals note 35: test: document badge minting tests -->
 <!-- feat/savings-goals note 38: perf: add performance note -->
+<!-- docs/contract-guide note 1: docs: update inline comments -->
+<!-- docs/contract-guide note 4: docs: clarify error handling notes -->
+<!-- docs/contract-guide note 7: docs: add dev notes entry -->
+<!-- docs/contract-guide note 10: chore: update changelog entry -->
+<!-- docs/contract-guide note 13: chore: clean up stale comments -->
+<!-- docs/contract-guide note 16: fix: correct typo in docs -->
+<!-- docs/contract-guide note 19: fix: correct badge description -->
+<!-- docs/contract-guide note 22: refactor: reorganize docs section -->
+<!-- docs/contract-guide note 25: refactor: restructure dev notes -->
+<!-- docs/contract-guide note 28: feat: document sBTC vault idea -->
+<!-- docs/contract-guide note 31: test: document test coverage notes -->
+<!-- docs/contract-guide note 34: test: note withdrawal test cases -->
+<!-- docs/contract-guide note 37: perf: document caching strategy -->
+<!-- docs/contract-guide note 40: style: normalize doc style -->
