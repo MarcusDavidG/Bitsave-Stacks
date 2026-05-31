@@ -786,3 +786,4 @@
 <!-- feat/dao-governance-v2 note 36: perf: add performance note -->
 <!-- feat/dao-governance-v2 note 39: chore: update .editorconfig -->
 <!-- feat/sbtc-vault-v2 note 2: docs: improve function descriptions -->
+<!-- feat/sbtc-vault-v2 note 5: docs: expand architecture notes -->
