@@ -745,3 +745,16 @@
 <!-- feat/multi-token-support note 33: test: update test scenario notes -->
 <!-- feat/multi-token-support note 36: perf: note optimization opportunity -->
 <!-- feat/multi-token-support note 39: style: fix formatting in notes -->
+<!-- feat/badge-tiers-v2 note 2: docs: improve function descriptions -->
+<!-- feat/badge-tiers-v2 note 5: docs: expand architecture notes -->
+<!-- feat/badge-tiers-v2 note 8: docs: update roadmap item -->
+<!-- feat/badge-tiers-v2 note 11: chore: tidy config formatting -->
+<!-- feat/badge-tiers-v2 note 14: chore: minor formatting fix -->
+<!-- feat/badge-tiers-v2 note 17: fix: update broken reference -->
+<!-- feat/badge-tiers-v2 note 20: refactor: simplify roadmap notes -->
+<!-- feat/badge-tiers-v2 note 23: refactor: improve changelog structure -->
+<!-- feat/badge-tiers-v2 note 26: feat: document sBTC vault idea -->
+<!-- feat/badge-tiers-v2 note 29: test: document test coverage notes -->
+<!-- feat/badge-tiers-v2 note 32: test: note withdrawal test cases -->
+<!-- feat/badge-tiers-v2 note 35: perf: document caching strategy -->
+<!-- feat/badge-tiers-v2 note 38: style: normalize doc style -->

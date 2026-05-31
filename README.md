@@ -1098,3 +1098,16 @@ This project is open source and available for educational purposes.
 <!-- feat/multi-token-support commit 34: test: note withdrawal test cases -->
 <!-- feat/multi-token-support commit 37: perf: document caching strategy -->
 <!-- feat/multi-token-support commit 40: style: normalize doc style -->
+<!-- feat/badge-tiers-v2 commit 3: docs: add usage examples -->
+<!-- feat/badge-tiers-v2 commit 6: docs: refine README section -->
+<!-- feat/badge-tiers-v2 commit 9: chore: normalize whitespace -->
+<!-- feat/badge-tiers-v2 commit 12: chore: update project metadata -->
+<!-- feat/badge-tiers-v2 commit 15: fix: correct typo in docs -->
+<!-- feat/badge-tiers-v2 commit 18: fix: correct badge description -->
+<!-- feat/badge-tiers-v2 commit 21: refactor: reorganize docs section -->
+<!-- feat/badge-tiers-v2 commit 24: feat: document badge tier concept -->
+<!-- feat/badge-tiers-v2 commit 27: feat: add streak badge description -->
+<!-- feat/badge-tiers-v2 commit 30: test: add edge case descriptions -->
+<!-- feat/badge-tiers-v2 commit 33: test: document badge minting tests -->
+<!-- feat/badge-tiers-v2 commit 36: perf: add performance note -->
+<!-- feat/badge-tiers-v2 commit 39: chore: update .editorconfig -->

@@ -1045,3 +1045,17 @@
 <!-- feat/multi-token-support commit 32 -->
 <!-- feat/multi-token-support commit 35 -->
 <!-- feat/multi-token-support commit 38 -->
+<!-- feat/badge-tiers-v2 commit 1 -->
+<!-- feat/badge-tiers-v2 commit 4 -->
+<!-- feat/badge-tiers-v2 commit 7 -->
+<!-- feat/badge-tiers-v2 commit 10 -->
+<!-- feat/badge-tiers-v2 commit 13 -->
+<!-- feat/badge-tiers-v2 commit 16 -->
+<!-- feat/badge-tiers-v2 commit 19 -->
+<!-- feat/badge-tiers-v2 commit 22 -->
+<!-- feat/badge-tiers-v2 commit 25 -->
+<!-- feat/badge-tiers-v2 commit 28 -->
+<!-- feat/badge-tiers-v2 commit 31 -->
+<!-- feat/badge-tiers-v2 commit 34 -->
+<!-- feat/badge-tiers-v2 commit 37 -->
+<!-- feat/badge-tiers-v2 commit 40 -->
