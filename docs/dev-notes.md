@@ -180,3 +180,4 @@
 <!-- docs/deployment-guide note 16: fix: correct typo in docs -->
 <!-- docs/deployment-guide note 19: fix: correct badge description -->
 <!-- docs/deployment-guide note 22: refactor: reorganize docs section -->
+<!-- docs/deployment-guide note 25: refactor: restructure dev notes -->
