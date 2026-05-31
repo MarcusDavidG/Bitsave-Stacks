@@ -900,3 +900,4 @@ This project is open source and available for educational purposes.
 <!-- refactor/reward-logic commit 39: style: fix formatting in notes -->
 <!-- refactor/badge-minting commit 2: docs: improve function descriptions -->
 <!-- refactor/badge-minting commit 5: docs: expand architecture notes -->
+<!-- refactor/badge-minting commit 8: docs: update roadmap item -->
