@@ -30,3 +30,4 @@
 <!-- feat/badge-marketplace note 6: docs: refine README section -->
 <!-- feat/badge-marketplace note 9: chore: normalize whitespace -->
 <!-- feat/badge-marketplace note 12: chore: update project metadata -->
+<!-- feat/badge-marketplace note 15: chore: minor formatting fix -->
