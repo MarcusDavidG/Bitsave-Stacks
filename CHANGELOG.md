@@ -1058,3 +1058,4 @@
 <!-- feat/badge-tiers-v2 commit 31 -->
 <!-- feat/badge-tiers-v2 commit 34 -->
 <!-- feat/badge-tiers-v2 commit 37 -->
+<!-- feat/badge-tiers-v2 commit 40 -->
