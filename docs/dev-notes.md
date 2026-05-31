@@ -264,3 +264,4 @@
 <!-- refactor/test-structure note 28: feat: document sBTC vault idea -->
 <!-- refactor/test-structure note 31: test: document test coverage notes -->
 <!-- refactor/test-structure note 34: test: note withdrawal test cases -->
+<!-- refactor/test-structure note 37: perf: document caching strategy -->
