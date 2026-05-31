@@ -102,3 +102,4 @@
 <!-- feat/referral-system note 22: refactor: reorganize docs section -->
 <!-- feat/referral-system note 25: refactor: restructure dev notes -->
 <!-- feat/referral-system note 28: feat: document sBTC vault idea -->
+<!-- feat/referral-system note 31: test: document test coverage notes -->
