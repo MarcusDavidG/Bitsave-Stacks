@@ -798,3 +798,4 @@
 <!-- feat/sbtc-vault-v2 note 32: test: note withdrawal test cases -->
 <!-- feat/sbtc-vault-v2 note 35: perf: document caching strategy -->
 <!-- feat/sbtc-vault-v2 note 38: style: normalize doc style -->
+<!-- feat/reward-boost-v2 note 1: docs: update inline comments -->
