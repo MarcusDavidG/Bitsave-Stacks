@@ -440,3 +440,4 @@
 <!-- feat/referral-system note 37: perf: document caching strategy -->
 <!-- feat/referral-system note 40: style: normalize doc style -->
 <!-- feat/leaderboard note 3: docs: add usage examples -->
+<!-- feat/leaderboard note 6: docs: refine README section -->
