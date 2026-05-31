@@ -708,3 +708,4 @@
 <!-- feat/dao-governance note 2: docs: improve function descriptions -->
 <!-- feat/dao-governance note 5: docs: expand architecture notes -->
 <!-- feat/dao-governance note 8: docs: update roadmap item -->
+<!-- feat/dao-governance note 11: chore: tidy config formatting -->
