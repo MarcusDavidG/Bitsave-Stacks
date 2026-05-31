@@ -124,3 +124,4 @@
 <!-- feat/savings-goals note 8: docs: update roadmap item -->
 <!-- feat/savings-goals note 11: chore: tidy config formatting -->
 <!-- feat/savings-goals note 14: chore: update .editorconfig -->
+<!-- feat/savings-goals note 17: fix: fix stale comment -->
