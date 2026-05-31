@@ -847,3 +847,4 @@
 <!-- refactor/reward-logic commit 40 -->
 <!-- refactor/badge-minting commit 3 -->
 <!-- refactor/badge-minting commit 6 -->
+<!-- refactor/badge-minting commit 9 -->
