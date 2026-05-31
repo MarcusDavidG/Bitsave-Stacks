@@ -430,3 +430,4 @@
 <!-- feat/referral-system note 7: docs: add dev notes entry -->
 <!-- feat/referral-system note 10: chore: update changelog entry -->
 <!-- feat/referral-system note 13: chore: clean up stale comments -->
+<!-- feat/referral-system note 16: fix: correct typo in docs -->
