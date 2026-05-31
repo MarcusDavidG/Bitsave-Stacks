@@ -747,3 +747,4 @@
 <!-- feat/multi-token-support note 39: style: fix formatting in notes -->
 <!-- feat/badge-tiers-v2 note 2: docs: improve function descriptions -->
 <!-- feat/badge-tiers-v2 note 5: docs: expand architecture notes -->
+<!-- feat/badge-tiers-v2 note 8: docs: update roadmap item -->
