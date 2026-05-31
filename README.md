@@ -411,3 +411,4 @@ This project is open source and available for educational purposes.
 <!-- feat/sbtc-vault commit 11: chore: tidy config formatting -->
 <!-- feat/sbtc-vault commit 14: chore: update .editorconfig -->
 <!-- feat/sbtc-vault commit 17: fix: fix stale comment -->
+<!-- feat/sbtc-vault commit 20: fix: fix markdown formatting -->
