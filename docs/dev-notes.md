@@ -332,3 +332,4 @@
 <!-- chore/changelog-updates note 32: test: add edge case descriptions -->
 <!-- chore/changelog-updates note 35: test: document badge minting tests -->
 <!-- chore/changelog-updates note 38: perf: add performance note -->
+<!-- feat/badge-tiers note 2: docs: improve function descriptions -->
