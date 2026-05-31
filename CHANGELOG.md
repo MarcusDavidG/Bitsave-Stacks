@@ -1019,3 +1019,4 @@
 <!-- feat/dao-governance commit 34 -->
 <!-- feat/dao-governance commit 37 -->
 <!-- feat/dao-governance commit 40 -->
+<!-- feat/sbtc-vault commit 3 -->
