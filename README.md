@@ -818,3 +818,16 @@ This project is open source and available for educational purposes.
 <!-- feat/savings-goals commit 33: test: update test scenario notes -->
 <!-- feat/savings-goals commit 36: perf: note optimization opportunity -->
 <!-- feat/savings-goals commit 39: style: fix formatting in notes -->
+<!-- docs/contract-guide commit 2: docs: improve function descriptions -->
+<!-- docs/contract-guide commit 5: docs: expand architecture notes -->
+<!-- docs/contract-guide commit 8: docs: update roadmap item -->
+<!-- docs/contract-guide commit 11: chore: tidy config formatting -->
+<!-- docs/contract-guide commit 14: chore: update .editorconfig -->
+<!-- docs/contract-guide commit 17: fix: fix stale comment -->
+<!-- docs/contract-guide commit 20: fix: fix markdown formatting -->
+<!-- docs/contract-guide commit 23: refactor: clean up redundant entries -->
+<!-- docs/contract-guide commit 26: feat: document badge tier concept -->
+<!-- docs/contract-guide commit 29: feat: add streak badge description -->
+<!-- docs/contract-guide commit 32: test: add edge case descriptions -->
+<!-- docs/contract-guide commit 35: test: document badge minting tests -->
+<!-- docs/contract-guide commit 38: perf: add performance note -->
