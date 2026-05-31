@@ -212,3 +212,4 @@
 <!-- refactor/reward-logic note 32: test: add edge case descriptions -->
 <!-- refactor/reward-logic note 35: test: document badge minting tests -->
 <!-- refactor/reward-logic note 38: perf: add performance note -->
+<!-- refactor/badge-minting note 1: docs: update inline comments -->
