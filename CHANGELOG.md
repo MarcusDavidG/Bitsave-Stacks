@@ -1020,3 +1020,4 @@
 <!-- feat/dao-governance commit 37 -->
 <!-- feat/dao-governance commit 40 -->
 <!-- feat/sbtc-vault commit 3 -->
+<!-- feat/sbtc-vault commit 6 -->
