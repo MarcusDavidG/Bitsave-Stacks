@@ -748,3 +748,4 @@ This project is open source and available for educational purposes.
 <!-- feat/sbtc-vault commit 23: refactor: clean up redundant entries -->
 <!-- feat/sbtc-vault commit 26: feat: document badge tier concept -->
 <!-- feat/sbtc-vault commit 29: feat: add streak badge description -->
+<!-- feat/sbtc-vault commit 32: test: add edge case descriptions -->
