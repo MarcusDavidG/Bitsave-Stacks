@@ -463,3 +463,4 @@
 <!-- feat/savings-goals note 26: feat: document badge tier concept -->
 <!-- feat/savings-goals note 29: feat: add streak badge description -->
 <!-- feat/savings-goals note 32: test: add edge case descriptions -->
+<!-- feat/savings-goals note 35: test: document badge minting tests -->
