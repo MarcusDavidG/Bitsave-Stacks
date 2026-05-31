@@ -1169,3 +1169,4 @@ This project is open source and available for educational purposes.
 <!-- feat/leaderboard-v2 commit 7: docs: add dev notes entry -->
 <!-- feat/leaderboard-v2 commit 10: chore: update changelog entry -->
 <!-- feat/leaderboard-v2 commit 13: chore: clean up stale comments -->
+<!-- feat/leaderboard-v2 commit 16: fix: fix stale comment -->
