@@ -480,3 +480,4 @@
 <!-- docs/contract-guide note 37: perf: document caching strategy -->
 <!-- docs/contract-guide note 40: style: normalize doc style -->
 <!-- docs/badge-system note 3: docs: add usage examples -->
+<!-- docs/badge-system note 6: docs: refine README section -->
