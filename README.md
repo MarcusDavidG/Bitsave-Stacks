@@ -686,3 +686,4 @@ This project is open source and available for educational purposes.
 <!-- chore/changelog-updates commit 36: perf: note optimization opportunity -->
 <!-- chore/changelog-updates commit 39: style: fix formatting in notes -->
 <!-- feat/badge-tiers commit 3: docs: add usage examples -->
+<!-- feat/badge-tiers commit 6: docs: refine README section -->
