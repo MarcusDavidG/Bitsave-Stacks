@@ -324,3 +324,16 @@
 <!-- feat/streak-badges commit 33 -->
 <!-- feat/streak-badges commit 36 -->
 <!-- feat/streak-badges commit 39 -->
+<!-- feat/badge-marketplace commit 2 -->
+<!-- feat/badge-marketplace commit 5 -->
+<!-- feat/badge-marketplace commit 8 -->
+<!-- feat/badge-marketplace commit 11 -->
+<!-- feat/badge-marketplace commit 14 -->
+<!-- feat/badge-marketplace commit 17 -->
+<!-- feat/badge-marketplace commit 20 -->
+<!-- feat/badge-marketplace commit 23 -->
+<!-- feat/badge-marketplace commit 26 -->
+<!-- feat/badge-marketplace commit 29 -->
+<!-- feat/badge-marketplace commit 32 -->
+<!-- feat/badge-marketplace commit 35 -->
+<!-- feat/badge-marketplace commit 38 -->
