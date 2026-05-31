@@ -537,3 +537,4 @@ This project is open source and available for educational purposes.
 <!-- docs/deployment-guide commit 29: feat: add streak badge description -->
 <!-- docs/deployment-guide commit 32: test: add edge case descriptions -->
 <!-- docs/deployment-guide commit 35: test: document badge minting tests -->
+<!-- docs/deployment-guide commit 38: perf: add performance note -->
