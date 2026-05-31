@@ -548,3 +548,4 @@ This project is open source and available for educational purposes.
 <!-- docs/architecture-overview commit 22: refactor: reorganize docs section -->
 <!-- docs/architecture-overview commit 25: refactor: restructure dev notes -->
 <!-- docs/architecture-overview commit 28: feat: document sBTC vault idea -->
+<!-- docs/architecture-overview commit 31: test: document test coverage notes -->
