@@ -807,3 +807,4 @@
 <!-- feat/reward-boost-v2 note 19: fix: fix markdown formatting -->
 <!-- feat/reward-boost-v2 note 22: refactor: clean up redundant entries -->
 <!-- feat/reward-boost-v2 note 25: feat: add DAO integration note -->
+<!-- feat/reward-boost-v2 note 28: feat: note marketplace roadmap item -->
