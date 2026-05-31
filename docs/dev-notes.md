@@ -172,3 +172,17 @@
 <!-- docs/api-reference note 32: test: add edge case descriptions -->
 <!-- docs/api-reference note 35: test: document badge minting tests -->
 <!-- docs/api-reference note 38: perf: add performance note -->
+<!-- docs/deployment-guide note 1: docs: update inline comments -->
+<!-- docs/deployment-guide note 4: docs: clarify error handling notes -->
+<!-- docs/deployment-guide note 7: docs: add dev notes entry -->
+<!-- docs/deployment-guide note 10: chore: update changelog entry -->
+<!-- docs/deployment-guide note 13: chore: clean up stale comments -->
+<!-- docs/deployment-guide note 16: fix: correct typo in docs -->
+<!-- docs/deployment-guide note 19: fix: correct badge description -->
+<!-- docs/deployment-guide note 22: refactor: reorganize docs section -->
+<!-- docs/deployment-guide note 25: refactor: restructure dev notes -->
+<!-- docs/deployment-guide note 28: feat: document sBTC vault idea -->
+<!-- docs/deployment-guide note 31: test: document test coverage notes -->
+<!-- docs/deployment-guide note 34: test: note withdrawal test cases -->
+<!-- docs/deployment-guide note 37: perf: document caching strategy -->
+<!-- docs/deployment-guide note 40: style: normalize doc style -->

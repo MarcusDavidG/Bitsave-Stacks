@@ -525,3 +525,16 @@ This project is open source and available for educational purposes.
 <!-- docs/api-reference commit 33: test: update test scenario notes -->
 <!-- docs/api-reference commit 36: perf: note optimization opportunity -->
 <!-- docs/api-reference commit 39: style: fix formatting in notes -->
+<!-- docs/deployment-guide commit 2: docs: improve function descriptions -->
+<!-- docs/deployment-guide commit 5: docs: expand architecture notes -->
+<!-- docs/deployment-guide commit 8: docs: update roadmap item -->
+<!-- docs/deployment-guide commit 11: chore: tidy config formatting -->
+<!-- docs/deployment-guide commit 14: chore: update .editorconfig -->
+<!-- docs/deployment-guide commit 17: fix: fix stale comment -->
+<!-- docs/deployment-guide commit 20: fix: fix markdown formatting -->
+<!-- docs/deployment-guide commit 23: refactor: clean up redundant entries -->
+<!-- docs/deployment-guide commit 26: feat: document badge tier concept -->
+<!-- docs/deployment-guide commit 29: feat: add streak badge description -->
+<!-- docs/deployment-guide commit 32: test: add edge case descriptions -->
+<!-- docs/deployment-guide commit 35: test: document badge minting tests -->
+<!-- docs/deployment-guide commit 38: perf: add performance note -->
