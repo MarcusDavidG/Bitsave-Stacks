@@ -754,3 +754,4 @@
 <!-- feat/reward-boost note 20: fix: fix markdown formatting -->
 <!-- feat/reward-boost note 23: refactor: clean up redundant entries -->
 <!-- feat/reward-boost note 26: feat: document badge tier concept -->
+<!-- feat/reward-boost note 29: feat: add streak badge description -->
