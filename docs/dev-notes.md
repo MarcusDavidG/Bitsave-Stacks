@@ -274,3 +274,4 @@
 <!-- chore/ci-improvements note 18: fix: update broken reference -->
 <!-- chore/ci-improvements note 21: refactor: simplify roadmap notes -->
 <!-- chore/ci-improvements note 24: refactor: improve changelog structure -->
+<!-- chore/ci-improvements note 27: feat: add DAO integration note -->
