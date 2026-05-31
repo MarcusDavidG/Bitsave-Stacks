@@ -54,3 +54,4 @@
 <!-- feat/dao-governance note 38: perf: add performance note -->
 <!-- feat/sbtc-vault note 1: docs: update inline comments -->
 <!-- feat/sbtc-vault note 4: docs: clarify error handling notes -->
+<!-- feat/sbtc-vault note 7: docs: add dev notes entry -->
