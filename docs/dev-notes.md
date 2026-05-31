@@ -242,3 +242,4 @@
 <!-- refactor/contract-cleanup note 2: docs: improve function descriptions -->
 <!-- refactor/contract-cleanup note 5: docs: expand architecture notes -->
 <!-- refactor/contract-cleanup note 8: docs: update roadmap item -->
+<!-- refactor/contract-cleanup note 11: chore: tidy config formatting -->
