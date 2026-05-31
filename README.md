@@ -919,3 +919,4 @@ This project is open source and available for educational purposes.
 <!-- refactor/savings-vault commit 16: fix: correct typo in docs -->
 <!-- refactor/savings-vault commit 19: fix: correct badge description -->
 <!-- refactor/savings-vault commit 22: refactor: reorganize docs section -->
+<!-- refactor/savings-vault commit 25: refactor: restructure dev notes -->
