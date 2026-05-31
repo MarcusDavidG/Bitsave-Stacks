@@ -473,3 +473,4 @@ This project is open source and available for educational purposes.
 <!-- feat/leaderboard commit 37: perf: document caching strategy -->
 <!-- feat/leaderboard commit 40: style: normalize doc style -->
 <!-- feat/savings-goals commit 3: docs: add usage examples -->
+<!-- feat/savings-goals commit 6: docs: refine README section -->
