@@ -188,3 +188,4 @@
 <!-- docs/deployment-guide note 40: style: normalize doc style -->
 <!-- docs/architecture-overview note 3: docs: add usage examples -->
 <!-- docs/architecture-overview note 6: docs: refine README section -->
+<!-- docs/architecture-overview note 9: chore: normalize whitespace -->
