@@ -992,3 +992,4 @@
 <!-- feat/streak-badges commit 33 -->
 <!-- feat/streak-badges commit 36 -->
 <!-- feat/streak-badges commit 39 -->
+<!-- feat/badge-marketplace commit 2 -->
