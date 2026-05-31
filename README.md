@@ -660,3 +660,4 @@ This project is open source and available for educational purposes.
 <!-- chore/linting-rules commit 38: perf: add performance note -->
 <!-- chore/config-cleanup commit 1: docs: update inline comments -->
 <!-- chore/config-cleanup commit 4: docs: clarify error handling notes -->
+<!-- chore/config-cleanup commit 7: docs: add dev notes entry -->
