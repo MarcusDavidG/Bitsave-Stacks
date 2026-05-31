@@ -231,3 +231,4 @@
 <!-- refactor/savings-vault note 9: chore: normalize whitespace -->
 <!-- refactor/savings-vault note 12: chore: update project metadata -->
 <!-- refactor/savings-vault note 15: chore: minor formatting fix -->
+<!-- refactor/savings-vault note 18: fix: update broken reference -->
