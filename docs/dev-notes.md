@@ -725,3 +725,4 @@
 <!-- feat/sbtc-vault note 13: chore: clean up stale comments -->
 <!-- feat/sbtc-vault note 16: fix: correct typo in docs -->
 <!-- feat/sbtc-vault note 19: fix: correct badge description -->
+<!-- feat/sbtc-vault note 22: refactor: reorganize docs section -->
