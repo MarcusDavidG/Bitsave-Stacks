@@ -751,3 +751,4 @@
 <!-- feat/badge-tiers-v2 note 11: chore: tidy config formatting -->
 <!-- feat/badge-tiers-v2 note 14: chore: minor formatting fix -->
 <!-- feat/badge-tiers-v2 note 17: fix: update broken reference -->
+<!-- feat/badge-tiers-v2 note 20: refactor: simplify roadmap notes -->
