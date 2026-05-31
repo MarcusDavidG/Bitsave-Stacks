@@ -521,3 +521,4 @@ This project is open source and available for educational purposes.
 <!-- docs/api-reference commit 21: refactor: simplify roadmap notes -->
 <!-- docs/api-reference commit 24: refactor: improve changelog structure -->
 <!-- docs/api-reference commit 27: feat: add DAO integration note -->
+<!-- docs/api-reference commit 30: feat: note marketplace roadmap item -->
