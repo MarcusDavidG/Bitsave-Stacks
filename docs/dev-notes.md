@@ -413,3 +413,4 @@
 <!-- feat/multi-token-support note 36: perf: note optimization opportunity -->
 <!-- feat/multi-token-support note 39: style: fix formatting in notes -->
 <!-- feat/reward-boost note 2: docs: improve function descriptions -->
+<!-- feat/reward-boost note 5: docs: expand architecture notes -->
