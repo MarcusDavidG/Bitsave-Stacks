@@ -219,3 +219,4 @@
 <!-- refactor/badge-minting note 13: chore: clean up stale comments -->
 <!-- refactor/badge-minting note 16: fix: correct typo in docs -->
 <!-- refactor/badge-minting note 19: fix: correct badge description -->
+<!-- refactor/badge-minting note 22: refactor: reorganize docs section -->
