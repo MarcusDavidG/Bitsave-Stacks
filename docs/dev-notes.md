@@ -278,3 +278,4 @@
 <!-- chore/ci-improvements note 30: feat: note marketplace roadmap item -->
 <!-- chore/ci-improvements note 33: test: update test scenario notes -->
 <!-- chore/ci-improvements note 36: perf: note optimization opportunity -->
+<!-- chore/ci-improvements note 39: style: fix formatting in notes -->
