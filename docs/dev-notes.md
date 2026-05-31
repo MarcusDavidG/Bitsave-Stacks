@@ -764,3 +764,4 @@
 <!-- feat/streak-badges-v2 note 10: chore: update changelog entry -->
 <!-- feat/streak-badges-v2 note 13: chore: clean up stale comments -->
 <!-- feat/streak-badges-v2 note 16: fix: fix stale comment -->
+<!-- feat/streak-badges-v2 note 19: fix: fix markdown formatting -->
