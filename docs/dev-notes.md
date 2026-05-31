@@ -465,3 +465,4 @@
 <!-- feat/savings-goals note 32: test: add edge case descriptions -->
 <!-- feat/savings-goals note 35: test: document badge minting tests -->
 <!-- feat/savings-goals note 38: perf: add performance note -->
+<!-- docs/contract-guide note 1: docs: update inline comments -->
