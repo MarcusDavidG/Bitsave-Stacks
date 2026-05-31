@@ -1123,3 +1123,4 @@ This project is open source and available for educational purposes.
 <!-- feat/streak-badges-v2 commit 29: test: document test coverage notes -->
 <!-- feat/streak-badges-v2 commit 32: test: note withdrawal test cases -->
 <!-- feat/streak-badges-v2 commit 35: perf: document caching strategy -->
+<!-- feat/streak-badges-v2 commit 38: style: normalize doc style -->
