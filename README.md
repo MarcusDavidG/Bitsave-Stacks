@@ -763,3 +763,4 @@ This project is open source and available for educational purposes.
 <!-- feat/multi-token-support commit 28: feat: document sBTC vault idea -->
 <!-- feat/multi-token-support commit 31: test: document test coverage notes -->
 <!-- feat/multi-token-support commit 34: test: note withdrawal test cases -->
+<!-- feat/multi-token-support commit 37: perf: document caching strategy -->
