@@ -574,3 +574,4 @@ This project is open source and available for educational purposes.
 <!-- refactor/badge-minting commit 20: fix: fix markdown formatting -->
 <!-- refactor/badge-minting commit 23: refactor: clean up redundant entries -->
 <!-- refactor/badge-minting commit 26: feat: document badge tier concept -->
+<!-- refactor/badge-minting commit 29: feat: add streak badge description -->
