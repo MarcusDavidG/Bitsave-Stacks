@@ -1006,3 +1006,4 @@ This project is open source and available for educational purposes.
 <!-- chore/config-cleanup commit 37: perf: document caching strategy -->
 <!-- chore/config-cleanup commit 40: style: normalize doc style -->
 <!-- chore/changelog-updates commit 3: docs: add usage examples -->
+<!-- chore/changelog-updates commit 6: docs: refine README section -->
