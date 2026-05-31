@@ -909,3 +909,4 @@ This project is open source and available for educational purposes.
 <!-- refactor/badge-minting commit 26: feat: document badge tier concept -->
 <!-- refactor/badge-minting commit 29: feat: add streak badge description -->
 <!-- refactor/badge-minting commit 32: test: add edge case descriptions -->
+<!-- refactor/badge-minting commit 35: test: document badge minting tests -->
