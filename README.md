@@ -1130,3 +1130,4 @@ This project is open source and available for educational purposes.
 <!-- feat/dao-governance-v2 commit 10: chore: update changelog entry -->
 <!-- feat/dao-governance-v2 commit 13: chore: clean up stale comments -->
 <!-- feat/dao-governance-v2 commit 16: fix: fix stale comment -->
+<!-- feat/dao-governance-v2 commit 19: fix: fix markdown formatting -->
