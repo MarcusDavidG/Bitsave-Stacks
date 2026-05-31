@@ -1155,3 +1155,4 @@ This project is open source and available for educational purposes.
 <!-- feat/reward-boost-v2 commit 5: docs: expand architecture notes -->
 <!-- feat/reward-boost-v2 commit 8: docs: update roadmap item -->
 <!-- feat/reward-boost-v2 commit 11: chore: tidy config formatting -->
+<!-- feat/reward-boost-v2 commit 14: chore: minor formatting fix -->
