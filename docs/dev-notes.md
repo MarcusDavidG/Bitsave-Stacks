@@ -122,3 +122,4 @@
 <!-- feat/savings-goals note 2: docs: improve function descriptions -->
 <!-- feat/savings-goals note 5: docs: expand architecture notes -->
 <!-- feat/savings-goals note 8: docs: update roadmap item -->
+<!-- feat/savings-goals note 11: chore: tidy config formatting -->
