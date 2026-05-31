@@ -251,3 +251,4 @@
 <!-- refactor/contract-cleanup note 29: feat: add streak badge description -->
 <!-- refactor/contract-cleanup note 32: test: add edge case descriptions -->
 <!-- refactor/contract-cleanup note 35: test: document badge minting tests -->
+<!-- refactor/contract-cleanup note 38: perf: add performance note -->
