@@ -1151,3 +1151,4 @@ This project is open source and available for educational purposes.
 <!-- feat/sbtc-vault-v2 commit 33: test: document badge minting tests -->
 <!-- feat/sbtc-vault-v2 commit 36: perf: add performance note -->
 <!-- feat/sbtc-vault-v2 commit 39: chore: update .editorconfig -->
+<!-- feat/reward-boost-v2 commit 2: docs: improve function descriptions -->
