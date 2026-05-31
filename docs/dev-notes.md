@@ -310,3 +310,4 @@
 <!-- chore/config-cleanup note 6: docs: refine README section -->
 <!-- chore/config-cleanup note 9: chore: normalize whitespace -->
 <!-- chore/config-cleanup note 12: chore: update project metadata -->
+<!-- chore/config-cleanup note 15: chore: minor formatting fix -->
