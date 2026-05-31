@@ -1073,3 +1073,4 @@ This project is open source and available for educational purposes.
 <!-- feat/dao-governance commit 39: style: fix formatting in notes -->
 <!-- feat/sbtc-vault commit 2: docs: improve function descriptions -->
 <!-- feat/sbtc-vault commit 5: docs: expand architecture notes -->
+<!-- feat/sbtc-vault commit 8: docs: update roadmap item -->
