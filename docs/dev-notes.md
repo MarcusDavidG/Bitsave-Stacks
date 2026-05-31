@@ -658,3 +658,4 @@
 <!-- chore/changelog-updates note 11: chore: tidy config formatting -->
 <!-- chore/changelog-updates note 14: chore: update .editorconfig -->
 <!-- chore/changelog-updates note 17: fix: fix stale comment -->
+<!-- chore/changelog-updates note 20: fix: fix markdown formatting -->
