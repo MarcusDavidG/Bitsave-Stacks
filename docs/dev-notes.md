@@ -92,3 +92,17 @@
 <!-- feat/reward-boost note 32: test: add edge case descriptions -->
 <!-- feat/reward-boost note 35: test: document badge minting tests -->
 <!-- feat/reward-boost note 38: perf: add performance note -->
+<!-- feat/referral-system note 1: docs: update inline comments -->
+<!-- feat/referral-system note 4: docs: clarify error handling notes -->
+<!-- feat/referral-system note 7: docs: add dev notes entry -->
+<!-- feat/referral-system note 10: chore: update changelog entry -->
+<!-- feat/referral-system note 13: chore: clean up stale comments -->
+<!-- feat/referral-system note 16: fix: correct typo in docs -->
+<!-- feat/referral-system note 19: fix: correct badge description -->
+<!-- feat/referral-system note 22: refactor: reorganize docs section -->
+<!-- feat/referral-system note 25: refactor: restructure dev notes -->
+<!-- feat/referral-system note 28: feat: document sBTC vault idea -->
+<!-- feat/referral-system note 31: test: document test coverage notes -->
+<!-- feat/referral-system note 34: test: note withdrawal test cases -->
+<!-- feat/referral-system note 37: perf: document caching strategy -->
+<!-- feat/referral-system note 40: style: normalize doc style -->

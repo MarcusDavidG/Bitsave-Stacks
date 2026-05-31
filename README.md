@@ -445,3 +445,16 @@ This project is open source and available for educational purposes.
 <!-- feat/reward-boost commit 33: test: update test scenario notes -->
 <!-- feat/reward-boost commit 36: perf: note optimization opportunity -->
 <!-- feat/reward-boost commit 39: style: fix formatting in notes -->
+<!-- feat/referral-system commit 2: docs: improve function descriptions -->
+<!-- feat/referral-system commit 5: docs: expand architecture notes -->
+<!-- feat/referral-system commit 8: docs: update roadmap item -->
+<!-- feat/referral-system commit 11: chore: tidy config formatting -->
+<!-- feat/referral-system commit 14: chore: update .editorconfig -->
+<!-- feat/referral-system commit 17: fix: fix stale comment -->
+<!-- feat/referral-system commit 20: fix: fix markdown formatting -->
+<!-- feat/referral-system commit 23: refactor: clean up redundant entries -->
+<!-- feat/referral-system commit 26: feat: document badge tier concept -->
+<!-- feat/referral-system commit 29: feat: add streak badge description -->
+<!-- feat/referral-system commit 32: test: add edge case descriptions -->
+<!-- feat/referral-system commit 35: test: document badge minting tests -->
+<!-- feat/referral-system commit 38: perf: add performance note -->
