@@ -622,3 +622,4 @@
 <!-- chore/dependency-updates note 23: refactor: clean up redundant entries -->
 <!-- chore/dependency-updates note 26: feat: document badge tier concept -->
 <!-- chore/dependency-updates note 29: feat: add streak badge description -->
+<!-- chore/dependency-updates note 32: test: add edge case descriptions -->
