@@ -954,3 +954,4 @@ This project is open source and available for educational purposes.
 <!-- chore/ci-improvements commit 1: docs: update inline comments -->
 <!-- chore/ci-improvements commit 4: docs: clarify error handling notes -->
 <!-- chore/ci-improvements commit 7: docs: add dev notes entry -->
+<!-- chore/ci-improvements commit 10: chore: update changelog entry -->
