@@ -292,3 +292,17 @@
 <!-- chore/dependency-updates note 32: test: add edge case descriptions -->
 <!-- chore/dependency-updates note 35: test: document badge minting tests -->
 <!-- chore/dependency-updates note 38: perf: add performance note -->
+<!-- chore/linting-rules note 1: docs: update inline comments -->
+<!-- chore/linting-rules note 4: docs: clarify error handling notes -->
+<!-- chore/linting-rules note 7: docs: add dev notes entry -->
+<!-- chore/linting-rules note 10: chore: update changelog entry -->
+<!-- chore/linting-rules note 13: chore: clean up stale comments -->
+<!-- chore/linting-rules note 16: fix: correct typo in docs -->
+<!-- chore/linting-rules note 19: fix: correct badge description -->
+<!-- chore/linting-rules note 22: refactor: reorganize docs section -->
+<!-- chore/linting-rules note 25: refactor: restructure dev notes -->
+<!-- chore/linting-rules note 28: feat: document sBTC vault idea -->
+<!-- chore/linting-rules note 31: test: document test coverage notes -->
+<!-- chore/linting-rules note 34: test: note withdrawal test cases -->
+<!-- chore/linting-rules note 37: perf: document caching strategy -->
+<!-- chore/linting-rules note 40: style: normalize doc style -->

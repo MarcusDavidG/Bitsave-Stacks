@@ -645,3 +645,16 @@ This project is open source and available for educational purposes.
 <!-- chore/dependency-updates commit 33: test: update test scenario notes -->
 <!-- chore/dependency-updates commit 36: perf: note optimization opportunity -->
 <!-- chore/dependency-updates commit 39: style: fix formatting in notes -->
+<!-- chore/linting-rules commit 2: docs: improve function descriptions -->
+<!-- chore/linting-rules commit 5: docs: expand architecture notes -->
+<!-- chore/linting-rules commit 8: docs: update roadmap item -->
+<!-- chore/linting-rules commit 11: chore: tidy config formatting -->
+<!-- chore/linting-rules commit 14: chore: update .editorconfig -->
+<!-- chore/linting-rules commit 17: fix: fix stale comment -->
+<!-- chore/linting-rules commit 20: fix: fix markdown formatting -->
+<!-- chore/linting-rules commit 23: refactor: clean up redundant entries -->
+<!-- chore/linting-rules commit 26: feat: document badge tier concept -->
+<!-- chore/linting-rules commit 29: feat: add streak badge description -->
+<!-- chore/linting-rules commit 32: test: add edge case descriptions -->
+<!-- chore/linting-rules commit 35: test: document badge minting tests -->
+<!-- chore/linting-rules commit 38: perf: add performance note -->
