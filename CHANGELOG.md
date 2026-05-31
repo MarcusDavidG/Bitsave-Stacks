@@ -522,3 +522,4 @@
 <!-- refactor/badge-minting commit 27 -->
 <!-- refactor/badge-minting commit 30 -->
 <!-- refactor/badge-minting commit 33 -->
+<!-- refactor/badge-minting commit 36 -->
