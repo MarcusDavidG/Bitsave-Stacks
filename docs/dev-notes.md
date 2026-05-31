@@ -259,3 +259,4 @@
 <!-- refactor/test-structure note 13: chore: clean up stale comments -->
 <!-- refactor/test-structure note 16: fix: correct typo in docs -->
 <!-- refactor/test-structure note 19: fix: correct badge description -->
+<!-- refactor/test-structure note 22: refactor: reorganize docs section -->
