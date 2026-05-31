@@ -103,3 +103,4 @@
 <!-- feat/referral-system note 25: refactor: restructure dev notes -->
 <!-- feat/referral-system note 28: feat: document sBTC vault idea -->
 <!-- feat/referral-system note 31: test: document test coverage notes -->
+<!-- feat/referral-system note 34: test: note withdrawal test cases -->
