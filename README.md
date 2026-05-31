@@ -754,3 +754,4 @@ This project is open source and available for educational purposes.
 <!-- feat/multi-token-support commit 1: docs: update inline comments -->
 <!-- feat/multi-token-support commit 4: docs: clarify error handling notes -->
 <!-- feat/multi-token-support commit 7: docs: add dev notes entry -->
+<!-- feat/multi-token-support commit 10: chore: update changelog entry -->
