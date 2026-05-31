@@ -860,3 +860,4 @@ This project is open source and available for educational purposes.
 <!-- docs/api-reference commit 39: style: fix formatting in notes -->
 <!-- docs/deployment-guide commit 2: docs: improve function descriptions -->
 <!-- docs/deployment-guide commit 5: docs: expand architecture notes -->
+<!-- docs/deployment-guide commit 8: docs: update roadmap item -->
