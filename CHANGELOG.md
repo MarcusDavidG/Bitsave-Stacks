@@ -444,3 +444,16 @@
 <!-- docs/contract-guide commit 33 -->
 <!-- docs/contract-guide commit 36 -->
 <!-- docs/contract-guide commit 39 -->
+<!-- docs/badge-system commit 2 -->
+<!-- docs/badge-system commit 5 -->
+<!-- docs/badge-system commit 8 -->
+<!-- docs/badge-system commit 11 -->
+<!-- docs/badge-system commit 14 -->
+<!-- docs/badge-system commit 17 -->
+<!-- docs/badge-system commit 20 -->
+<!-- docs/badge-system commit 23 -->
+<!-- docs/badge-system commit 26 -->
+<!-- docs/badge-system commit 29 -->
+<!-- docs/badge-system commit 32 -->
+<!-- docs/badge-system commit 35 -->
+<!-- docs/badge-system commit 38 -->

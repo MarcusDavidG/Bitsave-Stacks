@@ -146,3 +146,16 @@
 <!-- docs/contract-guide note 34: test: note withdrawal test cases -->
 <!-- docs/contract-guide note 37: perf: document caching strategy -->
 <!-- docs/contract-guide note 40: style: normalize doc style -->
+<!-- docs/badge-system note 3: docs: add usage examples -->
+<!-- docs/badge-system note 6: docs: refine README section -->
+<!-- docs/badge-system note 9: chore: normalize whitespace -->
+<!-- docs/badge-system note 12: chore: update project metadata -->
+<!-- docs/badge-system note 15: chore: minor formatting fix -->
+<!-- docs/badge-system note 18: fix: update broken reference -->
+<!-- docs/badge-system note 21: refactor: simplify roadmap notes -->
+<!-- docs/badge-system note 24: refactor: improve changelog structure -->
+<!-- docs/badge-system note 27: feat: add DAO integration note -->
+<!-- docs/badge-system note 30: feat: note marketplace roadmap item -->
+<!-- docs/badge-system note 33: test: update test scenario notes -->
+<!-- docs/badge-system note 36: perf: note optimization opportunity -->
+<!-- docs/badge-system note 39: style: fix formatting in notes -->
