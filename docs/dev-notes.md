@@ -586,3 +586,4 @@
 <!-- refactor/contract-cleanup note 35: test: document badge minting tests -->
 <!-- refactor/contract-cleanup note 38: perf: add performance note -->
 <!-- refactor/test-structure note 1: docs: update inline comments -->
+<!-- refactor/test-structure note 4: docs: clarify error handling notes -->
