@@ -20,3 +20,4 @@ echo "Reward for $AMOUNT STX locked for $LOCK_PERIOD blocks: $REWARD STX"
 <!-- update 6 -->
 <!-- update 7 -->
 <!-- update 8 -->
+<!-- update 9 -->
