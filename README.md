@@ -931,3 +931,4 @@ This project is open source and available for educational purposes.
 <!-- refactor/contract-cleanup commit 12: chore: update project metadata -->
 <!-- refactor/contract-cleanup commit 15: chore: minor formatting fix -->
 <!-- refactor/contract-cleanup commit 18: fix: update broken reference -->
+<!-- refactor/contract-cleanup commit 21: refactor: simplify roadmap notes -->
