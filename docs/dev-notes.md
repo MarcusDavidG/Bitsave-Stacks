@@ -313,3 +313,4 @@
 <!-- chore/config-cleanup note 15: chore: minor formatting fix -->
 <!-- chore/config-cleanup note 18: fix: update broken reference -->
 <!-- chore/config-cleanup note 21: refactor: simplify roadmap notes -->
+<!-- chore/config-cleanup note 24: refactor: improve changelog structure -->
