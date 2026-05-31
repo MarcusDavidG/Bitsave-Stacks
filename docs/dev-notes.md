@@ -75,3 +75,4 @@
 <!-- feat/multi-token-support note 21: refactor: simplify roadmap notes -->
 <!-- feat/multi-token-support note 24: refactor: improve changelog structure -->
 <!-- feat/multi-token-support note 27: feat: add DAO integration note -->
+<!-- feat/multi-token-support note 30: feat: note marketplace roadmap item -->
