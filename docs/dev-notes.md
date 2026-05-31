@@ -417,3 +417,4 @@
 <!-- feat/reward-boost note 8: docs: update roadmap item -->
 <!-- feat/reward-boost note 11: chore: tidy config formatting -->
 <!-- feat/reward-boost note 14: chore: update .editorconfig -->
+<!-- feat/reward-boost note 17: fix: fix stale comment -->
