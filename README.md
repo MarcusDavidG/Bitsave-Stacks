@@ -821,3 +821,4 @@ This project is open source and available for educational purposes.
 <!-- docs/contract-guide commit 2: docs: improve function descriptions -->
 <!-- docs/contract-guide commit 5: docs: expand architecture notes -->
 <!-- docs/contract-guide commit 8: docs: update roadmap item -->
+<!-- docs/contract-guide commit 11: chore: tidy config formatting -->
