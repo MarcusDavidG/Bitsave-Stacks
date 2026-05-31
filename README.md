@@ -614,3 +614,4 @@ This project is open source and available for educational purposes.
 <!-- refactor/test-structure commit 20: fix: fix markdown formatting -->
 <!-- refactor/test-structure commit 23: refactor: clean up redundant entries -->
 <!-- refactor/test-structure commit 26: feat: document badge tier concept -->
+<!-- refactor/test-structure commit 29: feat: add streak badge description -->
