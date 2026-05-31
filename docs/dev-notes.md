@@ -523,3 +523,4 @@
 <!-- docs/architecture-overview note 6: docs: refine README section -->
 <!-- docs/architecture-overview note 9: chore: normalize whitespace -->
 <!-- docs/architecture-overview note 12: chore: update project metadata -->
+<!-- docs/architecture-overview note 15: chore: minor formatting fix -->
