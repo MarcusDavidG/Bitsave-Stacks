@@ -109,3 +109,4 @@
 <!-- feat/leaderboard note 3: docs: add usage examples -->
 <!-- feat/leaderboard note 6: docs: refine README section -->
 <!-- feat/leaderboard note 9: chore: normalize whitespace -->
+<!-- feat/leaderboard note 12: chore: update project metadata -->
