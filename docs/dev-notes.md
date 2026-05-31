@@ -369,3 +369,4 @@
 <!-- feat/badge-marketplace note 24: refactor: improve changelog structure -->
 <!-- feat/badge-marketplace note 27: feat: add DAO integration note -->
 <!-- feat/badge-marketplace note 30: feat: note marketplace roadmap item -->
+<!-- feat/badge-marketplace note 33: test: update test scenario notes -->
