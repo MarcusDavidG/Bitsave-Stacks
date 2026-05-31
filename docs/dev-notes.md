@@ -127,3 +127,4 @@
 <!-- feat/savings-goals note 17: fix: fix stale comment -->
 <!-- feat/savings-goals note 20: fix: fix markdown formatting -->
 <!-- feat/savings-goals note 23: refactor: clean up redundant entries -->
+<!-- feat/savings-goals note 26: feat: document badge tier concept -->
