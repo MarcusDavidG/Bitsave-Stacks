@@ -1012,3 +1012,4 @@ This project is open source and available for educational purposes.
 <!-- chore/changelog-updates commit 15: chore: minor formatting fix -->
 <!-- chore/changelog-updates commit 18: fix: update broken reference -->
 <!-- chore/changelog-updates commit 21: refactor: simplify roadmap notes -->
+<!-- chore/changelog-updates commit 24: refactor: improve changelog structure -->
