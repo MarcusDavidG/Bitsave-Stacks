@@ -1134,3 +1134,4 @@ This project is open source and available for educational purposes.
 <!-- feat/dao-governance-v2 commit 22: refactor: clean up redundant entries -->
 <!-- feat/dao-governance-v2 commit 25: feat: add DAO integration note -->
 <!-- feat/dao-governance-v2 commit 28: feat: note marketplace roadmap item -->
+<!-- feat/dao-governance-v2 commit 31: test: update test scenario notes -->
