@@ -346,3 +346,4 @@
 <!-- feat/badge-tiers note 35: test: document badge minting tests -->
 <!-- feat/badge-tiers note 38: perf: add performance note -->
 <!-- feat/streak-badges note 1: docs: update inline comments -->
+<!-- feat/streak-badges note 4: docs: clarify error handling notes -->
