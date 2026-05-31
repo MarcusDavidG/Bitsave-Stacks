@@ -745,3 +745,4 @@
 <!-- feat/multi-token-support note 33: test: update test scenario notes -->
 <!-- feat/multi-token-support note 36: perf: note optimization opportunity -->
 <!-- feat/multi-token-support note 39: style: fix formatting in notes -->
+<!-- feat/badge-tiers-v2 note 2: docs: improve function descriptions -->
