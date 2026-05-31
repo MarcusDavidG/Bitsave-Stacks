@@ -783,3 +783,4 @@
 <!-- feat/dao-governance-v2 note 27: feat: add streak badge description -->
 <!-- feat/dao-governance-v2 note 30: test: add edge case descriptions -->
 <!-- feat/dao-governance-v2 note 33: test: document badge minting tests -->
+<!-- feat/dao-governance-v2 note 36: perf: add performance note -->
