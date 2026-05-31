@@ -1142,3 +1142,4 @@ This project is open source and available for educational purposes.
 <!-- feat/sbtc-vault-v2 commit 6: docs: refine README section -->
 <!-- feat/sbtc-vault-v2 commit 9: chore: normalize whitespace -->
 <!-- feat/sbtc-vault-v2 commit 12: chore: update project metadata -->
+<!-- feat/sbtc-vault-v2 commit 15: fix: correct typo in docs -->
