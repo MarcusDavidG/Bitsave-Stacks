@@ -551,3 +551,16 @@
 <!-- refactor/contract-cleanup commit 34 -->
 <!-- refactor/contract-cleanup commit 37 -->
 <!-- refactor/contract-cleanup commit 40 -->
+<!-- refactor/test-structure commit 3 -->
+<!-- refactor/test-structure commit 6 -->
+<!-- refactor/test-structure commit 9 -->
+<!-- refactor/test-structure commit 12 -->
+<!-- refactor/test-structure commit 15 -->
+<!-- refactor/test-structure commit 18 -->
+<!-- refactor/test-structure commit 21 -->
+<!-- refactor/test-structure commit 24 -->
+<!-- refactor/test-structure commit 27 -->
+<!-- refactor/test-structure commit 30 -->
+<!-- refactor/test-structure commit 33 -->
+<!-- refactor/test-structure commit 36 -->
+<!-- refactor/test-structure commit 39 -->
