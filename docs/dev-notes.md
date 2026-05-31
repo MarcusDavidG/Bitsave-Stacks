@@ -191,3 +191,4 @@
 <!-- docs/architecture-overview note 9: chore: normalize whitespace -->
 <!-- docs/architecture-overview note 12: chore: update project metadata -->
 <!-- docs/architecture-overview note 15: chore: minor formatting fix -->
+<!-- docs/architecture-overview note 18: fix: update broken reference -->
