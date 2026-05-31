@@ -408,3 +408,4 @@ This project is open source and available for educational purposes.
 <!-- feat/sbtc-vault commit 2: docs: improve function descriptions -->
 <!-- feat/sbtc-vault commit 5: docs: expand architecture notes -->
 <!-- feat/sbtc-vault commit 8: docs: update roadmap item -->
+<!-- feat/sbtc-vault commit 11: chore: tidy config formatting -->
