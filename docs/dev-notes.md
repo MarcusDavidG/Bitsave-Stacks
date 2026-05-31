@@ -439,3 +439,4 @@
 <!-- feat/referral-system note 34: test: note withdrawal test cases -->
 <!-- feat/referral-system note 37: perf: document caching strategy -->
 <!-- feat/referral-system note 40: style: normalize doc style -->
+<!-- feat/leaderboard note 3: docs: add usage examples -->
