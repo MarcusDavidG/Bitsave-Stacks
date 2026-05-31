@@ -500,3 +500,4 @@ This project is open source and available for educational purposes.
 <!-- docs/contract-guide commit 38: perf: add performance note -->
 <!-- docs/badge-system commit 1: docs: update inline comments -->
 <!-- docs/badge-system commit 4: docs: clarify error handling notes -->
+<!-- docs/badge-system commit 7: docs: add dev notes entry -->
