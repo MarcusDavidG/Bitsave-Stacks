@@ -1153,3 +1153,4 @@ This project is open source and available for educational purposes.
 <!-- feat/sbtc-vault-v2 commit 39: chore: update .editorconfig -->
 <!-- feat/reward-boost-v2 commit 2: docs: improve function descriptions -->
 <!-- feat/reward-boost-v2 commit 5: docs: expand architecture notes -->
+<!-- feat/reward-boost-v2 commit 8: docs: update roadmap item -->
