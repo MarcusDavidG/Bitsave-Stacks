@@ -1163,3 +1163,4 @@ This project is open source and available for educational purposes.
 <!-- feat/reward-boost-v2 commit 29: test: document test coverage notes -->
 <!-- feat/reward-boost-v2 commit 32: test: note withdrawal test cases -->
 <!-- feat/reward-boost-v2 commit 35: perf: document caching strategy -->
+<!-- feat/reward-boost-v2 commit 38: style: normalize doc style -->
