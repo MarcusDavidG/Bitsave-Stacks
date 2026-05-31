@@ -912,3 +912,4 @@ This project is open source and available for educational purposes.
 <!-- refactor/badge-minting commit 35: test: document badge minting tests -->
 <!-- refactor/badge-minting commit 38: perf: add performance note -->
 <!-- refactor/savings-vault commit 1: docs: update inline comments -->
+<!-- refactor/savings-vault commit 4: docs: clarify error handling notes -->
