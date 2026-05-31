@@ -1099,3 +1099,4 @@
 <!-- feat/sbtc-vault-v2 commit 34 -->
 <!-- feat/sbtc-vault-v2 commit 37 -->
 <!-- feat/sbtc-vault-v2 commit 40 -->
+<!-- feat/reward-boost-v2 commit 3 -->
