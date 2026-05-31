@@ -773,3 +773,4 @@
 <!-- feat/streak-badges-v2 note 37: style: fix formatting in notes -->
 <!-- feat/streak-badges-v2 note 40: refactor: restructure dev notes -->
 <!-- feat/dao-governance-v2 note 3: docs: add usage examples -->
+<!-- feat/dao-governance-v2 note 6: docs: refine README section -->
