@@ -785,3 +785,16 @@
 <!-- feat/dao-governance-v2 note 33: test: document badge minting tests -->
 <!-- feat/dao-governance-v2 note 36: perf: add performance note -->
 <!-- feat/dao-governance-v2 note 39: chore: update .editorconfig -->
+<!-- feat/sbtc-vault-v2 note 2: docs: improve function descriptions -->
+<!-- feat/sbtc-vault-v2 note 5: docs: expand architecture notes -->
+<!-- feat/sbtc-vault-v2 note 8: docs: update roadmap item -->
+<!-- feat/sbtc-vault-v2 note 11: chore: tidy config formatting -->
+<!-- feat/sbtc-vault-v2 note 14: chore: minor formatting fix -->
+<!-- feat/sbtc-vault-v2 note 17: fix: update broken reference -->
+<!-- feat/sbtc-vault-v2 note 20: refactor: simplify roadmap notes -->
+<!-- feat/sbtc-vault-v2 note 23: refactor: improve changelog structure -->
+<!-- feat/sbtc-vault-v2 note 26: feat: document sBTC vault idea -->
+<!-- feat/sbtc-vault-v2 note 29: test: document test coverage notes -->
+<!-- feat/sbtc-vault-v2 note 32: test: note withdrawal test cases -->
+<!-- feat/sbtc-vault-v2 note 35: perf: document caching strategy -->
+<!-- feat/sbtc-vault-v2 note 38: style: normalize doc style -->

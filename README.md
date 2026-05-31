@@ -1138,3 +1138,16 @@ This project is open source and available for educational purposes.
 <!-- feat/dao-governance-v2 commit 34: perf: note optimization opportunity -->
 <!-- feat/dao-governance-v2 commit 37: style: fix formatting in notes -->
 <!-- feat/dao-governance-v2 commit 40: refactor: restructure dev notes -->
+<!-- feat/sbtc-vault-v2 commit 3: docs: add usage examples -->
+<!-- feat/sbtc-vault-v2 commit 6: docs: refine README section -->
+<!-- feat/sbtc-vault-v2 commit 9: chore: normalize whitespace -->
+<!-- feat/sbtc-vault-v2 commit 12: chore: update project metadata -->
+<!-- feat/sbtc-vault-v2 commit 15: fix: correct typo in docs -->
+<!-- feat/sbtc-vault-v2 commit 18: fix: correct badge description -->
+<!-- feat/sbtc-vault-v2 commit 21: refactor: reorganize docs section -->
+<!-- feat/sbtc-vault-v2 commit 24: feat: document badge tier concept -->
+<!-- feat/sbtc-vault-v2 commit 27: feat: add streak badge description -->
+<!-- feat/sbtc-vault-v2 commit 30: test: add edge case descriptions -->
+<!-- feat/sbtc-vault-v2 commit 33: test: document badge minting tests -->
+<!-- feat/sbtc-vault-v2 commit 36: perf: add performance note -->
+<!-- feat/sbtc-vault-v2 commit 39: chore: update .editorconfig -->

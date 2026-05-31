@@ -1085,3 +1085,17 @@
 <!-- feat/dao-governance-v2 commit 32 -->
 <!-- feat/dao-governance-v2 commit 35 -->
 <!-- feat/dao-governance-v2 commit 38 -->
+<!-- feat/sbtc-vault-v2 commit 1 -->
+<!-- feat/sbtc-vault-v2 commit 4 -->
+<!-- feat/sbtc-vault-v2 commit 7 -->
+<!-- feat/sbtc-vault-v2 commit 10 -->
+<!-- feat/sbtc-vault-v2 commit 13 -->
+<!-- feat/sbtc-vault-v2 commit 16 -->
+<!-- feat/sbtc-vault-v2 commit 19 -->
+<!-- feat/sbtc-vault-v2 commit 22 -->
+<!-- feat/sbtc-vault-v2 commit 25 -->
+<!-- feat/sbtc-vault-v2 commit 28 -->
+<!-- feat/sbtc-vault-v2 commit 31 -->
+<!-- feat/sbtc-vault-v2 commit 34 -->
+<!-- feat/sbtc-vault-v2 commit 37 -->
+<!-- feat/sbtc-vault-v2 commit 40 -->
