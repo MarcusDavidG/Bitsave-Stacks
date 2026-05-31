@@ -484,3 +484,4 @@
 <!-- docs/badge-system note 9: chore: normalize whitespace -->
 <!-- docs/badge-system note 12: chore: update project metadata -->
 <!-- docs/badge-system note 15: chore: minor formatting fix -->
+<!-- docs/badge-system note 18: fix: update broken reference -->
