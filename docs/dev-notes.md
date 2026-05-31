@@ -431,3 +431,4 @@
 <!-- feat/referral-system note 10: chore: update changelog entry -->
 <!-- feat/referral-system note 13: chore: clean up stale comments -->
 <!-- feat/referral-system note 16: fix: correct typo in docs -->
+<!-- feat/referral-system note 19: fix: correct badge description -->
