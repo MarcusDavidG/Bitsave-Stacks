@@ -711,3 +711,4 @@
 <!-- feat/multi-token-support commit 32 -->
 <!-- feat/multi-token-support commit 35 -->
 <!-- feat/multi-token-support commit 38 -->
+<!-- feat/reward-boost commit 1 -->
