@@ -778,3 +778,4 @@
 <!-- feat/dao-governance-v2 note 12: chore: update project metadata -->
 <!-- feat/dao-governance-v2 note 15: fix: correct typo in docs -->
 <!-- feat/dao-governance-v2 note 18: fix: correct badge description -->
+<!-- feat/dao-governance-v2 note 21: refactor: reorganize docs section -->
