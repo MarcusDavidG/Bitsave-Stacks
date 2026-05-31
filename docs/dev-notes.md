@@ -437,3 +437,4 @@
 <!-- feat/referral-system note 28: feat: document sBTC vault idea -->
 <!-- feat/referral-system note 31: test: document test coverage notes -->
 <!-- feat/referral-system note 34: test: note withdrawal test cases -->
+<!-- feat/referral-system note 37: perf: document caching strategy -->
