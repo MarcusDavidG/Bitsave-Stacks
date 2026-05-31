@@ -39,3 +39,16 @@
 <!-- feat/badge-marketplace note 33: test: update test scenario notes -->
 <!-- feat/badge-marketplace note 36: perf: note optimization opportunity -->
 <!-- feat/badge-marketplace note 39: style: fix formatting in notes -->
+<!-- feat/dao-governance note 2: docs: improve function descriptions -->
+<!-- feat/dao-governance note 5: docs: expand architecture notes -->
+<!-- feat/dao-governance note 8: docs: update roadmap item -->
+<!-- feat/dao-governance note 11: chore: tidy config formatting -->
+<!-- feat/dao-governance note 14: chore: update .editorconfig -->
+<!-- feat/dao-governance note 17: fix: fix stale comment -->
+<!-- feat/dao-governance note 20: fix: fix markdown formatting -->
+<!-- feat/dao-governance note 23: refactor: clean up redundant entries -->
+<!-- feat/dao-governance note 26: feat: document badge tier concept -->
+<!-- feat/dao-governance note 29: feat: add streak badge description -->
+<!-- feat/dao-governance note 32: test: add edge case descriptions -->
+<!-- feat/dao-governance note 35: test: document badge minting tests -->
+<!-- feat/dao-governance note 38: perf: add performance note -->

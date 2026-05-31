@@ -392,3 +392,16 @@ This project is open source and available for educational purposes.
 <!-- feat/badge-marketplace commit 34: test: note withdrawal test cases -->
 <!-- feat/badge-marketplace commit 37: perf: document caching strategy -->
 <!-- feat/badge-marketplace commit 40: style: normalize doc style -->
+<!-- feat/dao-governance commit 3: docs: add usage examples -->
+<!-- feat/dao-governance commit 6: docs: refine README section -->
+<!-- feat/dao-governance commit 9: chore: normalize whitespace -->
+<!-- feat/dao-governance commit 12: chore: update project metadata -->
+<!-- feat/dao-governance commit 15: chore: minor formatting fix -->
+<!-- feat/dao-governance commit 18: fix: update broken reference -->
+<!-- feat/dao-governance commit 21: refactor: simplify roadmap notes -->
+<!-- feat/dao-governance commit 24: refactor: improve changelog structure -->
+<!-- feat/dao-governance commit 27: feat: add DAO integration note -->
+<!-- feat/dao-governance commit 30: feat: note marketplace roadmap item -->
+<!-- feat/dao-governance commit 33: test: update test scenario notes -->
+<!-- feat/dao-governance commit 36: perf: note optimization opportunity -->
+<!-- feat/dao-governance commit 39: style: fix formatting in notes -->
