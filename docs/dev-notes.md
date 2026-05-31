@@ -485,3 +485,4 @@
 <!-- docs/badge-system note 12: chore: update project metadata -->
 <!-- docs/badge-system note 15: chore: minor formatting fix -->
 <!-- docs/badge-system note 18: fix: update broken reference -->
+<!-- docs/badge-system note 21: refactor: simplify roadmap notes -->
