@@ -1060,3 +1060,4 @@ This project is open source and available for educational purposes.
 <!-- feat/badge-marketplace commit 40: style: normalize doc style -->
 <!-- feat/dao-governance commit 3: docs: add usage examples -->
 <!-- feat/dao-governance commit 6: docs: refine README section -->
+<!-- feat/dao-governance commit 9: chore: normalize whitespace -->
