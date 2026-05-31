@@ -756,3 +756,4 @@
 <!-- feat/reward-boost note 26: feat: document badge tier concept -->
 <!-- feat/reward-boost note 29: feat: add streak badge description -->
 <!-- feat/reward-boost note 32: test: add edge case descriptions -->
+<!-- feat/reward-boost note 35: test: document badge minting tests -->
