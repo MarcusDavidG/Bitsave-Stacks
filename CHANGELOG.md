@@ -334,3 +334,4 @@
 <!-- feat/badge-marketplace commit 23 -->
 <!-- feat/badge-marketplace commit 26 -->
 <!-- feat/badge-marketplace commit 29 -->
+<!-- feat/badge-marketplace commit 32 -->
