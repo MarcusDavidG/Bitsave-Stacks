@@ -842,3 +842,4 @@ This project is open source and available for educational purposes.
 <!-- docs/badge-system commit 25: refactor: restructure dev notes -->
 <!-- docs/badge-system commit 28: feat: document sBTC vault idea -->
 <!-- docs/badge-system commit 31: test: document test coverage notes -->
+<!-- docs/badge-system commit 34: test: note withdrawal test cases -->
