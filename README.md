@@ -812,3 +812,4 @@ This project is open source and available for educational purposes.
 <!-- feat/savings-goals commit 15: chore: minor formatting fix -->
 <!-- feat/savings-goals commit 18: fix: update broken reference -->
 <!-- feat/savings-goals commit 21: refactor: simplify roadmap notes -->
+<!-- feat/savings-goals commit 24: refactor: improve changelog structure -->
