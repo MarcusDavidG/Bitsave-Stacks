@@ -418,3 +418,17 @@ This project is open source and available for educational purposes.
 <!-- feat/sbtc-vault commit 32: test: add edge case descriptions -->
 <!-- feat/sbtc-vault commit 35: test: document badge minting tests -->
 <!-- feat/sbtc-vault commit 38: perf: add performance note -->
+<!-- feat/multi-token-support commit 1: docs: update inline comments -->
+<!-- feat/multi-token-support commit 4: docs: clarify error handling notes -->
+<!-- feat/multi-token-support commit 7: docs: add dev notes entry -->
+<!-- feat/multi-token-support commit 10: chore: update changelog entry -->
+<!-- feat/multi-token-support commit 13: chore: clean up stale comments -->
+<!-- feat/multi-token-support commit 16: fix: correct typo in docs -->
+<!-- feat/multi-token-support commit 19: fix: correct badge description -->
+<!-- feat/multi-token-support commit 22: refactor: reorganize docs section -->
+<!-- feat/multi-token-support commit 25: refactor: restructure dev notes -->
+<!-- feat/multi-token-support commit 28: feat: document sBTC vault idea -->
+<!-- feat/multi-token-support commit 31: test: document test coverage notes -->
+<!-- feat/multi-token-support commit 34: test: note withdrawal test cases -->
+<!-- feat/multi-token-support commit 37: perf: document caching strategy -->
+<!-- feat/multi-token-support commit 40: style: normalize doc style -->

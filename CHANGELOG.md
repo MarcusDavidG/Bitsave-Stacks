@@ -364,3 +364,16 @@
 <!-- feat/sbtc-vault commit 33 -->
 <!-- feat/sbtc-vault commit 36 -->
 <!-- feat/sbtc-vault commit 39 -->
+<!-- feat/multi-token-support commit 2 -->
+<!-- feat/multi-token-support commit 5 -->
+<!-- feat/multi-token-support commit 8 -->
+<!-- feat/multi-token-support commit 11 -->
+<!-- feat/multi-token-support commit 14 -->
+<!-- feat/multi-token-support commit 17 -->
+<!-- feat/multi-token-support commit 20 -->
+<!-- feat/multi-token-support commit 23 -->
+<!-- feat/multi-token-support commit 26 -->
+<!-- feat/multi-token-support commit 29 -->
+<!-- feat/multi-token-support commit 32 -->
+<!-- feat/multi-token-support commit 35 -->
+<!-- feat/multi-token-support commit 38 -->
