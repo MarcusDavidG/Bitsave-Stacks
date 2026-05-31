@@ -506,3 +506,4 @@
 <!-- docs/api-reference note 35: test: document badge minting tests -->
 <!-- docs/api-reference note 38: perf: add performance note -->
 <!-- docs/deployment-guide note 1: docs: update inline comments -->
+<!-- docs/deployment-guide note 4: docs: clarify error handling notes -->
