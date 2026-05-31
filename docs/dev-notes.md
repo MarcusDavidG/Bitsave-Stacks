@@ -280,3 +280,4 @@
 <!-- chore/ci-improvements note 36: perf: note optimization opportunity -->
 <!-- chore/ci-improvements note 39: style: fix formatting in notes -->
 <!-- chore/dependency-updates note 2: docs: improve function descriptions -->
+<!-- chore/dependency-updates note 5: docs: expand architecture notes -->
