@@ -176,3 +176,4 @@
 <!-- docs/deployment-guide note 4: docs: clarify error handling notes -->
 <!-- docs/deployment-guide note 7: docs: add dev notes entry -->
 <!-- docs/deployment-guide note 10: chore: update changelog entry -->
+<!-- docs/deployment-guide note 13: chore: clean up stale comments -->
