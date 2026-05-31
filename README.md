@@ -865,3 +865,4 @@ This project is open source and available for educational purposes.
 <!-- docs/deployment-guide commit 14: chore: update .editorconfig -->
 <!-- docs/deployment-guide commit 17: fix: fix stale comment -->
 <!-- docs/deployment-guide commit 20: fix: fix markdown formatting -->
+<!-- docs/deployment-guide commit 23: refactor: clean up redundant entries -->
