@@ -40,3 +40,4 @@
 <!-- feat/badge-marketplace note 36: perf: note optimization opportunity -->
 <!-- feat/badge-marketplace note 39: style: fix formatting in notes -->
 <!-- feat/dao-governance note 2: docs: improve function descriptions -->
+<!-- feat/dao-governance note 5: docs: expand architecture notes -->
