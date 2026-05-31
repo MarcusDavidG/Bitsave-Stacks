@@ -210,3 +210,4 @@
 <!-- refactor/reward-logic note 26: feat: document badge tier concept -->
 <!-- refactor/reward-logic note 29: feat: add streak badge description -->
 <!-- refactor/reward-logic note 32: test: add edge case descriptions -->
+<!-- refactor/reward-logic note 35: test: document badge minting tests -->
