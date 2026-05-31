@@ -951,3 +951,17 @@ This project is open source and available for educational purposes.
 <!-- refactor/test-structure commit 32: test: add edge case descriptions -->
 <!-- refactor/test-structure commit 35: test: document badge minting tests -->
 <!-- refactor/test-structure commit 38: perf: add performance note -->
+<!-- chore/ci-improvements commit 1: docs: update inline comments -->
+<!-- chore/ci-improvements commit 4: docs: clarify error handling notes -->
+<!-- chore/ci-improvements commit 7: docs: add dev notes entry -->
+<!-- chore/ci-improvements commit 10: chore: update changelog entry -->
+<!-- chore/ci-improvements commit 13: chore: clean up stale comments -->
+<!-- chore/ci-improvements commit 16: fix: correct typo in docs -->
+<!-- chore/ci-improvements commit 19: fix: correct badge description -->
+<!-- chore/ci-improvements commit 22: refactor: reorganize docs section -->
+<!-- chore/ci-improvements commit 25: refactor: restructure dev notes -->
+<!-- chore/ci-improvements commit 28: feat: document sBTC vault idea -->
+<!-- chore/ci-improvements commit 31: test: document test coverage notes -->
+<!-- chore/ci-improvements commit 34: test: note withdrawal test cases -->
+<!-- chore/ci-improvements commit 37: perf: document caching strategy -->
+<!-- chore/ci-improvements commit 40: style: normalize doc style -->
