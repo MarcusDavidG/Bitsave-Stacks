@@ -244,3 +244,4 @@
 <!-- refactor/contract-cleanup note 8: docs: update roadmap item -->
 <!-- refactor/contract-cleanup note 11: chore: tidy config formatting -->
 <!-- refactor/contract-cleanup note 14: chore: update .editorconfig -->
+<!-- refactor/contract-cleanup note 17: fix: fix stale comment -->
