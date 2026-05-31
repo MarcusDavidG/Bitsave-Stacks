@@ -348,3 +348,4 @@
 <!-- feat/streak-badges note 1: docs: update inline comments -->
 <!-- feat/streak-badges note 4: docs: clarify error handling notes -->
 <!-- feat/streak-badges note 7: docs: add dev notes entry -->
+<!-- feat/streak-badges note 10: chore: update changelog entry -->
