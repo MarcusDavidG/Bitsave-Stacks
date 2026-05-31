@@ -159,3 +159,4 @@
 <!-- docs/badge-system note 33: test: update test scenario notes -->
 <!-- docs/badge-system note 36: perf: note optimization opportunity -->
 <!-- docs/badge-system note 39: style: fix formatting in notes -->
+<!-- docs/api-reference note 2: docs: improve function descriptions -->
