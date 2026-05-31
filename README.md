@@ -877,3 +877,4 @@ This project is open source and available for educational purposes.
 <!-- docs/architecture-overview commit 10: chore: update changelog entry -->
 <!-- docs/architecture-overview commit 13: chore: clean up stale comments -->
 <!-- docs/architecture-overview commit 16: fix: correct typo in docs -->
+<!-- docs/architecture-overview commit 19: fix: correct badge description -->
