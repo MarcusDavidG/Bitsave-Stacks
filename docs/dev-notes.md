@@ -687,3 +687,4 @@
 <!-- feat/streak-badges note 19: fix: correct badge description -->
 <!-- feat/streak-badges note 22: refactor: reorganize docs section -->
 <!-- feat/streak-badges note 25: refactor: restructure dev notes -->
+<!-- feat/streak-badges note 28: feat: document sBTC vault idea -->
