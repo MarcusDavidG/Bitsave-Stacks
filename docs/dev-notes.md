@@ -525,3 +525,4 @@
 <!-- docs/architecture-overview note 12: chore: update project metadata -->
 <!-- docs/architecture-overview note 15: chore: minor formatting fix -->
 <!-- docs/architecture-overview note 18: fix: update broken reference -->
+<!-- docs/architecture-overview note 21: refactor: simplify roadmap notes -->
