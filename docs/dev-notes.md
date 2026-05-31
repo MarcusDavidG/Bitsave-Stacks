@@ -548,3 +548,4 @@
 <!-- refactor/badge-minting note 1: docs: update inline comments -->
 <!-- refactor/badge-minting note 4: docs: clarify error handling notes -->
 <!-- refactor/badge-minting note 7: docs: add dev notes entry -->
+<!-- refactor/badge-minting note 10: chore: update changelog entry -->
