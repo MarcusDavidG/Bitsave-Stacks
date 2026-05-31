@@ -1172,3 +1172,4 @@ This project is open source and available for educational purposes.
 <!-- feat/leaderboard-v2 commit 16: fix: fix stale comment -->
 <!-- feat/leaderboard-v2 commit 19: fix: fix markdown formatting -->
 <!-- feat/leaderboard-v2 commit 22: refactor: clean up redundant entries -->
+<!-- feat/leaderboard-v2 commit 25: feat: add DAO integration note -->
