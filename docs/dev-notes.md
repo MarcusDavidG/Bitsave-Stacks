@@ -385,3 +385,4 @@
 <!-- feat/dao-governance note 32: test: add edge case descriptions -->
 <!-- feat/dao-governance note 35: test: document badge minting tests -->
 <!-- feat/dao-governance note 38: perf: add performance note -->
+<!-- feat/sbtc-vault note 1: docs: update inline comments -->
