@@ -959,3 +959,4 @@ This project is open source and available for educational purposes.
 <!-- chore/ci-improvements commit 16: fix: correct typo in docs -->
 <!-- chore/ci-improvements commit 19: fix: correct badge description -->
 <!-- chore/ci-improvements commit 22: refactor: reorganize docs section -->
+<!-- chore/ci-improvements commit 25: refactor: restructure dev notes -->
