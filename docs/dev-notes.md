@@ -475,3 +475,4 @@
 <!-- docs/contract-guide note 22: refactor: reorganize docs section -->
 <!-- docs/contract-guide note 25: refactor: restructure dev notes -->
 <!-- docs/contract-guide note 28: feat: document sBTC vault idea -->
+<!-- docs/contract-guide note 31: test: document test coverage notes -->
