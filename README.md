@@ -816,3 +816,4 @@ This project is open source and available for educational purposes.
 <!-- feat/savings-goals commit 27: feat: add DAO integration note -->
 <!-- feat/savings-goals commit 30: feat: note marketplace roadmap item -->
 <!-- feat/savings-goals commit 33: test: update test scenario notes -->
+<!-- feat/savings-goals commit 36: perf: note optimization opportunity -->
