@@ -481,3 +481,4 @@
 <!-- docs/contract-guide note 40: style: normalize doc style -->
 <!-- docs/badge-system note 3: docs: add usage examples -->
 <!-- docs/badge-system note 6: docs: refine README section -->
+<!-- docs/badge-system note 9: chore: normalize whitespace -->
