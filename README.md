@@ -683,3 +683,4 @@ This project is open source and available for educational purposes.
 <!-- chore/changelog-updates commit 27: feat: add DAO integration note -->
 <!-- chore/changelog-updates commit 30: feat: note marketplace roadmap item -->
 <!-- chore/changelog-updates commit 33: test: update test scenario notes -->
+<!-- chore/changelog-updates commit 36: perf: note optimization opportunity -->
