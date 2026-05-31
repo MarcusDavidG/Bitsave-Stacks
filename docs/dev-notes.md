@@ -474,3 +474,4 @@
 <!-- docs/contract-guide note 19: fix: correct badge description -->
 <!-- docs/contract-guide note 22: refactor: reorganize docs section -->
 <!-- docs/contract-guide note 25: refactor: restructure dev notes -->
+<!-- docs/contract-guide note 28: feat: document sBTC vault idea -->
