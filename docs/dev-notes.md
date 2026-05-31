@@ -116,3 +116,4 @@
 <!-- feat/leaderboard note 24: refactor: improve changelog structure -->
 <!-- feat/leaderboard note 27: feat: add DAO integration note -->
 <!-- feat/leaderboard note 30: feat: note marketplace roadmap item -->
+<!-- feat/leaderboard note 33: test: update test scenario notes -->
