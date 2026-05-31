@@ -436,3 +436,4 @@
 <!-- docs/contract-guide commit 9 -->
 <!-- docs/contract-guide commit 12 -->
 <!-- docs/contract-guide commit 15 -->
+<!-- docs/contract-guide commit 18 -->
