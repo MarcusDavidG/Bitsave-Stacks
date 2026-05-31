@@ -600,3 +600,4 @@
 <!-- refactor/test-structure note 37: perf: document caching strategy -->
 <!-- refactor/test-structure note 40: style: normalize doc style -->
 <!-- chore/ci-improvements note 3: docs: add usage examples -->
+<!-- chore/ci-improvements note 6: docs: refine README section -->
