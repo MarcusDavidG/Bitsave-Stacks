@@ -636,3 +636,4 @@
 <!-- chore/linting-rules note 25: refactor: restructure dev notes -->
 <!-- chore/linting-rules note 28: feat: document sBTC vault idea -->
 <!-- chore/linting-rules note 31: test: document test coverage notes -->
+<!-- chore/linting-rules note 34: test: note withdrawal test cases -->
