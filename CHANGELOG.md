@@ -711,3 +711,17 @@
 <!-- feat/multi-token-support commit 32 -->
 <!-- feat/multi-token-support commit 35 -->
 <!-- feat/multi-token-support commit 38 -->
+<!-- feat/reward-boost commit 1 -->
+<!-- feat/reward-boost commit 4 -->
+<!-- feat/reward-boost commit 7 -->
+<!-- feat/reward-boost commit 10 -->
+<!-- feat/reward-boost commit 13 -->
+<!-- feat/reward-boost commit 16 -->
+<!-- feat/reward-boost commit 19 -->
+<!-- feat/reward-boost commit 22 -->
+<!-- feat/reward-boost commit 25 -->
+<!-- feat/reward-boost commit 28 -->
+<!-- feat/reward-boost commit 31 -->
+<!-- feat/reward-boost commit 34 -->
+<!-- feat/reward-boost commit 37 -->
+<!-- feat/reward-boost commit 40 -->

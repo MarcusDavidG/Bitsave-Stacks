@@ -412,3 +412,16 @@
 <!-- feat/multi-token-support note 33: test: update test scenario notes -->
 <!-- feat/multi-token-support note 36: perf: note optimization opportunity -->
 <!-- feat/multi-token-support note 39: style: fix formatting in notes -->
+<!-- feat/reward-boost note 2: docs: improve function descriptions -->
+<!-- feat/reward-boost note 5: docs: expand architecture notes -->
+<!-- feat/reward-boost note 8: docs: update roadmap item -->
+<!-- feat/reward-boost note 11: chore: tidy config formatting -->
+<!-- feat/reward-boost note 14: chore: update .editorconfig -->
+<!-- feat/reward-boost note 17: fix: fix stale comment -->
+<!-- feat/reward-boost note 20: fix: fix markdown formatting -->
+<!-- feat/reward-boost note 23: refactor: clean up redundant entries -->
+<!-- feat/reward-boost note 26: feat: document badge tier concept -->
+<!-- feat/reward-boost note 29: feat: add streak badge description -->
+<!-- feat/reward-boost note 32: test: add edge case descriptions -->
+<!-- feat/reward-boost note 35: test: document badge minting tests -->
+<!-- feat/reward-boost note 38: perf: add performance note -->
