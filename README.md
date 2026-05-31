@@ -1039,3 +1039,4 @@ This project is open source and available for educational purposes.
 <!-- feat/streak-badges commit 17: fix: fix stale comment -->
 <!-- feat/streak-badges commit 20: fix: fix markdown formatting -->
 <!-- feat/streak-badges commit 23: refactor: clean up redundant entries -->
+<!-- feat/streak-badges commit 26: feat: document badge tier concept -->
