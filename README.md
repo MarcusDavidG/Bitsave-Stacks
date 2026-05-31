@@ -472,3 +472,16 @@ This project is open source and available for educational purposes.
 <!-- feat/leaderboard commit 34: test: note withdrawal test cases -->
 <!-- feat/leaderboard commit 37: perf: document caching strategy -->
 <!-- feat/leaderboard commit 40: style: normalize doc style -->
+<!-- feat/savings-goals commit 3: docs: add usage examples -->
+<!-- feat/savings-goals commit 6: docs: refine README section -->
+<!-- feat/savings-goals commit 9: chore: normalize whitespace -->
+<!-- feat/savings-goals commit 12: chore: update project metadata -->
+<!-- feat/savings-goals commit 15: chore: minor formatting fix -->
+<!-- feat/savings-goals commit 18: fix: update broken reference -->
+<!-- feat/savings-goals commit 21: refactor: simplify roadmap notes -->
+<!-- feat/savings-goals commit 24: refactor: improve changelog structure -->
+<!-- feat/savings-goals commit 27: feat: add DAO integration note -->
+<!-- feat/savings-goals commit 30: feat: note marketplace roadmap item -->
+<!-- feat/savings-goals commit 33: test: update test scenario notes -->
+<!-- feat/savings-goals commit 36: perf: note optimization opportunity -->
+<!-- feat/savings-goals commit 39: style: fix formatting in notes -->
