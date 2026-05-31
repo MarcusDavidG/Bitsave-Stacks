@@ -150,3 +150,4 @@
 <!-- docs/badge-system note 6: docs: refine README section -->
 <!-- docs/badge-system note 9: chore: normalize whitespace -->
 <!-- docs/badge-system note 12: chore: update project metadata -->
+<!-- docs/badge-system note 15: chore: minor formatting fix -->
