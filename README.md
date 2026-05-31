@@ -911,3 +911,17 @@ This project is open source and available for educational purposes.
 <!-- refactor/badge-minting commit 32: test: add edge case descriptions -->
 <!-- refactor/badge-minting commit 35: test: document badge minting tests -->
 <!-- refactor/badge-minting commit 38: perf: add performance note -->
+<!-- refactor/savings-vault commit 1: docs: update inline comments -->
+<!-- refactor/savings-vault commit 4: docs: clarify error handling notes -->
+<!-- refactor/savings-vault commit 7: docs: add dev notes entry -->
+<!-- refactor/savings-vault commit 10: chore: update changelog entry -->
+<!-- refactor/savings-vault commit 13: chore: clean up stale comments -->
+<!-- refactor/savings-vault commit 16: fix: correct typo in docs -->
+<!-- refactor/savings-vault commit 19: fix: correct badge description -->
+<!-- refactor/savings-vault commit 22: refactor: reorganize docs section -->
+<!-- refactor/savings-vault commit 25: refactor: restructure dev notes -->
+<!-- refactor/savings-vault commit 28: feat: document sBTC vault idea -->
+<!-- refactor/savings-vault commit 31: test: document test coverage notes -->
+<!-- refactor/savings-vault commit 34: test: note withdrawal test cases -->
+<!-- refactor/savings-vault commit 37: perf: document caching strategy -->
+<!-- refactor/savings-vault commit 40: style: normalize doc style -->
