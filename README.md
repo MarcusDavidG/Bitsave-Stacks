@@ -1113,3 +1113,4 @@ This project is open source and available for educational purposes.
 <!-- feat/badge-tiers-v2 commit 39: chore: update .editorconfig -->
 <!-- feat/streak-badges-v2 commit 2: docs: improve function descriptions -->
 <!-- feat/streak-badges-v2 commit 5: docs: expand architecture notes -->
+<!-- feat/streak-badges-v2 commit 8: docs: update roadmap item -->
