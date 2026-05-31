@@ -93,3 +93,4 @@
 <!-- feat/reward-boost note 35: test: document badge minting tests -->
 <!-- feat/reward-boost note 38: perf: add performance note -->
 <!-- feat/referral-system note 1: docs: update inline comments -->
+<!-- feat/referral-system note 4: docs: clarify error handling notes -->
