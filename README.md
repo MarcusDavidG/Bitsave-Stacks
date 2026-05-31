@@ -1103,3 +1103,4 @@ This project is open source and available for educational purposes.
 <!-- feat/badge-tiers-v2 commit 9: chore: normalize whitespace -->
 <!-- feat/badge-tiers-v2 commit 12: chore: update project metadata -->
 <!-- feat/badge-tiers-v2 commit 15: fix: correct typo in docs -->
+<!-- feat/badge-tiers-v2 commit 18: fix: correct badge description -->
