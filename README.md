@@ -1100,3 +1100,4 @@ This project is open source and available for educational purposes.
 <!-- feat/multi-token-support commit 40: style: normalize doc style -->
 <!-- feat/badge-tiers-v2 commit 3: docs: add usage examples -->
 <!-- feat/badge-tiers-v2 commit 6: docs: refine README section -->
+<!-- feat/badge-tiers-v2 commit 9: chore: normalize whitespace -->
