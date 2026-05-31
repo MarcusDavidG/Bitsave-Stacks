@@ -48,3 +48,4 @@
 <!-- feat/dao-governance note 20: fix: fix markdown formatting -->
 <!-- feat/dao-governance note 23: refactor: clean up redundant entries -->
 <!-- feat/dao-governance note 26: feat: document badge tier concept -->
+<!-- feat/dao-governance note 29: feat: add streak badge description -->
