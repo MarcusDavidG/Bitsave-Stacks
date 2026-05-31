@@ -609,3 +609,4 @@ This project is open source and available for educational purposes.
 <!-- refactor/test-structure commit 5: docs: expand architecture notes -->
 <!-- refactor/test-structure commit 8: docs: update roadmap item -->
 <!-- refactor/test-structure commit 11: chore: tidy config formatting -->
+<!-- refactor/test-structure commit 14: chore: update .editorconfig -->
