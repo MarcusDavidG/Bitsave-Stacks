@@ -633,3 +633,4 @@ This project is open source and available for educational purposes.
 <!-- chore/ci-improvements commit 37: perf: document caching strategy -->
 <!-- chore/ci-improvements commit 40: style: normalize doc style -->
 <!-- chore/dependency-updates commit 3: docs: add usage examples -->
+<!-- chore/dependency-updates commit 6: docs: refine README section -->
