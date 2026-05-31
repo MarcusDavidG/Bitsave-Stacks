@@ -631,3 +631,4 @@
 <!-- chore/changelog-updates commit 34 -->
 <!-- chore/changelog-updates commit 37 -->
 <!-- chore/changelog-updates commit 40 -->
+<!-- feat/badge-tiers commit 1 -->
