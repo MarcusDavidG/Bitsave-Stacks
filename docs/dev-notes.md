@@ -571,3 +571,4 @@
 <!-- refactor/savings-vault note 30: feat: note marketplace roadmap item -->
 <!-- refactor/savings-vault note 33: test: update test scenario notes -->
 <!-- refactor/savings-vault note 36: perf: note optimization opportunity -->
+<!-- refactor/savings-vault note 39: style: fix formatting in notes -->
