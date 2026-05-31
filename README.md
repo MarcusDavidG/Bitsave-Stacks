@@ -486,3 +486,4 @@ This project is open source and available for educational purposes.
 <!-- feat/savings-goals commit 36: perf: note optimization opportunity -->
 <!-- feat/savings-goals commit 39: style: fix formatting in notes -->
 <!-- docs/contract-guide commit 2: docs: improve function descriptions -->
+<!-- docs/contract-guide commit 5: docs: expand architecture notes -->
