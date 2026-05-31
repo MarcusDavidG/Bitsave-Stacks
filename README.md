@@ -1005,3 +1005,16 @@ This project is open source and available for educational purposes.
 <!-- chore/config-cleanup commit 34: test: note withdrawal test cases -->
 <!-- chore/config-cleanup commit 37: perf: document caching strategy -->
 <!-- chore/config-cleanup commit 40: style: normalize doc style -->
+<!-- chore/changelog-updates commit 3: docs: add usage examples -->
+<!-- chore/changelog-updates commit 6: docs: refine README section -->
+<!-- chore/changelog-updates commit 9: chore: normalize whitespace -->
+<!-- chore/changelog-updates commit 12: chore: update project metadata -->
+<!-- chore/changelog-updates commit 15: chore: minor formatting fix -->
+<!-- chore/changelog-updates commit 18: fix: update broken reference -->
+<!-- chore/changelog-updates commit 21: refactor: simplify roadmap notes -->
+<!-- chore/changelog-updates commit 24: refactor: improve changelog structure -->
+<!-- chore/changelog-updates commit 27: feat: add DAO integration note -->
+<!-- chore/changelog-updates commit 30: feat: note marketplace roadmap item -->
+<!-- chore/changelog-updates commit 33: test: update test scenario notes -->
+<!-- chore/changelog-updates commit 36: perf: note optimization opportunity -->
+<!-- chore/changelog-updates commit 39: style: fix formatting in notes -->
