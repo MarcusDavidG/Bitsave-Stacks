@@ -418,3 +418,4 @@
 <!-- feat/reward-boost note 11: chore: tidy config formatting -->
 <!-- feat/reward-boost note 14: chore: update .editorconfig -->
 <!-- feat/reward-boost note 17: fix: fix stale comment -->
+<!-- feat/reward-boost note 20: fix: fix markdown formatting -->
