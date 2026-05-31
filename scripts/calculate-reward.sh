@@ -13,3 +13,4 @@ fi
 REWARD=$((AMOUNT * REWARD_RATE / 100))
 echo "Reward for $AMOUNT STX locked for $LOCK_PERIOD blocks: $REWARD STX"
 <!-- update 1 -->
+<!-- update 2 -->
