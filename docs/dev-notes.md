@@ -269,3 +269,4 @@
 <!-- chore/ci-improvements note 3: docs: add usage examples -->
 <!-- chore/ci-improvements note 6: docs: refine README section -->
 <!-- chore/ci-improvements note 9: chore: normalize whitespace -->
+<!-- chore/ci-improvements note 12: chore: update project metadata -->
