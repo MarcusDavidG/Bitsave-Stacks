@@ -500,3 +500,4 @@
 <!-- docs/api-reference note 17: fix: fix stale comment -->
 <!-- docs/api-reference note 20: fix: fix markdown formatting -->
 <!-- docs/api-reference note 23: refactor: clean up redundant entries -->
+<!-- docs/api-reference note 26: feat: document badge tier concept -->
