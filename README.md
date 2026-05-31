@@ -493,3 +493,4 @@ This project is open source and available for educational purposes.
 <!-- docs/contract-guide commit 17: fix: fix stale comment -->
 <!-- docs/contract-guide commit 20: fix: fix markdown formatting -->
 <!-- docs/contract-guide commit 23: refactor: clean up redundant entries -->
+<!-- docs/contract-guide commit 26: feat: document badge tier concept -->
