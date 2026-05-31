@@ -290,3 +290,4 @@
 <!-- chore/dependency-updates note 26: feat: document badge tier concept -->
 <!-- chore/dependency-updates note 29: feat: add streak badge description -->
 <!-- chore/dependency-updates note 32: test: add edge case descriptions -->
+<!-- chore/dependency-updates note 35: test: document badge minting tests -->
