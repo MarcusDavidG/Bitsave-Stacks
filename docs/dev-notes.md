@@ -641,3 +641,4 @@
 <!-- chore/linting-rules note 40: style: normalize doc style -->
 <!-- chore/config-cleanup note 3: docs: add usage examples -->
 <!-- chore/config-cleanup note 6: docs: refine README section -->
+<!-- chore/config-cleanup note 9: chore: normalize whitespace -->
