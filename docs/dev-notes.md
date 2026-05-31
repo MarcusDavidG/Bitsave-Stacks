@@ -533,3 +533,4 @@
 <!-- docs/architecture-overview note 36: perf: note optimization opportunity -->
 <!-- docs/architecture-overview note 39: style: fix formatting in notes -->
 <!-- refactor/reward-logic note 2: docs: improve function descriptions -->
+<!-- refactor/reward-logic note 5: docs: expand architecture notes -->
