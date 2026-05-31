@@ -965,3 +965,17 @@
 <!-- chore/changelog-updates commit 34 -->
 <!-- chore/changelog-updates commit 37 -->
 <!-- chore/changelog-updates commit 40 -->
+<!-- feat/badge-tiers commit 1 -->
+<!-- feat/badge-tiers commit 4 -->
+<!-- feat/badge-tiers commit 7 -->
+<!-- feat/badge-tiers commit 10 -->
+<!-- feat/badge-tiers commit 13 -->
+<!-- feat/badge-tiers commit 16 -->
+<!-- feat/badge-tiers commit 19 -->
+<!-- feat/badge-tiers commit 22 -->
+<!-- feat/badge-tiers commit 25 -->
+<!-- feat/badge-tiers commit 28 -->
+<!-- feat/badge-tiers commit 31 -->
+<!-- feat/badge-tiers commit 34 -->
+<!-- feat/badge-tiers commit 37 -->
+<!-- feat/badge-tiers commit 40 -->
