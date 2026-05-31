@@ -319,3 +319,16 @@
 <!-- chore/config-cleanup note 33: test: update test scenario notes -->
 <!-- chore/config-cleanup note 36: perf: note optimization opportunity -->
 <!-- chore/config-cleanup note 39: style: fix formatting in notes -->
+<!-- chore/changelog-updates note 2: docs: improve function descriptions -->
+<!-- chore/changelog-updates note 5: docs: expand architecture notes -->
+<!-- chore/changelog-updates note 8: docs: update roadmap item -->
+<!-- chore/changelog-updates note 11: chore: tidy config formatting -->
+<!-- chore/changelog-updates note 14: chore: update .editorconfig -->
+<!-- chore/changelog-updates note 17: fix: fix stale comment -->
+<!-- chore/changelog-updates note 20: fix: fix markdown formatting -->
+<!-- chore/changelog-updates note 23: refactor: clean up redundant entries -->
+<!-- chore/changelog-updates note 26: feat: document badge tier concept -->
+<!-- chore/changelog-updates note 29: feat: add streak badge description -->
+<!-- chore/changelog-updates note 32: test: add edge case descriptions -->
+<!-- chore/changelog-updates note 35: test: document badge minting tests -->
+<!-- chore/changelog-updates note 38: perf: add performance note -->
