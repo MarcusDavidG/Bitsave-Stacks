@@ -719,3 +719,4 @@ This project is open source and available for educational purposes.
 <!-- feat/badge-marketplace commit 16: fix: correct typo in docs -->
 <!-- feat/badge-marketplace commit 19: fix: correct badge description -->
 <!-- feat/badge-marketplace commit 22: refactor: reorganize docs section -->
+<!-- feat/badge-marketplace commit 25: refactor: restructure dev notes -->
