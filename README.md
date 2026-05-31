@@ -1044,3 +1044,17 @@ This project is open source and available for educational purposes.
 <!-- feat/streak-badges commit 32: test: add edge case descriptions -->
 <!-- feat/streak-badges commit 35: test: document badge minting tests -->
 <!-- feat/streak-badges commit 38: perf: add performance note -->
+<!-- feat/badge-marketplace commit 1: docs: update inline comments -->
+<!-- feat/badge-marketplace commit 4: docs: clarify error handling notes -->
+<!-- feat/badge-marketplace commit 7: docs: add dev notes entry -->
+<!-- feat/badge-marketplace commit 10: chore: update changelog entry -->
+<!-- feat/badge-marketplace commit 13: chore: clean up stale comments -->
+<!-- feat/badge-marketplace commit 16: fix: correct typo in docs -->
+<!-- feat/badge-marketplace commit 19: fix: correct badge description -->
+<!-- feat/badge-marketplace commit 22: refactor: reorganize docs section -->
+<!-- feat/badge-marketplace commit 25: refactor: restructure dev notes -->
+<!-- feat/badge-marketplace commit 28: feat: document sBTC vault idea -->
+<!-- feat/badge-marketplace commit 31: test: document test coverage notes -->
+<!-- feat/badge-marketplace commit 34: test: note withdrawal test cases -->
+<!-- feat/badge-marketplace commit 37: perf: document caching strategy -->
+<!-- feat/badge-marketplace commit 40: style: normalize doc style -->
