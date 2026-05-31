@@ -439,3 +439,4 @@
 <!-- docs/contract-guide commit 18 -->
 <!-- docs/contract-guide commit 21 -->
 <!-- docs/contract-guide commit 24 -->
+<!-- docs/contract-guide commit 27 -->
