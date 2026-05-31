@@ -125,3 +125,4 @@
 <!-- feat/savings-goals note 11: chore: tidy config formatting -->
 <!-- feat/savings-goals note 14: chore: update .editorconfig -->
 <!-- feat/savings-goals note 17: fix: fix stale comment -->
+<!-- feat/savings-goals note 20: fix: fix markdown formatting -->
