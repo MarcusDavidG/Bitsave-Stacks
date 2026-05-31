@@ -522,3 +522,4 @@
 <!-- docs/architecture-overview note 3: docs: add usage examples -->
 <!-- docs/architecture-overview note 6: docs: refine README section -->
 <!-- docs/architecture-overview note 9: chore: normalize whitespace -->
+<!-- docs/architecture-overview note 12: chore: update project metadata -->
