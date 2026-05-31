@@ -328,3 +328,4 @@
 <!-- chore/changelog-updates note 20: fix: fix markdown formatting -->
 <!-- chore/changelog-updates note 23: refactor: clean up redundant entries -->
 <!-- chore/changelog-updates note 26: feat: document badge tier concept -->
+<!-- chore/changelog-updates note 29: feat: add streak badge description -->
