@@ -64,3 +64,4 @@
 <!-- feat/sbtc-vault note 28: feat: document sBTC vault idea -->
 <!-- feat/sbtc-vault note 31: test: document test coverage notes -->
 <!-- feat/sbtc-vault note 34: test: note withdrawal test cases -->
+<!-- feat/sbtc-vault note 37: perf: document caching strategy -->
