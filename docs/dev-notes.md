@@ -433,3 +433,4 @@
 <!-- feat/referral-system note 16: fix: correct typo in docs -->
 <!-- feat/referral-system note 19: fix: correct badge description -->
 <!-- feat/referral-system note 22: refactor: reorganize docs section -->
+<!-- feat/referral-system note 25: refactor: restructure dev notes -->
