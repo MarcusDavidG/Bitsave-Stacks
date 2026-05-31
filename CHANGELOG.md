@@ -577,3 +577,17 @@
 <!-- chore/ci-improvements commit 32 -->
 <!-- chore/ci-improvements commit 35 -->
 <!-- chore/ci-improvements commit 38 -->
+<!-- chore/dependency-updates commit 1 -->
+<!-- chore/dependency-updates commit 4 -->
+<!-- chore/dependency-updates commit 7 -->
+<!-- chore/dependency-updates commit 10 -->
+<!-- chore/dependency-updates commit 13 -->
+<!-- chore/dependency-updates commit 16 -->
+<!-- chore/dependency-updates commit 19 -->
+<!-- chore/dependency-updates commit 22 -->
+<!-- chore/dependency-updates commit 25 -->
+<!-- chore/dependency-updates commit 28 -->
+<!-- chore/dependency-updates commit 31 -->
+<!-- chore/dependency-updates commit 34 -->
+<!-- chore/dependency-updates commit 37 -->
+<!-- chore/dependency-updates commit 40 -->
