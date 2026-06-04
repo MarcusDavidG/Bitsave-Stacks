@@ -272,3 +272,5 @@ This project is open source and available for educational purposes.
 <!-- README update 19: expanded usage examples and architecture notes -->
 
 <!-- README update 20: expanded usage examples and architecture notes -->
+
+<!-- README update 21: expanded usage examples and architecture notes -->
