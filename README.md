@@ -288,3 +288,5 @@ This project is open source and available for educational purposes.
 <!-- README update 27: expanded usage examples and architecture notes -->
 
 <!-- README update 28: expanded usage examples and architecture notes -->
+
+<!-- README update 29: expanded usage examples and architecture notes -->
