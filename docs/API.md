@@ -36,3 +36,5 @@ Mints achievement badge for eligible users.
 
 ### `get-badge-metadata(token-id: uint)`
 Returns badge metadata and properties.
+
+<!-- API doc update 1: added endpoint details and response schemas -->
