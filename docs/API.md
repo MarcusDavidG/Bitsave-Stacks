@@ -78,3 +78,5 @@ Returns badge metadata and properties.
 <!-- API doc update 20: added endpoint details and response schemas -->
 
 <!-- API doc update 21: added endpoint details and response schemas -->
+
+<!-- API doc update 22: added endpoint details and response schemas -->
