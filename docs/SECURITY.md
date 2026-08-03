@@ -34,3 +34,5 @@ This document outlines the security considerations and audit findings for the Bi
 1. Implement multi-sig for admin functions
 2. Add time delays for critical parameter changes
 3. Regular security audits for contract upgrades
+
+<!-- Security note 1: threat model and mitigation strategy -->
