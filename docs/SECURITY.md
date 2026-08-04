@@ -36,3 +36,5 @@ This document outlines the security considerations and audit findings for the Bi
 3. Regular security audits for contract upgrades
 
 <!-- Security note 1: threat model and mitigation strategy -->
+
+<!-- Security note 2: threat model and mitigation strategy -->
