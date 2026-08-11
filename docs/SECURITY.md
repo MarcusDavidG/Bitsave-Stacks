@@ -50,3 +50,5 @@ This document outlines the security considerations and audit findings for the Bi
 <!-- Security note 7: threat model and mitigation strategy -->
 
 <!-- Security note 8: threat model and mitigation strategy -->
+
+<!-- Security note 9: threat model and mitigation strategy -->
