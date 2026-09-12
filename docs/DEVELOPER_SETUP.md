@@ -510,3 +510,5 @@ jobs:
 4. Add relevant logs/screenshots
 
 Remember: Always test thoroughly on testnet before mainnet deployment!
+
+<!-- Dev setup 1: added environment variable docs and troubleshooting tips -->
