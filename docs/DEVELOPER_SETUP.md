@@ -512,3 +512,5 @@ jobs:
 Remember: Always test thoroughly on testnet before mainnet deployment!
 
 <!-- Dev setup 1: added environment variable docs and troubleshooting tips -->
+
+<!-- Dev setup 2: added environment variable docs and troubleshooting tips -->
