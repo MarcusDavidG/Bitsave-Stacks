@@ -538,3 +538,5 @@ Remember: Always test thoroughly on testnet before mainnet deployment!
 <!-- Dev setup 13: added environment variable docs and troubleshooting tips -->
 
 <!-- Dev setup 14: added environment variable docs and troubleshooting tips -->
+
+<!-- Dev setup 15: added environment variable docs and troubleshooting tips -->
