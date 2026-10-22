@@ -82,3 +82,5 @@ This document outlines the comprehensive testing strategy for the BitSave protoc
 - Risk classifications
 - Mitigation strategies
 - Compliance verification
+
+<!-- Testing note 1: added test coverage goals and CI integration notes -->
