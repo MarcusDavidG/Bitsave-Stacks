@@ -200,3 +200,5 @@ This document outlines the comprehensive testing strategy for the BitSave protoc
 <!-- Testing note 18: added test coverage goals and CI integration notes -->
 
 <!-- Testing note 19: added test coverage goals and CI integration notes -->
+
+<!-- Testing note 20: added test coverage goals and CI integration notes -->
