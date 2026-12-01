@@ -22,3 +22,5 @@
 - [ ] Cross-chain bridges
 - [ ] Institutional features
 - [ ] Advanced DeFi integrations
+
+<!-- Roadmap item 1: planned feature and milestone -->
